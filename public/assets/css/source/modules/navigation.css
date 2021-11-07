@@ -1,0 +1,2806 @@
+/*
+ * ::::::::::: Navigation Header Styles :::::::::::
+ */
+header .main-navigation li.mega-menu > ul > li:after, body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li:after, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul > li:after, body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul > li:after, body.header-side-navigation.side-right header .main-navigation > ul > li.mega-menu > ul > li:after, header .main-navigation li a, header .main-navigation li ul li ul li, header .main-navigation li ul li:hover > ul, header .main-navigation li.mega-menu > ul > li > ul, header .site-logo a, .nav-menu-dropdown.style-2:before, body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul, body .header-menu-icons.default:before, body .header-menu-icons.social:before, body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul > li > ul, body.header-side-navigation.side-right header .main-navigation > ul > li.mega-menu > ul > li > ul {
+  display: block;
+}
+
+header .main-navigation li ul, header .main-navigation li ul li ul, header .main-navigation li.mega-menu > ul, header .main-navigation li.mega-menu > ul > li:last-child:after, header .main-navigation li.niche-templates > ul > li:after, body.header-menu-with-buttons.menu-center .header-menu-icons:before, body.header-menu-with-icons.menu-center .header-menu-icons:before, body.header-hamburger-menu.menu-center .header-menu-icons:before, body.header-menu-with-buttons.menu-left .header-menu-icons:before, body.header-menu-with-icons.menu-left .header-menu-icons:before, body.header-hamburger-menu.menu-left .header-menu-icons:before, body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul, body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li:last-child:after, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul > li:last-child:after, body.header-logo-with-icons .header-menu-icons:before, body.header-logo-top header .header-menu-icons:before, body.header-menu-top header .header-menu-icons:before, body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul, body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul > li:last-child:after, body.header-side-navigation.side-right header .main-navigation > ul > li.mega-menu > ul, body.header-side-navigation.side-right header .main-navigation > ul > li.mega-menu > ul > li:last-child:after {
+  display: none;
+}
+
+header .main-navigation.left > ul > li:first-child a {
+  padding-left: 0;
+}
+
+header .main-navigation.right > ul > li:last-child a {
+  padding-right: 0;
+}
+
+header .main-navigation li.mega-menu > ul, header .main-navigation li.mega-menu > ul > li > ul, header .main-navigation li.mega-menu > ul > li > ul > li, body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul, body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul, body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li, body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul, body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul > li > ul, body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul > li > ul > li, body.header-side-navigation.side-right header .main-navigation > ul > li.mega-menu > ul, body.header-side-navigation.side-right header .main-navigation > ul > li.mega-menu > ul > li > ul, body.header-side-navigation.side-right header .main-navigation > ul > li.mega-menu > ul > li > ul > li {
+  padding: 0;
+}
+
+header .main-navigation li .menu-mark, header .main-navigation li.mega-menu > ul > li > a,
+header .main-navigation li.mega-menu > ul > li > span, .nav-menu-dropdown.style-2 > li > ul li, body.menu-is-uppercase header .main-navigation,
+body.logo-text-is-uppercase .site-logo,
+body.submenu-is-uppercase header .main-navigation li ul, body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > a,
+body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > span, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > a,
+body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > span, body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul > li > a,
+body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul > li > span, body.header-side-navigation.side-right header .main-navigation > ul > li.mega-menu > ul > li > a,
+body.header-side-navigation.side-right header .main-navigation > ul > li.mega-menu > ul > li > span {
+  text-transform: uppercase;
+}
+
+.nav-menu-dropdown > li > ul li, body.menu-is-capitalized header .main-navigation,
+body.logo-text-is-capitalized .site-logo,
+body.submenu-is-capitalized header .main-navigation li ul, body .header-menu-icons li > ul li, body .header-menu-icons li > ul.dropdown-user-account li input {
+  text-transform: capitalize;
+}
+
+body.menu-is-lowercase header .main-navigation,
+body.logo-text-is-lowercase .site-logo,
+body.submenu-is-lowercase header .main-navigation li ul {
+  text-transform: lowercase;
+}
+
+header .main-navigation li.mega-menu > ul > li:after, body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li:after, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul > li:after, body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul > li:after, body.header-side-navigation.side-right header .main-navigation > ul > li.mega-menu > ul > li:after {
+  content: '';
+  width: 1px;
+  height: 80%;
+  top: 12%;
+  right: 10%;
+  position: absolute;
+  background: rgba(0, 0, 0, 0);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(50%, rgba(216, 216, 216, 0.4)), to(rgba(0, 0, 0, 0)));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(216, 216, 216, 0.4) 50%, rgba(0, 0, 0, 0) 100%);
+}
+
+.site-header-top-inner.header-fullwidth {
+  padding: 0 2.5rem;
+}
+
+header .header-fullwidth {
+  padding: 0 2.5rem;
+}
+
+header .header-fullwidth.no-padding {
+  padding: 0;
+}
+
+header .nav-menu-dropdown > li > a:after, body.menu-show-arrow-down header .main-navigation li.menu-down-icon > a:after, body.submenu-show-arrow-right header .main-navigation li ul li.menu-right-icon > a:after {
+  font-family: 'simple-line-icons';
+  font-size: 9px;
+  font-size: 0.5625rem;
+}
+
+header .main-navigation li.active > a, header .main-navigation li ul li.active > a, header .main-navigation li.mega-menu > ul > li > ul > li.active > a, body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.active > a, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.active > a, body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul > li > ul > li.active > a,
+header .main-navigation li.active > span,
+header .main-navigation li ul li.active > span,
+header .main-navigation li.mega-menu > ul > li > ul > li.active > span,
+body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.active > span,
+body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.active > span,
+body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul > li > ul > li.active > span, header .main-navigation li.current > a, header .main-navigation li ul li.current > a, header .main-navigation li.mega-menu > ul > li > ul > li.current > a, body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.current > a, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.current > a, body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul > li > ul > li.current > a,
+header .main-navigation li.current > span,
+header .main-navigation li ul li.current > span,
+header .main-navigation li.mega-menu > ul > li > ul > li.current > span,
+body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.current > span,
+body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.current > span,
+body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul > li > ul > li.current > span, header .main-navigation li.current-menu-item > a, header .main-navigation li ul li.current-menu-item > a, header .main-navigation li.mega-menu > ul > li > ul > li.current-menu-item > a, body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.current-menu-item > a, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.current-menu-item > a, body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul > li > ul > li.current-menu-item > a,
+header .main-navigation li.current-menu-item > span,
+header .main-navigation li ul li.current-menu-item > span,
+header .main-navigation li.mega-menu > ul > li > ul > li.current-menu-item > span,
+body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.current-menu-item > span,
+body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.current-menu-item > span,
+body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul > li > ul > li.current-menu-item > span, header .main-navigation li.current-menu-parent > a, header .main-navigation li ul li.current-menu-parent > a, header .main-navigation li.mega-menu > ul > li > ul > li.current-menu-parent > a, body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.current-menu-parent > a, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.current-menu-parent > a, body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul > li > ul > li.current-menu-parent > a,
+header .main-navigation li.current-menu-parent > span,
+header .main-navigation li ul li.current-menu-parent > span,
+header .main-navigation li.mega-menu > ul > li > ul > li.current-menu-parent > span,
+body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.current-menu-parent > span,
+body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.current-menu-parent > span,
+body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul > li > ul > li.current-menu-parent > span, header .main-navigation li.current_page_item > a, header .main-navigation li ul li.current_page_item > a, header .main-navigation li.mega-menu > ul > li > ul > li.current_page_item > a, body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.current_page_item > a, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.current_page_item > a, body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul > li > ul > li.current_page_item > a,
+header .main-navigation li.current_page_item > span,
+header .main-navigation li ul li.current_page_item > span,
+header .main-navigation li.mega-menu > ul > li > ul > li.current_page_item > span,
+body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.current_page_item > span,
+body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.current_page_item > span,
+body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul > li > ul > li.current_page_item > span, header .main-navigation li.current-menu-ancestor > a, header .main-navigation li ul li.current-menu-ancestor > a, header .main-navigation li.mega-menu > ul > li > ul > li.current-menu-ancestor > a, body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.current-menu-ancestor > a, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.current-menu-ancestor > a, body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul > li > ul > li.current-menu-ancestor > a,
+header .main-navigation li.current-menu-ancestor > span,
+header .main-navigation li ul li.current-menu-ancestor > span,
+header .main-navigation li.mega-menu > ul > li > ul > li.current-menu-ancestor > span,
+body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.current-menu-ancestor > span,
+body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li.current-menu-ancestor > span,
+body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul > li > ul > li.current-menu-ancestor > span {
+  color: #096ae2;
+}
+
+body.header-dropdown-menu-primary header .main-navigation li ul li.active > a, body.header-dropdown-menu-dark header .main-navigation li ul li.active > a,
+body.header-dropdown-menu-primary header .main-navigation li ul li.active > span,
+body.header-dropdown-menu-dark header .main-navigation li ul li.active > span, body.header-dropdown-menu-primary header .main-navigation li ul li.current > a, body.header-dropdown-menu-dark header .main-navigation li ul li.current > a,
+body.header-dropdown-menu-primary header .main-navigation li ul li.current > span,
+body.header-dropdown-menu-dark header .main-navigation li ul li.current > span, body.header-dropdown-menu-primary header .main-navigation li ul li.current-menu-item > a, body.header-dropdown-menu-dark header .main-navigation li ul li.current-menu-item > a,
+body.header-dropdown-menu-primary header .main-navigation li ul li.current-menu-item > span,
+body.header-dropdown-menu-dark header .main-navigation li ul li.current-menu-item > span, body.header-dropdown-menu-primary header .main-navigation li ul li.current-menu-parent > a, body.header-dropdown-menu-dark header .main-navigation li ul li.current-menu-parent > a,
+body.header-dropdown-menu-primary header .main-navigation li ul li.current-menu-parent > span,
+body.header-dropdown-menu-dark header .main-navigation li ul li.current-menu-parent > span, body.header-dropdown-menu-primary header .main-navigation li ul li.current_page_item > a, body.header-dropdown-menu-dark header .main-navigation li ul li.current_page_item > a,
+body.header-dropdown-menu-primary header .main-navigation li ul li.current_page_item > span,
+body.header-dropdown-menu-dark header .main-navigation li ul li.current_page_item > span, body.header-dropdown-menu-primary header .main-navigation li ul li.current-menu-ancestor > a, body.header-dropdown-menu-dark header .main-navigation li ul li.current-menu-ancestor > a,
+body.header-dropdown-menu-primary header .main-navigation li ul li.current-menu-ancestor > span,
+body.header-dropdown-menu-dark header .main-navigation li ul li.current-menu-ancestor > span {
+  color: #2b303b;
+}
+
+body.header-dropdown-menu-dark header .main-navigation li ul li.active > a,
+body.header-dropdown-menu-dark header .main-navigation li ul li.active > span, body.header-dropdown-menu-dark header .main-navigation li ul li.current > a,
+body.header-dropdown-menu-dark header .main-navigation li ul li.current > span, body.header-dropdown-menu-dark header .main-navigation li ul li.current-menu-item > a,
+body.header-dropdown-menu-dark header .main-navigation li ul li.current-menu-item > span, body.header-dropdown-menu-dark header .main-navigation li ul li.current-menu-parent > a,
+body.header-dropdown-menu-dark header .main-navigation li ul li.current-menu-parent > span, body.header-dropdown-menu-dark header .main-navigation li ul li.current_page_item > a,
+body.header-dropdown-menu-dark header .main-navigation li ul li.current_page_item > span, body.header-dropdown-menu-dark header .main-navigation li ul li.current-menu-ancestor > a,
+body.header-dropdown-menu-dark header .main-navigation li ul li.current-menu-ancestor > span {
+  color: white;
+}
+
+body.header-background header .main-navigation > ul > li.active > a,
+body.header-background header .main-navigation > ul > li.active > span, body.header-background header .main-navigation > ul > li.current > a,
+body.header-background header .main-navigation > ul > li.current > span, body.header-background header .main-navigation > ul > li.current-menu-item > a,
+body.header-background header .main-navigation > ul > li.current-menu-item > span, body.header-background header .main-navigation > ul > li.current-menu-parent > a,
+body.header-background header .main-navigation > ul > li.current-menu-parent > span, body.header-background header .main-navigation > ul > li.current_page_item > a,
+body.header-background header .main-navigation > ul > li.current_page_item > span, body.header-background header .main-navigation > ul > li.current-menu-ancestor > a,
+body.header-background header .main-navigation > ul > li.current-menu-ancestor > span {
+  color: #2b303b;
+}
+
+body.header-background.dark-color:not(.primary-color) header .main-navigation > ul > li.active > a,
+body.header-background.dark-color:not(.primary-color) header .main-navigation > ul > li.active > span, body.header-background.dark-color:not(.primary-color) header .main-navigation > ul > li.current > a,
+body.header-background.dark-color:not(.primary-color) header .main-navigation > ul > li.current > span, body.header-background.dark-color:not(.primary-color) header .main-navigation > ul > li.current-menu-item > a,
+body.header-background.dark-color:not(.primary-color) header .main-navigation > ul > li.current-menu-item > span, body.header-background.dark-color:not(.primary-color) header .main-navigation > ul > li.current-menu-parent > a,
+body.header-background.dark-color:not(.primary-color) header .main-navigation > ul > li.current-menu-parent > span, body.header-background.dark-color:not(.primary-color) header .main-navigation > ul > li.current_page_item > a,
+body.header-background.dark-color:not(.primary-color) header .main-navigation > ul > li.current_page_item > span, body.header-background.dark-color:not(.primary-color) header .main-navigation > ul > li.current-menu-ancestor > a,
+body.header-background.dark-color:not(.primary-color) header .main-navigation > ul > li.current-menu-ancestor > span {
+  color: #096ae2;
+}
+
+body.header-menu-border-bottom header .main-navigation > ul > li.active:after, body.header-menu-border-bottom header .main-navigation > ul > li.current:after, body.header-menu-border-bottom header .main-navigation > ul > li.current-menu-item:after, body.header-menu-border-bottom header .main-navigation > ul > li.current-menu-parent:after, body.header-menu-border-bottom header .main-navigation > ul > li.current_page_item:after, body.header-menu-border-bottom header .main-navigation > ul > li.current-menu-ancestor:after, body.header-menu-border-bottom header .main-navigation > ul > li:hover:after {
+  width: 65%;
+  height: auto;
+  content: '';
+  border-bottom: 3.5px solid #0063dd;
+  bottom: 0;
+  left: 18%;
+  position: absolute;
+}
+
+body.header-menu-border-bottom header .main-navigation > ul > li:last-child:after {
+  width: 69%;
+  left: 15%;
+}
+
+body.header-menu-border-top header .main-navigation > ul > li.active:after, body.header-menu-border-top header .main-navigation > ul > li.current:after, body.header-menu-border-top header .main-navigation > ul > li.current-menu-item:after, body.header-menu-border-top header .main-navigation > ul > li.current-menu-parent:after, body.header-menu-border-top header .main-navigation > ul > li.current_page_item:after, body.header-menu-border-top header .main-navigation > ul > li.current-menu-ancestor:after, body.header-menu-border-top header .main-navigation > ul > li:hover:after {
+  width: 65%;
+  height: auto;
+  content: '';
+  border-top: 3.5px solid #0063dd;
+  top: 0;
+  left: 18%;
+  position: absolute;
+}
+
+body.header-menu-border-top header .main-navigation > ul > li:last-child:after {
+  width: 69%;
+  left: 15%;
+}
+
+body.header-menu-background-primary header .main-navigation > ul > li.active > a, body.header-menu-background-dark header .main-navigation > ul > li.active > a, body.header-menu-background-primary header .main-navigation > ul > li.current > a, body.header-menu-background-dark header .main-navigation > ul > li.current > a, body.header-menu-background-primary header .main-navigation > ul > li.current-menu-item > a, body.header-menu-background-dark header .main-navigation > ul > li.current-menu-item > a, body.header-menu-background-primary header .main-navigation > ul > li.current-menu-parent > a, body.header-menu-background-dark header .main-navigation > ul > li.current-menu-parent > a, body.header-menu-background-primary header .main-navigation > ul > li.current_page_item > a, body.header-menu-background-dark header .main-navigation > ul > li.current_page_item > a, body.header-menu-background-primary header .main-navigation > ul > li.current-menu-ancestor > a, body.header-menu-background-dark header .main-navigation > ul > li.current-menu-ancestor > a {
+  color: white;
+  background-color: #0063dd;
+}
+
+body.header-menu-background-dark header .main-navigation > ul > li.active > a, body.header-menu-background-dark header .main-navigation > ul > li.current > a, body.header-menu-background-dark header .main-navigation > ul > li.current-menu-item > a, body.header-menu-background-dark header .main-navigation > ul > li.current-menu-parent > a, body.header-menu-background-dark header .main-navigation > ul > li.current_page_item > a, body.header-menu-background-dark header .main-navigation > ul > li.current-menu-ancestor > a {
+  color: white;
+  background-color: #2b303b;
+}
+
+body.header-background-dark header .main-navigation > ul > li.active > a, body.header-background-primary header .main-navigation > ul > li.active > a, body.header-background-dark header .main-navigation > ul > li.current > a, body.header-background-primary header .main-navigation > ul > li.current > a, body.header-background-dark header .main-navigation > ul > li.current-menu-item > a, body.header-background-primary header .main-navigation > ul > li.current-menu-item > a, body.header-background-dark header .main-navigation > ul > li.current-menu-parent > a, body.header-background-primary header .main-navigation > ul > li.current-menu-parent > a, body.header-background-dark header .main-navigation > ul > li.current_page_item > a, body.header-background-primary header .main-navigation > ul > li.current_page_item > a, body.header-background-dark header .main-navigation > ul > li.current-menu-ancestor > a, body.header-background-primary header .main-navigation > ul > li.current-menu-ancestor > a, body.header-background-dark header .main-navigation > ul > li:hover > a, body.header-background-primary header .main-navigation > ul > li:hover > a {
+  color: #096ae2;
+  background-color: #303540;
+}
+
+body.header-background-primary header .main-navigation > ul > li.active > a, body.header-background-primary header .main-navigation > ul > li.current > a, body.header-background-primary header .main-navigation > ul > li.current-menu-item > a, body.header-background-primary header .main-navigation > ul > li.current-menu-parent > a, body.header-background-primary header .main-navigation > ul > li.current_page_item > a, body.header-background-primary header .main-navigation > ul > li.current-menu-ancestor > a, body.header-background-primary header .main-navigation > ul > li:hover > a {
+  color: white;
+  background-color: #025fd2;
+}
+
+header .main-navigation {
+  font-family: 'Poppins', sans-serif;
+}
+
+header .main-navigation .icon {
+  width: auto;
+  height: auto;
+}
+
+header .main-navigation .icon i {
+  font-size: 12px;
+  font-size: 0.75rem;
+}
+
+header .main-navigation.right > ul > li:last-child.menu-down-icon > a:after {
+  right: -15px;
+}
+
+header .main-navigation > ul > li > ul {
+  border-top: 1px solid #f5f5f5;
+}
+
+header .main-navigation li {
+  font-size: 14px;
+  font-size: 0.875rem;
+  float: left;
+  letter-spacing: 1px;
+  position: relative;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+header .main-navigation li a {
+  color: #2b303b;
+  margin: 18px 0;
+  padding: 14px 18px;
+}
+
+header .main-navigation li a:hover {
+  color: #096ae2;
+}
+
+header .main-navigation li .menu-mark {
+  font-size: 10px;
+  font-size: 0.625rem;
+  height: 1.7em;
+  padding-left: .5em;
+  padding-right: .5em;
+  vertical-align: top;
+  margin-top: 1px;
+  margin-left: 6px;
+  visibility: hidden;
+}
+
+header .main-navigation li ul {
+  top: 100%;
+  left: 0;
+  position: absolute;
+  background: white;
+  min-width: 210px;
+  padding: 10px 0;
+  z-index: 9999;
+  border: 1px solid #f5f5f5;
+}
+
+header .main-navigation li ul.open-left {
+  left: inherit;
+  top: 100%;
+  right: 0;
+  position: absolute;
+}
+
+header .main-navigation li ul.open-right {
+  right: inherit;
+  top: 100%;
+  left: 0;
+  position: absolute;
+}
+
+header .main-navigation li ul li {
+  font-size: 12px;
+  font-size: 0.75rem;
+  min-width: 210px;
+  padding: 0 10px;
+  letter-spacing: 1px;
+  font-weight: normal;
+}
+
+header .main-navigation li ul li a {
+  padding: 10px;
+  margin: 0;
+  color: #4b505d;
+}
+
+header .main-navigation li ul li ul {
+  top: -11px;
+  left: 100%;
+  position: absolute;
+  border-left: 1px solid #f5f5f5;
+}
+
+header .main-navigation li ul li ul.open-left {
+  left: inherit;
+  top: -11px;
+  right: 100%;
+  position: absolute;
+  border-left: 0;
+  border-right: 1px solid #f5f5f5;
+}
+
+header .main-navigation li ul li ul.open-right {
+  right: inherit;
+  top: -11px;
+  left: 100%;
+  position: absolute;
+}
+
+header .main-navigation li.mega-menu > ul > li {
+  min-width: 198px;
+}
+
+header .main-navigation li.mega-menu > ul > li.column {
+  padding: 25px 17px !important;
+}
+
+header .main-navigation li.mega-menu > ul > li > a,
+header .main-navigation li.mega-menu > ul > li > span {
+  font-size: 12.4px;
+  font-size: 0.775rem;
+  color: #393e4b;
+}
+
+header .main-navigation li.mega-menu > ul > li > a:hover,
+header .main-navigation li.mega-menu > ul > li > span:hover {
+  color: #096ae2;
+}
+
+header .main-navigation li.mega-menu > ul > li > ul {
+  position: initial;
+  min-width: 198px;
+  border-left: 0;
+  border: 0;
+}
+
+header .main-navigation li.mega-menu > ul > li > ul > li {
+  float: none;
+  font-size: 12px;
+  font-size: 0.75rem;
+  min-width: 198px;
+}
+
+header .main-navigation li.mega-menu > ul > li > ul > li a {
+  color: #4b505d;
+}
+
+header .main-navigation li.mega-menu > ul > li > ul > li a:hover {
+  color: #096ae2;
+}
+
+header .main-navigation li.niche-templates > ul::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+header .main-navigation li.niche-templates > ul {
+  padding: 16px 11px 9px;
+  overflow-y: auto;
+  max-height: 641px;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}
+
+header .main-navigation li.niche-templates > ul > li {
+  text-align: center;
+  min-width: auto;
+}
+
+header .main-navigation li.niche-templates > ul > li.column {
+  padding-left: var(--columnGap) !important;
+  padding-right: var(--columnGap) !important;
+  padding-bottom: 19px !important;
+  padding-top: 8px !important;
+}
+
+header .main-navigation li.niche-templates > ul > li .image-hover {
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  -webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.15);
+}
+
+header .main-navigation li.niche-templates > ul > li .image-hover.effect-5 figure img {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+header .main-navigation li.niche-templates > ul > li .image-hover .menu-mark {
+  visibility: visible;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 100;
+}
+
+header .main-navigation li.niche-templates > ul > li .image-hover.is-active figure {
+  cursor: default;
+}
+
+header .site-logo a {
+  color: #2b303b;
+}
+
+header .site-logo span.logo-text {
+  font-size: 25px;
+  font-size: 1.5625rem;
+  letter-spacing: 0;
+  padding: 0 8px;
+  font-weight: 600;
+}
+
+header .site-logo span.logo-text:first-child {
+  padding-left: 0;
+}
+
+header .site-logo span.logo-text:last-child {
+  padding-right: 0;
+}
+
+header .site-logo img {
+  max-height: 34px;
+  margin-top: -1px;
+}
+
+.search-form-overlay .widget-form input {
+  padding: 0;
+  padding-right: 1.5em;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  color: white;
+  font-size: 28px;
+  font-size: 1.75rem;
+  letter-spacing: 2px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.search-form-overlay .widget-form input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.search-form-overlay .widget-form input:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.search-form-overlay .widget-form input::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.search-form-overlay .widget-form input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.search-form-overlay .widget-form .button {
+  width: 4%;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  font-size: 1.25rem;
+}
+
+.search-form-overlay .widget-form:hover input, .search-form-overlay .widget-form:focus input {
+  border-bottom: 1px solid white;
+}
+
+.search-form-overlay .widget-form:hover .button, .search-form-overlay .widget-form:focus .button {
+  color: white;
+}
+
+.nav-menu-dropdown {
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-menu-dropdown > li {
+  display: inline-block;
+  margin-left: 10px;
+  position: relative;
+  padding: 25px 0;
+}
+
+.nav-menu-dropdown > li > a {
+  border: 1px solid #F0F0F0;
+  padding: 7px 12px;
+  font-size: 13px;
+  font-size: 0.8125rem;
+  color: #4b505d;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  min-width: 140px;
+  display: inline-block;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  position: relative;
+  font-weight: 300;
+}
+
+.nav-menu-dropdown > li > a:after {
+  content: "\e604";
+  top: 33%;
+  right: 9px;
+  position: absolute;
+}
+
+.nav-menu-dropdown > li > a:hover {
+  color: #0063dd;
+}
+
+.nav-menu-dropdown > li > ul {
+  display: none;
+  top: 100%;
+  left: 0;
+  position: absolute;
+  background: white;
+  min-width: 180px;
+  padding: 10px 0;
+  border: 1px solid #f5f5f5;
+}
+
+.nav-menu-dropdown > li > ul.open-left {
+  left: inherit;
+  top: 100%;
+  right: 0;
+  position: absolute;
+}
+
+.nav-menu-dropdown > li > ul.open-right {
+  right: inherit;
+  top: 100%;
+  left: 0;
+  position: absolute;
+}
+
+.nav-menu-dropdown > li > ul li {
+  font-size: 12px;
+  font-size: 0.75rem;
+  min-width: 180px;
+  padding: 0 12px;
+  letter-spacing: 1px;
+}
+
+.nav-menu-dropdown > li > ul li a {
+  padding: 7px 0;
+  color: #4b505d;
+  display: inline-block;
+  font-weight: 400;
+}
+
+.nav-menu-dropdown > li > ul li a:hover {
+  color: #0063dd;
+}
+
+.nav-menu-dropdown .flag-icon {
+  width: 1.28em;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.nav-menu-dropdown.style-2 {
+  position: relative;
+  padding-left: 7px;
+}
+
+.nav-menu-dropdown.style-2 .flag-icon {
+  vertical-align: initial;
+}
+
+.nav-menu-dropdown.style-2 > li > a {
+  min-width: 36px;
+  border: 1px solid transparent;
+  padding: 7px 0;
+}
+
+.nav-menu-dropdown.style-2 > li > a:after {
+  top: 33%;
+  right: -2px;
+  position: absolute;
+}
+
+.nav-menu-dropdown.style-2 > li > a .flag-icon {
+  display: none;
+}
+
+.nav-menu-dropdown.style-2 > li > ul {
+  min-width: 100px;
+}
+
+.nav-menu-dropdown.style-2 > li > ul li {
+  min-width: 100px;
+}
+
+.nav-menu-dropdown.style-2:before {
+  content: '';
+  width: 1px;
+  height: 30%;
+  top: 35%;
+  left: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(50%, rgba(216, 216, 216, 0.6)), to(rgba(0, 0, 0, 0)));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(216, 216, 216, 0.6) 50%, rgba(0, 0, 0, 0) 100%);
+}
+
+.nav-menu-dropdown.style-2.global-style > li > a {
+  min-width: 80px;
+  text-transform: capitalize;
+  letter-spacing: 0;
+  font-size: 12px;
+}
+
+.nav-menu-dropdown.style-2.global-style > li > a > .icon {
+  width: auto;
+  height: auto;
+  margin-right: 9px;
+  vertical-align: middle;
+  margin-top: -1px;
+}
+
+.nav-menu-dropdown.style-2.global-style > li > a > .icon i {
+  font-size: 13px;
+}
+
+.nav-menu-dropdown.style-2.global-style > li > ul li a {
+  text-transform: capitalize;
+}
+
+.hamburger-menu {
+  position: relative;
+  height: 14px;
+  width: 20px;
+  z-index: 200;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  margin-top: -1px;
+  margin-left: 15px;
+}
+
+.hamburger-menu .hamburger-menu-icon,
+.hamburger-menu .hamburger-menu-icon:before,
+.hamburger-menu .hamburger-menu-icon:after {
+  top: 50%;
+  position: absolute;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background-color: #4b505d;
+  content: '';
+  width: 100%;
+  height: 2px;
+  margin-top: 0;
+}
+
+.hamburger-menu .hamburger-menu-icon:before {
+  margin-top: -6px;
+}
+
+.hamburger-menu .hamburger-menu-icon:after {
+  margin-top: 6px;
+}
+
+.hamburger-menu:hover .hamburger-menu-icon,
+.hamburger-menu:hover .hamburger-menu-icon:before,
+.hamburger-menu:hover .hamburger-menu-icon:after {
+  background-color: #0063dd;
+}
+
+.hamburger-menu.expanded .hamburger-menu-icon {
+  margin-top: 0;
+  background-color: transparent;
+}
+
+.hamburger-menu.expanded .hamburger-menu-icon:before {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  margin-top: 0;
+}
+
+.hamburger-menu.expanded .hamburger-menu-icon:after {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  margin-top: 0;
+}
+
+body.menu-show-arrow-down header .main-navigation li.menu-down-icon > a:after {
+  content: "\e604";
+  top: 45%;
+  right: 0;
+  position: absolute;
+}
+
+body.submenu-show-arrow-right header .main-navigation li ul li.menu-right-icon > a {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+body.submenu-show-arrow-right header .main-navigation li ul li.menu-right-icon > a:after {
+  content: "\e606";
+  top: 39%;
+  right: 18px;
+  position: absolute;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+body.submenu-show-arrow-right header .main-navigation li ul li.menu-right-icon > a:hover:after {
+  right: 12px;
+  position: absolute;
+}
+
+body.header-logo-left header .site-logo span.logo-text, body.header-logo-right header .site-logo span.logo-text, body.header-menu-with-buttons header .site-logo span.logo-text {
+  font-size: 26px;
+  font-size: 1.625rem;
+  vertical-align: bottom;
+}
+
+body.header-logo-left header .site-logo img, body.header-logo-right header .site-logo img, body.header-menu-with-buttons header .site-logo img {
+  margin-top: -1px;
+}
+
+body.header-logo-center-menu-center header .level-left {
+  margin: 0 auto;
+}
+
+body.header-logo-center-menu-center header .site-logo {
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+body.header-logo-center-menu-center header .site-logo img {
+  margin-top: -5px;
+}
+
+body.header-logo-center-menu-center header .site-logo span.logo-text {
+  font-size: 22px;
+}
+
+body.header-menu-with-buttons header .main-navigation > ul > li > a, body.header-menu-with-icons header .main-navigation > ul > li > a, body.header-hamburger-menu header .main-navigation > ul > li > a {
+  padding: 14px 18px;
+}
+
+body.header-menu-with-buttons header .main-navigation > ul > li:last-child > a, body.header-menu-with-icons header .main-navigation > ul > li:last-child > a, body.header-hamburger-menu header .main-navigation > ul > li:last-child > a {
+  padding-right: 18px;
+}
+
+body.header-menu-with-buttons header .button, body.header-menu-with-icons header .button, body.header-hamburger-menu header .button {
+  margin-left: 25px;
+  height: 3.1em;
+  padding-left: calc(2.6em - 1px);
+  padding-right: calc(2.6em - 1px);
+}
+
+body.header-menu-with-buttons header .button.is-white:hover, body.header-menu-with-icons header .button.is-white:hover, body.header-hamburger-menu header .button.is-white:hover {
+  background-color: #0063dd;
+  color: white;
+}
+
+body.header-menu-with-buttons header .header-fullwidth .main-navigation > ul > li > a, body.header-menu-with-icons header .header-fullwidth .main-navigation > ul > li > a, body.header-hamburger-menu header .header-fullwidth .main-navigation > ul > li > a {
+  padding: 14px 18px;
+}
+
+body.header-menu-with-buttons.menu-center header .main-navigation > ul > li:last-child > a, body.header-menu-with-icons.menu-center header .main-navigation > ul > li:last-child > a, body.header-hamburger-menu.menu-center header .main-navigation > ul > li:last-child > a {
+  padding-right: 0;
+}
+
+body.header-menu-with-buttons.menu-center .header-menu-icons, body.header-menu-with-icons.menu-center .header-menu-icons, body.header-hamburger-menu.menu-center .header-menu-icons {
+  padding-left: 0;
+}
+
+body.header-menu-with-buttons.menu-center .header-menu-icons:before, body.header-menu-with-icons.menu-center .header-menu-icons:before, body.header-hamburger-menu.menu-center .header-menu-icons:before {
+  visibility: hidden;
+}
+
+body.header-menu-with-buttons.menu-left .site-logo,
+body.header-menu-with-buttons.menu-left #header-logo, body.header-menu-with-icons.menu-left .site-logo,
+body.header-menu-with-icons.menu-left #header-logo, body.header-hamburger-menu.menu-left .site-logo,
+body.header-hamburger-menu.menu-left #header-logo {
+  padding-right: 30px;
+}
+
+body.header-menu-with-buttons.menu-left .header-menu-icons, body.header-menu-with-icons.menu-left .header-menu-icons, body.header-hamburger-menu.menu-left .header-menu-icons {
+  padding-left: 0;
+}
+
+body.header-menu-with-buttons.menu-left .header-menu-icons:before, body.header-menu-with-icons.menu-left .header-menu-icons:before, body.header-hamburger-menu.menu-left .header-menu-icons:before {
+  visibility: hidden;
+}
+
+body.header-menu-with-buttons.slide-down header .main-navigation > ul > li > a, body.header-menu-with-icons.slide-down header .main-navigation > ul > li > a, body.header-hamburger-menu.slide-down header .main-navigation > ul > li > a {
+  padding: 15px;
+}
+
+body.header-menu-with-buttons.header-transparent header.hide-on-scroll .button.is-white, body.header-menu-with-buttons.header-transparent header.show-on-scroll .button.is-white, body.header-menu-with-icons.header-transparent header.hide-on-scroll .button.is-white, body.header-menu-with-icons.header-transparent header.show-on-scroll .button.is-white, body.header-hamburger-menu.header-transparent header.hide-on-scroll .button.is-white, body.header-hamburger-menu.header-transparent header.show-on-scroll .button.is-white {
+  background-color: #0063dd;
+  color: white;
+}
+
+body.header-menu-with-buttons.header-transparent header.hide-on-scroll .button.is-white:hover, body.header-menu-with-buttons.header-transparent header.show-on-scroll .button.is-white:hover, body.header-menu-with-icons.header-transparent header.hide-on-scroll .button.is-white:hover, body.header-menu-with-icons.header-transparent header.show-on-scroll .button.is-white:hover, body.header-hamburger-menu.header-transparent header.hide-on-scroll .button.is-white:hover, body.header-hamburger-menu.header-transparent header.show-on-scroll .button.is-white:hover {
+  background-color: #2b303b;
+  color: white;
+}
+
+body.header-menu-with-buttons:not(.header-transparent) header .button.is-white, body.header-menu-with-icons:not(.header-transparent) header .button.is-white {
+  background-color: #0063dd;
+  color: white;
+}
+
+body.header-menu-with-buttons:not(.header-transparent) header .button.is-white:hover, body.header-menu-with-icons:not(.header-transparent) header .button.is-white:hover {
+  background-color: #2b303b;
+  color: white;
+}
+
+body.header-hamburger-menu header .site-logo,
+body.header-hamburger-menu header #header-logo {
+  padding: 26px 0;
+}
+
+body.header-hamburger-menu header .main-navigation {
+  display: none;
+  position: absolute;
+}
+
+body.header-hamburger-menu.icon-left header .hamburger-menu {
+  margin-left: 0;
+  margin-right: 15px;
+}
+
+body.header-hamburger-menu.icon-left header .main-navigation > ul > li:first-child > a {
+  padding-left: 15px;
+}
+
+body.header-hamburger-menu.slide-down header .site-logo,
+body.header-hamburger-menu.slide-down header #header-logo {
+  padding: 24px 0;
+}
+
+body.header-hamburger-menu.slide-down header.hide-on-scroll .main-navigation > ul > li > a, body.header-hamburger-menu.slide-down header.show-on-scroll .main-navigation > ul > li > a, body.header-hamburger-menu.slide-down header.responsive-on-scroll .main-navigation > ul > li > a {
+  margin: 4px 0;
+}
+
+body.header-hamburger-menu.slide-left header .level, body.header-hamburger-menu.slide-right header .level {
+  margin-bottom: 0;
+}
+
+body.header-hamburger-menu.slide-left header .level:last-child, body.header-hamburger-menu.slide-right header .level:last-child {
+  display: block;
+  top: 0;
+  right: 0;
+  position: fixed;
+  width: 252px;
+  height: 100%;
+  background-color: white;
+  border-left: 1px solid rgba(245, 245, 245, 0.7);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  z-index: 100;
+  margin-right: -252px;
+  padding-top: 45px;
+}
+
+body.header-hamburger-menu.slide-left header .level:last-child.opened, body.header-hamburger-menu.slide-right header .level:last-child.opened {
+  margin-right: 0;
+}
+
+body.header-hamburger-menu.slide-left header .level:last-child .level-left,
+body.header-hamburger-menu.slide-left header .level:last-child .level-right, body.header-hamburger-menu.slide-right header .level:last-child .level-left,
+body.header-hamburger-menu.slide-right header .level:last-child .level-right {
+  display: block;
+}
+
+body.header-hamburger-menu.slide-left header .level:last-child .level-right, body.header-hamburger-menu.slide-right header .level:last-child .level-right {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+body.header-hamburger-menu.slide-left header .level:last-child .level-right, body.header-hamburger-menu.slide-right header .level:last-child .level-right {
+  bottom: 30px;
+  position: absolute;
+  width: 252px;
+}
+
+body.header-hamburger-menu.slide-left header .level:last-child .main-navigation, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation {
+  margin-top: 20px;
+  position: initial;
+  display: block;
+}
+
+body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li {
+  float: none;
+}
+
+body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li > a, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li > a {
+  margin: 0;
+  padding: 14px 30px !important;
+}
+
+body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li > ul, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li > ul {
+  left: inherit;
+  top: 0;
+  right: 100%;
+  position: absolute;
+  border: 1px solid #f5f5f5;
+}
+
+body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li > ul.open-left, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li > ul.open-left {
+  left: inherit;
+  top: 0;
+  right: 100%;
+  position: absolute;
+}
+
+body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li > ul.open-right, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li > ul.open-right {
+  right: inherit;
+  top: 0;
+  left: 100%;
+  position: absolute;
+}
+
+body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li > ul ul, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li > ul ul {
+  border: 1px solid #f5f5f5;
+  left: inherit;
+  top: -11px;
+  right: 100%;
+  position: absolute;
+}
+
+body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li > ul ul.open-left, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li > ul ul.open-left {
+  left: inherit;
+  top: -11px;
+  right: 100%;
+  position: absolute;
+}
+
+body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li > ul ul.open-right, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li > ul ul.open-right {
+  right: inherit;
+  top: -11px;
+  left: 100%;
+  position: absolute;
+}
+
+body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul ul, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul ul {
+  border: 0;
+}
+
+body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul > li {
+  min-width: 198px;
+}
+
+body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li.column, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul > li.column {
+  padding: 25px 16px !important;
+}
+
+body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > a,
+body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > span, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > a,
+body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > span {
+  font-size: 12px;
+  font-size: 0.75rem;
+  color: #393e4b;
+}
+
+body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > a:hover,
+body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > span:hover, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > a:hover,
+body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > span:hover {
+  color: #096ae2;
+}
+
+body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul {
+  position: initial;
+  min-width: 198px;
+  border-left: 0;
+}
+
+body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li {
+  float: none;
+  font-size: 12px;
+  font-size: 0.75rem;
+  min-width: 198px;
+}
+
+body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li a, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li a {
+  color: #4b505d;
+}
+
+body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li a:hover, body.header-hamburger-menu.slide-right header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul > li a:hover {
+  color: #096ae2;
+}
+
+body.header-hamburger-menu.slide-left header .level:last-child .header-menu-icons.social, body.header-hamburger-menu.slide-right header .level:last-child .header-menu-icons.social {
+  padding-left: 0;
+  padding: 20px 0;
+}
+
+body.header-hamburger-menu.slide-left header .level:last-child .header-menu-icons.social:before, body.header-hamburger-menu.slide-right header .level:last-child .header-menu-icons.social:before {
+  width: 0;
+}
+
+body.header-hamburger-menu.slide-left header .level:last-child .header-menu-icons.social li:first-child, body.header-hamburger-menu.slide-right header .level:last-child .header-menu-icons.social li:first-child {
+  padding-left: 0;
+}
+
+body.header-hamburger-menu.slide-left header .level:last-child .header-menu-icons.social li:last-child, body.header-hamburger-menu.slide-right header .level:last-child .header-menu-icons.social li:last-child {
+  padding-right: 0;
+}
+
+body.header-hamburger-menu.slide-left header .level:last-child .footer-copyright, body.header-hamburger-menu.slide-right header .level:last-child .footer-copyright {
+  font-size: 12px;
+  font-size: 0.75rem;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  color: #999999;
+}
+
+body.header-hamburger-menu.slide-left header .level:last-child .footer-copyright a, body.header-hamburger-menu.slide-right header .level:last-child .footer-copyright a {
+  color: #096ae2;
+}
+
+body.header-hamburger-menu.slide-left header .level:last-child .footer-copyright a:hover, body.header-hamburger-menu.slide-right header .level:last-child .footer-copyright a:hover {
+  color: #2b303b;
+}
+
+body.header-hamburger-menu.slide-left.slide-overlay header .header-fullwidth .hamburger-menu.expanded, body.header-hamburger-menu.slide-right.slide-overlay header .header-fullwidth .hamburger-menu.expanded {
+  top: 36px;
+  right: 40px;
+  position: fixed;
+}
+
+body.header-hamburger-menu.slide-left.slide-overlay header .header-fullwidth .site-logo, body.header-hamburger-menu.slide-right.slide-overlay header .header-fullwidth .site-logo {
+  position: relative;
+  z-index: 200;
+}
+
+body.header-hamburger-menu.slide-left.overlay-full-width header .level:last-child, body.header-hamburger-menu.slide-right.overlay-full-width header .level:last-child {
+  width: 100%;
+  margin-right: -100%;
+}
+
+body.header-hamburger-menu.slide-left.overlay-full-width header .level:last-child.opened, body.header-hamburger-menu.slide-right.overlay-full-width header .level:last-child.opened {
+  margin-right: 0;
+}
+
+body.header-hamburger-menu.slide-left.overlay-full-width header .level:last-child .level-left,
+body.header-hamburger-menu.slide-left.overlay-full-width header .level:last-child .level-right, body.header-hamburger-menu.slide-right.overlay-full-width header .level:last-child .level-left,
+body.header-hamburger-menu.slide-right.overlay-full-width header .level:last-child .level-right {
+  width: 200px;
+  margin: 0 auto;
+}
+
+body.header-hamburger-menu.slide-left.overlay-full-width header .level:last-child .level-right, body.header-hamburger-menu.slide-right.overlay-full-width header .level:last-child .level-right {
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+body.header-hamburger-menu.slide-left.overlay-full-width header .level:last-child .main-navigation, body.header-hamburger-menu.slide-right.overlay-full-width header .level:last-child .main-navigation {
+  margin-top: 100px;
+}
+
+body.header-hamburger-menu.slide-left.overlay-full-width header .level:last-child .main-navigation > ul > li > a, body.header-hamburger-menu.slide-right.overlay-full-width header .level:last-child .main-navigation > ul > li > a {
+  text-align: center;
+  font-size: 14px;
+  font-size: 0.875rem;
+  padding: 20px 30px !important;
+}
+
+body.header-hamburger-menu.slide-left.overlay-full-width header .level:last-child .main-navigation > ul > li > ul, body.header-hamburger-menu.slide-right.overlay-full-width header .level:last-child .main-navigation > ul > li > ul {
+  right: inherit;
+  top: 0;
+  left: 100%;
+  position: absolute;
+}
+
+body.header-hamburger-menu.slide-left.overlay-full-width header .level:last-child .main-navigation > ul > li > ul ul, body.header-hamburger-menu.slide-right.overlay-full-width header .level:last-child .main-navigation > ul > li > ul ul {
+  right: inherit;
+  top: -11px;
+  left: 100%;
+  position: absolute;
+}
+
+body.header-hamburger-menu.slide-left.overlay-full-width header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul, body.header-hamburger-menu.slide-right.overlay-full-width header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul {
+  border-right: 0;
+}
+
+body.header-hamburger-menu.slide-left.slide-push, body.header-hamburger-menu.slide-right.slide-push {
+  -webkit-transition: margin-right 0.5s ease;
+  transition: margin-right 0.5s ease;
+}
+
+body.header-hamburger-menu.slide-left.slide-push.pushed, body.header-hamburger-menu.slide-right.slide-push.pushed {
+  margin-right: 252px;
+}
+
+body.header-hamburger-menu.slide-left header .level {
+  margin-bottom: 0;
+}
+
+body.header-hamburger-menu.slide-left header .level:last-child {
+  right: inherit;
+  top: 0;
+  left: 0;
+  position: fixed;
+  border-left: 0;
+  border-right: 1px solid rgba(245, 245, 245, 0.7);
+  margin-right: 0;
+  margin-left: -252px;
+}
+
+body.header-hamburger-menu.slide-left header .level:last-child.opened {
+  margin-left: 0;
+}
+
+body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li > ul {
+  right: inherit;
+  top: 0;
+  left: 100%;
+  position: absolute;
+}
+
+body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li > ul ul {
+  right: inherit;
+  top: -11px;
+  left: 100%;
+  position: absolute;
+}
+
+body.header-hamburger-menu.slide-left header .level:last-child .main-navigation > ul > li.mega-menu > ul > li > ul {
+  border-right: 0;
+}
+
+body.header-hamburger-menu.slide-left.slide-overlay header .header-fullwidth .hamburger-menu.expanded {
+  right: inherit;
+  top: 36px;
+  left: 40px;
+  position: fixed;
+}
+
+body.header-hamburger-menu.slide-left .hamburger-menu {
+  margin-left: 0;
+  margin-right: 15px;
+}
+
+body.header-hamburger-menu.slide-left.overlay-full-width header .level:last-child {
+  margin-right: 0;
+  margin-left: -100%;
+}
+
+body.header-hamburger-menu.slide-left.overlay-full-width header .level:last-child.opened {
+  margin-left: 0;
+}
+
+body.header-hamburger-menu.slide-left.overlay-full-width header .hamburger-menu.expanded {
+  right: inherit;
+  top: 36px;
+  left: 40px;
+  position: fixed;
+  left: 40px !important;
+}
+
+body.header-hamburger-menu.slide-left.slide-push {
+  -webkit-transition: margin-left 0.5s ease;
+  transition: margin-left 0.5s ease;
+}
+
+body.header-hamburger-menu.slide-left.slide-push.pushed {
+  margin-right: 0;
+  margin-left: 252px;
+}
+
+body.header-hamburger-menu.header-transparent:not(.responsive-layout) header:not(.hide-on-scroll):not(.show-on-scroll) .site-logo a,
+body.header-hamburger-menu.header-transparent:not(.responsive-layout) header:not(.hide-on-scroll):not(.show-on-scroll) .site-logo .logo-text {
+  color: white;
+}
+
+body.header-hamburger-menu.hamburger-menu-icon-color.dark-color header .hamburger-menu.expanded .hamburger-menu-icon, body.header-hamburger-menu.hamburger-menu-icon-color.primary-color header .hamburger-menu.expanded .hamburger-menu-icon, body.header-hamburger-menu.hamburger-menu-icon-color.white-color header .hamburger-menu.expanded .hamburger-menu-icon, body.header-hamburger-menu.hamburger-menu-icon-background-color.dark-color header .hamburger-menu.expanded .hamburger-menu-icon, body.header-hamburger-menu.hamburger-menu-icon-background-color.primary-color header .hamburger-menu.expanded .hamburger-menu-icon, body.header-hamburger-menu.hamburger-menu-icon-background-color.white-color header .hamburger-menu.expanded .hamburger-menu-icon {
+  background-color: transparent;
+}
+
+body.header-hamburger-menu.hamburger-menu-icon-color.dark-color header .hamburger-menu.expanded:hover .hamburger-menu-icon, body.header-hamburger-menu.hamburger-menu-icon-color.primary-color header .hamburger-menu.expanded:hover .hamburger-menu-icon, body.header-hamburger-menu.hamburger-menu-icon-color.white-color header .hamburger-menu.expanded:hover .hamburger-menu-icon, body.header-hamburger-menu.hamburger-menu-icon-background-color.dark-color header .hamburger-menu.expanded:hover .hamburger-menu-icon, body.header-hamburger-menu.hamburger-menu-icon-background-color.primary-color header .hamburger-menu.expanded:hover .hamburger-menu-icon, body.header-hamburger-menu.hamburger-menu-icon-background-color.white-color header .hamburger-menu.expanded:hover .hamburger-menu-icon {
+  background-color: transparent;
+}
+
+body.header-hamburger-menu.hamburger-menu-icon-color.white-color header .hamburger-menu.expanded .hamburger-menu-icon:before,
+body.header-hamburger-menu.hamburger-menu-icon-color.white-color header .hamburger-menu.expanded .hamburger-menu-icon:after, body.header-hamburger-menu.hamburger-menu-icon-background-color.white-color header .hamburger-menu.expanded .hamburger-menu-icon:before,
+body.header-hamburger-menu.hamburger-menu-icon-background-color.white-color header .hamburger-menu.expanded .hamburger-menu-icon:after {
+  background-color: #4b505d;
+}
+
+body.header-hamburger-menu.hamburger-menu-icon-color.white-color header .hamburger-menu.expanded:hover .hamburger-menu-icon:before,
+body.header-hamburger-menu.hamburger-menu-icon-color.white-color header .hamburger-menu.expanded:hover .hamburger-menu-icon:after, body.header-hamburger-menu.hamburger-menu-icon-background-color.white-color header .hamburger-menu.expanded:hover .hamburger-menu-icon:before,
+body.header-hamburger-menu.hamburger-menu-icon-background-color.white-color header .hamburger-menu.expanded:hover .hamburger-menu-icon:after {
+  background-color: rgba(75, 80, 93, 0.5);
+}
+
+body.header-hamburger-menu.hamburger-menu-icon-color.dark-color header .hamburger-menu .hamburger-menu-icon,
+body.header-hamburger-menu.hamburger-menu-icon-color.dark-color header .hamburger-menu .hamburger-menu-icon:before,
+body.header-hamburger-menu.hamburger-menu-icon-color.dark-color header .hamburger-menu .hamburger-menu-icon:after, body.header-hamburger-menu.hamburger-menu-icon-background-color.dark-color header .hamburger-menu .hamburger-menu-icon,
+body.header-hamburger-menu.hamburger-menu-icon-background-color.dark-color header .hamburger-menu .hamburger-menu-icon:before,
+body.header-hamburger-menu.hamburger-menu-icon-background-color.dark-color header .hamburger-menu .hamburger-menu-icon:after {
+  background-color: #393e4b;
+}
+
+body.header-hamburger-menu.hamburger-menu-icon-color.dark-color header .hamburger-menu:hover .hamburger-menu-icon,
+body.header-hamburger-menu.hamburger-menu-icon-color.dark-color header .hamburger-menu:hover .hamburger-menu-icon:before,
+body.header-hamburger-menu.hamburger-menu-icon-color.dark-color header .hamburger-menu:hover .hamburger-menu-icon:after, body.header-hamburger-menu.hamburger-menu-icon-background-color.dark-color header .hamburger-menu:hover .hamburger-menu-icon,
+body.header-hamburger-menu.hamburger-menu-icon-background-color.dark-color header .hamburger-menu:hover .hamburger-menu-icon:before,
+body.header-hamburger-menu.hamburger-menu-icon-background-color.dark-color header .hamburger-menu:hover .hamburger-menu-icon:after {
+  background-color: rgba(57, 62, 75, 0.5);
+}
+
+body.header-hamburger-menu.hamburger-menu-icon-color.primary-color header .hamburger-menu .hamburger-menu-icon,
+body.header-hamburger-menu.hamburger-menu-icon-color.primary-color header .hamburger-menu .hamburger-menu-icon:before,
+body.header-hamburger-menu.hamburger-menu-icon-color.primary-color header .hamburger-menu .hamburger-menu-icon:after, body.header-hamburger-menu.hamburger-menu-icon-background-color.primary-color header .hamburger-menu .hamburger-menu-icon,
+body.header-hamburger-menu.hamburger-menu-icon-background-color.primary-color header .hamburger-menu .hamburger-menu-icon:before,
+body.header-hamburger-menu.hamburger-menu-icon-background-color.primary-color header .hamburger-menu .hamburger-menu-icon:after {
+  background-color: #0063dd;
+}
+
+body.header-hamburger-menu.hamburger-menu-icon-color.primary-color header .hamburger-menu:hover .hamburger-menu-icon,
+body.header-hamburger-menu.hamburger-menu-icon-color.primary-color header .hamburger-menu:hover .hamburger-menu-icon:before,
+body.header-hamburger-menu.hamburger-menu-icon-color.primary-color header .hamburger-menu:hover .hamburger-menu-icon:after, body.header-hamburger-menu.hamburger-menu-icon-background-color.primary-color header .hamburger-menu:hover .hamburger-menu-icon,
+body.header-hamburger-menu.hamburger-menu-icon-background-color.primary-color header .hamburger-menu:hover .hamburger-menu-icon:before,
+body.header-hamburger-menu.hamburger-menu-icon-background-color.primary-color header .hamburger-menu:hover .hamburger-menu-icon:after {
+  background-color: rgba(0, 99, 221, 0.5);
+}
+
+body.header-hamburger-menu.hamburger-menu-icon-color.white-color header .hamburger-menu .hamburger-menu-icon,
+body.header-hamburger-menu.hamburger-menu-icon-color.white-color header .hamburger-menu .hamburger-menu-icon:before,
+body.header-hamburger-menu.hamburger-menu-icon-color.white-color header .hamburger-menu .hamburger-menu-icon:after, body.header-hamburger-menu.hamburger-menu-icon-background-color.white-color header .hamburger-menu .hamburger-menu-icon,
+body.header-hamburger-menu.hamburger-menu-icon-background-color.white-color header .hamburger-menu .hamburger-menu-icon:before,
+body.header-hamburger-menu.hamburger-menu-icon-background-color.white-color header .hamburger-menu .hamburger-menu-icon:after {
+  background-color: white;
+}
+
+body.header-hamburger-menu.hamburger-menu-icon-color.white-color header .hamburger-menu:hover .hamburger-menu-icon,
+body.header-hamburger-menu.hamburger-menu-icon-color.white-color header .hamburger-menu:hover .hamburger-menu-icon:before,
+body.header-hamburger-menu.hamburger-menu-icon-color.white-color header .hamburger-menu:hover .hamburger-menu-icon:after, body.header-hamburger-menu.hamburger-menu-icon-background-color.white-color header .hamburger-menu:hover .hamburger-menu-icon,
+body.header-hamburger-menu.hamburger-menu-icon-background-color.white-color header .hamburger-menu:hover .hamburger-menu-icon:before,
+body.header-hamburger-menu.hamburger-menu-icon-background-color.white-color header .hamburger-menu:hover .hamburger-menu-icon:after {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+body.header-hamburger-menu.hamburger-menu-icon-background-color.primary-color header .level.top .level-right, body.header-hamburger-menu.hamburger-menu-icon-background-color.dark-color header .level.top .level-right {
+  background-color: #0063dd;
+  padding: 12px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+body.header-hamburger-menu.hamburger-menu-icon-background-color.primary-color header .level.top .level-right:hover, body.header-hamburger-menu.hamburger-menu-icon-background-color.dark-color header .level.top .level-right:hover {
+  background-color: #393e4b;
+}
+
+body.header-hamburger-menu.hamburger-menu-icon-background-color.primary-color header .hamburger-menu, body.header-hamburger-menu.hamburger-menu-icon-background-color.dark-color header .hamburger-menu {
+  margin-left: 0;
+}
+
+body.header-hamburger-menu.hamburger-menu-icon-background-color.primary-color header .hamburger-menu .hamburger-menu-icon,
+body.header-hamburger-menu.hamburger-menu-icon-background-color.primary-color header .hamburger-menu .hamburger-menu-icon:before,
+body.header-hamburger-menu.hamburger-menu-icon-background-color.primary-color header .hamburger-menu .hamburger-menu-icon:after, body.header-hamburger-menu.hamburger-menu-icon-background-color.dark-color header .hamburger-menu .hamburger-menu-icon,
+body.header-hamburger-menu.hamburger-menu-icon-background-color.dark-color header .hamburger-menu .hamburger-menu-icon:before,
+body.header-hamburger-menu.hamburger-menu-icon-background-color.dark-color header .hamburger-menu .hamburger-menu-icon:after {
+  background-color: white;
+}
+
+body.header-hamburger-menu.hamburger-menu-icon-background-color.primary-color header .hamburger-menu:hover .hamburger-menu-icon,
+body.header-hamburger-menu.hamburger-menu-icon-background-color.primary-color header .hamburger-menu:hover .hamburger-menu-icon:before,
+body.header-hamburger-menu.hamburger-menu-icon-background-color.primary-color header .hamburger-menu:hover .hamburger-menu-icon:after, body.header-hamburger-menu.hamburger-menu-icon-background-color.dark-color header .hamburger-menu:hover .hamburger-menu-icon,
+body.header-hamburger-menu.hamburger-menu-icon-background-color.dark-color header .hamburger-menu:hover .hamburger-menu-icon:before,
+body.header-hamburger-menu.hamburger-menu-icon-background-color.dark-color header .hamburger-menu:hover .hamburger-menu-icon:after {
+  background-color: white;
+}
+
+body.header-hamburger-menu.hamburger-menu-icon-background-color.primary-color header .hamburger-menu.expanded .hamburger-menu-icon:before,
+body.header-hamburger-menu.hamburger-menu-icon-background-color.primary-color header .hamburger-menu.expanded .hamburger-menu-icon:after, body.header-hamburger-menu.hamburger-menu-icon-background-color.dark-color header .hamburger-menu.expanded .hamburger-menu-icon:before,
+body.header-hamburger-menu.hamburger-menu-icon-background-color.dark-color header .hamburger-menu.expanded .hamburger-menu-icon:after {
+  background-color: #4b505d;
+}
+
+body.header-hamburger-menu.hamburger-menu-icon-background-color.primary-color header .hamburger-menu.expanded:hover .hamburger-menu-icon:before,
+body.header-hamburger-menu.hamburger-menu-icon-background-color.primary-color header .hamburger-menu.expanded:hover .hamburger-menu-icon:after, body.header-hamburger-menu.hamburger-menu-icon-background-color.dark-color header .hamburger-menu.expanded:hover .hamburger-menu-icon:before,
+body.header-hamburger-menu.hamburger-menu-icon-background-color.dark-color header .hamburger-menu.expanded:hover .hamburger-menu-icon:after {
+  background-color: rgba(75, 80, 93, 0.5);
+}
+
+body.header-hamburger-menu.hamburger-menu-icon-background-color.dark-color:not(.primary-color) header .level.top .level-right {
+  background-color: #393e4b;
+}
+
+body.header-hamburger-menu.hamburger-menu-icon-background-color.dark-color:not(.primary-color) header .level.top .level-right:hover {
+  background-color: #0063dd;
+}
+
+body .header-menu-icons {
+  position: relative;
+  padding-left: 8px;
+}
+
+body .header-menu-icons.social {
+  padding-left: 10px;
+}
+
+body .header-menu-icons:before {
+  display: none;
+  content: '';
+  width: 1px;
+  height: 90%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(50%, rgba(216, 216, 216, 0.6)), to(rgba(0, 0, 0, 0)));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(216, 216, 216, 0.6) 50%, rgba(0, 0, 0, 0) 100%);
+}
+
+body .header-menu-icons li {
+  display: inline-block;
+  padding-left: 16px;
+}
+
+body .header-menu-icons li a {
+  color: #4b505d;
+  display: inline-block;
+}
+
+body .header-menu-icons li a:hover {
+  color: #0063dd;
+}
+
+body .header-menu-icons li .icon {
+  vertical-align: middle;
+  height: auto;
+}
+
+body .header-menu-icons li .icon i {
+  font-size: 16px;
+  font-size: 1rem;
+}
+
+body .header-menu-icons li .icon i[class^="ion-"],
+body .header-menu-icons li .icon i[class*=" ion-"] {
+  font-size: 27px;
+  font-size: 1.6875rem;
+}
+
+body .header-menu-icons li > ul {
+  display: none;
+  top: 100%;
+  left: 0;
+  position: absolute;
+  background: white;
+  min-width: 250px;
+  border: 1px solid #f5f5f5;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 29px;
+  max-height: 310px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+body .header-menu-icons li > ul.open-left {
+  left: inherit;
+  top: 100%;
+  right: 0;
+  position: absolute;
+}
+
+body .header-menu-icons li > ul.open-right {
+  right: inherit;
+  top: 100%;
+  left: 0;
+  position: absolute;
+}
+
+body .header-menu-icons li > ul li {
+  font-size: 12px;
+  font-size: 0.75rem;
+  min-width: 250px;
+  padding: 15px 20px !important;
+  letter-spacing: 1px;
+  background-color: rgba(245, 245, 245, 0.3);
+  border-bottom: 1px solid #f5f5f5;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  color: #4b505d;
+}
+
+body .header-menu-icons li > ul li:last-child {
+  border-bottom: 0;
+}
+
+body .header-menu-icons li > ul li:hover {
+  background-color: rgba(245, 245, 245, 0.8);
+}
+
+body .header-menu-icons li > ul li strong {
+  font-weight: 500;
+}
+
+body .header-menu-icons li > ul li span {
+  display: inline-block;
+}
+
+body .header-menu-icons li > ul li span.product-amount {
+  font-size: 11px;
+  font-size: 0.6875rem;
+  padding: 0 5px;
+  color: #A6A6A6;
+  text-transform: none;
+}
+
+body .header-menu-icons li > ul li span.product-price-total {
+  color: #0063dd;
+}
+
+body .header-menu-icons li > ul li span.product-price {
+  font-size: 12px;
+  font-size: 0.75rem;
+}
+
+body .header-menu-icons li > ul li span.product-price-total, body .header-menu-icons li > ul li span.product-price {
+  padding: 4px 5px 0 0;
+}
+
+body .header-menu-icons li > ul li img {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  float: left;
+  margin-right: 10px;
+  border: 1px solid #0063dd;
+  padding: 1px;
+}
+
+body .header-menu-icons li > ul li.header, body .header-menu-icons li > ul li.footer {
+  background-color: white;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 13.5px;
+  font-size: 0.84375rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+body .header-menu-icons li > ul li.header a:hover, body .header-menu-icons li > ul li.footer a:hover {
+  color: #0063dd;
+}
+
+body .header-menu-icons li > ul li a {
+  color: #4b505d;
+  display: block;
+}
+
+body .header-menu-icons li > ul li a:hover {
+  color: #424754;
+}
+
+body .header-menu-icons li > ul.dropdown-shopping-cart.style-2 {
+  margin-top: 22px;
+}
+
+body .header-menu-icons li > ul.dropdown-shopping-cart li, body .header-menu-icons li > ul.dropdown-user-account li {
+  position: relative;
+}
+
+body .header-menu-icons li > ul.dropdown-shopping-cart li .product-remove, body .header-menu-icons li > ul.dropdown-user-account li .product-remove {
+  top: 27%;
+  right: 20px;
+  position: absolute;
+  cursor: pointer;
+  font-size: 11px;
+  font-size: 0.6875rem;
+  color: #0063dd;
+}
+
+body .header-menu-icons li > ul.dropdown-shopping-cart li .product-remove:hover, body .header-menu-icons li > ul.dropdown-user-account li .product-remove:hover {
+  color: #424754;
+}
+
+body .header-menu-icons li > ul.dropdown-shopping-cart li .button, body .header-menu-icons li > ul.dropdown-user-account li .button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 0;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  letter-spacing: .5px;
+  font-size: 11px;
+  font-size: 0.6875rem;
+  color: white;
+}
+
+body .header-menu-icons li > ul.dropdown-shopping-cart li .button.is-outlined, body .header-menu-icons li > ul.dropdown-user-account li .button.is-outlined {
+  color: #0063dd;
+}
+
+body .header-menu-icons li > ul.dropdown-shopping-cart li .button:hover, body .header-menu-icons li > ul.dropdown-user-account li .button:hover {
+  color: white;
+}
+
+body .header-menu-icons li > ul.dropdown-user-account li .field:not(:last-child) {
+  margin-bottom: 0.8rem;
+  margin-top: 0.3rem;
+}
+
+body .header-menu-icons li > ul.dropdown-user-account li input {
+  height: 2.8em;
+  font-size: 14px;
+  font-size: 0.875rem;
+}
+
+body .header-menu-icons li > ul.dropdown-user-account li p.help {
+  margin-top: 0.6rem;
+  text-align: center;
+  color: #0063dd;
+}
+
+body .header-menu-icons li > ul.dropdown-user-account li p.help a {
+  color: #0063dd;
+}
+
+body .header-menu-icons li > ul.dropdown-user-account li p.help a:hover {
+  color: #2b303b;
+}
+
+body .header-menu-icons li > ul.dropdown-user-account li .button {
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  letter-spacing: .5px;
+}
+
+body .header-menu-icons li.dropdown-search-form ul {
+  min-width: 300px;
+}
+
+body .header-menu-icons li.dropdown-search-form ul li {
+  min-width: 300px;
+  padding: 15px !important;
+}
+
+body .header-menu-icons li.dropdown-search-form ul li input {
+  height: 2.6em;
+  padding-right: 2.1em;
+}
+
+body .header-menu-icons li.dropdown-search-form ul li .button {
+  height: 2.3em;
+  top: 3px;
+  right: 3px;
+}
+
+body .header-menu-icons.default {
+  padding-left: 14px;
+  margin-left: 13px;
+}
+
+body .header-menu-icons.default li .icon {
+  vertical-align: initial;
+  height: 1.5rem;
+}
+
+body .header-menu-icons.default li .icon i {
+  font-size: 17px;
+  font-size: 1.0625rem;
+}
+
+body .header-menu-icons.default li .icon i[class^="ion-"],
+body .header-menu-icons.default li .icon i[class*=" ion-"] {
+  font-size: 27px;
+  font-size: 1.6875rem;
+}
+
+body .header-menu-icons.social .icon {
+  width: 26px;
+  height: 26px;
+  border-radius: 100%;
+  background-color: #0063dd;
+  color: white;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+body .header-menu-icons.social .icon i {
+  font-size: 12px;
+  font-size: 0.75rem;
+}
+
+body .header-menu-icons.social .icon:hover {
+  background-color: #2b303b;
+}
+
+body .header-menu-icons.default li, body .header-menu-icons.social li {
+  padding-left: 10px;
+}
+
+body.header-logo-with-icons .site-logo,
+body.header-logo-with-icons #header-logo {
+  padding: 26px 0;
+}
+
+body.header-logo-with-icons .header-menu-icons {
+  padding-left: 0;
+}
+
+body.header-logo-with-icons .header-menu-icons:before {
+  visibility: hidden;
+}
+
+body.header-logo-with-icons .header-menu-icons li:first-child {
+  padding-left: 0;
+}
+
+body.header-logo-with-icons.header-logo-top .header-menu-icons li > ul {
+  margin-top: 28px;
+}
+
+body.header-logo-with-icons.logo-menu-center header .level-left {
+  margin: 0 auto;
+}
+
+body.header-logo-with-icons.logo-center header .level .level-left, body.header-logo-with-icons.menu-center header .level .level-left {
+  margin: 0 auto;
+}
+
+body.header-logo-with-icons.logo-center header .level.top .level-left, body.header-logo-with-icons.menu-center header .level.top .level-left {
+  margin: inherit !important;
+}
+
+body.header-logo-top .site-header .level, body.header-menu-top .site-header .level {
+  border-top: 1px solid #f5f5f5;
+}
+
+body.header-logo-top .site-header .level.top, body.header-menu-top .site-header .level.top {
+  margin-bottom: 0;
+  border-top: 0;
+}
+
+body.header-logo-top header .site-logo,
+body.header-logo-top header #header-logo, body.header-menu-top header .site-logo,
+body.header-menu-top header #header-logo {
+  padding: 22px 0;
+}
+
+body.header-logo-top header .main-navigation > ul > li > a, body.header-menu-top header .main-navigation > ul > li > a {
+  padding: 10px 15px;
+}
+
+body.header-logo-top header .main-navigation > ul > li:last-child > a, body.header-menu-top header .main-navigation > ul > li:last-child > a {
+  padding-right: 0;
+}
+
+body.header-logo-top header .header-menu-icons, body.header-menu-top header .header-menu-icons {
+  padding-left: 0;
+}
+
+body.header-logo-top header .header-menu-icons:before, body.header-menu-top header .header-menu-icons:before {
+  visibility: hidden;
+}
+
+body.header-logo-top header .header-menu-icons li:first-child, body.header-menu-top header .header-menu-icons li:first-child {
+  padding-left: 0;
+}
+
+body.header-logo-top.logo-menu-center header .level-left, body.header-menu-top.logo-menu-center header .level-left {
+  margin: 0 auto;
+}
+
+body.header-logo-top.logo-center header .level.top .level-left, body.header-logo-top.menu-center header .level.top .level-left, body.header-menu-top.logo-center header .level.top .level-left, body.header-menu-top.menu-center header .level.top .level-left {
+  margin: 0 auto;
+}
+
+body.header-logo-top .header-menu-icons li > ul {
+  margin-top: 25px;
+}
+
+body.header-menu-top .header-menu-icons li > ul {
+  margin-top: 28px;
+}
+
+body.header-side-navigation header {
+  top: 0;
+  left: 0;
+  position: fixed;
+  height: 100%;
+  width: 260px;
+  z-index: 9999;
+  border-right: 1px solid rgba(245, 245, 245, 0.7);
+}
+
+body.header-side-navigation header .site-header-inner {
+  padding-top: 40px;
+  height: 100%;
+  position: relative;
+}
+
+body.header-side-navigation header .level,
+body.header-side-navigation header .level-left,
+body.header-side-navigation header .level-right {
+  display: block;
+}
+
+body.header-side-navigation header .level-right {
+  bottom: 30px;
+  position: absolute;
+  width: 100%;
+}
+
+body.header-side-navigation header .main-navigation > ul > li {
+  float: none;
+  font-size: 14px;
+  font-size: 0.875rem;
+}
+
+body.header-side-navigation header .main-navigation > ul > li > a {
+  margin: 0;
+  padding: 14px 30px !important;
+}
+
+body.header-side-navigation header .main-navigation > ul > li > ul {
+  top: 0;
+  left: 100%;
+  position: absolute;
+  border: 1px solid #f5f5f5;
+}
+
+body.header-side-navigation header .main-navigation > ul > li > ul.open-left {
+  left: inherit;
+  top: 0;
+  right: 100%;
+  position: absolute;
+}
+
+body.header-side-navigation header .main-navigation > ul > li > ul.open-right {
+  right: inherit;
+  top: 0;
+  left: 100%;
+  position: absolute;
+}
+
+body.header-side-navigation header .main-navigation > ul > li > ul ul {
+  border: 1px solid #f5f5f5;
+  top: -11px;
+  left: 100%;
+  position: absolute;
+}
+
+body.header-side-navigation header .main-navigation > ul > li > ul ul.open-left {
+  left: inherit;
+  top: -11px;
+  right: 100%;
+  position: absolute;
+}
+
+body.header-side-navigation header .main-navigation > ul > li > ul ul.open-right {
+  right: inherit;
+  top: -11px;
+  left: 100%;
+  position: absolute;
+}
+
+body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul ul {
+  border: 0;
+}
+
+body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul > li {
+  min-width: 198px;
+}
+
+body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul > li.column {
+  padding: 25px 16px !important;
+}
+
+body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul > li > a,
+body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul > li > span {
+  font-size: 12.4px;
+  font-size: 0.775rem;
+  color: #393e4b;
+}
+
+body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul > li > a:hover,
+body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul > li > span:hover {
+  color: #096ae2;
+}
+
+body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul > li > ul {
+  position: initial;
+  min-width: 198px;
+  border-left: 0;
+}
+
+body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul > li > ul > li {
+  float: none;
+  font-size: 12px;
+  font-size: 0.75rem;
+  min-width: 198px;
+}
+
+body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul > li > ul > li a {
+  color: #4b505d;
+}
+
+body.header-side-navigation header .main-navigation > ul > li.mega-menu > ul > li > ul > li a:hover {
+  color: #096ae2;
+}
+
+body.header-side-navigation header .site-logo {
+  margin: 20px 0;
+  min-height: 100px;
+}
+
+body.header-side-navigation header .site-logo img {
+  margin-top: -4px;
+}
+
+body.header-side-navigation header .site-logo,
+body.header-side-navigation header .level-right {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+body.header-side-navigation header .header-menu-icons.social {
+  padding-left: 0;
+  padding: 20px 0;
+}
+
+body.header-side-navigation header .header-menu-icons.social:before {
+  width: 0;
+}
+
+body.header-side-navigation header .header-menu-icons.social li:first-child {
+  padding-left: 0;
+}
+
+body.header-side-navigation header .header-menu-icons.social li:last-child {
+  padding-right: 0;
+}
+
+body.header-side-navigation header .footer-copyright {
+  font-size: 13px;
+  font-size: 0.8125rem;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  color: #999999;
+}
+
+body.header-side-navigation header .footer-copyright a {
+  color: #096ae2;
+}
+
+body.header-side-navigation header .footer-copyright a:hover {
+  color: #2b303b;
+}
+
+body.header-side-navigation.side-right header {
+  left: inherit;
+  top: 0;
+  right: 0;
+  position: fixed;
+  border-right: 0;
+  border-left: 1px solid rgba(245, 245, 245, 0.7);
+}
+
+body.header-side-navigation.side-right header .main-navigation > ul > li > ul {
+  left: inherit;
+  top: 0;
+  right: 100%;
+  position: absolute;
+}
+
+body.header-side-navigation.side-right header .main-navigation > ul > li > ul.open-left {
+  left: inherit;
+  top: 0;
+  right: 100%;
+  position: absolute;
+}
+
+body.header-side-navigation.side-right header .main-navigation > ul > li > ul.open-right {
+  right: inherit;
+  top: 0;
+  left: 100%;
+  position: absolute;
+}
+
+body.header-side-navigation.side-right header .main-navigation > ul > li > ul ul {
+  left: inherit;
+  top: -11px;
+  right: 100%;
+  position: absolute;
+}
+
+body.header-side-navigation.side-right header .main-navigation > ul > li > ul ul.open-left {
+  left: inherit;
+  top: -11px;
+  right: 100%;
+  position: absolute;
+}
+
+body.header-side-navigation.side-right header .main-navigation > ul > li > ul ul.open-right {
+  right: inherit;
+  top: -11px;
+  left: 100%;
+  position: absolute;
+}
+
+body.header-side-navigation.side-right header .main-navigation > ul > li.mega-menu > ul ul {
+  border: 0;
+}
+
+body.header-side-navigation.side-right header .main-navigation > ul > li.mega-menu > ul > li {
+  min-width: 198px;
+}
+
+body.header-side-navigation.side-right header .main-navigation > ul > li.mega-menu > ul > li.column {
+  padding: 25px 16px !important;
+}
+
+body.header-side-navigation.side-right header .main-navigation > ul > li.mega-menu > ul > li > a,
+body.header-side-navigation.side-right header .main-navigation > ul > li.mega-menu > ul > li > span {
+  font-size: 12.4px;
+  font-size: 0.775rem;
+  color: #393e4b;
+}
+
+body.header-side-navigation.side-right header .main-navigation > ul > li.mega-menu > ul > li > a:hover,
+body.header-side-navigation.side-right header .main-navigation > ul > li.mega-menu > ul > li > span:hover {
+  color: #096ae2;
+}
+
+body.header-side-navigation.side-right header .main-navigation > ul > li.mega-menu > ul > li > ul {
+  position: initial;
+  min-width: 198px;
+  border-left: 0;
+}
+
+body.header-side-navigation.side-right header .main-navigation > ul > li.mega-menu > ul > li > ul > li {
+  float: none;
+  font-size: 12px;
+  font-size: 0.75rem;
+  min-width: 198px;
+}
+
+body.header-side-navigation.side-right header .main-navigation > ul > li.mega-menu > ul > li > ul > li a {
+  color: #4b505d;
+}
+
+body.header-side-navigation.side-right header .main-navigation > ul > li.mega-menu > ul > li > ul > li a:hover {
+  color: #096ae2;
+}
+
+body.header-side-navigation.side-right.side-mini .site-header .level {
+  left: inherit;
+  top: 0;
+  right: 100%;
+  position: absolute;
+  margin-left: 0;
+  margin-right: 1px;
+  border-right: 0;
+  border-left: 1px solid rgba(245, 245, 245, 0.7);
+}
+
+body.header-side-navigation.side-mini header,
+body.header-side-navigation.side-mini .site-header {
+  width: 70px;
+}
+
+body.header-side-navigation.side-mini header .site-header-inner,
+body.header-side-navigation.side-mini .site-header .site-header-inner {
+  padding-top: 35px;
+}
+
+body.header-side-navigation.side-mini header .level,
+body.header-side-navigation.side-mini .site-header .level {
+  display: none;
+  top: 0;
+  left: 100%;
+  position: absolute;
+  height: 100%;
+  background-color: white;
+  margin-left: 1px;
+  width: 252px;
+  border-right: 1px solid rgba(245, 245, 245, 0.7);
+}
+
+body.header-side-navigation.side-mini header .level .level-right,
+body.header-side-navigation.side-mini .site-header .level .level-right {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+body.header-side-navigation.side-mini header .level .main-navigation,
+body.header-side-navigation.side-mini .site-header .level .main-navigation {
+  margin-top: 28px;
+}
+
+body.header-side-navigation.side-mini header .level .main-navigation > ul > li > a,
+body.header-side-navigation.side-mini .site-header .level .main-navigation > ul > li > a {
+  padding: 14px 30px !important;
+}
+
+body.header-side-navigation.side-mini header .level.top,
+body.header-side-navigation.side-mini .site-header .level.top {
+  display: block;
+  text-align: center;
+  position: initial;
+  height: auto;
+  margin-left: 0;
+  margin-right: 0;
+  width: auto;
+  border: 0;
+  margin-bottom: 0;
+}
+
+body.header-side-navigation.side-mini header .level.top .level-left,
+body.header-side-navigation.side-mini .site-header .level.top .level-left {
+  top: 48%;
+  position: absolute;
+  width: 100%;
+}
+
+body.header-side-navigation.side-mini header .level.top .level-left:first-child,
+body.header-side-navigation.side-mini .site-header .level.top .level-left:first-child {
+  position: relative;
+}
+
+body.header-side-navigation.side-mini header .level.top .level-right,
+body.header-side-navigation.side-mini header .level.top .level-left,
+body.header-side-navigation.side-mini .site-header .level.top .level-right,
+body.header-side-navigation.side-mini .site-header .level.top .level-left {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+body.header-side-navigation.side-mini header .level.top .logo-text,
+body.header-side-navigation.side-mini .site-header .level.top .logo-text {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  display: block;
+  text-transform: capitalize;
+  font-size: 21px;
+  font-size: 1.3125rem;
+  letter-spacing: 0px;
+  color: #4b505d;
+  font-weight: 600;
+  margin-top: 55px;
+}
+
+body.header-side-navigation.side-mini header .level.top .logo-text a,
+body.header-side-navigation.side-mini .site-header .level.top .logo-text a {
+  color: #4b505d;
+}
+
+body.header-side-navigation.side-mini header .level.top .logo-text a:hover,
+body.header-side-navigation.side-mini .site-header .level.top .logo-text a:hover {
+  color: #393e4b;
+}
+
+body.header-side-navigation.side-mini header .level.top .header-menu-icons,
+body.header-side-navigation.side-mini .site-header .level.top .header-menu-icons {
+  padding-left: 0;
+}
+
+body.header-side-navigation.side-mini header .level.top .header-menu-icons li,
+body.header-side-navigation.side-mini .site-header .level.top .header-menu-icons li {
+  padding-left: 0;
+}
+
+body.header-side-navigation.side-mini header .level.top .header-menu-icons li .icon i,
+body.header-side-navigation.side-mini .site-header .level.top .header-menu-icons li .icon i {
+  font-size: 32px;
+  font-size: 2rem;
+}
+
+body.header-side-navigation.side-mini header .level.top .header-menu-icons li .icon i.ion-ios-close-outline,
+body.header-side-navigation.side-mini .site-header .level.top .header-menu-icons li .icon i.ion-ios-close-outline {
+  font-size: 42px;
+  font-size: 2.625rem;
+}
+
+body.header-side-navigation.side-mini header .level.top .header-menu-icons:before,
+body.header-side-navigation.side-mini .site-header .level.top .header-menu-icons:before {
+  width: 0;
+}
+
+body.header-side-navigation.side-mini header .level.top .header-menu-icons.social,
+body.header-side-navigation.side-mini .site-header .level.top .header-menu-icons.social {
+  padding: 0;
+}
+
+body.header-side-navigation.side-mini header .level.top .header-menu-icons.social li,
+body.header-side-navigation.side-mini .site-header .level.top .header-menu-icons.social li {
+  padding-bottom: 10px;
+}
+
+body.header-side-navigation.side-mini header .level.top .header-menu-icons.social li:last-child,
+body.header-side-navigation.side-mini .site-header .level.top .header-menu-icons.social li:last-child {
+  padding-bottom: 0;
+}
+
+body.header-side-navigation.side-mini header .level.top .header-menu-icons.social li .icon,
+body.header-side-navigation.side-mini .site-header .level.top .header-menu-icons.social li .icon {
+  background-color: transparent;
+  color: #4b505d;
+}
+
+body.header-side-navigation.side-mini header .level.top .header-menu-icons.social li .icon i,
+body.header-side-navigation.side-mini .site-header .level.top .header-menu-icons.social li .icon i {
+  font-size: 17px;
+  font-size: 1.0625rem;
+}
+
+body.header-side-navigation.side-mini header .level.top .header-menu-icons.social li .icon:hover,
+body.header-side-navigation.side-mini .site-header .level.top .header-menu-icons.social li .icon:hover {
+  color: #303540;
+}
+
+body.header-side-navigation.side-mini header .site-logo,
+body.header-side-navigation.side-mini .site-header .site-logo {
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+  min-height: inherit;
+}
+
+body.header-side-navigation.side-mini header .site-logo img,
+body.header-side-navigation.side-mini .site-header .site-logo img {
+  margin-top: -24px;
+}
+
+body.header-side-navigation.side-mini header .footer-copyright,
+body.header-side-navigation.side-mini .site-header .footer-copyright {
+  font-size: 12px;
+}
+
+body.header-side-navigation.side-mini.side-mini-icons-center header .level.top .level-left {
+  top: 40%;
+  position: absolute;
+}
+
+body.header-side-navigation.side-mini.side-mini-icons-center header .level.top .level-left:first-child {
+  position: relative;
+}
+
+body.header-side-navigation.side-mini.side-mini-logo-center header .site-header-inner {
+  padding-top: 30px;
+}
+
+body.header-side-navigation.side-mini.side-mini-logo-center header .level.top .level-left {
+  top: 42.5%;
+  position: absolute;
+}
+
+body.header-side-navigation.side-mini.side-mini-logo-center header .level.top .level-left:first-child {
+  position: relative;
+}
+
+body.header-side-navigation.side-mini.side-mini-logo-center header .level.top .header-menu-icons .icon {
+  color: #4b505d;
+}
+
+body.header-side-navigation.side-mini.side-mini-logo-center header .level.top .header-menu-icons .icon:hover {
+  color: #303540;
+}
+
+body.header-side-navigation.side-mini.side-mini-background.primary-color header, body.header-side-navigation.side-mini.side-mini-background.dark-color header {
+  background-color: #025fd2;
+}
+
+body.header-side-navigation.side-mini.side-mini-background.primary-color header .level.top, body.header-side-navigation.side-mini.side-mini-background.dark-color header .level.top {
+  background-color: transparent;
+}
+
+body.header-side-navigation.side-mini.side-mini-background.primary-color header .level.top .logo-text, body.header-side-navigation.side-mini.side-mini-background.dark-color header .level.top .logo-text {
+  color: #2b303b;
+}
+
+body.header-side-navigation.side-mini.side-mini-background.primary-color header .level.top .logo-text a, body.header-side-navigation.side-mini.side-mini-background.dark-color header .level.top .logo-text a {
+  color: #2b303b;
+}
+
+body.header-side-navigation.side-mini.side-mini-background.primary-color header .level.top .logo-text a:hover, body.header-side-navigation.side-mini.side-mini-background.dark-color header .level.top .logo-text a:hover {
+  color: white;
+}
+
+body.header-side-navigation.side-mini.side-mini-background.primary-color header .header-menu-icons li a, body.header-side-navigation.side-mini.side-mini-background.dark-color header .header-menu-icons li a {
+  color: white;
+}
+
+body.header-side-navigation.side-mini.side-mini-background.primary-color header .header-menu-icons li a:hover, body.header-side-navigation.side-mini.side-mini-background.dark-color header .header-menu-icons li a:hover {
+  color: #2b303b;
+}
+
+body.header-side-navigation.side-mini.side-mini-background.primary-color header {
+  border-right: 1px solid #025fd2;
+}
+
+body.header-side-navigation.side-mini.side-mini-background.dark-color:not(.primary-color) header {
+  border-right: 1px solid #2b303b;
+  background-color: #2b303b;
+}
+
+body.header-side-navigation.side-mini.side-mini-background.dark-color:not(.primary-color) header .site-logo img {
+  -webkit-filter: none;
+          filter: none;
+}
+
+body.header-side-navigation.side-mini.side-mini-background.dark-color:not(.primary-color) header .level.top .logo-text {
+  color: white;
+}
+
+body.header-side-navigation.side-mini.side-mini-background.dark-color:not(.primary-color) header .level.top .logo-text a {
+  color: white;
+}
+
+body.header-side-navigation.side-mini.side-mini-background.dark-color:not(.primary-color) header .level.top .logo-text a:hover {
+  color: #0063dd;
+}
+
+body.header-side-navigation.side-mini.side-mini-background.dark-color:not(.primary-color) header .header-menu-icons li a {
+  color: #0063dd;
+}
+
+body.header-side-navigation.side-mini.side-mini-background.dark-color:not(.primary-color) header .header-menu-icons li a:hover {
+  color: white;
+}
+
+body.header-side-navigation.side-mini.side-mini-logo-background.primary-color header .site-header-inner, body.header-side-navigation.side-mini.side-mini-logo-background.dark-color header .site-header-inner {
+  padding-top: 0;
+}
+
+body.header-side-navigation.side-mini.side-mini-logo-background.primary-color header .level.top, body.header-side-navigation.side-mini.side-mini-logo-background.dark-color header .level.top {
+  margin-right: -1px;
+}
+
+body.header-side-navigation.side-mini.side-mini-logo-background.primary-color header .level.top .level-left:first-child, body.header-side-navigation.side-mini.side-mini-logo-background.dark-color header .level.top .level-left:first-child {
+  background-color: #025fd2;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+body.header-side-navigation.side-mini.side-mini-logo-background.primary-color header .level.top .level-left:first-child:hover, body.header-side-navigation.side-mini.side-mini-logo-background.dark-color header .level.top .level-left:first-child:hover {
+  background-color: #2b303b;
+}
+
+body.header-side-navigation.side-mini.side-mini-logo-background.primary-color header .level.top .level-left .logo-text, body.header-side-navigation.side-mini.side-mini-logo-background.dark-color header .level.top .level-left .logo-text {
+  color: white;
+}
+
+body.header-side-navigation.side-mini.side-mini-logo-background.dark-color:not(.primary-color) header .level.top .level-left:first-child {
+  background-color: #2b303b;
+}
+
+body.header-side-navigation.side-mini.side-mini-logo-background.dark-color:not(.primary-color) header .level.top .level-left:first-child:hover {
+  background-color: #025fd2;
+}
+
+body.header-side-navigation.side-mini.side-mini-logo-background.dark-color:not(.primary-color) header .site-logo img {
+  -webkit-filter: none;
+          filter: none;
+}
+
+body.header-side-navigation.side-content-center header .site-logo {
+  margin: 15px 0 20px;
+}
+
+body.header-side-navigation.side-content-center header .site-logo img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 8px;
+}
+
+body.header-side-navigation.side-content-center header .site-logo .logo-text {
+  padding: 0;
+}
+
+body.header-side-navigation.side-content-center header .header-menu-icons,
+body.header-side-navigation.side-content-center header .site-logo,
+body.header-side-navigation.side-content-center header .footer-copyright,
+body.header-side-navigation.side-content-center header .main-navigation > ul > li > a {
+  text-align: center;
+}
+
+body.header-side-navigation.side-content-right header .site-logo {
+  direction: rtl;
+}
+
+body.header-side-navigation.side-content-right header .site-logo .logo-text {
+  padding-right: 8px;
+  padding-left: 0;
+}
+
+body.header-side-navigation.side-content-right header .level .level-right,
+body.header-side-navigation.side-content-right header .site-logo,
+body.header-side-navigation.side-content-right header .main-navigation > ul > li > a {
+  text-align: right;
+}
+
+body.header-side-navigation.header-menu-background-primary header .main-navigation > ul > li > a, body.header-side-navigation.header-menu-background-dark header .main-navigation > ul > li > a {
+  margin: 2px 30px;
+}
+
+body.header-side-navigation.header-background.primary-color header .footer-copyright, body.header-side-navigation.header-background.dark-color header .footer-copyright {
+  color: white;
+}
+
+body.header-side-navigation.header-background.primary-color header .footer-copyright a, body.header-side-navigation.header-background.dark-color header .footer-copyright a {
+  color: white;
+}
+
+body.header-side-navigation.header-background.primary-color header .main-navigation > ul > li > ul, body.header-side-navigation.header-background.dark-color header .main-navigation > ul > li > ul {
+  margin-left: 1px;
+}
+
+body.header-side-navigation.header-background.primary-color header {
+  border-right: 1px solid #025fd2;
+}
+
+body.header-side-navigation.header-background.primary-color header .site-logo .logo-text {
+  color: #2b303b;
+}
+
+body.header-side-navigation.header-background.dark-color header {
+  border-right: 1px solid #2b303b;
+}
+
+body.header-side-navigation.header-background.dark-color header .site-logo img {
+  -webkit-filter: none;
+          filter: none;
+}
+
+body.header-side-navigation.logo-background.logo-primary-color header .site-header-inner, body.header-side-navigation.logo-background.logo-dark-color header .site-header-inner {
+  padding-top: 0;
+}
+
+body.header-side-navigation.logo-background.logo-primary-color header .site-logo, body.header-side-navigation.logo-background.logo-dark-color header .site-logo {
+  background-color: #025fd2;
+  margin-top: 0;
+  margin-bottom: 30px;
+  margin-right: -1px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+body.header-side-navigation.logo-background.logo-primary-color header .site-logo .logo-text, body.header-side-navigation.logo-background.logo-dark-color header .site-logo .logo-text {
+  color: white;
+}
+
+body.header-side-navigation.logo-background.logo-dark-color header .site-logo {
+  background-color: #2b303b;
+}
+
+body.header-side-navigation.logo-background.logo-dark-color header .site-logo img {
+  -webkit-filter: none;
+          filter: none;
+}
+
+body.header-transparent header, body.header-transparent-overlay header, body.header-center-overlay header {
+  top: 0;
+  position: absolute;
+  z-index: 20;
+}
+
+body.header-transparent header {
+  background-color: transparent;
+}
+
+body.header-transparent-overlay header {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+body.header-center-overlay header {
+  background-color: transparent;
+  padding-top: 40px;
+}
+
+body.header-center-overlay header .site-header-inner {
+  background-color: white;
+  padding: 0 20px;
+}
+
+body.header-background header .site-logo .logo-text {
+  color: white;
+}
+
+body.header-background header .main-navigation > ul > li > a {
+  color: white;
+}
+
+body.header-background header .main-navigation > ul > li > a:hover {
+  color: #2b303b;
+}
+
+body.header-background .header-menu-icons.social {
+  margin-left: 0;
+}
+
+body.header-background .header-menu-icons.social:before {
+  width: 0;
+}
+
+body.header-background .header-menu-icons.social .icon {
+  background-color: #2b303b;
+}
+
+body.header-background .header-menu-icons.social .icon:hover {
+  background-color: rgba(10, 10, 10, 0.8);
+}
+
+body.header-background.primary-color header {
+  background-color: #025fd2;
+}
+
+body.header-background.dark-color:not(.primary-color) header {
+  background-color: #2b303b;
+}
+
+body.header-background.dark-color:not(.primary-color) header .site-logo img {
+  -webkit-filter: none;
+          filter: none;
+}
+
+body.header-background.dark-color:not(.primary-color) header .main-navigation > ul > li > a {
+  color: white;
+}
+
+body.header-background.dark-color:not(.primary-color) header .main-navigation > ul > li > a:hover {
+  color: #096ae2;
+}
+
+body.header-background.dark-color:not(.primary-color) .header-menu-icons.social .icon {
+  background-color: #025fd2;
+}
+
+body.header-background.dark-color:not(.primary-color) .header-menu-icons.social .icon:hover {
+  background-color: rgba(10, 10, 10, 0.2);
+}
+
+body.header-transparent-border header {
+  border-bottom: 1px solid #4b505d;
+}
+
+body.header-transparent-border header .main-navigation > ul > li > a {
+  margin: 10px 0;
+}
+
+body.header-transparent-border header .header-menu-icons {
+  border-left: 1px solid #4b505d;
+  padding-left: 1.5rem !important;
+}
+
+body.header-transparent-border header .header-menu-icons li {
+  padding: 22px 0 22px 8px;
+}
+
+body.header-transparent-border header .level:not(.top) {
+  border-bottom: none !important;
+}
+
+body.header-menu-border-bottom.menu-center header .main-navigation > ul > li:first-child:after {
+  left: 0;
+}
+
+body.header-menu-border-top.menu-center header .main-navigation > ul > li:first-child:after {
+  left: 0;
+}
+
+body.header-menu-background-primary header .main-navigation > ul > li > a, body.header-menu-background-dark header .main-navigation > ul > li > a {
+  padding: 12px 15px;
+  margin: 21px 0;
+}
+
+body.header-menu-background-primary header .main-navigation > ul > li > a:hover, body.header-menu-background-dark header .main-navigation > ul > li > a:hover {
+  color: white;
+  background-color: #0063dd;
+}
+
+body.header-menu-background-primary header .main-navigation > ul > li:last-child > a, body.header-menu-background-dark header .main-navigation > ul > li:last-child > a {
+  padding-right: 15px;
+}
+
+body.header-menu-background-dark header .main-navigation > ul > li > a:hover {
+  background-color: #2b303b;
+}
+
+body.header-menu-separator-dots header .main-navigation > ul > li:after {
+  content: ".";
+  top: 26%;
+  right: -5px;
+  position: absolute;
+  font-size: 20px;
+  font-size: 1.25rem;
+  color: rgba(166, 166, 166, 0.5);
+}
+
+body.header-menu-separator-dots header .main-navigation > ul > li:last-child:after {
+  content: '';
+}
+
+body.header-menu-separator-line header .main-navigation > ul > li:after {
+  content: "/";
+  top: 38%;
+  right: -5px;
+  position: absolute;
+  color: rgba(166, 166, 166, 0.5);
+  font-weight: 300;
+}
+
+body.header-menu-separator-line header .main-navigation > ul > li:last-child:after {
+  content: '';
+}
+
+body.header-background-dark header, body.header-background-primary header {
+  background-color: #303540;
+}
+
+body.header-background-dark header .site-logo, body.header-background-primary header .site-logo {
+  background-color: #025fd2;
+  padding: 14px 0;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+body.header-background-dark header .site-logo .logo-text, body.header-background-primary header .site-logo .logo-text {
+  color: white;
+  background-color: #025fd2;
+  margin-left: 0;
+  padding-top: 17px;
+  padding-bottom: 15px;
+  padding-left: 23px;
+  padding-right: 23px;
+  font-size: 21px !important;
+}
+
+body.header-background-dark header .site-logo:hover, body.header-background-primary header .site-logo:hover {
+  background-color: #0063dd;
+}
+
+body.header-background-dark header .main-navigation > ul > li > a, body.header-background-primary header .main-navigation > ul > li > a {
+  color: white;
+  margin: 0;
+  padding: 19px 25px !important;
+  border-right: 1px solid #1e1e1e;
+}
+
+body.header-background-dark header .main-navigation > ul > li:last-child > a, body.header-background-primary header .main-navigation > ul > li:last-child > a {
+  border: 0;
+}
+
+body.header-background-dark header .button, body.header-background-primary header .button {
+  display: none !important;
+}
+
+body.header-background-dark header .button:last-child, body.header-background-primary header .button:last-child {
+  display: inherit !important;
+  font-size: 14px;
+  font-size: 0.875rem;
+  height: 4.2em;
+  padding-left: 45px;
+  padding-right: 45px;
+  background-color: #025fd2;
+  border-radius: 0 !important;
+  margin-left: 0;
+}
+
+body.header-background-dark header .button:last-child .icon, body.header-background-primary header .button:last-child .icon {
+  margin-right: 0.4875em;
+}
+
+body.header-background-dark header .button:last-child:hover, body.header-background-primary header .button:last-child:hover {
+  background-color: #0063dd;
+}
+
+body.header-background-primary header {
+  background-color: rgba(2, 95, 210, 0.95);
+}
+
+body.header-background-primary header .site-logo {
+  background-color: #303540;
+  padding: 14px 20px;
+  padding-right: 26px;
+}
+
+body.header-background-primary header .site-logo img {
+  -webkit-filter: none;
+          filter: none;
+}
+
+body.header-background-primary header .site-logo .logo-text {
+  background-color: transparent;
+  margin-left: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+body.header-background-primary header .site-logo:hover {
+  background-color: rgba(48, 53, 64, 0.9);
+}
+
+body.header-background-primary header .main-navigation > ul > li > a {
+  color: rgba(255, 255, 255, 0.85);
+  border-right: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+body.header-background-primary header .button:last-child {
+  background-color: #303540;
+}
+
+body.header-background-primary header .button:last-child:hover {
+  background-color: rgba(48, 53, 64, 0.9);
+}
+
+body.header-dropdown-menu-primary header .main-navigation li ul, body.header-dropdown-menu-dark header .main-navigation li ul {
+  background-color: #025fd2;
+  border: none;
+}
+
+body.header-dropdown-menu-primary header .main-navigation li ul li a, body.header-dropdown-menu-dark header .main-navigation li ul li a {
+  color: white;
+}
+
+body.header-dropdown-menu-primary header .main-navigation li ul li a:hover, body.header-dropdown-menu-dark header .main-navigation li ul li a:hover {
+  color: #2b303b;
+}
+
+body.header-dropdown-menu-primary header .main-navigation li ul li ul, body.header-dropdown-menu-dark header .main-navigation li ul li ul {
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  top: -10px;
+}
+
+body.header-dropdown-menu-primary header .main-navigation li ul li ul.open-left, body.header-dropdown-menu-dark header .main-navigation li ul li ul.open-left {
+  border-left: 0;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  top: -10px;
+}
+
+body.header-dropdown-menu-primary header .main-navigation li ul li ul.open-right, body.header-dropdown-menu-dark header .main-navigation li ul li ul.open-right {
+  top: -10px;
+}
+
+body.header-dropdown-menu-primary header .main-navigation li.mega-menu > ul > li > a,
+body.header-dropdown-menu-primary header .main-navigation li.mega-menu > ul > li > span, body.header-dropdown-menu-dark header .main-navigation li.mega-menu > ul > li > a,
+body.header-dropdown-menu-dark header .main-navigation li.mega-menu > ul > li > span {
+  color: #393e4b;
+}
+
+body.header-dropdown-menu-primary header .main-navigation li.mega-menu > ul > li > a:hover,
+body.header-dropdown-menu-primary header .main-navigation li.mega-menu > ul > li > span:hover, body.header-dropdown-menu-dark header .main-navigation li.mega-menu > ul > li > a:hover,
+body.header-dropdown-menu-dark header .main-navigation li.mega-menu > ul > li > span:hover {
+  color: white;
+}
+
+body.header-dropdown-menu-primary header .main-navigation li.mega-menu > ul > li > ul, body.header-dropdown-menu-dark header .main-navigation li.mega-menu > ul > li > ul {
+  border-left: 0;
+}
+
+body.header-dropdown-menu-primary header .main-navigation li.mega-menu > ul > li > ul > li a, body.header-dropdown-menu-dark header .main-navigation li.mega-menu > ul > li > ul > li a {
+  color: white;
+}
+
+body.header-dropdown-menu-primary header .main-navigation li.mega-menu > ul > li > ul > li a:hover, body.header-dropdown-menu-dark header .main-navigation li.mega-menu > ul > li > ul > li a:hover {
+  color: #393e4b;
+}
+
+body.header-dropdown-menu-dark header .main-navigation li ul {
+  background-color: #303540;
+}
+
+body.header-dropdown-menu-dark header .main-navigation li ul li a {
+  color: #A6A6A6;
+}
+
+body.header-dropdown-menu-dark header .main-navigation li ul li a:hover {
+  color: white;
+}
+
+body.header-dropdown-menu-dark header .main-navigation li ul li ul {
+  border-left: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+body.header-dropdown-menu-dark header .main-navigation li ul li ul.open-left {
+  border-left: 0;
+  border-right: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+body.header-dropdown-menu-dark header .main-navigation li.mega-menu > ul > li:after {
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, rgba(216, 216, 216, 0.05)), to(transparent));
+  background: linear-gradient(to bottom, transparent 0%, rgba(216, 216, 216, 0.05) 50%, transparent 100%);
+}
+
+body.header-dropdown-menu-dark header .main-navigation li.mega-menu > ul > li > a,
+body.header-dropdown-menu-dark header .main-navigation li.mega-menu > ul > li > span {
+  color: white;
+}
+
+body.header-dropdown-menu-dark header .main-navigation li.mega-menu > ul > li > a:hover,
+body.header-dropdown-menu-dark header .main-navigation li.mega-menu > ul > li > span:hover {
+  color: white;
+}
+
+body.header-dropdown-menu-dark header .main-navigation li.mega-menu > ul > li > ul {
+  border-left: 0;
+}
+
+body.header-dropdown-menu-dark header .main-navigation li.mega-menu > ul > li > ul > li a {
+  color: #A6A6A6;
+}
+
+body.header-dropdown-menu-dark header .main-navigation li.mega-menu > ul > li > ul > li a:hover {
+  color: white;
+}
+
+body.show-dropdown-menu-mark header .main-navigation li .menu-mark {
+  visibility: visible;
+}
+
+body:not(.header-background-primary):not(.header-background-dark) header .header-fullwidth .main-navigation > ul > li > a {
+  padding: 14px 20px;
+}
+
+body.header-transparent:not(.responsive-layout):not(.header-hamburger-menu) header:not(.hide-on-scroll):not(.show-on-scroll) .site-logo, body.header-transparent-overlay:not(.responsive-layout):not(.header-hamburger-menu) header:not(.hide-on-scroll):not(.show-on-scroll) .site-logo {
+  color: white;
+}
+
+body.header-transparent:not(.responsive-layout):not(.header-hamburger-menu) header:not(.hide-on-scroll):not(.show-on-scroll) .site-logo a, body.header-transparent-overlay:not(.responsive-layout):not(.header-hamburger-menu) header:not(.hide-on-scroll):not(.show-on-scroll) .site-logo a {
+  color: white;
+}
+
+body.header-transparent:not(.responsive-layout):not(.header-hamburger-menu) header:not(.hide-on-scroll):not(.show-on-scroll) .main-navigation > ul > li > a, body.header-transparent-overlay:not(.responsive-layout):not(.header-hamburger-menu) header:not(.hide-on-scroll):not(.show-on-scroll) .main-navigation > ul > li > a {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+body.header-transparent:not(.responsive-layout):not(.header-hamburger-menu) header:not(.hide-on-scroll):not(.show-on-scroll) .main-navigation > ul > li > a:hover, body.header-transparent-overlay:not(.responsive-layout):not(.header-hamburger-menu) header:not(.hide-on-scroll):not(.show-on-scroll) .main-navigation > ul > li > a:hover {
+  color: white;
+}
+
+body.header-transparent:not(.responsive-layout):not(.header-hamburger-menu) header:not(.hide-on-scroll):not(.show-on-scroll) .main-navigation > ul > li.active > a,
+body.header-transparent:not(.responsive-layout):not(.header-hamburger-menu) header:not(.hide-on-scroll):not(.show-on-scroll) .main-navigation > ul > li.active > span, body.header-transparent:not(.responsive-layout):not(.header-hamburger-menu) header:not(.hide-on-scroll):not(.show-on-scroll) .main-navigation > ul > li.current > a,
+body.header-transparent:not(.responsive-layout):not(.header-hamburger-menu) header:not(.hide-on-scroll):not(.show-on-scroll) .main-navigation > ul > li.current > span, body.header-transparent:not(.responsive-layout):not(.header-hamburger-menu) header:not(.hide-on-scroll):not(.show-on-scroll) .main-navigation > ul > li.current-menu-item > a,
+body.header-transparent:not(.responsive-layout):not(.header-hamburger-menu) header:not(.hide-on-scroll):not(.show-on-scroll) .main-navigation > ul > li.current-menu-item > span, body.header-transparent:not(.responsive-layout):not(.header-hamburger-menu) header:not(.hide-on-scroll):not(.show-on-scroll) .main-navigation > ul > li.current-menu-parent > a,
+body.header-transparent:not(.responsive-layout):not(.header-hamburger-menu) header:not(.hide-on-scroll):not(.show-on-scroll) .main-navigation > ul > li.current-menu-parent > span, body.header-transparent:not(.responsive-layout):not(.header-hamburger-menu) header:not(.hide-on-scroll):not(.show-on-scroll) .main-navigation > ul > li.current_page_item > a,
+body.header-transparent:not(.responsive-layout):not(.header-hamburger-menu) header:not(.hide-on-scroll):not(.show-on-scroll) .main-navigation > ul > li.current_page_item > span, body.header-transparent:not(.responsive-layout):not(.header-hamburger-menu) header:not(.hide-on-scroll):not(.show-on-scroll) .main-navigation > ul > li.current-menu-ancestor > a,
+body.header-transparent:not(.responsive-layout):not(.header-hamburger-menu) header:not(.hide-on-scroll):not(.show-on-scroll) .main-navigation > ul > li.current-menu-ancestor > span, body.header-transparent-overlay:not(.responsive-layout):not(.header-hamburger-menu) header:not(.hide-on-scroll):not(.show-on-scroll) .main-navigation > ul > li.active > a,
+body.header-transparent-overlay:not(.responsive-layout):not(.header-hamburger-menu) header:not(.hide-on-scroll):not(.show-on-scroll) .main-navigation > ul > li.active > span, body.header-transparent-overlay:not(.responsive-layout):not(.header-hamburger-menu) header:not(.hide-on-scroll):not(.show-on-scroll) .main-navigation > ul > li.current > a,
+body.header-transparent-overlay:not(.responsive-layout):not(.header-hamburger-menu) header:not(.hide-on-scroll):not(.show-on-scroll) .main-navigation > ul > li.current > span, body.header-transparent-overlay:not(.responsive-layout):not(.header-hamburger-menu) header:not(.hide-on-scroll):not(.show-on-scroll) .main-navigation > ul > li.current-menu-item > a,
+body.header-transparent-overlay:not(.responsive-layout):not(.header-hamburger-menu) header:not(.hide-on-scroll):not(.show-on-scroll) .main-navigation > ul > li.current-menu-item > span, body.header-transparent-overlay:not(.responsive-layout):not(.header-hamburger-menu) header:not(.hide-on-scroll):not(.show-on-scroll) .main-navigation > ul > li.current-menu-parent > a,
+body.header-transparent-overlay:not(.responsive-layout):not(.header-hamburger-menu) header:not(.hide-on-scroll):not(.show-on-scroll) .main-navigation > ul > li.current-menu-parent > span, body.header-transparent-overlay:not(.responsive-layout):not(.header-hamburger-menu) header:not(.hide-on-scroll):not(.show-on-scroll) .main-navigation > ul > li.current_page_item > a,
+body.header-transparent-overlay:not(.responsive-layout):not(.header-hamburger-menu) header:not(.hide-on-scroll):not(.show-on-scroll) .main-navigation > ul > li.current_page_item > span, body.header-transparent-overlay:not(.responsive-layout):not(.header-hamburger-menu) header:not(.hide-on-scroll):not(.show-on-scroll) .main-navigation > ul > li.current-menu-ancestor > a,
+body.header-transparent-overlay:not(.responsive-layout):not(.header-hamburger-menu) header:not(.hide-on-scroll):not(.show-on-scroll) .main-navigation > ul > li.current-menu-ancestor > span {
+  color: white;
+}
+
+body.header-transparent:not(.responsive-layout):not(.header-hamburger-menu) header:not(.hide-on-scroll):not(.show-on-scroll) .header-menu-icons > li > a, body.header-transparent-overlay:not(.responsive-layout):not(.header-hamburger-menu) header:not(.hide-on-scroll):not(.show-on-scroll) .header-menu-icons > li > a {
+  color: white;
+}
+
+body.header-transparent:not(.responsive-layout):not(.header-hamburger-menu) header:not(.hide-on-scroll):not(.show-on-scroll) .header-menu-icons > li > a:hover, body.header-transparent-overlay:not(.responsive-layout):not(.header-hamburger-menu) header:not(.hide-on-scroll):not(.show-on-scroll) .header-menu-icons > li > a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+body.header-transparent:not(.responsive-layout):not(.header-hamburger-menu) header:not(.hide-on-scroll):not(.show-on-scroll) .header-menu-icons:before, body.header-transparent-overlay:not(.responsive-layout):not(.header-hamburger-menu) header:not(.hide-on-scroll):not(.show-on-scroll) .header-menu-icons:before {
+  background: transparent;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+body.header-transparent:not(.responsive-layout):not(.header-hamburger-menu) header:not(.hide-on-scroll):not(.show-on-scroll) .nav-menu-dropdown > li > a, body.header-transparent-overlay:not(.responsive-layout):not(.header-hamburger-menu) header:not(.hide-on-scroll):not(.show-on-scroll) .nav-menu-dropdown > li > a {
+  color: white;
+  border: 1px solid #4b505d;
+}
+
+body.header-transparent:not(.responsive-layout):not(.header-hamburger-menu) header#header:not(.hide-on-scroll):not(.show-on-scroll) .level:not(.top), body.header-transparent-overlay:not(.responsive-layout):not(.header-hamburger-menu) header#header:not(.hide-on-scroll):not(.show-on-scroll) .level:not(.top) {
+  border-bottom: 1px solid #4b505d;
+}
+
+body.header-transparent:not(.responsive-layout):not(.header-hamburger-menu).header-logo-top .site-header .level, body.header-transparent:not(.responsive-layout):not(.header-hamburger-menu).header-menu-top .site-header .level, body.header-transparent-overlay:not(.responsive-layout):not(.header-hamburger-menu).header-logo-top .site-header .level, body.header-transparent-overlay:not(.responsive-layout):not(.header-hamburger-menu).header-menu-top .site-header .level {
+  border-top: 1px solid #4b505d;
+}
+
+/*# sourceMappingURL=../_maps/modules/navigation.css.map */

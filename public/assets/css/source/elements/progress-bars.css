@@ -1,0 +1,58 @@
+/*
+ * ::::::::::: Progress Bar Styles :::::::::::
+ */
+.progressbar .progressbar-text {
+  text-transform: uppercase;
+}
+
+.progressbar-heading {
+  text-transform: capitalize;
+  font-size: 18px;
+  font-size: 1.125rem;
+  margin-bottom: 5px;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0;
+  text-align: center;
+  font-weight: 600;
+}
+
+.progressbar {
+  margin-bottom: 15px;
+  color: #4b505d;
+  position: relative;
+}
+
+.progressbar .progressbar-text {
+  top: 0;
+  right: 0;
+  position: absolute;
+  color: #4b505d !important;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-size: 0.9375rem;
+}
+
+.progressbar .progressbar-heading {
+  font-size: 15px;
+  font-size: 0.9375rem;
+  text-align: left;
+}
+
+.progressbar.no-text .progressbar-text {
+  display: none;
+}
+
+.progressbar.circle {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.progressbar.circle .progressbar-text {
+  font-size: 25px;
+  font-size: 1.5625rem;
+}
+
+/*# sourceMappingURL=../_maps/elements/progress-bars.css.map */

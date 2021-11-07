@@ -1,0 +1,143 @@
+/*
+ * ::::::::::: Header Sticky Navigation Styles :::::::::::
+ */
+body.header-sticky header {
+  z-index: 100;
+}
+
+body.header-sticky.header-topbar.hide-on-scroll header {
+  position: relative;
+}
+
+body.header-sticky.header-topbar.header-transparent.hide-on-scroll header, body.header-sticky.header-topbar.header-transparent-overlay.hide-on-scroll header {
+  position: absolute;
+  top: 44px;
+}
+
+body.header-sticky.hide-on-scroll header {
+  top: 0;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+body.header-sticky.hide-on-scroll header.hide-on-scroll, body.header-sticky.hide-on-scroll header.show-on-scroll, body.header-sticky.hide-on-scroll header.responsive-on-scroll, body.header-sticky.show-on-scroll header.hide-on-scroll, body.header-sticky.show-on-scroll header.show-on-scroll, body.header-sticky.show-on-scroll header.responsive-on-scroll {
+  max-height: 60px;
+  -webkit-box-shadow: 0px 1px 2px 0.5px rgba(215, 214, 211, 0.2);
+          box-shadow: 0px 1px 2px 0.5px rgba(215, 214, 211, 0.2);
+}
+
+body.header-sticky.hide-on-scroll header.hide-on-scroll .main-navigation > ul > li > a, body.header-sticky.hide-on-scroll header.show-on-scroll .main-navigation > ul > li > a, body.header-sticky.hide-on-scroll header.responsive-on-scroll .main-navigation > ul > li > a, body.header-sticky.show-on-scroll header.hide-on-scroll .main-navigation > ul > li > a, body.header-sticky.show-on-scroll header.show-on-scroll .main-navigation > ul > li > a, body.header-sticky.show-on-scroll header.responsive-on-scroll .main-navigation > ul > li > a {
+  margin: 5.5px 0;
+}
+
+body.header-sticky.hide-on-scroll header.hide-on-scroll .nav-menu-dropdown > li, body.header-sticky.hide-on-scroll header.show-on-scroll .nav-menu-dropdown > li, body.header-sticky.hide-on-scroll header.responsive-on-scroll .nav-menu-dropdown > li, body.header-sticky.show-on-scroll header.hide-on-scroll .nav-menu-dropdown > li, body.header-sticky.show-on-scroll header.show-on-scroll .nav-menu-dropdown > li, body.header-sticky.show-on-scroll header.responsive-on-scroll .nav-menu-dropdown > li {
+  padding: 13px 0;
+}
+
+body.header-sticky.hide-on-scroll.header-logo-top header.hide-on-scroll .level, body.header-sticky.hide-on-scroll.header-logo-top header.show-on-scroll .level, body.header-sticky.hide-on-scroll.header-logo-top header.responsive-on-scroll .level, body.header-sticky.show-on-scroll.header-logo-top header.hide-on-scroll .level, body.header-sticky.show-on-scroll.header-logo-top header.show-on-scroll .level, body.header-sticky.show-on-scroll.header-logo-top header.responsive-on-scroll .level {
+  border-top: 0;
+}
+
+body.header-sticky.hide-on-scroll.header-logo-top header.hide-on-scroll .level.top, body.header-sticky.hide-on-scroll.header-logo-top header.show-on-scroll .level.top, body.header-sticky.hide-on-scroll.header-logo-top header.responsive-on-scroll .level.top, body.header-sticky.show-on-scroll.header-logo-top header.hide-on-scroll .level.top, body.header-sticky.show-on-scroll.header-logo-top header.show-on-scroll .level.top, body.header-sticky.show-on-scroll.header-logo-top header.responsive-on-scroll .level.top {
+  display: none;
+}
+
+body.header-sticky.hide-on-scroll.header-logo-top header.hide-on-scroll .header-menu-icons li > ul, body.header-sticky.hide-on-scroll.header-logo-top header.show-on-scroll .header-menu-icons li > ul, body.header-sticky.hide-on-scroll.header-logo-top header.responsive-on-scroll .header-menu-icons li > ul, body.header-sticky.show-on-scroll.header-logo-top header.hide-on-scroll .header-menu-icons li > ul, body.header-sticky.show-on-scroll.header-logo-top header.show-on-scroll .header-menu-icons li > ul, body.header-sticky.show-on-scroll.header-logo-top header.responsive-on-scroll .header-menu-icons li > ul {
+  margin-top: 12px;
+}
+
+body.header-sticky.hide-on-scroll.header-menu-top header.hide-on-scroll .level, body.header-sticky.hide-on-scroll.header-menu-top header.show-on-scroll .level, body.header-sticky.hide-on-scroll.header-menu-top header.responsive-on-scroll .level, body.header-sticky.show-on-scroll.header-menu-top header.hide-on-scroll .level, body.header-sticky.show-on-scroll.header-menu-top header.show-on-scroll .level, body.header-sticky.show-on-scroll.header-menu-top header.responsive-on-scroll .level {
+  border-top: 0;
+  display: none;
+}
+
+body.header-sticky.hide-on-scroll.header-menu-top header.hide-on-scroll .level.top, body.header-sticky.hide-on-scroll.header-menu-top header.show-on-scroll .level.top, body.header-sticky.hide-on-scroll.header-menu-top header.responsive-on-scroll .level.top, body.header-sticky.show-on-scroll.header-menu-top header.hide-on-scroll .level.top, body.header-sticky.show-on-scroll.header-menu-top header.show-on-scroll .level.top, body.header-sticky.show-on-scroll.header-menu-top header.responsive-on-scroll .level.top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body.header-sticky.hide-on-scroll.header-menu-with-icons header.hide-on-scroll .header-menu-icons li > ul, body.header-sticky.hide-on-scroll.header-menu-with-icons header.show-on-scroll .header-menu-icons li > ul, body.header-sticky.hide-on-scroll.header-menu-with-icons header.responsive-on-scroll .header-menu-icons li > ul, body.header-sticky.show-on-scroll.header-menu-with-icons header.hide-on-scroll .header-menu-icons li > ul, body.header-sticky.show-on-scroll.header-menu-with-icons header.show-on-scroll .header-menu-icons li > ul, body.header-sticky.show-on-scroll.header-menu-with-icons header.responsive-on-scroll .header-menu-icons li > ul {
+  margin-top: 17px;
+}
+
+body.header-sticky.hide-on-scroll.header-menu-with-icons header.hide-on-scroll .header-menu-icons li > ul.dropdown-shopping-cart.style-2, body.header-sticky.hide-on-scroll.header-menu-with-icons header.show-on-scroll .header-menu-icons li > ul.dropdown-shopping-cart.style-2, body.header-sticky.hide-on-scroll.header-menu-with-icons header.responsive-on-scroll .header-menu-icons li > ul.dropdown-shopping-cart.style-2, body.header-sticky.show-on-scroll.header-menu-with-icons header.hide-on-scroll .header-menu-icons li > ul.dropdown-shopping-cart.style-2, body.header-sticky.show-on-scroll.header-menu-with-icons header.show-on-scroll .header-menu-icons li > ul.dropdown-shopping-cart.style-2, body.header-sticky.show-on-scroll.header-menu-with-icons header.responsive-on-scroll .header-menu-icons li > ul.dropdown-shopping-cart.style-2 {
+  margin-top: 10px;
+}
+
+body.header-sticky.hide-on-scroll.header-transparent header.hide-on-scroll, body.header-sticky.hide-on-scroll.header-transparent header.show-on-scroll, body.header-sticky.hide-on-scroll.header-transparent header.responsive-on-scroll, body.header-sticky.hide-on-scroll.header-transparent-overlay header.hide-on-scroll, body.header-sticky.hide-on-scroll.header-transparent-overlay header.show-on-scroll, body.header-sticky.hide-on-scroll.header-transparent-overlay header.responsive-on-scroll, body.header-sticky.show-on-scroll.header-transparent header.hide-on-scroll, body.header-sticky.show-on-scroll.header-transparent header.show-on-scroll, body.header-sticky.show-on-scroll.header-transparent header.responsive-on-scroll, body.header-sticky.show-on-scroll.header-transparent-overlay header.hide-on-scroll, body.header-sticky.show-on-scroll.header-transparent-overlay header.show-on-scroll, body.header-sticky.show-on-scroll.header-transparent-overlay header.responsive-on-scroll {
+  background-color: white;
+}
+
+body.header-sticky.hide-on-scroll.header-center-overlay header.hide-on-scroll, body.header-sticky.hide-on-scroll.header-center-overlay header.show-on-scroll, body.header-sticky.hide-on-scroll.header-center-overlay header.responsive-on-scroll, body.header-sticky.show-on-scroll.header-center-overlay header.hide-on-scroll, body.header-sticky.show-on-scroll.header-center-overlay header.show-on-scroll, body.header-sticky.show-on-scroll.header-center-overlay header.responsive-on-scroll {
+  padding-top: 0;
+  background-color: white;
+}
+
+body.header-sticky.hide-on-scroll.header-center-overlay header.hide-on-scroll .site-header-inner, body.header-sticky.hide-on-scroll.header-center-overlay header.show-on-scroll .site-header-inner, body.header-sticky.hide-on-scroll.header-center-overlay header.responsive-on-scroll .site-header-inner, body.header-sticky.show-on-scroll.header-center-overlay header.hide-on-scroll .site-header-inner, body.header-sticky.show-on-scroll.header-center-overlay header.show-on-scroll .site-header-inner, body.header-sticky.show-on-scroll.header-center-overlay header.responsive-on-scroll .site-header-inner {
+  padding: 0;
+  background-color: transparent;
+}
+
+body.header-sticky.hide-on-scroll.header-menu-separator-dots header.hide-on-scroll .main-navigation > ul > li:after, body.header-sticky.hide-on-scroll.header-menu-separator-dots header.show-on-scroll .main-navigation > ul > li:after, body.header-sticky.hide-on-scroll.header-menu-separator-dots header.responsive-on-scroll .main-navigation > ul > li:after, body.header-sticky.show-on-scroll.header-menu-separator-dots header.hide-on-scroll .main-navigation > ul > li:after, body.header-sticky.show-on-scroll.header-menu-separator-dots header.show-on-scroll .main-navigation > ul > li:after, body.header-sticky.show-on-scroll.header-menu-separator-dots header.responsive-on-scroll .main-navigation > ul > li:after {
+  top: 10px;
+}
+
+body.header-sticky.hide-on-scroll.header-menu-separator-line header.hide-on-scroll .main-navigation > ul > li:after, body.header-sticky.hide-on-scroll.header-menu-separator-line header.show-on-scroll .main-navigation > ul > li:after, body.header-sticky.hide-on-scroll.header-menu-separator-line header.responsive-on-scroll .main-navigation > ul > li:after, body.header-sticky.show-on-scroll.header-menu-separator-line header.hide-on-scroll .main-navigation > ul > li:after, body.header-sticky.show-on-scroll.header-menu-separator-line header.show-on-scroll .main-navigation > ul > li:after, body.header-sticky.show-on-scroll.header-menu-separator-line header.responsive-on-scroll .main-navigation > ul > li:after {
+  top: 35%;
+}
+
+body.header-sticky.hide-on-scroll.header-transparent-border header.hide-on-scroll, body.header-sticky.hide-on-scroll.header-transparent-border header.show-on-scroll, body.header-sticky.hide-on-scroll.header-transparent-border header.responsive-on-scroll, body.header-sticky.show-on-scroll.header-transparent-border header.hide-on-scroll, body.header-sticky.show-on-scroll.header-transparent-border header.show-on-scroll, body.header-sticky.show-on-scroll.header-transparent-border header.responsive-on-scroll {
+  background-color: white;
+  border-bottom: 0;
+}
+
+body.header-sticky.hide-on-scroll.header-transparent-border header.hide-on-scroll .header-menu-icons, body.header-sticky.hide-on-scroll.header-transparent-border header.show-on-scroll .header-menu-icons, body.header-sticky.hide-on-scroll.header-transparent-border header.responsive-on-scroll .header-menu-icons, body.header-sticky.show-on-scroll.header-transparent-border header.hide-on-scroll .header-menu-icons, body.header-sticky.show-on-scroll.header-transparent-border header.show-on-scroll .header-menu-icons, body.header-sticky.show-on-scroll.header-transparent-border header.responsive-on-scroll .header-menu-icons {
+  border-left: 0;
+}
+
+body.header-sticky.hide-on-scroll.header-transparent-border header.hide-on-scroll .header-menu-icons > li, body.header-sticky.hide-on-scroll.header-transparent-border header.show-on-scroll .header-menu-icons > li, body.header-sticky.hide-on-scroll.header-transparent-border header.responsive-on-scroll .header-menu-icons > li, body.header-sticky.show-on-scroll.header-transparent-border header.hide-on-scroll .header-menu-icons > li, body.header-sticky.show-on-scroll.header-transparent-border header.show-on-scroll .header-menu-icons > li, body.header-sticky.show-on-scroll.header-transparent-border header.responsive-on-scroll .header-menu-icons > li {
+  padding: 0;
+  padding-left: 8px;
+}
+
+body.header-sticky.hide-on-scroll.header-hamburger-menu header.hide-on-scroll #header-logo, body.header-sticky.hide-on-scroll.header-hamburger-menu header.show-on-scroll #header-logo, body.header-sticky.hide-on-scroll.header-hamburger-menu header.responsive-on-scroll #header-logo, body.header-sticky.show-on-scroll.header-hamburger-menu header.hide-on-scroll #header-logo, body.header-sticky.show-on-scroll.header-hamburger-menu header.show-on-scroll #header-logo, body.header-sticky.show-on-scroll.header-hamburger-menu header.responsive-on-scroll #header-logo {
+  padding: 10px 0;
+}
+
+body.header-sticky.hide-on-scroll.header-hamburger-menu.primary-color header.hide-on-scroll .site-logo img, body.header-sticky.hide-on-scroll.header-hamburger-menu.primary-color header.show-on-scroll .site-logo img, body.header-sticky.hide-on-scroll.header-hamburger-menu.primary-color header.responsive-on-scroll .site-logo img, body.header-sticky.hide-on-scroll.header-hamburger-menu.dark-color header.hide-on-scroll .site-logo img, body.header-sticky.hide-on-scroll.header-hamburger-menu.dark-color header.show-on-scroll .site-logo img, body.header-sticky.hide-on-scroll.header-hamburger-menu.dark-color header.responsive-on-scroll .site-logo img, body.header-sticky.show-on-scroll.header-hamburger-menu.primary-color header.hide-on-scroll .site-logo img, body.header-sticky.show-on-scroll.header-hamburger-menu.primary-color header.show-on-scroll .site-logo img, body.header-sticky.show-on-scroll.header-hamburger-menu.primary-color header.responsive-on-scroll .site-logo img, body.header-sticky.show-on-scroll.header-hamburger-menu.dark-color header.hide-on-scroll .site-logo img, body.header-sticky.show-on-scroll.header-hamburger-menu.dark-color header.show-on-scroll .site-logo img, body.header-sticky.show-on-scroll.header-hamburger-menu.dark-color header.responsive-on-scroll .site-logo img {
+  -webkit-filter: none;
+          filter: none;
+}
+
+body.header-sticky.hide-on-scroll.header-hamburger-menu.white-color header.hide-on-scroll .site-logo img, body.header-sticky.hide-on-scroll.header-hamburger-menu.white-color header.show-on-scroll .site-logo img, body.header-sticky.hide-on-scroll.header-hamburger-menu.white-color header.responsive-on-scroll .site-logo img, body.header-sticky.show-on-scroll.header-hamburger-menu.white-color header.hide-on-scroll .site-logo img, body.header-sticky.show-on-scroll.header-hamburger-menu.white-color header.show-on-scroll .site-logo img, body.header-sticky.show-on-scroll.header-hamburger-menu.white-color header.responsive-on-scroll .site-logo img {
+  -webkit-filter: none;
+          filter: none;
+}
+
+body.header-sticky.hide-on-scroll.header-hamburger-menu.white-color header.hide-on-scroll .hamburger-menu .hamburger-menu-icon,
+body.header-sticky.hide-on-scroll.header-hamburger-menu.white-color header.hide-on-scroll .hamburger-menu .hamburger-menu-icon:after,
+body.header-sticky.hide-on-scroll.header-hamburger-menu.white-color header.hide-on-scroll .hamburger-menu .hamburger-menu-icon:before, body.header-sticky.hide-on-scroll.header-hamburger-menu.white-color header.show-on-scroll .hamburger-menu .hamburger-menu-icon,
+body.header-sticky.hide-on-scroll.header-hamburger-menu.white-color header.show-on-scroll .hamburger-menu .hamburger-menu-icon:after,
+body.header-sticky.hide-on-scroll.header-hamburger-menu.white-color header.show-on-scroll .hamburger-menu .hamburger-menu-icon:before, body.header-sticky.hide-on-scroll.header-hamburger-menu.white-color header.responsive-on-scroll .hamburger-menu .hamburger-menu-icon,
+body.header-sticky.hide-on-scroll.header-hamburger-menu.white-color header.responsive-on-scroll .hamburger-menu .hamburger-menu-icon:after,
+body.header-sticky.hide-on-scroll.header-hamburger-menu.white-color header.responsive-on-scroll .hamburger-menu .hamburger-menu-icon:before, body.header-sticky.show-on-scroll.header-hamburger-menu.white-color header.hide-on-scroll .hamburger-menu .hamburger-menu-icon,
+body.header-sticky.show-on-scroll.header-hamburger-menu.white-color header.hide-on-scroll .hamburger-menu .hamburger-menu-icon:after,
+body.header-sticky.show-on-scroll.header-hamburger-menu.white-color header.hide-on-scroll .hamburger-menu .hamburger-menu-icon:before, body.header-sticky.show-on-scroll.header-hamburger-menu.white-color header.show-on-scroll .hamburger-menu .hamburger-menu-icon,
+body.header-sticky.show-on-scroll.header-hamburger-menu.white-color header.show-on-scroll .hamburger-menu .hamburger-menu-icon:after,
+body.header-sticky.show-on-scroll.header-hamburger-menu.white-color header.show-on-scroll .hamburger-menu .hamburger-menu-icon:before, body.header-sticky.show-on-scroll.header-hamburger-menu.white-color header.responsive-on-scroll .hamburger-menu .hamburger-menu-icon,
+body.header-sticky.show-on-scroll.header-hamburger-menu.white-color header.responsive-on-scroll .hamburger-menu .hamburger-menu-icon:after,
+body.header-sticky.show-on-scroll.header-hamburger-menu.white-color header.responsive-on-scroll .hamburger-menu .hamburger-menu-icon:before {
+  background-color: #2b303b;
+}
+
+body.header-sticky.hide-on-scroll.header-hamburger-menu.white-color header.hide-on-scroll .hamburger-menu.expanded .hamburger-menu-icon, body.header-sticky.hide-on-scroll.header-hamburger-menu.white-color header.show-on-scroll .hamburger-menu.expanded .hamburger-menu-icon, body.header-sticky.hide-on-scroll.header-hamburger-menu.white-color header.responsive-on-scroll .hamburger-menu.expanded .hamburger-menu-icon, body.header-sticky.show-on-scroll.header-hamburger-menu.white-color header.hide-on-scroll .hamburger-menu.expanded .hamburger-menu-icon, body.header-sticky.show-on-scroll.header-hamburger-menu.white-color header.show-on-scroll .hamburger-menu.expanded .hamburger-menu-icon, body.header-sticky.show-on-scroll.header-hamburger-menu.white-color header.responsive-on-scroll .hamburger-menu.expanded .hamburger-menu-icon {
+  background-color: transparent;
+}
+
+body.header-sticky.show-on-scroll header {
+  -webkit-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+}
+
+/*# sourceMappingURL=../_maps/modules/navigation-sticky.css.map */

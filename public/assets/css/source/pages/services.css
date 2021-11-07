@@ -1,0 +1,30 @@
+/*
+ * ::::::::::: Services Page Custom Styles :::::::::::
+ */
+.page-services .works-list .container > p {
+  text-transform: capitalize;
+}
+
+.page-services .works-list .container > p {
+  text-align: center;
+  font-size: 15.5px;
+  font-size: 0.96875rem;
+  color: #A6A6A6;
+  margin-bottom: 4.5rem;
+  padding: 0 14%;
+}
+
+.page-services .works-list .container .works-button {
+  text-align: center;
+  padding: 1.6rem 0 2.4rem;
+}
+
+.page-services .works-list .container .works-button a {
+  padding: 23px 34px;
+}
+
+.page-services .instagram-feed {
+  background: #f8f8f8;
+}
+
+/*# sourceMappingURL=../_maps/pages/services.css.map */

@@ -1,0 +1,312 @@
+/*
+ * ::::::::::: Page Title Styles :::::::::::
+ */
+.page-title .hero-body h3,
+.page-title .hero-body .subtitle, .page-title.is-medium h1, .page-title.is-large h1, .page-title.is-fullheight h1, .page-title.is-medium h3, .page-title.is-large h3, .page-title.is-fullheight h3 {
+  text-transform: capitalize;
+}
+
+.parallax-background,
+.ken-burns {
+  background: transparent;
+}
+
+.ken-burns {
+  position: relative;
+  overflow: hidden;
+}
+
+.ken-burns-background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: no-repeat center center;
+  background-size: cover;
+  -webkit-animation: kenburns 40s infinite;
+          animation: kenburns 40s infinite;
+}
+
+.page-title {
+  background-color: #f8f8f8;
+  padding-bottom: 0 !important;
+}
+
+.page-title.mini-height .hero-body {
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+
+.page-title.mini-height .hero-body h1,
+.page-title.mini-height .hero-body .title {
+  font-size: 20px;
+  font-size: 1.25rem;
+}
+
+.page-title.mini-height .hero-body h3,
+.page-title.mini-height .hero-body .subtitle,
+.page-title.mini-height .hero-body .breadcrumb {
+  font-size: 13.5px;
+  font-size: 0.84375rem;
+}
+
+.page-title.is-primary .hero-body h3,
+.page-title.is-primary .hero-body .subtitle {
+  color: white;
+}
+
+.page-title.is-primary .hero-body .breadcrumb li + li:before {
+  color: #025fd2;
+}
+
+.page-title.is-primary .hero-body .breadcrumb li.is-active a {
+  color: white;
+}
+
+.page-title.is-primary .hero-body .breadcrumb li a:hover {
+  color: white;
+}
+
+.page-title.is-secondary .hero-body h1,
+.page-title.is-secondary .hero-body .title {
+  color: white;
+}
+
+.page-title.is-secondary .hero-body h3,
+.page-title.is-secondary .hero-body .subtitle {
+  color: #A6A6A6;
+}
+
+.page-title.is-secondary .hero-body .breadcrumb li + li:before {
+  color: #4b505d;
+}
+
+.page-title.is-secondary .hero-body .breadcrumb li.is-active a {
+  color: #A6A6A6;
+}
+
+.page-title.is-secondary .hero-body .breadcrumb li a:hover {
+  color: #A6A6A6;
+}
+
+.page-title.is-secondary .hero-body .button {
+  border: 1px solid #0063dd;
+}
+
+.page-title.is-secondary .hero-body .button:hover {
+  background-color: transparent;
+  border-color: white;
+}
+
+.page-title.has-text-centered .hero-body .breadcrumb {
+  font-size: 13px;
+  font-size: 0.8125rem;
+  margin-bottom: 1rem;
+}
+
+.page-title.has-text-centered .hero-body .header-menu-icons.social li:first-child {
+  padding-left: 0;
+}
+
+.page-title .hero-body {
+  padding-bottom: 5.5rem;
+  padding-top: 5.5rem;
+}
+
+.page-title .hero-body .button {
+  margin: 0 3px;
+}
+
+.page-title .hero-body .button:first-child {
+  margin-left: 0;
+}
+
+.page-title .hero-body .button:last-child {
+  margin-right: 0;
+}
+
+.page-title .hero-body h1,
+.page-title .hero-body .title {
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 0px;
+  font-size: 30px;
+  font-size: 1.875rem;
+  color: #2b303b;
+}
+
+.page-title .hero-body h3,
+.page-title .hero-body .subtitle {
+  letter-spacing: .5px;
+  margin-top: -3px !important;
+  color: #4b505d;
+  font-size: 15px;
+  font-size: 0.9375rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.page-title .hero-body .level .level-right .header-menu-icons.social:before {
+  display: none;
+}
+
+.page-title .hero-body .level .level-left .header-menu-icons.social {
+  padding-left: 0;
+  padding-right: 10px;
+}
+
+.page-title .hero-body .level .level-left .header-menu-icons.social:before {
+  display: none;
+}
+
+.page-title .hero-body .level .level-left .header-menu-icons.social li:first-child {
+  padding-left: 0;
+}
+
+.page-title.is-medium .hero-body > div:before, .page-title.is-large .hero-body > div:before, .page-title.is-fullheight .hero-body > div:before {
+  display: none;
+  content: '';
+  height: 49px;
+  width: 1px;
+  background-color: white;
+  opacity: .45;
+  margin-bottom: 20px;
+  margin-top: -50px;
+}
+
+.page-title.is-medium .hero-body .heading-title-top, .page-title.is-large .hero-body .heading-title-top, .page-title.is-fullheight .hero-body .heading-title-top {
+  padding-bottom: 20px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.page-title.is-medium h1, .page-title.is-large h1, .page-title.is-fullheight h1 {
+  font-size: 60px;
+  font-size: 3.75rem;
+  letter-spacing: 0;
+  color: white;
+}
+
+.page-title.is-medium h3, .page-title.is-large h3, .page-title.is-fullheight h3 {
+  font-size: 20px;
+  font-size: 1.25rem;
+  letter-spacing: 0;
+  margin-top: 15px !important;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.page-title.services {
+  background: #f8f8f8 url("../../images/page-title/services.png") no-repeat top center ;
+  background-size: cover;
+}
+
+.page-title.about {
+  background: #f8f8f8 url("../../images/page-title/about.png") no-repeat top center ;
+  background-size: cover;
+}
+
+.page-title.blog, .page-title.blog-single {
+  background: #f8f8f8 url("../../images/page-title/blog.png") no-repeat top center ;
+  background-size: cover;
+}
+
+.page-title.contact {
+  background: #f8f8f8 url("../../images/page-title/contact.png") no-repeat top center ;
+  background-size: cover;
+}
+
+.page-title.portfolio {
+  background: #f8f8f8 url("../../images/page-title/portfolio.png") no-repeat top center ;
+  background-size: cover;
+}
+
+.page-title.portfolio .hero-body > div:before {
+  background-color: #fafafa;
+}
+
+.page-title.parallax-background, .page-title.ken-burns {
+  background: transparent;
+}
+
+.page-title.ken-burns {
+  position: relative;
+  overflow: hidden;
+}
+
+.page-title .ken-burns-background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: no-repeat center center;
+  background-size: cover;
+  -webkit-animation: kenburns 40s infinite;
+          animation: kenburns 40s infinite;
+}
+
+.page-title.intro-image .hero-body h1,
+.page-title.intro-image .hero-body #typed-intro,
+.page-title.intro-image .hero-body .typed-cursor {
+  text-transform: lowercase;
+  text-align: center;
+  font-size: 50px;
+  font-weight: normal;
+  letter-spacing: 0;
+  line-height: 1.4;
+  text-shadow: none;
+  font-weight: 500;
+}
+
+.page-title.intro-image .hero-body h1:first-letter,
+.page-title.intro-image .hero-body #typed-intro:first-letter,
+.page-title.intro-image .hero-body .typed-cursor:first-letter {
+  text-transform: capitalize;
+}
+
+.page-title.intro-image .hero-body p {
+  width: auto;
+  display: inline-block;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 14.6px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-shadow: none;
+  font-weight: 600;
+  line-height: 1.2;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.page-title.intro-image .hero-body .button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 3.6em;
+  padding-left: calc(2.9em - 1px);
+  padding-right: calc(2.9em - 1px);
+  text-transform: capitalize;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 0;
+  font-size: 14px;
+}
+
+.page-title.intro-image .hero-body .button:hover {
+  background-color: white;
+  color: #0063dd;
+}
+
+.page-title.intro-image .hero-body .button .icon {
+  margin-left: 10px;
+  margin-top: 2px;
+}
+
+.page-title.intro-image .hero-body .button .icon i {
+  font-size: 26px;
+}
+
+/*# sourceMappingURL=../_maps/modules/page-title.css.map */

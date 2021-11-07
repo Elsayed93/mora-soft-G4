@@ -1,0 +1,63 @@
+/*
+ * ::::::::::: Image Content Styles :::::::::::
+ */
+.image-content .content .text h4, .image-content .content .text h1 {
+  text-transform: uppercase;
+}
+
+.image-content figure {
+  overflow: hidden;
+}
+
+.image-content figure .image {
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  display: block;
+}
+
+.image-content figure .image:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.image-content .content {
+  position: relative;
+}
+
+.image-content .content .text {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  -webkit-transform: translate(-5%, -50%);
+          transform: translate(-5%, -50%);
+  width: auto;
+  padding: 0 3.4rem;
+}
+
+.image-content .content .text > * {
+  text-align: left;
+}
+
+.image-content .content .text h4 {
+  color: #056ae8;
+  letter-spacing: 2px;
+}
+
+.image-content .content .text h1 {
+  color: #2b303b;
+  letter-spacing: 2px;
+  margin-top: 0.7em;
+  margin-bottom: 1em;
+}
+
+.image-content .content .text p {
+  color: #A6A6A6;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 38px;
+}
+
+.image-content .content .text a {
+  padding: 23px 34px;
+}
+
+/*# sourceMappingURL=../_maps/modules/image-content.css.map */

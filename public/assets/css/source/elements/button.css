@@ -1,0 +1,94 @@
+/*
+ * ::::::::::: Buttons Styles :::::::::::
+ */
+.button {
+  border-radius: 0;
+}
+
+.button {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.button, .button.is-medium, .button.is-large {
+  font-size: 14px;
+  font-size: 0.875rem;
+  height: 3.5em;
+  padding-left: calc(2.8em - 1px);
+  padding-right: calc(2.8em - 1px);
+}
+
+.button {
+  text-transform: capitalize;
+  font-family: 'Poppins', sans-serif;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  letter-spacing: 0;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  color: white;
+  background-color: #0063dd;
+  outline: none;
+  border-radius: 0;
+  font-weight: 500;
+}
+
+.button:hover, .button:focus {
+  color: white;
+  background-color: #2b303b;
+}
+
+.button.is-large {
+  font-size: 20px;
+  font-size: 1.25rem;
+}
+
+.button.is-outlined {
+  border: 1px solid;
+}
+
+.button.is-outlined:hover, .button.is-outlined:focus {
+  color: white !important;
+}
+
+.button.is-rounded {
+  border-radius: 290486px !important;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.button.is-small {
+  border-radius: 0;
+}
+
+.button.is-text {
+  text-decoration: none;
+  border-bottom: 1.5px solid #EAEAEA;
+  padding-left: 0;
+  padding-right: 0;
+  color: #303540;
+  font-weight: 500;
+  font-size: 16px;
+  font-size: 1rem;
+  height: 2.6em;
+  margin-left: calc(2em - 1px);
+  margin-right: calc(2em - 1px);
+  border-radius: 0;
+  letter-spacing: 1px;
+}
+
+.button.is-text:hover {
+  background-color: transparent;
+  border-bottom-color: #0063dd;
+}
+
+.field.has-addons .control .button,
+.field.has-addons .control:last-child .input,
+.field.has-addons .control:last-child .select select {
+  font-size: 16.8px;
+  font-size: 1.05rem;
+  height: 100%;
+}
+
+/*# sourceMappingURL=../_maps/elements/button.css.map */

@@ -1,0 +1,17 @@
+/*
+ * ::::::::::: Header Styles :::::::::::
+ */
+header,
+.site-header-top {
+  background-color: white;
+  width: 100%;
+  z-index: 100;
+  height: auto;
+  position: relative;
+}
+
+.site-header-top {
+  z-index: 200;
+}
+
+/*# sourceMappingURL=../_maps/layout/header.css.map */

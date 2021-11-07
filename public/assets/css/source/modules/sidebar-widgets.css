@@ -1,0 +1,456 @@
+/*
+ * ::::::::::: Sidebar Widgets Styles :::::::::::
+ */
+.widget-tags .tagcloud a {
+  text-transform: uppercase;
+}
+
+.widget-links ul li, .widget-list .content a, .widget-list .content p {
+  text-transform: capitalize;
+}
+
+.tags, .widget-tags .tagcloud {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.tags .tag, .widget-tags .tagcloud .tag, .widget-tags .tagcloud a {
+  margin-bottom: 0.5rem;
+}
+
+.tags .tag:not(:last-child), .widget-tags .tagcloud .tag:not(:last-child), .widget-tags .tagcloud a:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.tags:last-child, .widget-tags .tagcloud:last-child {
+  margin-bottom: -0.5rem;
+}
+
+.tags:not(:last-child), .widget-tags .tagcloud:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.tags.has-addons .tag, .widget-tags .has-addons.tagcloud .tag, .tags.has-addons .widget-tags .tagcloud a, .widget-tags .tagcloud .tags.has-addons a, .widget-tags .has-addons.tagcloud a {
+  margin-right: 0;
+}
+
+.tags.has-addons .tag:not(:first-child), .widget-tags .has-addons.tagcloud .tag:not(:first-child), .tags.has-addons .widget-tags .tagcloud a:not(:first-child), .widget-tags .tagcloud .tags.has-addons a:not(:first-child), .widget-tags .has-addons.tagcloud a:not(:first-child) {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.tags.has-addons .tag:not(:last-child), .widget-tags .has-addons.tagcloud .tag:not(:last-child), .tags.has-addons .widget-tags .tagcloud a:not(:last-child), .widget-tags .tagcloud .tags.has-addons a:not(:last-child), .widget-tags .has-addons.tagcloud a:not(:last-child) {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.tags.is-centered, .widget-tags .is-centered.tagcloud {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tags.is-centered .tag, .widget-tags .is-centered.tagcloud .tag, .tags.is-centered .widget-tags .tagcloud a, .widget-tags .tagcloud .tags.is-centered a, .widget-tags .is-centered.tagcloud a {
+  margin-right: 0.25rem;
+  margin-left: 0.25rem;
+}
+
+.tags.is-right, .widget-tags .is-right.tagcloud {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.tags.is-right .tag:not(:first-child), .widget-tags .is-right.tagcloud .tag:not(:first-child), .tags.is-right .widget-tags .tagcloud a:not(:first-child), .widget-tags .tagcloud .tags.is-right a:not(:first-child), .widget-tags .is-right.tagcloud a:not(:first-child) {
+  margin-left: 0.5rem;
+}
+
+.tags.is-right .tag:not(:last-child), .widget-tags .is-right.tagcloud .tag:not(:last-child), .tags.is-right .widget-tags .tagcloud a:not(:last-child), .widget-tags .tagcloud .tags.is-right a:not(:last-child), .widget-tags .is-right.tagcloud a:not(:last-child) {
+  margin-right: 0;
+}
+
+.tag:not(body), .widget-tags .tagcloud a:not(body) {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: whitesmoke;
+  border-radius: 0;
+  color: #424754;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  font-size: 0.75rem;
+  height: 2em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  line-height: 1.5;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  white-space: nowrap;
+}
+
+.tag:not(body) .delete, .widget-tags .tagcloud a:not(body) .delete {
+  margin-left: 0.25rem;
+  margin-right: -0.375rem;
+}
+
+.tag:not(body).is-white, .widget-tags .tagcloud a:not(body).is-white {
+  background-color: white;
+  color: #0a0a0a;
+}
+
+.tag:not(body).is-black, .widget-tags .tagcloud a:not(body).is-black {
+  background-color: #0a0a0a;
+  color: white;
+}
+
+.tag:not(body).is-light, .widget-tags .tagcloud a:not(body).is-light {
+  background-color: whitesmoke;
+  color: #363636;
+}
+
+.tag:not(body).is-dark, .widget-tags .tagcloud a:not(body).is-dark {
+  background-color: #363636;
+  color: whitesmoke;
+}
+
+.tag:not(body).is-primary, .widget-tags .tagcloud a:not(body).is-primary {
+  background-color: #0063dd;
+  color: #fff;
+}
+
+.tag:not(body).is-link, .widget-tags .tagcloud a:not(body).is-link {
+  background-color: #0063dd;
+  color: #fff;
+}
+
+.tag:not(body).is-info, .widget-tags .tagcloud a:not(body).is-info {
+  background-color: #209cee;
+  color: #fff;
+}
+
+.tag:not(body).is-success, .widget-tags .tagcloud a:not(body).is-success {
+  background-color: #23d160;
+  color: #fff;
+}
+
+.tag:not(body).is-warning, .widget-tags .tagcloud a:not(body).is-warning {
+  background-color: #ffdd57;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.tag:not(body).is-danger, .widget-tags .tagcloud a:not(body).is-danger {
+  background-color: #ff3860;
+  color: #fff;
+}
+
+.tag:not(body).is-medium, .widget-tags .tagcloud a:not(body) {
+  font-size: 1rem;
+}
+
+.tag:not(body).is-large, .widget-tags .tagcloud a:not(body).is-large {
+  font-size: 1.25rem;
+}
+
+.tag:not(body) .icon:first-child:not(:last-child), .widget-tags .tagcloud a:not(body) .icon:first-child:not(:last-child) {
+  margin-left: -0.375em;
+  margin-right: 0.1875em;
+}
+
+.tag:not(body) .icon:last-child:not(:first-child), .widget-tags .tagcloud a:not(body) .icon:last-child:not(:first-child) {
+  margin-left: 0.1875em;
+  margin-right: -0.375em;
+}
+
+.tag:not(body) .icon:first-child:last-child, .widget-tags .tagcloud a:not(body) .icon:first-child:last-child {
+  margin-left: -0.375em;
+  margin-right: -0.375em;
+}
+
+.tag:not(body).is-delete, .widget-tags .tagcloud a:not(body).is-delete {
+  margin-left: 1px;
+  padding: 0;
+  position: relative;
+  width: 2em;
+}
+
+.tag:not(body).is-delete::before, .widget-tags .tagcloud a:not(body).is-delete::before, .tag:not(body).is-delete::after, .widget-tags .tagcloud a:not(body).is-delete::after {
+  background-color: currentColor;
+  content: "";
+  display: block;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+          transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.tag:not(body).is-delete::before, .widget-tags .tagcloud a:not(body).is-delete::before {
+  height: 1px;
+  width: 50%;
+}
+
+.tag:not(body).is-delete::after, .widget-tags .tagcloud a:not(body).is-delete::after {
+  height: 50%;
+  width: 1px;
+}
+
+.tag:not(body).is-delete:hover, .widget-tags .tagcloud a:not(body).is-delete:hover, .tag:not(body).is-delete:focus, .widget-tags .tagcloud a:not(body).is-delete:focus {
+  background-color: #e8e8e8;
+}
+
+.tag:not(body).is-delete:active, .widget-tags .tagcloud a:not(body).is-delete:active {
+  background-color: #dbdbdb;
+}
+
+.tag:not(body).is-rounded, .widget-tags .tagcloud a:not(body).is-rounded {
+  border-radius: 290486px;
+}
+
+a.tag:hover, .widget-tags .tagcloud a:hover {
+  text-decoration: underline;
+}
+
+/* sidebar */
+.sidebar {
+  padding-left: 20px;
+}
+
+.sidebar.is-left {
+  padding-left: 0;
+  padding-right: 20px;
+}
+
+/* widget title */
+.widget-title {
+  text-transform: capitalize;
+  color: #2b303b;
+  letter-spacing: 0;
+  font-size: 19px;
+  font-size: 1.1875rem;
+  margin-bottom: 1.6rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+/* widget section */
+.widget {
+  margin-bottom: 2.6rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.widget:first-child .widget-title {
+  margin-top: -9px;
+}
+
+.widget .box {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.widget .box:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+/* widget form */
+.widget-form input {
+  padding-right: 6.5em;
+  border-radius: 0;
+  height: 3.45em;
+  font-size: 14px;
+}
+
+.widget-form .button {
+  top: 0;
+  right: 0;
+  position: absolute;
+  background-color: transparent;
+  color: #B0B0B0;
+  font-size: 17px;
+  font-size: 1.0625rem;
+  height: 100%;
+  width: 15%;
+  padding: 0;
+}
+
+.widget-form:hover .button {
+  color: #0063dd;
+}
+
+/* widget links */
+.widget-links ul li {
+  padding: 6px 0;
+  font-size: 16px;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.widget-links ul li:first-child {
+  padding-top: 0;
+}
+
+.widget-links ul li:last-child {
+  padding-bottom: 0;
+}
+
+.widget-links ul li span {
+  font-size: 14px;
+  font-size: 0.875rem;
+  color: #0063dd;
+}
+
+/* widget tags */
+.widget-tags .tagcloud a {
+  background-color: white !important;
+  border: 1px solid #EAEAEA;
+  color: #A6A6A6 !important;
+  font-size: 11.5px !important;
+  letter-spacing: 1.5px;
+  height: 3em !important;
+  padding-left: 1em !important;
+  padding-right: 1em !important;
+  margin-right: .7rem !important;
+  margin-bottom: .7rem;
+  border-radius: 0;
+}
+
+.widget-tags .tagcloud a:hover {
+  text-decoration: none;
+  color: white !important;
+  background-color: #0063dd !important;
+  border-color: transparent;
+}
+
+/* social links */
+.widget-social ul li {
+  display: inline-block;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.widget-social ul li a {
+  display: inline-block;
+}
+
+.widget-social ul li .icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  background-color: #0063dd;
+  color: white;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.widget-social ul li .icon i {
+  font-size: 16px;
+  font-size: 1rem;
+}
+
+.widget-social ul li .icon:hover {
+  background-color: #2b303b;
+}
+
+/* text and custom html */
+.textwidget p {
+  margin-bottom: 25px;
+}
+
+/* gallery images */
+.widget-gallery ul li {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 8px;
+}
+
+.widget-gallery ul li a,
+.widget-gallery ul li img {
+  display: block;
+}
+
+.widget-gallery ul li img {
+  max-width: 100px;
+}
+
+/* instagram feed */
+.widget-instafeed .instafeed .instafeed-image {
+  display: inline-block;
+  margin-right: 14px;
+  margin-bottom: 8px;
+}
+
+.widget-instafeed .instafeed .instafeed-image img {
+  max-width: 100px;
+}
+
+.widget-instafeed .instafeed .instafeed-image .instafeed-overlay .instafeed-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  font-size: 12px;
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.widget-instafeed .instafeed .instafeed-image .instafeed-overlay .instafeed-info > * {
+  text-align: center;
+}
+
+.widget-instafeed .instafeed .instafeed-image .instafeed-overlay .instafeed-info span {
+  padding: 0 3px;
+}
+
+.widget-instafeed .instafeed .instafeed-image .instafeed-overlay .instafeed-info span i {
+  font-size: 14px;
+  font-size: 0.875rem;
+}
+
+/* posts, comments list */
+.widget-list figure img {
+  max-width: 83px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.widget-list figure img:hover {
+  opacity: .8;
+}
+
+.widget-list .content a {
+  color: #4b505d;
+  font-size: 15px;
+  font-size: 0.9375rem;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: .5px;
+}
+
+.widget-list .content a:hover {
+  color: #0063dd;
+}
+
+.widget-list .content p {
+  color: #0063dd;
+  font-size: 13.5px;
+  font-size: 0.84375rem;
+  letter-spacing: 1px;
+  margin-top: 8px;
+}
+
+/*# sourceMappingURL=../_maps/modules/sidebar-widgets.css.map */

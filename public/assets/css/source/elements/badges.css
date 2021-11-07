@@ -1,0 +1,8 @@
+/*
+ * ::::::::::: Divider Styles :::::::::::
+ */
+.button.badge:not([data-badge=""])::after {
+  padding: .3rem .4rem .3rem .5rem;
+}
+
+/*# sourceMappingURL=../_maps/elements/badges.css.map */

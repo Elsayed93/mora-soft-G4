@@ -1,0 +1,16 @@
+/*
+ * ::::::::::: Divider Styles :::::::::::
+ */
+.tags, .tag {
+  font-family: 'Poppins', sans-serif;
+}
+
+.tag.token {
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  background-color: transparent;
+  font-size: 14.5px;
+  padding: 0;
+  display: inline;
+}
+
+/*# sourceMappingURL=../_maps/elements/tags.css.map */

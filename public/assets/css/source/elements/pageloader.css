@@ -1,0 +1,25 @@
+/*
+ * ::::::::::: Pageloader Styles :::::::::::
+ */
+.pageloader .title {
+  text-transform: uppercase;
+}
+
+.show-pageloader {
+  display: inline-block;
+  margin: 30px 0 40px;
+}
+
+.show-pageloader .button {
+  margin: 0 5px;
+}
+
+.pageloader .title {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
+  font-size: 12px;
+  font-size: 0.75rem;
+  margin-top: 3em;
+}
+
+/*# sourceMappingURL=../_maps/elements/pageloader.css.map */

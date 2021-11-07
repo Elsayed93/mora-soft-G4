@@ -1,0 +1,208 @@
+/*
+ * ::::::::::: Typography Styles :::::::::::
+ */
+.content .dropcaps:first-letter,
+.entry-content .dropcaps:first-letter {
+  text-transform: uppercase;
+}
+
+.content,
+.entry-content {
+  font-family: 'Poppins', sans-serif;
+}
+
+.content figure,
+.entry-content figure {
+  text-align: inherit;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.content figure figcaption,
+.entry-content figure figcaption {
+  font-size: 14px;
+  font-size: 0.875rem;
+  color: #A6A6A6;
+}
+
+.content p,
+.entry-content p {
+  color: #969696;
+}
+
+.content strong,
+.content sub,
+.entry-content strong,
+.entry-content sub {
+  color: #393e4b;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6,
+.entry-content h1,
+.entry-content h2,
+.entry-content h3,
+.entry-content h4,
+.entry-content h5,
+.entry-content h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.content pre,
+.content code,
+.entry-content pre,
+.entry-content code {
+  margin: 1.8em 0 !important;
+  background-color: #f5f5f5;
+}
+
+.content pre,
+.entry-content pre {
+  max-height: 30em;
+}
+
+.content mark,
+.entry-content mark {
+  padding: 3px 6px;
+}
+
+.content .dropcaps:first-letter,
+.entry-content .dropcaps:first-letter {
+  background-color: #0063dd;
+  color: white;
+  font-size: 45px;
+  font-size: 2.8125rem;
+  font-family: 'Poppins', sans-serif;
+  padding: 5px 12px 10px;
+  float: left;
+  margin: 6px 15px 0 0;
+  line-height: 1;
+}
+
+.content .dropcaps.style-1:first-letter,
+.entry-content .dropcaps.style-1:first-letter {
+  background-color: transparent !important;
+  color: #0968dd;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 65px;
+  font-size: 4.0625rem;
+}
+
+.content .dropcaps.style-2:first-letter,
+.entry-content .dropcaps.style-2:first-letter {
+  border-radius: 5px;
+}
+
+.content .dropcaps.style-3:first-letter,
+.entry-content .dropcaps.style-3:first-letter {
+  background-color: transparent !important;
+  color: #0968dd;
+  border: 1px solid #F0F0F0;
+}
+
+.content .dropcaps.is-info:first-letter,
+.entry-content .dropcaps.is-info:first-letter {
+  background-color: #209cee;
+}
+
+.content .dropcaps.is-info.style-1:first-letter, .content .dropcaps.is-info.style-3:first-letter,
+.entry-content .dropcaps.is-info.style-1:first-letter,
+.entry-content .dropcaps.is-info.style-3:first-letter {
+  color: #209cee;
+}
+
+.content .dropcaps.is-success:first-letter,
+.entry-content .dropcaps.is-success:first-letter {
+  background-color: #23d160;
+}
+
+.content .dropcaps.is-success.style-1:first-letter, .content .dropcaps.is-success.style-3:first-letter,
+.entry-content .dropcaps.is-success.style-1:first-letter,
+.entry-content .dropcaps.is-success.style-3:first-letter {
+  color: #23d160;
+}
+
+.content .dropcaps.is-warning:first-letter,
+.entry-content .dropcaps.is-warning:first-letter {
+  background-color: #ffdd57;
+}
+
+.content .dropcaps.is-warning.style-1:first-letter, .content .dropcaps.is-warning.style-3:first-letter,
+.entry-content .dropcaps.is-warning.style-1:first-letter,
+.entry-content .dropcaps.is-warning.style-3:first-letter {
+  color: #ffdd57;
+}
+
+.content .dropcaps.is-black:first-letter,
+.entry-content .dropcaps.is-black:first-letter {
+  background-color: #0a0a0a;
+}
+
+.content .dropcaps.is-black.style-1:first-letter, .content .dropcaps.is-black.style-3:first-letter,
+.entry-content .dropcaps.is-black.style-1:first-letter,
+.entry-content .dropcaps.is-black.style-3:first-letter {
+  color: #0a0a0a;
+}
+
+.content .dropcaps.is-link:first-letter,
+.entry-content .dropcaps.is-link:first-letter {
+  background-color: #0063dd;
+}
+
+.content .dropcaps.is-link.style-1:first-letter, .content .dropcaps.is-link.style-3:first-letter,
+.entry-content .dropcaps.is-link.style-1:first-letter,
+.entry-content .dropcaps.is-link.style-3:first-letter {
+  color: #0063dd;
+}
+
+.content .dropcaps.is-danger:first-letter,
+.entry-content .dropcaps.is-danger:first-letter {
+  background-color: #ff3860;
+}
+
+.content .dropcaps.is-danger.style-1:first-letter, .content .dropcaps.is-danger.style-3:first-letter,
+.entry-content .dropcaps.is-danger.style-1:first-letter,
+.entry-content .dropcaps.is-danger.style-3:first-letter {
+  color: #ff3860;
+}
+
+.content .dropcaps.is-primary:first-letter,
+.entry-content .dropcaps.is-primary:first-letter {
+  background-color: #0063dd;
+}
+
+.content .dropcaps.is-primary.style-1:first-letter, .content .dropcaps.is-primary.style-3:first-letter,
+.entry-content .dropcaps.is-primary.style-1:first-letter,
+.entry-content .dropcaps.is-primary.style-3:first-letter {
+  color: #0063dd;
+}
+
+.content .dropcaps.is-secondary:first-letter,
+.entry-content .dropcaps.is-secondary:first-letter {
+  background-color: #2b303b;
+}
+
+.content .dropcaps.is-secondary.style-1:first-letter, .content .dropcaps.is-secondary.style-3:first-letter,
+.entry-content .dropcaps.is-secondary.style-1:first-letter,
+.entry-content .dropcaps.is-secondary.style-3:first-letter {
+  color: #2b303b;
+}
+
+.content .dropcaps.is-tertiary:first-letter,
+.entry-content .dropcaps.is-tertiary:first-letter {
+  background-color: #A6A6A6;
+}
+
+.content .dropcaps.is-tertiary.style-1:first-letter, .content .dropcaps.is-tertiary.style-3:first-letter,
+.entry-content .dropcaps.is-tertiary.style-1:first-letter,
+.entry-content .dropcaps.is-tertiary.style-3:first-letter {
+  color: #A6A6A6;
+}
+
+/*# sourceMappingURL=../_maps/elements/typography.css.map */

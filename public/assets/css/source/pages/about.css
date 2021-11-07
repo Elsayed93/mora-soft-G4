@@ -1,0 +1,18 @@
+/*
+ * ::::::::::: About Page Custom Styles :::::::::::
+ */
+.page-about .intro-about figure {
+  text-align: center;
+}
+
+.page-about .intro-about figure img {
+  margin-bottom: 2rem;
+  max-width: 115px;
+}
+
+.page-about .intro-about p {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/*# sourceMappingURL=../_maps/pages/about.css.map */

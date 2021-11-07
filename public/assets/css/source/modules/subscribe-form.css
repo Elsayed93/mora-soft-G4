@@ -1,0 +1,66 @@
+/*
+ * ::::::::::: Subscribe Form Styles :::::::::::
+ */
+.subscribe-form {
+  padding: 20px 0;
+}
+
+.subscribe-form input {
+  min-width: 405px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px !important;
+  height: 3.2em;
+  padding-left: 20px;
+  padding-right: 10px;
+  color: #4b505d;
+  border-radius: 0;
+}
+
+.subscribe-form .button {
+  background-color: #0063dd;
+  color: white;
+  height: 100%;
+  border-radius: 0 0 !important;
+  font-size: 14px !important;
+}
+
+.subscribe-form .button:hover {
+  background-color: #2b303b;
+}
+
+.subscribe-form.style-1 input, .subscribe-form.style-2 input {
+  border: 1px solid #F0F0F0;
+}
+
+.subscribe-form.style-1 input:focus, .subscribe-form.style-2 input:focus {
+  border: 1px solid #0063dd;
+}
+
+.subscribe-form.style-2 input {
+  padding-right: 13%;
+  min-width: 520px;
+  border-radius: 0;
+}
+
+.subscribe-form.style-2 .button {
+  top: 0;
+  right: 0;
+  position: absolute;
+  background-color: transparent;
+  color: #0063dd;
+  font-size: 27px !important;
+  height: 100%;
+  width: 14%;
+  padding: 0;
+  padding-top: 3px;
+}
+
+.subscribe-form.style-2 .control:hover .button {
+  color: #2b303b;
+}
+
+/*# sourceMappingURL=../_maps/modules/subscribe-form.css.map */

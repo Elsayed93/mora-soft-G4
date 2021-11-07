@@ -1,0 +1,452 @@
+/*
+ * ::::::::::: Works List Styles :::::::::::
+ */
+.works.isotope .isotope-filter li:first-child {
+  padding-left: 0;
+}
+
+.works.isotope .isotope-filter li:last-child {
+  padding-right: 0;
+}
+
+.works .work-item .work-item-meta h5 {
+  text-transform: uppercase;
+}
+
+.works .work-item .work-item-meta p {
+  text-transform: capitalize;
+}
+
+.title:not(:last-child), .works .work-item .work-item-meta h3:not(:last-child), .works .work-item .work-item-meta h5:not(:last-child),
+.subtitle:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+.title, .works .work-item .work-item-meta h3, .works .work-item .work-item-meta h5,
+.subtitle {
+  word-break: break-word;
+}
+
+.title em, .works .work-item .work-item-meta h3 em, .works .work-item .work-item-meta h5 em,
+.title span,
+.works .work-item .work-item-meta h3 span,
+.works .work-item .work-item-meta h5 span,
+.subtitle em,
+.subtitle span {
+  font-weight: inherit;
+}
+
+.title sub, .works .work-item .work-item-meta h3 sub, .works .work-item .work-item-meta h5 sub,
+.subtitle sub {
+  font-size: 0.75em;
+}
+
+.title sup, .works .work-item .work-item-meta h3 sup, .works .work-item .work-item-meta h5 sup,
+.subtitle sup {
+  font-size: 0.75em;
+}
+
+.title .tag, .works .work-item .work-item-meta h3 .tag, .works .work-item .work-item-meta h5 .tag,
+.subtitle .tag {
+  vertical-align: middle;
+}
+
+.title, .works .work-item .work-item-meta h3, .works .work-item .work-item-meta h5 {
+  color: #363636;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.125;
+}
+
+.title strong, .works .work-item .work-item-meta h3 strong, .works .work-item .work-item-meta h5 strong {
+  color: inherit;
+  font-weight: inherit;
+}
+
+.title + .highlight, .works .work-item .work-item-meta h3 + .highlight, .works .work-item .work-item-meta h5 + .highlight {
+  margin-top: -0.75rem;
+}
+
+.title:not(.is-spaced) + .subtitle, .works .work-item .work-item-meta h3:not(.is-spaced) + .subtitle, .works .work-item .work-item-meta h5:not(.is-spaced) + .subtitle {
+  margin-top: -1.25rem;
+}
+
+.title.is-1, .works .work-item .work-item-meta h3.is-1, .works .work-item .work-item-meta h5.is-1 {
+  font-size: 3rem;
+}
+
+.title.is-2, .works .work-item .work-item-meta h3.is-2, .works .work-item .work-item-meta h5.is-2 {
+  font-size: 2.5rem;
+}
+
+.title.is-3, .works .work-item .work-item-meta h3.is-3, .works .work-item .work-item-meta h5.is-3 {
+  font-size: 2rem;
+}
+
+.title.is-4, .works .work-item .work-item-meta h3.is-4, .works .work-item .work-item-meta h5.is-4 {
+  font-size: 1.5rem;
+}
+
+.title.is-5, .works .work-item .work-item-meta h3.is-5, .works .work-item .work-item-meta h5.is-5 {
+  font-size: 1.25rem;
+}
+
+.title.is-6, .works .work-item .work-item-meta h3.is-6, .works .work-item .work-item-meta h5.is-6 {
+  font-size: 1rem;
+}
+
+.title.is-7, .works .work-item .work-item-meta h3.is-7, .works .work-item .work-item-meta h5.is-7 {
+  font-size: 0.75rem;
+}
+
+.subtitle {
+  color: #4a4a4a;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+.subtitle strong {
+  color: #363636;
+  font-weight: 600;
+}
+
+.subtitle:not(.is-spaced) + .title, .works .work-item .work-item-meta .subtitle:not(.is-spaced) + h3, .works .work-item .work-item-meta .subtitle:not(.is-spaced) + h5 {
+  margin-top: -1.25rem;
+}
+
+.subtitle.is-1 {
+  font-size: 3rem;
+}
+
+.subtitle.is-2 {
+  font-size: 2.5rem;
+}
+
+.subtitle.is-3 {
+  font-size: 2rem;
+}
+
+.subtitle.is-4 {
+  font-size: 1.5rem;
+}
+
+.subtitle.is-5 {
+  font-size: 1.25rem;
+}
+
+.subtitle.is-6 {
+  font-size: 1rem;
+}
+
+.subtitle.is-7 {
+  font-size: 0.75rem;
+}
+
+.works .columns.is-4 .column {
+  padding-bottom: 1.3rem;
+}
+
+.works .columns.is-1 .column {
+  padding-bottom: 0.25rem;
+  padding-top: 0.25rem;
+}
+
+.works .columns.is-0, .works .columns.is-gapless {
+  margin: 0;
+}
+
+.works .columns.is-0 .column, .works .columns.is-gapless .column {
+  padding: 0;
+}
+
+.works .columns.is-0 .column .work-item figure, .works .columns.is-gapless .column .work-item figure {
+  margin-bottom: 0;
+}
+
+.works .columns.is-0 .column .work-item img, .works .columns.is-gapless .column .work-item img {
+  min-width: 390px;
+}
+
+.works .columns .column.columns-5 .work-item .work-item-img img,
+.works .columns .column.columns-5 .work-item figure img {
+  max-width: 348.5px;
+}
+
+.works .columns .column.columns-6 .work-item .work-item-img img,
+.works .columns .column.columns-6 .work-item figure img {
+  max-width: 285px;
+}
+
+.works .columns.is-3 .column.columns-5 .work-item .work-item-img img,
+.works .columns.is-3 .column.columns-5 .work-item figure img {
+  max-width: 355px;
+}
+
+.works .work-item {
+  margin-bottom: 35px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.works .work-item .work-item-img {
+  margin-bottom: 35px;
+  overflow: hidden;
+}
+
+.works .work-item .work-item-img img {
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  display: block;
+}
+
+.works .work-item .work-item-img:hover img {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.works .work-item .work-item-meta {
+  text-align: center;
+}
+
+.works .work-item .work-item-meta h3 {
+  font-size: 24px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  letter-spacing: 0px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  margin-bottom: 1.3rem !important;
+  color: #393e4b;
+}
+
+.works .work-item .work-item-meta h3:hover {
+  color: #0063dd;
+}
+
+.works .work-item .work-item-meta h3 a {
+  color: #393e4b;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.works .work-item .work-item-meta h3 a:hover {
+  color: #0063dd;
+}
+
+.works .work-item .work-item-meta h5 {
+  font-size: 13px;
+  font-size: 0.8125rem;
+  font-weight: normal;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  color: #0063dd;
+  font-family: 'Poppins', sans-serif;
+}
+
+.works .work-item .work-item-meta h5:hover {
+  color: #393e4b;
+}
+
+.works .work-item .work-item-meta h5 a {
+  color: #0063dd;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.works .work-item .work-item-meta h5 a:hover {
+  color: #393e4b;
+}
+
+.works .work-item .work-item-meta p {
+  font-size: 15px;
+  font-size: 0.9375rem;
+  color: #A6A6A6;
+  padding: 0 10px;
+}
+
+.works.isotope .isotope-filter {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  text-transform: capitalize;
+  margin-bottom: 3.5rem;
+}
+
+.works.isotope .isotope-filter li {
+  display: inline-block;
+  letter-spacing: .5px;
+  cursor: pointer;
+  color: #393e4b;
+  font-size: 15px;
+  font-size: 0.9375rem;
+  padding: 0 18px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.works.isotope .isotope-filter li:hover, .works.isotope .isotope-filter li.active {
+  color: #096ae2;
+}
+
+.works.isotope .isotope-filter.style-1 {
+  text-transform: capitalize;
+}
+
+.works.isotope .isotope-filter.style-1 li {
+  color: #424754;
+  letter-spacing: 1.5px;
+  font-size: 14px;
+  font-size: 0.875rem;
+  padding: 8px 20px;
+  border: 1px solid transparent;
+  border-radius: 290486px;
+}
+
+.works.isotope .isotope-filter.style-1 li:hover, .works.isotope .isotope-filter.style-1 li.active {
+  color: #096ae2;
+  border: 1px solid #096ae2;
+}
+
+.works.isotope .isotope-filter.style-1 li:first-child {
+  margin-left: 0;
+}
+
+.works.isotope .isotope-filter.style-1 li:last-child {
+  margin-right: 0;
+}
+
+.works.isotope .isotope-filter.style-2 {
+  text-transform: capitalize;
+}
+
+.works.isotope .isotope-filter.style-2 li {
+  color: #A6A6A6;
+  letter-spacing: 1.5px;
+  font-size: 15px;
+  font-size: 0.9375rem;
+  padding: 0;
+  padding-bottom: 16px;
+  margin: 0 18px;
+  border-bottom: 2px solid transparent;
+}
+
+.works.isotope .isotope-filter.style-2 li:hover, .works.isotope .isotope-filter.style-2 li.active {
+  color: #424754;
+  border-bottom: 2px solid #096ae2;
+}
+
+.works.isotope .isotope-filter.style-2 li:first-child {
+  margin-left: 0;
+}
+
+.works.isotope .isotope-filter.style-2 li:last-child {
+  margin-right: 0;
+}
+
+.works.isotope.has-text-right .isotope-filter {
+  text-align: right;
+  margin-top: 5px;
+}
+
+.works.isotope.has-text-right .isotope-filter.style-2 li {
+  padding-bottom: 10px;
+}
+
+.works.image-hover .work-item {
+  margin-bottom: 0;
+}
+
+.works.image-hover.isotope {
+  margin-bottom: 2.8rem;
+}
+
+.works.style-1 .work-item {
+  background-color: white;
+  margin-bottom: 0;
+}
+
+.works.style-1 .work-item .work-item-img,
+.works.style-1 .work-item figure {
+  margin-bottom: 30px;
+}
+
+.works.style-1 .work-item .work-item-meta {
+  padding-bottom: 30px;
+}
+
+.works.style-1 .work-item .work-item-meta h3 {
+  font-size: 21px;
+  font-size: 1.3125rem;
+  text-transform: capitalize;
+  margin-bottom: 1rem !important;
+}
+
+.works.style-1 .work-item .work-item-meta h5 {
+  font-size: 13px;
+  font-size: 0.8125rem;
+}
+
+.works.style-1 .work-item:hover {
+  -webkit-box-shadow: 2px 1px 25px 5px rgba(166, 166, 166, 0.2);
+          box-shadow: 2px 1px 25px 5px rgba(166, 166, 166, 0.2);
+}
+
+.works.style-1 .work-item:hover .work-item-img img {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.works.style-1.isotope {
+  margin-bottom: 2.8rem;
+}
+
+.works.owl-carousel .work-item figure:hover {
+  -webkit-box-shadow: 0px 9px 10px -4px rgba(166, 166, 166, 0.1);
+          box-shadow: 0px 9px 10px -4px rgba(166, 166, 166, 0.1);
+}
+
+.works.owl-carousel .owl-dots {
+  margin-top: 60px;
+}
+
+.works.owl-carousel .owl-dots .owl-dot.active span, .works.owl-carousel .owl-dots .owl-dot:hover span {
+  background: #0864d6;
+}
+
+.works.works-shop .work-item .work-item-meta h5 {
+  font-size: 16px;
+  margin-bottom: .6rem;
+}
+
+.works.works-shop .work-item .shop-rating .icon {
+  width: auto;
+  color: #EDB867;
+}
+
+.widget.isotope .isotope-filter li {
+  cursor: pointer;
+  color: #4b505d;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.widget.isotope .isotope-filter li:hover, .widget.isotope .isotope-filter li.active {
+  color: #096ae2;
+}
+
+.works-button .button .icon {
+  margin-top: 2px;
+}
+
+.works-button .button .icon i {
+  font-size: 30px;
+}
+
+.works-button .button:hover {
+  background-color: #2b303b;
+}
+
+/*# sourceMappingURL=../_maps/modules/works-list.css.map */

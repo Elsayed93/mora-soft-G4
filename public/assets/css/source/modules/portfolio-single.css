@@ -1,0 +1,94 @@
+/*
+ * ::::::::::: Portfolio Single Work Styles :::::::::::
+ */
+.portfolio-single .work-images li {
+  margin-bottom: 2rem;
+}
+
+.portfolio-single .work-images li:last-child {
+  margin-bottom: 0;
+}
+
+.portfolio-single .work-images img {
+  display: block;
+}
+
+.portfolio-single .widget-title {
+  font-size: 21px;
+  font-size: 1.3125rem;
+  margin-bottom: 1.3rem;
+}
+
+.portfolio-single .widget {
+  margin-bottom: 1rem;
+}
+
+.portfolio-single .widget:first-child .widget-title {
+  margin-top: -7px;
+}
+
+.portfolio-single .widget.full-width {
+  margin-bottom: 0;
+  margin-top: 1rem;
+}
+
+.portfolio-single .widget.full-width:first-child .widget-title {
+  margin-top: 0;
+}
+
+.portfolio-single .is-flex-reverse-column .widget.full-width {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.portfolio-single .textwidget p {
+  margin-bottom: 0;
+  font-size: 15px;
+  font-size: 0.9375rem;
+}
+
+.portfolio-single .widget-social ul li {
+  padding-right: 9px;
+  padding-bottom: 9px;
+}
+
+.portfolio-single .widget-social ul li .icon {
+  width: 31px;
+  height: 31px;
+  border-radius: 100%;
+}
+
+.portfolio-single .widget-social ul li .icon i {
+  font-size: 16px;
+  font-size: 1rem;
+}
+
+.portfolio-single .widget-links ul li {
+  padding: 6px 0;
+  font-size: 14.5px;
+  font-size: 0.90625rem;
+  color: #4b505d;
+}
+
+.portfolio-single .widget-links ul li a {
+  color: #4b505d;
+}
+
+.portfolio-single .widget-links ul li a:hover {
+  color: #0063dd;
+}
+
+.portfolio-single .widget-links ul li span {
+  font-size: 14px;
+  font-size: 0.875rem;
+  color: #0063dd;
+}
+
+.portfolio-single .widget-links ul li .icon {
+  color: #056ae8;
+  margin-right: 2.5px;
+  width: auto;
+  height: auto;
+}
+
+/*# sourceMappingURL=../_maps/modules/portfolio-single.css.map */

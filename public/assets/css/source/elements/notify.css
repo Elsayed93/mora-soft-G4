@@ -1,0 +1,111 @@
+/*
+ * ::::::::::: Notify bars and alerts Styles :::::::::::
+ */
+.overhang {
+  position: fixed;
+  display: none;
+  width: 100%;
+  z-index: 9999;
+  padding: 10px 25px;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-bottom: 0 !important;
+  font-family: 'Poppins', sans-serif;
+  background-color: #0063dd !important;
+}
+
+.overhang .button {
+  height: 2.2em;
+  padding-left: calc(1.2em - 1px);
+  padding-right: calc(1.2em - 1px);
+  letter-spacing: 0;
+  font-size: 13px;
+  margin: 0 10px;
+  vertical-align: baseline;
+}
+
+.overhang .icon {
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.overhang .overhang-message {
+  color: white;
+  font-size: 15px;
+}
+
+.overhang .overhang-close {
+  vertical-align: middle;
+  cursor: pointer;
+  padding: 0 10px;
+  display: inline-block;
+  line-height: 1px;
+  float: right;
+}
+
+.overhang .overhang-close:after {
+  font-family: 'Ionicons';
+  font-size: 30px;
+  font-size: 1.875rem;
+  content: "\f406";
+  color: white;
+  line-height: 1;
+}
+
+.show-overhang .button,
+.notify-alert .button {
+  margin: 0 4px;
+}
+
+body.overhang-in-bottom .overhang {
+  top: inherit;
+  bottom: 0;
+  padding-top: 12px;
+}
+
+body.overhang-push {
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  padding-top: 50px;
+}
+
+body.overhang-info .overhang {
+  background-color: #209cee !important;
+}
+
+body.overhang-success .overhang {
+  background-color: #23d160 !important;
+}
+
+body.overhang-warning .overhang {
+  background-color: #ffdd57 !important;
+}
+
+body.overhang-danger .overhang {
+  background-color: #ff3860 !important;
+}
+
+.noty_layout .noty_body {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+  -webkit-font-smoothing: antialiased;
+  line-height: 24px;
+  padding: 10px 15px !important;
+}
+
+.noty_layout .noty_body .icon {
+  height: auto;
+  width: auto;
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.noty_layout .noty_body .icon i[class^='icon-'] {
+  font-size: 15px;
+}
+
+/*# sourceMappingURL=../_maps/elements/notify.css.map */

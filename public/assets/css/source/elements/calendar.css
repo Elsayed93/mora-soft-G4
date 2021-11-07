@@ -1,0 +1,132 @@
+/*
+ * ::::::::::: Calendar Styles :::::::::::
+ */
+.calendar {
+  font-family: 'Poppins', sans-serif;
+}
+
+.calendar button {
+  font-family: 'Poppins', sans-serif;
+}
+
+.calendar button.button.is-text {
+  border-bottom: 0;
+}
+
+.calendar .calendar-footer {
+  margin-top: .8rem;
+  margin-bottom: .6rem;
+}
+
+.calendar .calendar-nav .calendar-nav-month,
+.calendar .calendar-nav .calendar-nav-year {
+  color: white;
+}
+
+.calendar .calendar-body .calendar-dates .calendar-days .calendar-date .date-item {
+  font-size: 12px;
+  font-size: 0.75rem;
+}
+
+.calendar .calendar-body .calendar-dates .calendar-days .calendar-date .date-item.is-active {
+  color: white;
+}
+
+.calendar .calendar-body .calendar-dates .calendar-days .calendar-date .date-item.is-active:hover {
+  color: #2b303b;
+}
+
+.calendar-full-width .calendar {
+  width: 100%;
+  max-width: 100%;
+}
+
+.calendar-is-info .calendar .calendar-nav {
+  background-color: #209cee;
+}
+
+.calendar-is-info .calendar .calendar-body .calendar-dates .calendar-days .calendar-date .date-item:hover {
+  border-color: #209cee;
+}
+
+.calendar-is-info .calendar .calendar-body .calendar-dates .calendar-days .calendar-date .date-item.is-today {
+  border-color: #209cee;
+  color: #209cee;
+}
+
+.calendar-is-info .calendar .calendar-body .calendar-dates .calendar-days .calendar-date .date-item.is-active {
+  background: #209cee;
+  border-color: #209cee;
+}
+
+.calendar-is-info .calendar .calendar-body .calendar-dates .calendar-days .calendar-date .date-item.is-active:hover {
+  background: white;
+}
+
+.calendar-is-success .calendar .calendar-nav {
+  background-color: #23d160;
+}
+
+.calendar-is-success .calendar .calendar-body .calendar-dates .calendar-days .calendar-date .date-item:hover {
+  border-color: #23d160;
+}
+
+.calendar-is-success .calendar .calendar-body .calendar-dates .calendar-days .calendar-date .date-item.is-today {
+  border-color: #23d160;
+  color: #23d160;
+}
+
+.calendar-is-success .calendar .calendar-body .calendar-dates .calendar-days .calendar-date .date-item.is-active {
+  background: #23d160;
+  border-color: #23d160;
+}
+
+.calendar-is-success .calendar .calendar-body .calendar-dates .calendar-days .calendar-date .date-item.is-active:hover {
+  background: white;
+}
+
+.calendar-is-warning .calendar .calendar-nav {
+  background-color: #ffdd57;
+}
+
+.calendar-is-warning .calendar .calendar-body .calendar-dates .calendar-days .calendar-date .date-item:hover {
+  border-color: #ffdd57;
+}
+
+.calendar-is-warning .calendar .calendar-body .calendar-dates .calendar-days .calendar-date .date-item.is-today {
+  border-color: #ffdd57;
+  color: #ffdd57;
+}
+
+.calendar-is-warning .calendar .calendar-body .calendar-dates .calendar-days .calendar-date .date-item.is-active {
+  background: #ffdd57;
+  border-color: #ffdd57;
+}
+
+.calendar-is-warning .calendar .calendar-body .calendar-dates .calendar-days .calendar-date .date-item.is-active:hover {
+  background: white;
+}
+
+.calendar-is-danger .calendar .calendar-nav {
+  background-color: #ff3860;
+}
+
+.calendar-is-danger .calendar .calendar-body .calendar-dates .calendar-days .calendar-date .date-item:hover {
+  border-color: #ff3860;
+}
+
+.calendar-is-danger .calendar .calendar-body .calendar-dates .calendar-days .calendar-date .date-item.is-today {
+  border-color: #ff3860;
+  color: #ff3860;
+}
+
+.calendar-is-danger .calendar .calendar-body .calendar-dates .calendar-days .calendar-date .date-item.is-active {
+  background: #ff3860;
+  border-color: #ff3860;
+}
+
+.calendar-is-danger .calendar .calendar-body .calendar-dates .calendar-days .calendar-date .date-item.is-active:hover {
+  background: white;
+}
+
+/*# sourceMappingURL=../_maps/elements/calendar.css.map */

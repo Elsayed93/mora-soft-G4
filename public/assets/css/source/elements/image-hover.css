@@ -1,0 +1,709 @@
+/*
+ * ::::::::::: Image Hover Effects Styles :::::::::::
+ */
+.image-hover figure figcaption .social li:first-child {
+  padding-left: 0;
+}
+
+.image-hover figure figcaption .social li:last-child {
+  padding-right: 0;
+}
+
+.image-hover figure {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer;
+  background: #000;
+  margin-bottom: 10px;
+}
+
+.image-hover figure img {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  max-width: 100%;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
+}
+
+.image-hover figure figcaption {
+  padding: 2em;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.image-hover figure figcaption:before, .image-hover figure figcaption:after {
+  pointer-events: none;
+}
+
+.image-hover figure figcaption > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 11;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+}
+
+.image-hover figure figcaption h2,
+.image-hover figure figcaption h3 {
+  font-size: 24px;
+  font-size: 1.5rem;
+  letter-spacing: 0px;
+  margin-bottom: 0.5rem;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
+  font-weight: 500;
+}
+
+.image-hover figure figcaption h5,
+.image-hover figure figcaption p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  font-size: 0.8125rem;
+  font-weight: normal;
+  letter-spacing: 1px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
+  text-transform: uppercase;
+}
+
+.image-hover figure figcaption ul {
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
+}
+
+.image-hover figure figcaption .social li {
+  display: inline-block;
+  padding: 0 4px;
+}
+
+.image-hover figure figcaption .social li a {
+  display: inline-block;
+}
+
+.image-hover figure figcaption .social li .icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: transparent;
+  color: white;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  border: 2px solid white;
+}
+
+.image-hover figure figcaption .social li .icon i {
+  font-size: 16px;
+  font-size: 1rem;
+}
+
+.image-hover figure figcaption .social li .icon i.icon-magnifier, .image-hover figure figcaption .social li .icon i.icon-control-play {
+  margin-left: 2px;
+}
+
+.image-hover figure figcaption .social li .icon i.icon-basket {
+  font-size: 18px;
+  font-size: 1.125rem;
+  margin-left: -2px;
+}
+
+.image-hover figure figcaption .social li .icon:hover {
+  background-color: white;
+  color: #393e4b;
+}
+
+.image-hover figure figcaption .social li:last-child {
+  border: 0;
+}
+
+.image-hover figure:hover img {
+  opacity: 0.6;
+}
+
+.image-hover.is-primary figure {
+  background: #0063dd;
+}
+
+.image-hover.is-primary-6 figure {
+  background: #096ae2;
+}
+
+.image-hover.is-info figure {
+  background: #209cee;
+}
+
+.image-hover.is-success figure {
+  background: #23d160;
+}
+
+.image-hover.is-warning figure {
+  background: #ffdd57;
+}
+
+.image-hover.is-danger figure {
+  background: #ff3860;
+}
+
+.image-hover.effect-1 figure img {
+  max-width: none;
+  width: calc(100% + 50px);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
+  -webkit-transform: translate3d(-40px, 0, 0);
+          transform: translate3d(-40px, 0, 0);
+}
+
+.image-hover.effect-1 figure figcaption {
+  text-align: left;
+}
+
+.image-hover.effect-1 figure figcaption > div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 2em;
+  width: 100%;
+  height: 35%;
+}
+
+.image-hover.effect-1 figure h2,
+.image-hover.effect-1 figure h3,
+.image-hover.effect-1 figure h5,
+.image-hover.effect-1 figure p,
+.image-hover.effect-1 figure ul {
+  -webkit-transform: translate3d(0, 40px, 0);
+          transform: translate3d(0, 40px, 0);
+}
+
+.image-hover.effect-1 figure h5,
+.image-hover.effect-1 figure p {
+  color: rgba(255, 255, 255, 0.8);
+  opacity: 0;
+  -webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
+  transition: opacity 0.2s, -webkit-transform 0.35s;
+  transition: opacity 0.2s, transform 0.35s;
+  transition: opacity 0.2s, transform 0.35s, -webkit-transform 0.35s;
+}
+
+.image-hover.effect-1 figure:hover p,
+.image-hover.effect-1 figure:hover h3,
+.image-hover.effect-1 figure:hover h5,
+.image-hover.effect-1 figure:hover ul {
+  opacity: 1;
+}
+
+.image-hover.effect-1 figure:hover img,
+.image-hover.effect-1 figure:hover h2,
+.image-hover.effect-1 figure:hover h3,
+.image-hover.effect-1 figure:hover h5,
+.image-hover.effect-1 figure:hover p,
+.image-hover.effect-1 figure:hover ul {
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+.image-hover.effect-1 figure:hover h5,
+.image-hover.effect-1 figure:hover p,
+.image-hover.effect-1 figure:hover ul {
+  -webkit-transition-delay: 0.05s;
+          transition-delay: 0.05s;
+  -webkit-transition-duration: 0.35s;
+          transition-duration: 0.35s;
+}
+
+.image-hover.effect-2 figure h2, .image-hover.effect-4 figure h2, .image-hover.effect-5 figure h2, .image-hover.effect-6 figure h2, .image-hover.effect-7 figure h2, .image-hover.effect-8 figure h2, .image-hover.effect-9 figure h2, .image-hover.effect-10 figure h2,
+.image-hover.effect-2 figure h3,
+.image-hover.effect-4 figure h3,
+.image-hover.effect-5 figure h3,
+.image-hover.effect-6 figure h3,
+.image-hover.effect-7 figure h3,
+.image-hover.effect-8 figure h3,
+.image-hover.effect-9 figure h3,
+.image-hover.effect-10 figure h3 {
+  margin-bottom: 0.6rem;
+}
+
+.image-hover.effect-2 figure h2, .image-hover.effect-4 figure h2, .image-hover.effect-5 figure h2, .image-hover.effect-6 figure h2, .image-hover.effect-7 figure h2, .image-hover.effect-8 figure h2, .image-hover.effect-9 figure h2, .image-hover.effect-10 figure h2,
+.image-hover.effect-2 figure h3,
+.image-hover.effect-4 figure h3,
+.image-hover.effect-5 figure h3,
+.image-hover.effect-6 figure h3,
+.image-hover.effect-7 figure h3,
+.image-hover.effect-8 figure h3,
+.image-hover.effect-9 figure h3,
+.image-hover.effect-10 figure h3,
+.image-hover.effect-2 figure p,
+.image-hover.effect-4 figure p,
+.image-hover.effect-5 figure p,
+.image-hover.effect-6 figure p,
+.image-hover.effect-7 figure p,
+.image-hover.effect-8 figure p,
+.image-hover.effect-9 figure p,
+.image-hover.effect-10 figure p,
+.image-hover.effect-2 figure h5,
+.image-hover.effect-4 figure h5,
+.image-hover.effect-5 figure h5,
+.image-hover.effect-6 figure h5,
+.image-hover.effect-7 figure h5,
+.image-hover.effect-8 figure h5,
+.image-hover.effect-9 figure h5,
+.image-hover.effect-10 figure h5,
+.image-hover.effect-2 figure ul,
+.image-hover.effect-4 figure ul,
+.image-hover.effect-5 figure ul,
+.image-hover.effect-6 figure ul,
+.image-hover.effect-7 figure ul,
+.image-hover.effect-8 figure ul,
+.image-hover.effect-9 figure ul,
+.image-hover.effect-10 figure ul {
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
+}
+
+.image-hover.effect-2 figure h2, .image-hover.effect-4 figure h2, .image-hover.effect-5 figure h2, .image-hover.effect-6 figure h2, .image-hover.effect-7 figure h2, .image-hover.effect-8 figure h2, .image-hover.effect-9 figure h2, .image-hover.effect-10 figure h2,
+.image-hover.effect-2 figure h3,
+.image-hover.effect-4 figure h3,
+.image-hover.effect-5 figure h3,
+.image-hover.effect-6 figure h3,
+.image-hover.effect-7 figure h3,
+.image-hover.effect-8 figure h3,
+.image-hover.effect-9 figure h3,
+.image-hover.effect-10 figure h3,
+.image-hover.effect-2 figure p,
+.image-hover.effect-4 figure p,
+.image-hover.effect-5 figure p,
+.image-hover.effect-6 figure p,
+.image-hover.effect-7 figure p,
+.image-hover.effect-8 figure p,
+.image-hover.effect-9 figure p,
+.image-hover.effect-10 figure p,
+.image-hover.effect-2 figure h5,
+.image-hover.effect-4 figure h5,
+.image-hover.effect-5 figure h5,
+.image-hover.effect-6 figure h5,
+.image-hover.effect-7 figure h5,
+.image-hover.effect-8 figure h5,
+.image-hover.effect-9 figure h5,
+.image-hover.effect-10 figure h5,
+.image-hover.effect-2 figure ul,
+.image-hover.effect-4 figure ul,
+.image-hover.effect-5 figure ul,
+.image-hover.effect-6 figure ul,
+.image-hover.effect-7 figure ul,
+.image-hover.effect-8 figure ul,
+.image-hover.effect-9 figure ul,
+.image-hover.effect-10 figure ul {
+  position: absolute;
+  bottom: 38%;
+  left: 0;
+  padding: 2em;
+  width: 100%;
+  opacity: 0;
+  -webkit-transform: translate3d(0, 10px, 0);
+          transform: translate3d(0, 10px, 0);
+}
+
+.image-hover.effect-2 figure:hover p, .image-hover.effect-4 figure:hover p, .image-hover.effect-5 figure:hover p, .image-hover.effect-6 figure:hover p, .image-hover.effect-7 figure:hover p, .image-hover.effect-8 figure:hover p, .image-hover.effect-9 figure:hover p, .image-hover.effect-10 figure:hover p,
+.image-hover.effect-2 figure:hover h3,
+.image-hover.effect-4 figure:hover h3,
+.image-hover.effect-5 figure:hover h3,
+.image-hover.effect-6 figure:hover h3,
+.image-hover.effect-7 figure:hover h3,
+.image-hover.effect-8 figure:hover h3,
+.image-hover.effect-9 figure:hover h3,
+.image-hover.effect-10 figure:hover h3,
+.image-hover.effect-2 figure:hover h5,
+.image-hover.effect-4 figure:hover h5,
+.image-hover.effect-5 figure:hover h5,
+.image-hover.effect-6 figure:hover h5,
+.image-hover.effect-7 figure:hover h5,
+.image-hover.effect-8 figure:hover h5,
+.image-hover.effect-9 figure:hover h5,
+.image-hover.effect-10 figure:hover h5,
+.image-hover.effect-2 figure:hover ul,
+.image-hover.effect-4 figure:hover ul,
+.image-hover.effect-5 figure:hover ul,
+.image-hover.effect-6 figure:hover ul,
+.image-hover.effect-7 figure:hover ul,
+.image-hover.effect-8 figure:hover ul,
+.image-hover.effect-9 figure:hover ul,
+.image-hover.effect-10 figure:hover ul {
+  opacity: 1;
+}
+
+.image-hover.effect-2 figure:hover h2, .image-hover.effect-4 figure:hover h2, .image-hover.effect-5 figure:hover h2, .image-hover.effect-6 figure:hover h2, .image-hover.effect-7 figure:hover h2, .image-hover.effect-8 figure:hover h2, .image-hover.effect-9 figure:hover h2, .image-hover.effect-10 figure:hover h2,
+.image-hover.effect-2 figure:hover h3,
+.image-hover.effect-4 figure:hover h3,
+.image-hover.effect-5 figure:hover h3,
+.image-hover.effect-6 figure:hover h3,
+.image-hover.effect-7 figure:hover h3,
+.image-hover.effect-8 figure:hover h3,
+.image-hover.effect-9 figure:hover h3,
+.image-hover.effect-10 figure:hover h3, .image-hover.effect-2 figure:hover p, .image-hover.effect-4 figure:hover p, .image-hover.effect-5 figure:hover p, .image-hover.effect-6 figure:hover p, .image-hover.effect-7 figure:hover p, .image-hover.effect-8 figure:hover p, .image-hover.effect-9 figure:hover p, .image-hover.effect-10 figure:hover p,
+.image-hover.effect-2 figure:hover h5,
+.image-hover.effect-4 figure:hover h5,
+.image-hover.effect-5 figure:hover h5,
+.image-hover.effect-6 figure:hover h5,
+.image-hover.effect-7 figure:hover h5,
+.image-hover.effect-8 figure:hover h5,
+.image-hover.effect-9 figure:hover h5,
+.image-hover.effect-10 figure:hover h5,
+.image-hover.effect-2 figure:hover ul,
+.image-hover.effect-4 figure:hover ul,
+.image-hover.effect-5 figure:hover ul,
+.image-hover.effect-6 figure:hover ul,
+.image-hover.effect-7 figure:hover ul,
+.image-hover.effect-8 figure:hover ul,
+.image-hover.effect-9 figure:hover ul,
+.image-hover.effect-10 figure:hover ul {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+.image-hover.effect-3 figure figcaption {
+  padding: 3em;
+}
+
+.image-hover.effect-3 figure figcaption:before, .image-hover.effect-3 figure figcaption:after {
+  position: absolute;
+  content: '';
+  opacity: 0;
+}
+
+.image-hover.effect-3 figure figcaption:before {
+  top: 50px;
+  right: 30px;
+  bottom: 50px;
+  left: 30px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: scale(0, 1);
+          transform: scale(0, 1);
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+}
+
+.image-hover.effect-3 figure figcaption:after {
+  top: 30px;
+  right: 50px;
+  bottom: 30px;
+  left: 50px;
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+  -webkit-transform: scale(1, 0);
+          transform: scale(1, 0);
+  -webkit-transform-origin: 100% 0;
+          transform-origin: 100% 0;
+}
+
+.image-hover.effect-3 figure h2,
+.image-hover.effect-3 figure h3,
+.image-hover.effect-3 figure ul {
+  opacity: 0;
+  padding-top: 42%;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  transition: transform 0.35s, -webkit-transform 0.35s;
+  margin-bottom: 0;
+}
+
+.image-hover.effect-3 figure p,
+.image-hover.effect-3 figure h5 {
+  padding: 0.5em 2em;
+  text-transform: none;
+  opacity: 0;
+  -webkit-transform: translate3d(0, -10px, 0);
+          transform: translate3d(0, -10px, 0);
+}
+
+.image-hover.effect-3 figure h2,
+.image-hover.effect-3 figure h3,
+.image-hover.effect-3 figure ul {
+  -webkit-transform: translate3d(0, 30px, 0);
+          transform: translate3d(0, 30px, 0);
+}
+
+.image-hover.effect-3 figure h2,
+.image-hover.effect-3 figure h3,
+.image-hover.effect-3 figure img,
+.image-hover.effect-3 figure figcaption::before,
+.image-hover.effect-3 figure figcaption::after,
+.image-hover.effect-3 figure p,
+.image-hover.effect-3 figure h5,
+.image-hover.effect-3 figure ul {
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
+}
+
+.image-hover.effect-3 figure:hover figcaption::before,
+.image-hover.effect-3 figure:hover figcaption::after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.image-hover.effect-3 figure:hover h2,
+.image-hover.effect-3 figure:hover h3,
+.image-hover.effect-3 figure:hover p,
+.image-hover.effect-3 figure:hover h5,
+.image-hover.effect-3 figure:hover ul {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+.image-hover.effect-3 figure:hover figcaption::after,
+.image-hover.effect-3 figure:hover h2,
+.image-hover.effect-3 figure:hover h3,
+.image-hover.effect-3 figure:hover p,
+.image-hover.effect-3 figure:hover h5,
+.image-hover.effect-3 figure:hover img,
+.image-hover.effect-3 figure:hover ul {
+  -webkit-transition-delay: 0.15s;
+          transition-delay: 0.15s;
+}
+
+.image-hover.effect-4 figure figcaption:before {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  bottom: 30px;
+  left: 30px;
+  border: 1px solid #fff;
+  content: '';
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+.image-hover.effect-4 figure:hover figcaption:before {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.image-hover.effect-5 figure {
+  margin-bottom: 0;
+}
+
+.image-hover.effect-5 figure img {
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+.image-hover.effect-5 figure:hover img {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.image-hover.effect-6 figure figcaption:before, .image-hover.effect-6 figure figcaption:after {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  bottom: 30px;
+  left: 30px;
+  content: '';
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
+}
+
+.image-hover.effect-6 figure figcaption:before {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: scale(0, 1);
+          transform: scale(0, 1);
+}
+
+.image-hover.effect-6 figure figcaption:after {
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+  -webkit-transform: scale(1, 0);
+          transform: scale(1, 0);
+}
+
+.image-hover.effect-6 figure:hover figcaption:before, .image-hover.effect-6 figure:hover figcaption:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.image-hover.effect-7 figure {
+  background-color: #fff;
+}
+
+.image-hover.effect-7 figure img {
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+}
+
+.image-hover.effect-7 figure:hover {
+  -webkit-box-shadow: 2px 1px 25px 5px rgba(166, 166, 166, 0.2);
+          box-shadow: 2px 1px 25px 5px rgba(166, 166, 166, 0.2);
+}
+
+.image-hover.effect-7 figure:hover img {
+  opacity: .8;
+  -webkit-transform: scale3d(0.92, 0.92, 1);
+          transform: scale3d(0.92, 0.92, 1);
+}
+
+.image-hover.effect-8 figure figcaption:after {
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  content: '';
+  opacity: 0;
+  -webkit-transform: rotate3d(0, 0, 1, 45deg) scale3d(1, 0, 1);
+          transform: rotate3d(0, 0, 1, 45deg) scale3d(1, 0, 1);
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+}
+
+.image-hover.effect-8 figure:hover img {
+  -webkit-transform: scale3d(1.05, 1.05, 1);
+          transform: scale3d(1.05, 1.05, 1);
+}
+
+.image-hover.effect-8 figure:hover figcaption:after {
+  opacity: 1;
+  -webkit-transform: rotate3d(0, 0, 1, 45deg) scale3d(1, 1, 1);
+          transform: rotate3d(0, 0, 1, 45deg) scale3d(1, 1, 1);
+}
+
+.image-hover.effect-9 figure {
+  background-color: white;
+}
+
+.image-hover.effect-9 figure figcaption {
+  padding-bottom: 1em;
+}
+
+.image-hover.effect-9 figure h2,
+.image-hover.effect-9 figure h3,
+.image-hover.effect-9 figure p,
+.image-hover.effect-9 figure h5 {
+  bottom: 0;
+}
+
+.image-hover.effect-9 figure img {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  opacity: 1;
+  z-index: 10;
+}
+
+.image-hover.effect-9 figure h2,
+.image-hover.effect-9 figure h3 {
+  color: #393e4b;
+  font-size: 21px;
+  font-size: 1.3125rem;
+}
+
+.image-hover.effect-9 figure h2 a,
+.image-hover.effect-9 figure h3 a {
+  color: #393e4b;
+}
+
+.image-hover.effect-9 figure p,
+.image-hover.effect-9 figure h5 {
+  color: #0063dd;
+  font-size: 13px;
+  font-size: 0.8125rem;
+}
+
+.image-hover.effect-9 figure p a,
+.image-hover.effect-9 figure h5 a {
+  color: #0063dd;
+}
+
+.image-hover.effect-9 figure:hover {
+  -webkit-box-shadow: 2px 1px 25px 5px rgba(166, 166, 166, 0.2);
+          box-shadow: 2px 1px 25px 5px rgba(166, 166, 166, 0.2);
+}
+
+.image-hover.effect-9 figure:hover img {
+  -webkit-transform: translate3d(0, -100px, 0);
+          transform: translate3d(0, -100px, 0);
+}
+
+.image-hover.effect-9 figure:hover h2,
+.image-hover.effect-9 figure:hover h3,
+.image-hover.effect-9 figure:hover p,
+.image-hover.effect-9 figure:hover h5 {
+  -webkit-transform: none;
+          transform: none;
+}
+
+.image-hover.effect-10 {
+  cursor: default;
+}
+
+.image-hover.owl-carousel figure {
+  margin-bottom: 0;
+}
+
+.image-hover.owl-carousel figure:hover {
+  -webkit-box-shadow: 0px 9px 10px -4px rgba(166, 166, 166, 0.1);
+          box-shadow: 0px 9px 10px -4px rgba(166, 166, 166, 0.1);
+}
+
+.image-hover.isotope figure {
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=../_maps/elements/image-hover.css.map */

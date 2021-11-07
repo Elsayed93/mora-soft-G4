@@ -1,0 +1,108 @@
+/*
+ * ::::::::::: Call To Action Styles :::::::::::
+ */
+.call-to-action.style-1 .heading, .call-to-action.style-2 .heading, .call-to-action.style-5 .heading {
+  text-transform: uppercase;
+}
+
+.call-to-action.style-1 .title, .call-to-action.style-2 .title, .call-to-action.style-5 .title {
+  text-transform: capitalize;
+}
+
+.call-to-action {
+  padding-top: 5.7rem;
+  padding-bottom: 5.7rem;
+}
+
+.call-to-action.style-1 .title, .call-to-action.style-2 .title {
+  color: #2b303b;
+  letter-spacing: 0px;
+  font-size: 36px;
+  font-size: 2.25rem;
+  font-weight: 600;
+}
+
+.call-to-action.style-1 .heading, .call-to-action.style-2 .heading {
+  padding-bottom: 12px;
+  font-size: 14px;
+  font-size: 0.875rem;
+  letter-spacing: 1.4px;
+  margin-top: -23px;
+}
+
+.call-to-action.style-1 .button, .call-to-action.style-2 .button {
+  margin-bottom: -23px;
+}
+
+.call-to-action.style-2 .title {
+  margin-bottom: 1rem;
+}
+
+.call-to-action.style-2 .heading-title-bottom {
+  padding-bottom: 0;
+}
+
+.call-to-action.style-2 .button {
+  margin-bottom: 0;
+}
+
+.call-to-action.style-3 .heading-title:after {
+  display: none;
+}
+
+.call-to-action.style-4 .icon {
+  margin-bottom: 40px;
+  color: #ffdd57;
+}
+
+.call-to-action.style-4 .icon i {
+  font-size: 54px;
+  font-size: 3.375rem;
+  line-height: 1;
+}
+
+.call-to-action.style-4 .heading-title {
+  margin-bottom: 16px !important;
+}
+
+.call-to-action.style-4 p {
+  margin-bottom: 45px;
+}
+
+.call-to-action.style-4 .button {
+  margin: 0 5px;
+}
+
+.call-to-action.style-5 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.call-to-action.style-5 .title {
+  color: white;
+  letter-spacing: 0px;
+  font-size: 36px;
+  font-size: 2.25rem;
+  font-weight: 600;
+}
+
+.call-to-action.style-5 .heading {
+  font-size: 50px;
+  font-size: 3.125rem;
+  letter-spacing: 1.4px;
+  color: #096ae2;
+  margin-right: 30px;
+  margin-top: 4px;
+  font-weight: 500;
+}
+
+.call-to-action.style-5 .button {
+  background-color: #096ae2;
+}
+
+.call-to-action.style-5 .button:hover {
+  background-color: white;
+  color: #096ae2;
+}
+
+/*# sourceMappingURL=../_maps/elements/call-to-action.css.map */

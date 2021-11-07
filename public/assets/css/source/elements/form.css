@@ -1,0 +1,70 @@
+/*
+ * ::::::::::: Form Styles :::::::::::
+ */
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="email"],
+textarea,
+select,
+.checkbox,
+.radio {
+  font-family: 'Poppins', sans-serif;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="email"],
+textarea,
+select,
+.input.is-medium,
+.textarea.is-medium,
+.select.is-medium,
+.input,
+.textarea {
+  font-size: 15px;
+  font-size: 0.9375rem;
+  padding-left: calc(1em - 1px);
+  padding-right: calc(1em - 1px);
+  height: 3.06em;
+}
+
+.select select {
+  padding-left: calc(1em - 1px);
+  padding-right: calc(1em - 1px);
+  height: 2.9em;
+  min-width: 250px;
+}
+
+.select:not(.is-multiple):not(.is-loading)::after {
+  top: 65%;
+}
+
+.field:not(:last-child) {
+  margin-bottom: 1.8rem;
+}
+
+.field-body .field {
+  margin-bottom: 0;
+}
+
+.field-body > .field:not(:last-child) {
+  margin-right: 1.6rem;
+}
+
+textarea,
+.textarea {
+  padding: calc(1em - 1px);
+}
+
+textarea:not([rows]),
+.textarea:not([rows]) {
+  min-height: 245px;
+}
+
+.control.has-icons-left .icon, .control.has-icons-right .icon {
+  height: 2.9em;
+}
+
+/*# sourceMappingURL=../_maps/elements/form.css.map */

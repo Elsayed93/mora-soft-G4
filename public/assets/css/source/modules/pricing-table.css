@@ -1,0 +1,270 @@
+/*
+ * ::::::::::: Pricing Table Styles :::::::::::
+ */
+.pricing-table .pricing-plan .plan-items .plan-item {
+  text-transform: capitalize;
+}
+
+.title:not(:last-child), .pricing-table .pricing-plan .plan-header:not(:last-child),
+.subtitle:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+.title, .pricing-table .pricing-plan .plan-header,
+.subtitle {
+  word-break: break-word;
+}
+
+.title em, .pricing-table .pricing-plan .plan-header em,
+.title span,
+.pricing-table .pricing-plan .plan-header span,
+.subtitle em,
+.subtitle span {
+  font-weight: inherit;
+}
+
+.title sub, .pricing-table .pricing-plan .plan-header sub,
+.subtitle sub {
+  font-size: 0.75em;
+}
+
+.title sup, .pricing-table .pricing-plan .plan-header sup,
+.subtitle sup {
+  font-size: 0.75em;
+}
+
+.title .tag, .pricing-table .pricing-plan .plan-header .tag,
+.subtitle .tag {
+  vertical-align: middle;
+}
+
+.title, .pricing-table .pricing-plan .plan-header {
+  color: #363636;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.125;
+}
+
+.title strong, .pricing-table .pricing-plan .plan-header strong {
+  color: inherit;
+  font-weight: inherit;
+}
+
+.title + .highlight, .pricing-table .pricing-plan .plan-header + .highlight {
+  margin-top: -0.75rem;
+}
+
+.title:not(.is-spaced) + .subtitle, .pricing-table .pricing-plan .plan-header:not(.is-spaced) + .subtitle {
+  margin-top: -1.25rem;
+}
+
+.title.is-1, .pricing-table .pricing-plan .is-1.plan-header {
+  font-size: 3rem;
+}
+
+.title.is-2, .pricing-table .pricing-plan .is-2.plan-header {
+  font-size: 2.5rem;
+}
+
+.title.is-3, .pricing-table .pricing-plan .is-3.plan-header {
+  font-size: 2rem;
+}
+
+.title.is-4, .pricing-table .pricing-plan .is-4.plan-header {
+  font-size: 1.5rem;
+}
+
+.title.is-5, .pricing-table .pricing-plan .is-5.plan-header {
+  font-size: 1.25rem;
+}
+
+.title.is-6, .pricing-table .pricing-plan .is-6.plan-header {
+  font-size: 1rem;
+}
+
+.title.is-7, .pricing-table .pricing-plan .is-7.plan-header {
+  font-size: 0.75rem;
+}
+
+.subtitle {
+  color: #4a4a4a;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+.subtitle strong {
+  color: #363636;
+  font-weight: 600;
+}
+
+.subtitle:not(.is-spaced) + .title, .pricing-table .pricing-plan .subtitle:not(.is-spaced) + .plan-header {
+  margin-top: -1.25rem;
+}
+
+.subtitle.is-1 {
+  font-size: 3rem;
+}
+
+.subtitle.is-2 {
+  font-size: 2.5rem;
+}
+
+.subtitle.is-3 {
+  font-size: 2rem;
+}
+
+.subtitle.is-4 {
+  font-size: 1.5rem;
+}
+
+.subtitle.is-5 {
+  font-size: 1.25rem;
+}
+
+.subtitle.is-6 {
+  font-size: 1rem;
+}
+
+.subtitle.is-7 {
+  font-size: 0.75rem;
+}
+
+.pricing-table {
+  padding: 30px 0 50px;
+}
+
+.pricing-table .pricing-plan {
+  margin: .9rem;
+  background: white;
+  padding: 22px 3% 45px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.pricing-table .pricing-plan:hover {
+  margin-top: 0;
+  border: 1px solid #056ae8;
+}
+
+.pricing-table .pricing-plan:first-child {
+  margin-left: 0;
+}
+
+.pricing-table .pricing-plan:last-child {
+  margin-right: 0;
+}
+
+.pricing-table .pricing-plan .plan-header {
+  text-transform: capitalize;
+  font-size: 28px;
+  font-size: 1.75rem;
+  font-weight: 600;
+  letter-spacing: 0px;
+  color: #056ae8;
+  border-bottom: 1px solid #EAEAEA;
+  padding-bottom: 2.5rem;
+}
+
+.pricing-table .pricing-plan .plan-price {
+  font-size: 14px;
+  font-size: 0.875rem;
+  color: #4b505d;
+  padding: .3rem 0 2.2rem;
+  line-height: 1;
+}
+
+.pricing-table .pricing-plan .plan-price .plan-price-amount {
+  color: #2b303b;
+  font-size: 58px;
+  font-size: 3.625rem;
+  letter-spacing: 0px;
+  padding: 0 2px;
+  font-weight: 500;
+}
+
+.pricing-table .pricing-plan .plan-price .plan-price-amount .plan-price-currency {
+  color: #2b303b;
+  font-size: 1.5rem !important;
+  vertical-align: middle;
+}
+
+.pricing-table .pricing-plan .plan-items {
+  margin-bottom: 1.4rem;
+}
+
+.pricing-table .pricing-plan .plan-items .plan-item {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-size: 0.9375rem;
+}
+
+.pricing-table .pricing-plan .plan-footer .button {
+  color: white;
+  background-color: #2b303b;
+  padding: 22px 45px;
+}
+
+.pricing-table .pricing-plan .plan-footer .button:hover {
+  background-color: #0063dd;
+}
+
+.pricing-table .pricing-plan.is-active {
+  border: none;
+  background: #2b303b;
+  margin-top: .9rem !important;
+}
+
+.pricing-table .pricing-plan.is-active .plan-header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.pricing-table .pricing-plan.is-active .plan-price {
+  color: white;
+}
+
+.pricing-table .pricing-plan.is-active .plan-price .plan-price-amount {
+  color: white;
+}
+
+.pricing-table .pricing-plan.is-active .plan-price .plan-price-amount .plan-price-currency {
+  color: white;
+}
+
+.pricing-table .pricing-plan.is-active .plan-footer .button {
+  color: white;
+  background-color: #0063dd;
+  padding: 19px 45px;
+  height: 2.42em;
+}
+
+.pricing-table .pricing-plan.is-active .plan-footer .button:hover {
+  background-color: white;
+  color: #0063dd;
+}
+
+.pricing-table.is-comparative {
+  margin: 0;
+}
+
+.pricing-table.is-comparative .pricing-plan {
+  padding-right: 0;
+  padding-left: 0;
+  margin: .9rem 0;
+}
+
+.pricing-table.is-comparative .pricing-plan.is-active {
+  border: none;
+}
+
+.pricing-table.is-comparative .pricing-plan .plan-items .plan-item {
+  font-size: 14px;
+  font-size: 0.875rem;
+}
+
+.pricing-table.style-2 .pricing-plan {
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+/*# sourceMappingURL=../_maps/modules/pricing-table.css.map */

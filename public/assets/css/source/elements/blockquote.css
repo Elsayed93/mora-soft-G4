@@ -1,0 +1,585 @@
+/*
+ * ::::::::::: Blockquotes Styles :::::::::::
+ */
+.content blockquote span,
+.entry-content blockquote span {
+  text-transform: uppercase;
+}
+
+.content blockquote,
+.entry-content blockquote {
+  text-transform: capitalize;
+}
+
+.content blockquote,
+.entry-content blockquote {
+  font-family: 'Poppins', sans-serif;
+  margin: 1.8em 0;
+  color: #393e4b;
+  font-size: 20px;
+  font-size: 1.25rem;
+  line-height: 1.8;
+  position: relative;
+  font-weight: 500;
+}
+
+.content blockquote span,
+.entry-content blockquote span {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-size: 0.875rem;
+  color: #0968dd;
+  letter-spacing: 1px;
+  display: block;
+  margin-top: 1.8em;
+}
+
+.content blockquote span:before,
+.entry-content blockquote span:before {
+  display: inline-block;
+  content: '';
+  width: 15px;
+  height: 1px;
+  border-bottom: 1px solid #D8D8D8;
+  background-color: #D8D8D8;
+  vertical-align: middle;
+  margin: 0 .5rem 0 0;
+}
+
+.content blockquote.style-1,
+.entry-content blockquote.style-1 {
+  text-align: center;
+  border: none;
+  font-size: 25px;
+  font-size: 1.5625rem;
+  padding: .8em .1em;
+  margin-top: 2.8em;
+}
+
+.content blockquote.style-1:before,
+.entry-content blockquote.style-1:before {
+  font-family: 'Font Awesome 5 Free';
+  font-size: 35px;
+  font-size: 2.1875rem;
+  content: "\f10d";
+  top: -34%;
+  left: 49%;
+  position: absolute;
+  color: #0968dd;
+  font-weight: 900;
+}
+
+.content blockquote.style-1 span,
+.entry-content blockquote.style-1 span {
+  color: #A6A6A6;
+}
+
+.content blockquote.style-1 span:before,
+.entry-content blockquote.style-1 span:before {
+  border-color: #0968dd;
+  background-color: #0968dd;
+}
+
+.content blockquote.style-2,
+.entry-content blockquote.style-2 {
+  border: none;
+  padding-left: 3.2em;
+  padding-top: .6em;
+  font-size: 22px;
+  font-size: 1.375rem;
+}
+
+.content blockquote.style-2:before,
+.entry-content blockquote.style-2:before {
+  font-family: 'Font Awesome 5 Free';
+  font-size: 33px;
+  font-size: 2.0625rem;
+  content: "\f10d";
+  top: 0;
+  left: 0;
+  position: absolute;
+  color: #0968dd;
+  font-weight: 900;
+}
+
+.content blockquote.style-3,
+.entry-content blockquote.style-3 {
+  border: none;
+  padding-top: .4em;
+  font-size: 22px;
+  font-size: 1.375rem;
+  text-align: center;
+}
+
+.content blockquote.style-3 span,
+.entry-content blockquote.style-3 span {
+  color: #A6A6A6;
+}
+
+.content blockquote.style-3:before,
+.entry-content blockquote.style-3:before {
+  font-family: 'Font Awesome 5 Free';
+  font-size: 33px;
+  font-size: 2.0625rem;
+  content: "\f10d";
+  top: 0;
+  left: 0;
+  position: absolute;
+  color: #0968dd;
+  font-weight: 900;
+}
+
+.content blockquote.style-3:after,
+.entry-content blockquote.style-3:after {
+  font-family: 'Font Awesome 5 Free';
+  font-size: 33px;
+  font-size: 2.0625rem;
+  content: "\f10e";
+  top: 0;
+  right: 0;
+  position: absolute;
+  color: #0968dd;
+  font-weight: 900;
+  content: "\f10e";
+}
+
+.content blockquote.style-4,
+.entry-content blockquote.style-4 {
+  text-align: center;
+  border: none;
+  font-size: 25px;
+  font-size: 1.5625rem;
+  padding: .8em .1em;
+  margin-top: 2em;
+}
+
+.content blockquote.style-4:before,
+.entry-content blockquote.style-4:before {
+  font-family: 'Font Awesome 5 Free';
+  font-size: 80px;
+  font-size: 5rem;
+  content: "\f10d";
+  top: -20%;
+  left: 46%;
+  position: absolute;
+  color: #F0F0F0;
+  font-weight: 900;
+  opacity: .7;
+  z-index: -1;
+}
+
+.content blockquote.is-info,
+.entry-content blockquote.is-info {
+  border-color: #209cee;
+}
+
+.content blockquote.is-info span,
+.entry-content blockquote.is-info span {
+  color: #209cee;
+}
+
+.content blockquote.is-info.style-1:before,
+.entry-content blockquote.is-info.style-1:before {
+  color: #209cee;
+}
+
+.content blockquote.is-info.style-1 span,
+.entry-content blockquote.is-info.style-1 span {
+  color: #A6A6A6;
+}
+
+.content blockquote.is-info.style-1 span:before,
+.entry-content blockquote.is-info.style-1 span:before {
+  border-color: #209cee;
+  background-color: #209cee;
+}
+
+.content blockquote.is-info.style-2:before,
+.entry-content blockquote.is-info.style-2:before {
+  color: #209cee;
+}
+
+.content blockquote.is-info.style-3 span,
+.entry-content blockquote.is-info.style-3 span {
+  color: #A6A6A6;
+}
+
+.content blockquote.is-info.style-3:before,
+.entry-content blockquote.is-info.style-3:before {
+  color: #209cee;
+}
+
+.content blockquote.is-info.style-3:after,
+.entry-content blockquote.is-info.style-3:after {
+  color: #209cee;
+}
+
+.content blockquote.is-success,
+.entry-content blockquote.is-success {
+  border-color: #23d160;
+}
+
+.content blockquote.is-success span,
+.entry-content blockquote.is-success span {
+  color: #23d160;
+}
+
+.content blockquote.is-success.style-1:before,
+.entry-content blockquote.is-success.style-1:before {
+  color: #23d160;
+}
+
+.content blockquote.is-success.style-1 span,
+.entry-content blockquote.is-success.style-1 span {
+  color: #A6A6A6;
+}
+
+.content blockquote.is-success.style-1 span:before,
+.entry-content blockquote.is-success.style-1 span:before {
+  border-color: #23d160;
+  background-color: #23d160;
+}
+
+.content blockquote.is-success.style-2:before,
+.entry-content blockquote.is-success.style-2:before {
+  color: #23d160;
+}
+
+.content blockquote.is-success.style-3 span,
+.entry-content blockquote.is-success.style-3 span {
+  color: #A6A6A6;
+}
+
+.content blockquote.is-success.style-3:before,
+.entry-content blockquote.is-success.style-3:before {
+  color: #23d160;
+}
+
+.content blockquote.is-success.style-3:after,
+.entry-content blockquote.is-success.style-3:after {
+  color: #23d160;
+}
+
+.content blockquote.is-warning,
+.entry-content blockquote.is-warning {
+  border-color: #ffdd57;
+}
+
+.content blockquote.is-warning span,
+.entry-content blockquote.is-warning span {
+  color: #ffdd57;
+}
+
+.content blockquote.is-warning.style-1:before,
+.entry-content blockquote.is-warning.style-1:before {
+  color: #ffdd57;
+}
+
+.content blockquote.is-warning.style-1 span,
+.entry-content blockquote.is-warning.style-1 span {
+  color: #A6A6A6;
+}
+
+.content blockquote.is-warning.style-1 span:before,
+.entry-content blockquote.is-warning.style-1 span:before {
+  border-color: #ffdd57;
+  background-color: #ffdd57;
+}
+
+.content blockquote.is-warning.style-2:before,
+.entry-content blockquote.is-warning.style-2:before {
+  color: #ffdd57;
+}
+
+.content blockquote.is-warning.style-3 span,
+.entry-content blockquote.is-warning.style-3 span {
+  color: #A6A6A6;
+}
+
+.content blockquote.is-warning.style-3:before,
+.entry-content blockquote.is-warning.style-3:before {
+  color: #ffdd57;
+}
+
+.content blockquote.is-warning.style-3:after,
+.entry-content blockquote.is-warning.style-3:after {
+  color: #ffdd57;
+}
+
+.content blockquote.is-black,
+.entry-content blockquote.is-black {
+  border-color: #0a0a0a;
+}
+
+.content blockquote.is-black span,
+.entry-content blockquote.is-black span {
+  color: #0a0a0a;
+}
+
+.content blockquote.is-black.style-1:before,
+.entry-content blockquote.is-black.style-1:before {
+  color: #0a0a0a;
+}
+
+.content blockquote.is-black.style-1 span,
+.entry-content blockquote.is-black.style-1 span {
+  color: #A6A6A6;
+}
+
+.content blockquote.is-black.style-1 span:before,
+.entry-content blockquote.is-black.style-1 span:before {
+  border-color: #0a0a0a;
+  background-color: #0a0a0a;
+}
+
+.content blockquote.is-black.style-2:before,
+.entry-content blockquote.is-black.style-2:before {
+  color: #0a0a0a;
+}
+
+.content blockquote.is-black.style-3 span,
+.entry-content blockquote.is-black.style-3 span {
+  color: #A6A6A6;
+}
+
+.content blockquote.is-black.style-3:before,
+.entry-content blockquote.is-black.style-3:before {
+  color: #0a0a0a;
+}
+
+.content blockquote.is-black.style-3:after,
+.entry-content blockquote.is-black.style-3:after {
+  color: #0a0a0a;
+}
+
+.content blockquote.is-link,
+.entry-content blockquote.is-link {
+  border-color: #0063dd;
+}
+
+.content blockquote.is-link span,
+.entry-content blockquote.is-link span {
+  color: #0063dd;
+}
+
+.content blockquote.is-link.style-1:before,
+.entry-content blockquote.is-link.style-1:before {
+  color: #0063dd;
+}
+
+.content blockquote.is-link.style-1 span,
+.entry-content blockquote.is-link.style-1 span {
+  color: #A6A6A6;
+}
+
+.content blockquote.is-link.style-1 span:before,
+.entry-content blockquote.is-link.style-1 span:before {
+  border-color: #0063dd;
+  background-color: #0063dd;
+}
+
+.content blockquote.is-link.style-2:before,
+.entry-content blockquote.is-link.style-2:before {
+  color: #0063dd;
+}
+
+.content blockquote.is-link.style-3 span,
+.entry-content blockquote.is-link.style-3 span {
+  color: #A6A6A6;
+}
+
+.content blockquote.is-link.style-3:before,
+.entry-content blockquote.is-link.style-3:before {
+  color: #0063dd;
+}
+
+.content blockquote.is-link.style-3:after,
+.entry-content blockquote.is-link.style-3:after {
+  color: #0063dd;
+}
+
+.content blockquote.is-danger,
+.entry-content blockquote.is-danger {
+  border-color: #ff3860;
+}
+
+.content blockquote.is-danger span,
+.entry-content blockquote.is-danger span {
+  color: #ff3860;
+}
+
+.content blockquote.is-danger.style-1:before,
+.entry-content blockquote.is-danger.style-1:before {
+  color: #ff3860;
+}
+
+.content blockquote.is-danger.style-1 span,
+.entry-content blockquote.is-danger.style-1 span {
+  color: #A6A6A6;
+}
+
+.content blockquote.is-danger.style-1 span:before,
+.entry-content blockquote.is-danger.style-1 span:before {
+  border-color: #ff3860;
+  background-color: #ff3860;
+}
+
+.content blockquote.is-danger.style-2:before,
+.entry-content blockquote.is-danger.style-2:before {
+  color: #ff3860;
+}
+
+.content blockquote.is-danger.style-3 span,
+.entry-content blockquote.is-danger.style-3 span {
+  color: #A6A6A6;
+}
+
+.content blockquote.is-danger.style-3:before,
+.entry-content blockquote.is-danger.style-3:before {
+  color: #ff3860;
+}
+
+.content blockquote.is-danger.style-3:after,
+.entry-content blockquote.is-danger.style-3:after {
+  color: #ff3860;
+}
+
+.content blockquote.is-primary,
+.entry-content blockquote.is-primary {
+  border-color: #0063dd;
+}
+
+.content blockquote.is-primary span,
+.entry-content blockquote.is-primary span {
+  color: #0063dd;
+}
+
+.content blockquote.is-primary.style-1:before,
+.entry-content blockquote.is-primary.style-1:before {
+  color: #0063dd;
+}
+
+.content blockquote.is-primary.style-1 span,
+.entry-content blockquote.is-primary.style-1 span {
+  color: #A6A6A6;
+}
+
+.content blockquote.is-primary.style-1 span:before,
+.entry-content blockquote.is-primary.style-1 span:before {
+  border-color: #0063dd;
+  background-color: #0063dd;
+}
+
+.content blockquote.is-primary.style-2:before,
+.entry-content blockquote.is-primary.style-2:before {
+  color: #0063dd;
+}
+
+.content blockquote.is-primary.style-3 span,
+.entry-content blockquote.is-primary.style-3 span {
+  color: #A6A6A6;
+}
+
+.content blockquote.is-primary.style-3:before,
+.entry-content blockquote.is-primary.style-3:before {
+  color: #0063dd;
+}
+
+.content blockquote.is-primary.style-3:after,
+.entry-content blockquote.is-primary.style-3:after {
+  color: #0063dd;
+}
+
+.content blockquote.is-secondary,
+.entry-content blockquote.is-secondary {
+  border-color: #2b303b;
+}
+
+.content blockquote.is-secondary span,
+.entry-content blockquote.is-secondary span {
+  color: #2b303b;
+}
+
+.content blockquote.is-secondary.style-1:before,
+.entry-content blockquote.is-secondary.style-1:before {
+  color: #2b303b;
+}
+
+.content blockquote.is-secondary.style-1 span,
+.entry-content blockquote.is-secondary.style-1 span {
+  color: #A6A6A6;
+}
+
+.content blockquote.is-secondary.style-1 span:before,
+.entry-content blockquote.is-secondary.style-1 span:before {
+  border-color: #2b303b;
+  background-color: #2b303b;
+}
+
+.content blockquote.is-secondary.style-2:before,
+.entry-content blockquote.is-secondary.style-2:before {
+  color: #2b303b;
+}
+
+.content blockquote.is-secondary.style-3 span,
+.entry-content blockquote.is-secondary.style-3 span {
+  color: #A6A6A6;
+}
+
+.content blockquote.is-secondary.style-3:before,
+.entry-content blockquote.is-secondary.style-3:before {
+  color: #2b303b;
+}
+
+.content blockquote.is-secondary.style-3:after,
+.entry-content blockquote.is-secondary.style-3:after {
+  color: #2b303b;
+}
+
+.content blockquote.is-tertiary,
+.entry-content blockquote.is-tertiary {
+  border-color: #A6A6A6;
+}
+
+.content blockquote.is-tertiary span,
+.entry-content blockquote.is-tertiary span {
+  color: #A6A6A6;
+}
+
+.content blockquote.is-tertiary.style-1:before,
+.entry-content blockquote.is-tertiary.style-1:before {
+  color: #A6A6A6;
+}
+
+.content blockquote.is-tertiary.style-1 span,
+.entry-content blockquote.is-tertiary.style-1 span {
+  color: #A6A6A6;
+}
+
+.content blockquote.is-tertiary.style-1 span:before,
+.entry-content blockquote.is-tertiary.style-1 span:before {
+  border-color: #A6A6A6;
+  background-color: #A6A6A6;
+}
+
+.content blockquote.is-tertiary.style-2:before,
+.entry-content blockquote.is-tertiary.style-2:before {
+  color: #A6A6A6;
+}
+
+.content blockquote.is-tertiary.style-3 span,
+.entry-content blockquote.is-tertiary.style-3 span {
+  color: #A6A6A6;
+}
+
+.content blockquote.is-tertiary.style-3:before,
+.entry-content blockquote.is-tertiary.style-3:before {
+  color: #A6A6A6;
+}
+
+.content blockquote.is-tertiary.style-3:after,
+.entry-content blockquote.is-tertiary.style-3:after {
+  color: #A6A6A6;
+}
+
+/*# sourceMappingURL=../_maps/elements/blockquote.css.map */

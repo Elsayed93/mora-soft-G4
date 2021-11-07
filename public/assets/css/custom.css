@@ -1,0 +1,59 @@
+/*
+ * ::::::::::: Custom Styles :::::::::::
+ * Note: use this file to add or override any other styles.
+ * DON'T EDIT TEMPLATE CSS/SCSS FILES DIRECTLY, JUST USE THIS FILE.
+ */
+
+.works-latest .works-latest-item .works-latest-item-meta h5 a, .works-latest .works-latest-item .works-latest-item-meta h3 a, .works-latest .works-latest-item .works-latest-item-meta h5, .works-latest-item .works-latest-item-meta h3 {
+opacity: 1;
+}
+
+.tp-caption.small_text, .tracking-steps-section .heading-title-top {
+    color: rgba(255,255,255,.85);
+}
+
+.tracking-section .heading-title-top {
+    color: rgba(255,255,255,.85);
+}
+
+.tracking-section .help {
+    color: rgba(255,255,255,.85);
+}
+
+.tracking-steps-section .steps .step-item .step-details p:not(.step-title) {
+    color: rgba(255,255,255,.85);
+}
+
+.clients-section .heading-title.style-3 {
+    color: rgba(255,255,255,.9);
+}
+
+body.footer-background.dark-color:not(.primary-color) .footer-bottom-content a, body.footer-background.dark-color:not(.primary-color) .footer-bottom-content p {
+    color: rgba(255,255,255,.85);
+}
+
+body .image-hover figure img {
+ min-height: auto!important;
+}
+
+@media screen and (max-width:768px) {
+ body .works-latest .works-latest-item .works-latest-item-meta h3 {
+     font-size: 18px;
+ }
+
+ body .image-hover figure img {
+     min-height: auto!important;
+ }
+
+ body .tp-caption.small_text {
+    font-size: 14px!important;
+}
+
+body .tp-caption.large_text {
+    font-size: 13px!important;
+    margin-top: 0px!important;
+}
+
+}
+
+/*# sourceMappingURL=_maps/custom.css.map */

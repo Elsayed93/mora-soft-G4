@@ -1,0 +1,60 @@
+/*
+ * ::::::::::: Clients Styles :::::::::::
+ */
+.clients-list {
+  margin: 20px 0;
+}
+
+.clients-list .client-item {
+  min-height: 120px;
+  padding: 20px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.clients-list .client-item:hover img {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.clients-list img {
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.clients-list.style-1 .client-item, .clients-list.style-2 .client-item {
+  margin: 4.5px 16px;
+  min-height: 130px;
+  background-color: white;
+}
+
+.clients-list.style-1 .client-item:last-child, .clients-list.style-2 .client-item:last-child {
+  margin-right: 0;
+}
+
+.clients-list.style-1 .client-item:hover, .clients-list.style-2 .client-item:hover {
+  -webkit-box-shadow: 2px 1px 25px 5px rgba(166, 166, 166, 0.2);
+          box-shadow: 2px 1px 25px 5px rgba(166, 166, 166, 0.2);
+}
+
+.clients-list.style-1.owl-carousel .client-item, .clients-list.style-2.owl-carousel .client-item {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.clients-list.style-1.owl-carousel .client-item:hover, .clients-list.style-2.owl-carousel .client-item:hover {
+  -webkit-box-shadow: 0px 9px 50px -4px rgba(166, 166, 166, 0.1);
+          box-shadow: 0px 9px 50px -4px rgba(166, 166, 166, 0.1);
+}
+
+.clients-list.style-2 .client-item {
+  border: 1px solid #F0F0F0;
+}
+
+.clients-list.style-2 .client-item:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 1px solid #0063dd;
+}
+
+/*# sourceMappingURL=../_maps/elements/clients.css.map */

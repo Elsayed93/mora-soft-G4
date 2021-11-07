@@ -1,0 +1,305 @@
+/*
+ * ::::::::::: Slider Revolution Custom Styles :::::::::::
+ */
+.tp-bgimg:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(34, 39, 48, 0.3);
+}
+
+.tparrows {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.tparrows.uranus {
+  width: 45px;
+  height: 45px;
+  background-color: transparent !important;
+}
+
+.tparrows.uranus:before {
+  font-family: 'Ionicons';
+  font-size: 45px;
+  font-size: 2.8125rem;
+  width: 45px;
+  height: 45px;
+}
+
+.tparrows.uranus.tp-rightarrow:before {
+  content: '\f119';
+}
+
+.tparrows.uranus.tp-leftarrow:before {
+  content: '\f117';
+}
+
+.tparrows.uranus:hover:before {
+  color: white;
+}
+
+.hermes .tp-bullet {
+  width: 10.5px;
+  height: 10.5px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.hermes .tp-bullet:hover, .hermes .tp-bullet.selected {
+  background-color: white;
+}
+
+.hermes .tp-bullet:after {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.tp-loader.spinner2 {
+  background-color: #025fd2;
+}
+
+.tp-caption.large_text {
+  font-family: 'Poppins', sans-serif;
+  text-transform: lowercase;
+  text-align: center;
+  font-size: 50px !important;
+  font-weight: normal !important;
+  letter-spacing: 0 !important;
+  line-height: 1.4 !important;
+  text-shadow: none !important;
+  font-weight: 500 !important;
+}
+
+.tp-caption.large_text:first-letter {
+  text-transform: capitalize;
+}
+
+.tp-caption.small_text {
+  text-transform: uppercase;
+  font-size: 14.6px !important;
+  font-weight: normal !important;
+  letter-spacing: 2px !important;
+  text-shadow: none !important;
+  font-weight: 600 !important;
+  line-height: 1.2 !important;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.tp-caption.rev-scroll-btn {
+  border-width: 1.5px !important;
+  min-height: 44px !important;
+  max-height: 44px !important;
+  min-width: 26px !important;
+  max-width: 26px !important;
+}
+
+.tp-caption.rev-scroll-btn span {
+  width: 6px;
+  height: 6px;
+  margin: -4px 0 0 -3px;
+}
+
+.tp-caption.button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 3.6em;
+  padding-left: calc(2.9em - 1px) !important;
+  padding-right: calc(2.9em - 1px) !important;
+  text-transform: capitalize !important;
+  color: white !important;
+  font-weight: 500 !important;
+  letter-spacing: 0 !important;
+  font-size: 14px !important;
+}
+
+.tp-caption.button:hover {
+  background-color: white;
+  color: #0063dd !important;
+}
+
+.tp-caption.button .icon {
+  margin-left: 10px !important;
+  margin-top: 2px !important;
+}
+
+.tp-caption.button .icon i {
+  font-size: 26px !important;
+}
+
+.tp-caption.button-caption-2 {
+  margin: 50px 0 0 50px !important;
+}
+
+.tp-caption.button-caption-2 span {
+  vertical-align: text-top !important;
+  color: white;
+  font-weight: 600 !important;
+  letter-spacing: 0 !important;
+  font-size: 16px !important;
+}
+
+.tp-caption.button-caption-2 .icon {
+  color: #096ae2;
+  margin-top: 7px !important;
+}
+
+.tp-caption.button-caption-2 .icon.ripple-effect i {
+  font-size: 20px !important;
+}
+
+.tp-caption.button-caption-2 .icon.ripple-effect:before, .tp-caption.button-caption-2 .icon.ripple-effect:after {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.tp-caption.button-caption-2 .icon.ripple-effect:hover {
+  background-color: #0063dd;
+  color: white;
+}
+
+.tp-caption.button-caption-2 .icon.ripple-effect:hover:before, .tp-caption.button-caption-2 .icon.ripple-effect:hover:after {
+  border-color: #0063dd;
+}
+
+.rev_slider {
+  max-height: 880px !important;
+  background-color: #2b303b;
+}
+
+.rev_slider .slider-scroll-down {
+  position: absolute;
+  right: 12.5%;
+  top: 45%;
+  display: block;
+  z-index: 200;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12.5px;
+  color: white;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.rev_slider .slider-scroll-down:after {
+  content: '';
+  display: inline-block;
+  width: 140px;
+  height: 1px;
+  border-bottom: 1px solid rgba(240, 240, 240, 0.2);
+  margin-left: 15px;
+  vertical-align: super;
+}
+
+.rev_slider_wrapper {
+  max-height: 1070px !important;
+}
+
+.tp-tabs {
+  margin: 0 auto;
+  top: -118px;
+  padding: 0 45px !important;
+  background: white !important;
+  -webkit-box-shadow: 2px 1px 25px 5px rgba(57, 62, 75, 0.1);
+          box-shadow: 2px 1px 25px 5px rgba(57, 62, 75, 0.1);
+}
+
+.tp-tabs .tp-tab-mask {
+  overflow: visible !important;
+}
+
+.hesperiden .tp-tab-content {
+  padding: 50px 55px;
+  margin-top: 0;
+  position: relative;
+}
+
+.hesperiden .tp-tab-content:after {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 54%;
+  position: absolute;
+  right: 0;
+  top: 26%;
+  border-right: 1px solid #F0F0F0;
+}
+
+.hesperiden .tp-tab-content img {
+  margin-bottom: 40px;
+}
+
+.hesperiden .tp-tab-content .tp-tab-title {
+  font-size: 23px;
+  color: #393e4b;
+  text-transform: capitalize;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.hesperiden .tp-tab-content .tp-tab-date {
+  color: #A6A6A6;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.9;
+}
+
+.hesperiden .tp-tab-content .icon {
+  display: none;
+}
+
+.hesperiden .tp-tab {
+  border-bottom: none;
+  padding: 0;
+}
+
+.hesperiden .tp-tab:hover {
+  background: rgba(240, 240, 240, 0.3);
+}
+
+.hesperiden .tp-tab.selected {
+  background: #0063dd;
+  margin-top: -30px;
+  border-radius: 5px;
+  height: 328px !important;
+}
+
+.hesperiden .tp-tab.selected .tp-tab-content img {
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+}
+
+.hesperiden .tp-tab.selected .tp-tab-content .tp-tab-title,
+.hesperiden .tp-tab.selected .tp-tab-content .tp-tab-date {
+  color: white;
+}
+
+.hesperiden .tp-tab.selected .tp-tab-content:after {
+  border-right-color: #0063dd;
+}
+
+.hesperiden .tp-tab.selected .tp-tab-content .icon {
+  display: inline-block;
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  color: #0063dd;
+  text-align: center;
+  line-height: 1.32;
+  margin-top: 30px;
+}
+
+.hesperiden .tp-tab.selected .tp-tab-content .icon i {
+  font-size: 25px;
+}
+
+.hesperiden .tp-tabs-inner-wrapper > div:last-child .tp-tab-content:after {
+  display: none;
+}
+
+/*# sourceMappingURL=../_maps/modules/slider-revolution.css.map */
