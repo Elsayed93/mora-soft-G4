@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="done" transform="translate(1 1)">
+    <circle id="bg" cx="9" cy="9" r="9" fill="#e9e7ff" stroke="#8280fd" stroke-width="2"/>
+    <path id="Checked" d="M909.617,234.316l3.027,2.9,5.473-5.5" transform="translate(-904.617 -225.714)" fill="none" stroke="#8280fd" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

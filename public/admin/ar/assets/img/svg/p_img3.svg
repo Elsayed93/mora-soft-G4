@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="101.84" height="58.059" viewBox="0 0 101.84 58.059">
+  <g id="p_img3" transform="translate(-701.5 -395.441)">
+    <g id="line">
+      <line id="Line_101" data-name="Line 101" x1="37" transform="translate(702.5 447.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2" opacity="0.4"/>
+      <line id="Line_103" data-name="Line 103" x1="18" transform="translate(776.5 447.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2" opacity="0.4"/>
+      <line id="Line_102" data-name="Line 102" x1="11" transform="translate(759.5 447.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2" opacity="0.4"/>
+      <line id="Line_99" data-name="Line 99" x1="23" transform="translate(722.5 452.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2" opacity="0.4"/>
+      <line id="Line_100" data-name="Line 100" x1="18" transform="translate(763.5 452.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2" opacity="0.4"/>
+    </g>
+    <g id="bike" transform="translate(9.66 9.405)">
+      <circle id="Ellipse_112" data-name="Ellipse 112" cx="12.162" cy="12.162" r="12.162" transform="translate(711.5 409.867)" fill="none" stroke="#fff" stroke-width="5"/>
+      <circle id="Ellipse_113" data-name="Ellipse 113" cx="12.162" cy="12.162" r="12.162" transform="translate(766.857 409.867)" fill="none" stroke="#fff" stroke-width="5"/>
+      <path id="Path_517" data-name="Path 517" d="M3114.444,11363.9l15.325-9.609-4.265-6.1-14.224-6.833,26.41,6.833s12.97-4.106,16.914-5.175c.02.072,3.149,4.715,3.149,4.715s-10.657,3.516-11.171,18.357h-14.674l-6.4-9.088" transform="translate(-2387.802 -10942.934)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path id="Path_518" data-name="Path 518" d="M3181.3,11363.028l-10.583-32.536-6.076-1.125" transform="translate(-2402.278 -10941)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <ellipse id="Ellipse_114" data-name="Ellipse 114" cx="13.001" cy="6.71" rx="13.001" ry="6.71" transform="translate(746.891 397.823) rotate(-11)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

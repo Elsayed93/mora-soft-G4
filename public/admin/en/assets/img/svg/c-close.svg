@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25">
+  <g id="c-close" transform="translate(-2608 -1203)">
+    <circle id="Ellipse_60" data-name="Ellipse 60" cx="12.5" cy="12.5" r="12.5" transform="translate(2608 1203)" fill="#ffe2e6"/>
+    <g id="Close" transform="translate(2616 1211)">
+      <path id="Close-2" data-name="Close" d="M4.5,4.5,0,9,4.5,4.5,0,0,4.5,4.5,9,0,4.5,4.5,9,9Z" fill="none" stroke="#fe5280" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

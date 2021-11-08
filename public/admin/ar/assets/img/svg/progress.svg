@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="244" height="244" viewBox="0 0 244 244">
+  <defs>
+    <filter id="bg" x="0" y="0" width="244" height="244" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-opacity="0.149"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Chart" transform="translate(36.002 35.998)">
+    <path id="SvgjsPath1046" d="M56.774,189.708c-33.439-33.457-33.437-88.449,0-121.908s88.4-33.453,121.843,0,33.433,88.445,0,121.908" transform="translate(-31.696 -42.708)" fill="none" stroke="#24d4e0" stroke-linecap="round" stroke-width="20" stroke-dasharray="0"/>
+    <g transform="matrix(1, 0, 0, 1, -36, -36)" filter="url(#bg)">
+      <circle id="bg-2" data-name="bg" cx="77" cy="77" r="77" transform="translate(45 45)" fill="#fff"/>
+    </g>
+    <text id="increase" transform="translate(53.107 70.457)" fill="#727272" font-size="14" font-family="PTSans-Regular, PT Sans"><tspan x="0" y="0">Increase</tspan></text>
+    <text id="_75" data-name="75" transform="translate(53.106 110.06)" fill="#333" font-size="40" font-family="PTSans-Bold, PT Sans" font-weight="700"><tspan x="0" y="0">75</tspan><tspan y="0" font-size="23.332" baseline-shift="13.332000418508848">%</tspan></text>
+  </g>
+</svg>

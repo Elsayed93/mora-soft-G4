@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" viewBox="0 0 9 9">
+  <g id="skip" transform="translate(1 1)">
+    <path id="Close" d="M3.5,3.5,0,7,3.5,3.5,0,0,3.5,3.5,7,0,3.5,3.5,7,7Z" fill="#fc7383" stroke="#fc7383" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

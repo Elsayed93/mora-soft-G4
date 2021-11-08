@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18">
+  <g id="calender-color" transform="translate(1 1)">
+    <path id="Path_481" data-name="Path 481" d="M6.389,6H19.611A1.766,1.766,0,0,1,21.5,7.61V18.876a1.766,1.766,0,0,1-1.889,1.61H6.389A1.766,1.766,0,0,1,4.5,18.876V7.61A1.766,1.766,0,0,1,6.389,6Z" transform="translate(-4.5 -4.486)" fill="#e9e7ff" stroke="#8280fd" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_482" data-name="Path 482" d="M24,3V6" transform="translate(-11.722 -3)" fill="none" stroke="#8280fd" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_483" data-name="Path 483" d="M12,3V6" transform="translate(-7.278 -3)" fill="none" stroke="#8280fd" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Path_484" data-name="Path 484" d="M4.5,15h17" transform="translate(-4.5 -8.2)" fill="none" stroke="#8280fd" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

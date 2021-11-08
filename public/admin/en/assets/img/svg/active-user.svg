@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27">
+  <g id="active-user" transform="translate(-467 -247)">
+    <g id="User" transform="translate(468 248)">
+      <path id="User-2" data-name="User" d="M0,20.974A10.375,10.375,0,0,1,10.421,10.706,5.406,5.406,0,0,1,5.04,5.353,5.407,5.407,0,0,1,10.5,0a5.407,5.407,0,0,1,5.46,5.353,5.406,5.406,0,0,1-5.381,5.353A10.4,10.4,0,0,1,21,21h-.238C18.445,21,0,21,0,20.974Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+    <g id="Ellipse_47" data-name="Ellipse 47" transform="translate(481 261)" fill="#67cf7f" stroke="#6649ed" stroke-width="2">
+      <circle cx="6.5" cy="6.5" r="6.5" stroke="none"/>
+      <circle cx="6.5" cy="6.5" r="5.5" fill="none"/>
+    </g>
+  </g>
+</svg>
