@@ -19,5 +19,5 @@ use Illuminate\Support\Facades\Route;
 
 // test route to test the them
 Route::get('/', function () {
-    return view('home');
+    return view('Them.layouts.home');
 });
