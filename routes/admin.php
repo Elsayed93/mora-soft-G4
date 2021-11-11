@@ -21,8 +21,5 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['lo
         return view('Admin.layouts.master');
     });
 
+    Route::view('settings', 'Admin.settings.index');
 });
-
-
-
-
