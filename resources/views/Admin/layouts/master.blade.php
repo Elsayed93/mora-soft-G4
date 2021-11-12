@@ -27,6 +27,7 @@
             <!-- Sidebar -->
             @include('Admin.layouts.Sidebar')
             <!-- End Sidebar -->
+            {{-- {{dd(get_defined_vars())}} --}}
 
             <!-- Main Content -->
             @include('Admin.layouts.MainContent')

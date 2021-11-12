@@ -16,13 +16,13 @@
         <ul class="nav">
             <li class="nav-category">Main</li>
             <li class="active">
-                <a href="index.html">
+                <a href="{{ route('dashboard.home') }}">
                     <i class="icofont-pie-chart"></i>
-                    <span class="link-title">Dashboard</span>
+                    <span class="link-title">@lang('site.dashboard')</span>
                 </a>
             </li>
 
-            <li>
+            {{-- <li>
                 <a href="#">
                     <i class="icofont-shopping-cart"></i>
                     <span class="link-title">Ecommerce</span>
@@ -38,11 +38,11 @@
                     <li><a href="pages/ecommerce/cartlist.html">cart list</a></li>
                 </ul>
                 <!-- End Sub Menu -->
-            </li>
+            </li> --}}
 
             {{-- settings --}}
             <li class="active">
-                <a href="#">
+                <a href="{{ route('dashboard.settings.index') }}">
                     <i class="icofont-pie-chart"></i>
                     <span class="link-title">@lang('settings.settings')</span>
                 </a>

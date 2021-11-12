@@ -25,7 +25,7 @@
                                     <a href="mailto:info@company.com">
                                         <span class="icon">
                                             <i class="icon-envelope"></i>
-                                        </span> info@company.com </a>
+                                        </span> {{ $settings->email }} </a>
                                 </li>
                                 <li>
                                     <a href="tel:+66396847263">
@@ -39,21 +39,21 @@
                         <div class="level-right">
                             <ul class="header-menu-icons social">
                                 <li>
-                                    <a href="#" target="_blank">
+                                    <a href="{{ $settings->facebook_link }}" target="_blank">
                                         <span class="icon">
                                             <i class="fab fa-facebook-f"></i>
                                         </span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" target="_blank">
+                                    <a href="{{ $settings->twitter_link }}" target="_blank">
                                         <span class="icon">
                                             <i class="fab fa-twitter"></i>
                                         </span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" target="_blank">
+                                    <a href="{{ $settings->linkedin_link }}" target="_blank">
                                         <span class="icon">
                                             <i class="fab fa-linkedin-in"></i>
                                         </span>
@@ -122,7 +122,8 @@
                                     <a href="./index.html">
                                         <img alt="Joo - Niche Multi-Purpose HTML Template"
                                             src="{{ asset('assets/images/logo/logo2.png') }}">
-                                        <span class="logo-text">Logistics</span>
+                                        <span
+                                            class="logo-text">{{ App::getLocale() == 'ar' ? $settings->web_name_ar : $settings->web_name_en }}</span>
                                     </a>
                                 </div>
                                 <!-- #logo-inner -->

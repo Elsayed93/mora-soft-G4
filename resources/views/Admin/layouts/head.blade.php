@@ -1,3 +1,4 @@
+{{-- {{ dd($settings->web_name_en) }} --}}
 <title>@yield('title')</title>
 <!-- Favicon -->
 <link rel="shortcut icon" href="{{asset('admin/ar/assets/img/favicon.png')}}">

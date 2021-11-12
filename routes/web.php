@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Them\HomeController;
 use Illuminate\Support\Facades\Route;
 use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 
@@ -26,8 +27,11 @@ require __DIR__ . '/auth.php';
 
 
 Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['localeSessionRedirect', 'localizationRedirect', 'localeViewPath']], function () {
-   // them home
+    // them home
+    // Route::prefix('them')->group(function () {
+    //     Route::view('/', 'Them.layouts.home');
+    // });
     Route::prefix('them')->group(function () {
-        Route::view('/', 'Them.layouts.home');
+        Route::get('/', [HomeController::class, 'index']);
     });
 });
