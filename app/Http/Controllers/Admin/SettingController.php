@@ -73,7 +73,23 @@ class SettingController extends BaseController
      */
     public function update(updateRequest $request, Setting $setting)
     {
-        $setting->update($request->all());
+        // ensure the request has a file before
+        if ($request->hasFile('image')) {
+
+            $imageName = time() . '.' . $request->image->extension();
+            $request->image->move(public_path('images'), $imageName);
+            $request->image = $imageName;
+        }
+
+        $setting->update([
+            'web_name_ar' => $request->web_name_ar,
+            'web_name_en' => $request->web_name_en,
+            'email' => $request->email,
+            'facebook_link' => $request->facebook_link,
+            'twitter_link' => $request->twitter_link,
+            'linkedin_link' => $request->linkedin_link,
+            'image' => $request->image,
+        ]);
 
         if ($setting) {
             return redirect()->route('dashboard.home')->with('success', __('Settings updated successfully'));

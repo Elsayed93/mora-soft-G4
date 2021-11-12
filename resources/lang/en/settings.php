@@ -37,6 +37,7 @@ return [
     'linkedin link required' => 'linkedin link required',
     'invalid link' => 'invalid link',
 
-    'linkedin_link' => 'LinkedIn link',
+    // 'image required' => 'image required',
+    'invalid image' => 'invalid image',
 
 ];

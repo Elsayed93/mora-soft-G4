@@ -29,6 +29,8 @@ class updateRequest extends FormRequest
             'facebook_link' => 'required|url',
             'twitter_link' => 'required|url',
             'linkedin_link' => 'required|url',
+
+            'image' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048',
         ];
     }
 
@@ -56,6 +58,10 @@ class updateRequest extends FormRequest
 
             'linkedin_link.required' => __('settings.linkedin link required'),
             'linkedin_link.url' => __('settings.invalid link'),
+
+            // 'image.required' => __('settings.image required'),
+            'image.image' => __('settings.invalid image'),
+            'image.mimes' => __('settings.invalid image'),
         ];
     }
 }

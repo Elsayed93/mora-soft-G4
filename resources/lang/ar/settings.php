@@ -24,11 +24,12 @@ return [
     'english web name should not be greater than 255 characters long' => 'إسم الموقع باللغة الإنجليزية يجب أن لا يزيد عن 255 حرف',
 
     'facebook link required' => 'رابط الفيس بوك مطلوب',
-    'invalid link' => 'رابط الفيس بوك غير صحيح',
+    'invalid link' => 'رابط غير صحيح',
 
     'twitter link required' => 'رابط تويتر مطلوب',
-    'invalid link' => 'رابط تويتر غير صحيح',
 
     'linkedin link required' => 'رابط لينكدإن مطلوب',
-    'invalid link' => 'رابط لينكدإن غير صحيح',
+
+    // 'image required' => 'الصورة مطلوبة',
+    'invalid image' => 'ملف صورة غير صالح',
 ];

@@ -2,8 +2,8 @@
 <header class="header white-bg fixed-top d-flex align-content-center flex-wrap">
     <!-- Logo -->
     <div class="logo">
-        <a href="/" class="default-logo"><img src="{{asset('admin/ar/assets/img/logo.png')}}" alt=""></a>
-        <a href="/" class="mobile-logo"><img src="{{asset('admin/ar/assets/img/mobile-logo.png')}}" alt=""></a>
+        <a href="/" class="default-logo"><img src="{{ asset('admin/ar/assets/img/logo.png') }}" alt=""></a>
+        <a href="/" class="mobile-logo"><img src="{{ $settings->image ?  asset('images/' . $settings->image) : asset('admin/ar/assets/img/mobile-logo.png')}}" alt=""></a>
     </div>
     <!-- End Logo -->
 
@@ -35,7 +35,7 @@
                         <div class="main-header-menu d-block d-lg-none">
                             <div class="header-toogle-menu">
                                 <!-- <i class="icofont-navigation-menu"></i> -->
-                                <img src="{{asset('admin/ar/assets/img/menu.png')}}" alt="">
+                                <img src="{{ asset('admin/ar/assets/img/menu.png') }}" alt="">
                             </div>
                         </div>
                         <!-- End Main Header Menu -->
@@ -50,15 +50,16 @@
                                 <!-- Main Header Language -->
                                 <div class="main-header-language">
                                     <a href="#" data-toggle="dropdown">
-                                        <img src="{{asset('admin/ar/assets/img/svg/globe-icon.svg')}}" alt="">
+                                        <img src="{{ asset('admin/ar/assets/img/svg/globe-icon.svg') }}" alt="">
                                     </a>
 
 
                                     <div class="dropdown-menu style--three">
-                                        @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
+                                        @foreach (LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
                                             <a rel="alternate" hreflang="{{ $localeCode }}"
-                                               href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
-                                                <span><img src="{{asset('admin/ar/assets/img/usa.png')}}" alt=""></span>
+                                                href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
+                                                <span><img src="{{ asset('admin/ar/assets/img/usa.png') }}"
+                                                        alt=""></span>
                                                 {{ $properties['native'] }}
                                             </a>
                                         @endforeach
@@ -74,8 +75,8 @@
                                 <div class="main-header-notification">
                                     <a href="#" class="header-icon notification-icon" data-toggle="dropdown">
                                         <span class="count" data-bg-img="assets/img/count-bg.png">50</span>
-                                        <img src="{{asset('admin/ar/assets/img/svg/notification-icon.svg')}}" alt=""
-                                             class="svg">
+                                        <img src="{{ asset('admin/ar/assets/img/svg/notification-icon.svg') }}" alt=""
+                                            class="svg">
                                     </a>
                                     <div class="dropdown-menu style--two">
                                         <!-- Dropdown Header -->
@@ -105,7 +106,8 @@
                                                     <div class="mb-2">
                                                         <p class="time">2 min ago</p>
                                                     </div>
-                                                    <p class="main-text">Donec dapibus mauris id odio ornare tempus.
+                                                    <p class="main-text">Donec dapibus mauris id odio ornare
+                                                        tempus.
                                                         Duis sit amet accumsan justo.</p>
                                                 </div>
                                             </a>
@@ -117,7 +119,8 @@
                                                     <div class="mb-2">
                                                         <p class="time">2 min ago</p>
                                                     </div>
-                                                    <p class="main-text">Donec dapibus mauris id odio ornare tempus.
+                                                    <p class="main-text">Donec dapibus mauris id odio ornare
+                                                        tempus.
                                                         Duis sit amet accumsan justo.</p>
                                                 </div>
                                             </a>
@@ -129,7 +132,8 @@
                                                     <div class="mb-2">
                                                         <p class="time">2 min ago</p>
                                                     </div>
-                                                    <p class="main-text">Donec dapibus mauris id odio ornare tempus.
+                                                    <p class="main-text">Donec dapibus mauris id odio ornare
+                                                        tempus.
                                                         Duis sit amet accumsan justo.</p>
                                                 </div>
                                             </a>
