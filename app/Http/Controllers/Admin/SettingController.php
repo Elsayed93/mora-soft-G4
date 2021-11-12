@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\BaseController;
+use App\Http\Requests\Settings\updateRequest;
 use App\Models\Setting;
 use Illuminate\Http\Request;
 
@@ -70,19 +71,13 @@ class SettingController extends BaseController
      * @param  \App\Models\Setting  $setting
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Setting $setting)
+    public function update(updateRequest $request, Setting $setting)
     {
-        // dd($request->all());
-
-        // dd($setting);
-
         $setting->update($request->all());
 
         if ($setting) {
-            // dd('done');
             return redirect()->route('dashboard.home')->with('success', __('Settings updated successfully'));
         } else {
-            // dd('failed');
 
             return redirect()->back()->with('error', __('Settings could not be updated'));
         }

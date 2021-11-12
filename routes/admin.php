@@ -19,12 +19,10 @@ use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 require __DIR__ . '/auth.php';
 
 Route::group(['as' => 'dashboard.', 'prefix' => LaravelLocalization::setLocale(), 'middleware' => ['localeSessionRedirect', 'localizationRedirect', 'localeViewPath']], function () {
-    // Route::get('/admin', function () {
-    //     return view('Admin.layouts.master');
-    // })->name('home');
 
+    // home dashboard
     Route::get('/admin', [HomeController::class, 'index'])->name('home');
 
     // Route::view('settings', 'Admin.settings.index');
-    Route::resource('settings', SettingController::class);
+    Route::resource('settings', SettingController::class)->only(['index', 'update']);
 });
