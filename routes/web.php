@@ -27,11 +27,9 @@ require __DIR__ . '/auth.php';
 
 
 Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['localeSessionRedirect', 'localizationRedirect', 'localeViewPath']], function () {
-    // them home
-    // Route::prefix('them')->group(function () {
-    //     Route::view('/', 'Them.layouts.home');
-    // });
+    // them routes
     Route::prefix('them')->group(function () {
+        // them home
         Route::get('/', [HomeController::class, 'index']);
     });
 });
