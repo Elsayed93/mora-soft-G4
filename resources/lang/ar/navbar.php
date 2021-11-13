@@ -24,6 +24,5 @@ return [
 
     'Edit Navbar Section' => 'تعديل في مقطع شريط التنقل',
     'Create Navbar Section' => 'إضافة في مقطع شريط التنقل',
-
-
+    'Navbar Sections' => 'روابط شريط التنقل',
 ];

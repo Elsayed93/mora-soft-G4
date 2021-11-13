@@ -22,7 +22,7 @@ return [
     'section link required' => 'section link required',
     // 'invalid link' => 'invalid link',
 
-    'Edit Navbar Section' =>'Edit Navbar Section',
-    'Create Navbar Section' =>'Create Navbar Section',
-
+    'Edit Navbar Section' => 'Edit Navbar Section',
+    'Create Navbar Section' => 'Create Navbar Section',
+    'Navbar Sections' => 'Navbar Sections',
 ];

@@ -35,8 +35,15 @@
         {{-- actions message --}}
         @include('Admin.layouts.actions_messages')
 
-
         <div class="row">
+            <div class="col-md-6">
+                <h2>
+                    @lang('navbar.Navbar Sections')
+                </h2>
+            </div>
+        </div>
+
+        <div class="row mt-5">
             <div class="cole-md-6">
                 <a href="{{ route('dashboard.navbar.create') }}" class="btn btn-primary">
                     <i class="icofont-ui-add"></i>
@@ -46,7 +53,7 @@
         </div>
 
         {{-- table --}}
-        <div class="row mt-5">
+        <div class="row mt-3">
             <table class="table-dark">
                 <thead>
                     <tr>
