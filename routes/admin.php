@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Admin\HomeController;
+use App\Http\Controllers\Admin\NavbarController;
 use App\Http\Controllers\Admin\SettingController;
 use Illuminate\Support\Facades\Route;
 use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
@@ -23,6 +24,9 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'as' => 'dashboard.'
     // home dashboard
     Route::get('/admin', [HomeController::class, 'index'])->name('home');
 
-    // Route::view('settings', 'Admin.settings.index');
+    // settings
     Route::resource('settings', SettingController::class)->only(['index', 'update']);
+
+    // navbar
+    Route::resource('navbar', NavbarController::class);
 });

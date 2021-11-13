@@ -48,6 +48,14 @@
                 </a>
             </li>
 
+             {{-- navbar --}}
+             <li class="{{ request()->segment(2) == 'navbar' ? 'active' : '' }}">
+                <a href="{{ route('dashboard.navbar.index') }}">
+                    <i class="icofont-navigation"></i>
+                    <span class="link-title">@lang('navbar.navbar')</span>
+                </a>
+            </li>
+
 
             <li class="nav-category">others</li>
 

@@ -36,6 +36,9 @@
             @endif
         </div>
 
+        {{-- actions message --}}
+        @include('Admin.layouts.actions_messages')
+
         <div class="rwo">
             <form action="{{ route('dashboard.settings.update', $settings->id) }}" method="POST"
                 enctype="multipart/form-data">
@@ -67,7 +70,8 @@
                     {{-- image --}}
                     <div class="mb-3 col-md-6">
                         <label for="uploadImage" class="form-label">@lang('settings.upload_image')</label>
-                        <input type="file" class="form-control" id="uploadImage" aria-describedby="imageHelp" name="image">
+                        <input type="file" class="form-control" id="uploadImage" aria-describedby="imageHelp"
+                            name="image">
                     </div>
                 </section>
 

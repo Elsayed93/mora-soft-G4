@@ -75,9 +75,9 @@
                                 <div class="main-header-notification">
                                     <a href="#" class="header-icon notification-icon" data-toggle="dropdown">
                                         <span class="count" data-bg-img="assets/img/count-bg.png">50</span>
-                                        <img src="{{ asset('admin/ar/assets/img/svg/notification-icon.svg') }}" alt=""
+                                       <img src="{{ asset('admin/ar/assets/img/svg/notification-icon.svg') }}" alt=""
                                             class="svg">
-                                    </a>
+
                                     <div class="dropdown-menu style--two">
                                         <!-- Dropdown Header -->
                                         <div class="dropdown-header d-flex align-items-center justify-content-between">

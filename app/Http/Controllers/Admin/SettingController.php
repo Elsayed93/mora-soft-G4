@@ -92,10 +92,10 @@ class SettingController extends BaseController
         ]);
 
         if ($setting) {
-            return redirect()->route('dashboard.home')->with('success', __('Settings updated successfully'));
+            return redirect()->back()->with('success', __('site.success_update'));
         } else {
 
-            return redirect()->back()->with('error', __('Settings could not be updated'));
+            return redirect()->back()->with('error', __('site.failed_update'));
         }
     }
 
