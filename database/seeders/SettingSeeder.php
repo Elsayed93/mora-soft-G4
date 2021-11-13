@@ -22,6 +22,7 @@ class SettingSeeder extends Seeder
                 'facebook_link' => 'https://www.facebook.com/',
                 'twitter_link' => 'https://twitter.com/',
                 'linkedin_link' => 'https://www.linkedin.com/feed/',
+                'phone' => '01096054278',
             ]
         ];
 

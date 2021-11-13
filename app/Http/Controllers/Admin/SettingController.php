@@ -89,6 +89,7 @@ class SettingController extends BaseController
             'twitter_link' => $request->twitter_link,
             'linkedin_link' => $request->linkedin_link,
             'image' => $request->image,
+            'phone' => $request->phone
         ]);
 
         if ($setting) {

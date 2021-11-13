@@ -17,5 +17,6 @@ class Setting extends Model
         'twitter_link',
         'linkedin_link',
         'image',
+        'phone',
     ];
 }

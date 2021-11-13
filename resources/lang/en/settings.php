@@ -37,7 +37,14 @@ return [
     'linkedin link required' => 'linkedin link required',
     'invalid link' => 'invalid link',
 
+    'phone number required' => 'phone number required',
+    'phone number should at be at least 10 characters long' => 'phone number should at be at least 10 characters long',
+    'phone number should not be greater than 255 characters long' => 'phone number should not be greater than 255 characters long',
+
+
     // 'image required' => 'image required',
     'invalid image' => 'invalid image',
+
+    'phone' => 'phone',
 
 ];

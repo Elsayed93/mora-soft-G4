@@ -29,6 +29,7 @@ class updateRequest extends FormRequest
             'facebook_link' => 'required|url',
             'twitter_link' => 'required|url',
             'linkedin_link' => 'required|url',
+            'phone' => 'required|regex:/(01)[0-9]{9}/',
 
             'image' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048',
         ];
@@ -62,6 +63,10 @@ class updateRequest extends FormRequest
             // 'image.required' => __('settings.image required'),
             'image.image' => __('settings.invalid image'),
             'image.mimes' => __('settings.invalid image'),
+
+            'phone.required' => __('settings.phone number required'),
+            // 'phone.min' => __('settings.phone number should at be at least 10 characters long'),
+            // 'phone.max' => __('settings.phone number should not be greater than 255 characters long'),
         ];
     }
 }

@@ -31,7 +31,7 @@
                                     <a href="tel:+66396847263">
                                         <span class="icon">
                                             <i class="icon-phone"></i>
-                                        </span> +800-987-65-43 </a>
+                                        </span> {{ $settings->phone }} </a>
                                 </li>
                             </ul>
                         </div>

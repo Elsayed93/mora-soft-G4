@@ -30,6 +30,13 @@ return [
 
     'linkedin link required' => 'رابط لينكدإن مطلوب',
 
+    'phone number required' => 'رقم الهاتف مطلوب',
+    'phone number should at be at least 10 characters long' => 'رقم الهاتف يجب أن لا يقل عن 10 أرقام',
+    'phone number should not be greater than 255 characters long' => 'رقم الهاتف يجب أن لا يزيد عن 15 أرقام',
+
     // 'image required' => 'الصورة مطلوبة',
     'invalid image' => 'ملف صورة غير صالح',
+
+    'phone' => 'رقم الهاتف',
+
 ];

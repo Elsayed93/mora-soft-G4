@@ -64,9 +64,15 @@
                     <div class="mb-3 col-md-6">
                         <label for="exampleInputEmail1" class="form-label">@lang('settings.email')</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                            placeholder="Please enter your email" value="{{ $settings->email }}">
+                            placeholder="Please enter your email" value="{{ $settings->email }}" name="email">
                     </div>
 
+                     {{-- phone --}}
+                     <div class="mb-3 col-md-4">
+                        <label for="phone" class="form-label">@lang('settings.phone')</label>
+                        <input type="text" class="form-control" id="phone" aria-describedby="phoneHelp"
+                            placeholder="Please enter your phone" value="{{ $settings->phone }}" name="phone">
+                    </div>
                     {{-- image --}}
                     <div class="mb-3 col-md-6">
                         <label for="uploadImage" class="form-label">@lang('settings.upload_image')</label>
