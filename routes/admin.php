@@ -18,7 +18,7 @@ use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 
 require __DIR__ . '/auth.php';
 
-Route::group(['as' => 'dashboard.', 'prefix' => LaravelLocalization::setLocale(), 'middleware' => ['localeSessionRedirect', 'localizationRedirect', 'localeViewPath']], function () {
+Route::group(['prefix' => LaravelLocalization::setLocale(), 'as' => 'dashboard.', 'middleware' => ['localeSessionRedirect', 'localizationRedirect', 'localeViewPath']], function () {
 
     // home dashboard
     Route::get('/admin', [HomeController::class, 'index'])->name('home');

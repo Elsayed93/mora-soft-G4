@@ -15,7 +15,7 @@
         <!-- Nav -->
         <ul class="nav">
             <li class="nav-category">Main</li>
-            <li class="active">
+            <li class="{{ request()->segment(2) == 'admin' ? 'active' : '' }}">
                 <a href="{{ route('dashboard.home') }}">
                     <i class="icofont-pie-chart"></i>
                     <span class="link-title">@lang('site.dashboard')</span>
@@ -41,9 +41,9 @@
             </li> --}}
 
             {{-- settings --}}
-            <li class="active">
+            <li class="{{ request()->segment(2) == 'settings' ? 'active' : '' }}">
                 <a href="{{ route('dashboard.settings.index') }}">
-                    <i class="icofont-pie-chart"></i>
+                    <i class="icofont-settings-alt"></i>
                     <span class="link-title">@lang('settings.settings')</span>
                 </a>
             </li>
