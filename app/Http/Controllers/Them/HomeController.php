@@ -10,7 +10,8 @@ class HomeController extends BaseController
     public function index()
     {
         $settings = $this->site_settings;
+        $navSections = $this->navbar_sections;
 
-        return view('Them.layouts.home', compact('settings'));
+        return view('Them.layouts.home', compact('settings', 'navSections'));
     }
 }

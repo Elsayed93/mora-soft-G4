@@ -135,9 +135,14 @@
                             <div class="nav-wrap">
                                 <nav class="main-navigation right">
                                     <ul class="menu">
-                                        <li class="mega-menu niche-templates active">
-                                            <a href="./index.html">home</a>
-                                    </ul>
+                                        @foreach ($navSections as $navSection)
+                                            <li
+                                                class="mega-menu niche-templates {{ request()->segment(3) == $navSection->nav_section_link ? 'active' : '' }}">
+                                                <a href="/{{ App::getLocale() }}/them/{{ $navSection->nav_section_link }}">
+                                                    {{ App::getLocale() == 'ar' ? $navSection->nav_section_name_ar : $navSection->nav_section_name_en }}
+                                                </a>
+                                            </li>
+                                        @endforeach
                                 </nav>
                                 <!-- #site-navigation -->
                             </div>

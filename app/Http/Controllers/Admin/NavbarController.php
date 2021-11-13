@@ -19,7 +19,7 @@ class NavbarController extends BaseController
     {
         $settings = $this->site_settings;
         $navSections = Navbar::all();
-        // dd($navSections);
+
         return view('Admin.navbar.index', compact('navSections', 'settings'));
     }
 

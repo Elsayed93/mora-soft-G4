@@ -30,6 +30,6 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['lo
     // them routes
     Route::prefix('them')->group(function () {
         // them home
-        Route::get('/', [HomeController::class, 'index']);
+        Route::get('/home', [HomeController::class, 'index']);
     });
 });
