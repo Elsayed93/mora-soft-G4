@@ -39,7 +39,15 @@
         {{-- actions message --}}
         @include('Admin.layouts.actions_messages')
 
-        <div class="rwo">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>
+                    @lang('settings.settings')
+                </h2>
+            </div>
+        </div>
+
+        <div class="row mt-3">
             <form action="{{ route('dashboard.settings.update', $settings->id) }}" method="POST"
                 enctype="multipart/form-data">
                 @csrf
@@ -56,8 +64,8 @@
                     {{-- english name --}}
                     <div class="mb-3 col-md-5">
                         <label for="name_en" class="form-label">@lang('settings.name_en')</label>
-                        <input type="text" class="form-control" id="name_en" aria-describedby="nameHelp" name="web_name_en"
-                            placeholder="{{ __('settings.website name in english') }}"
+                        <input type="text" class="form-control" id="name_en" aria-describedby="nameHelp"
+                            name="web_name_en" placeholder="{{ __('settings.website name in english') }}"
                             value="{{ $settings->web_name_en }}">
                     </div>
                     {{-- email --}}
@@ -67,8 +75,8 @@
                             placeholder="Please enter your email" value="{{ $settings->email }}" name="email">
                     </div>
 
-                     {{-- phone --}}
-                     <div class="mb-3 col-md-4">
+                    {{-- phone --}}
+                    <div class="mb-3 col-md-4">
                         <label for="phone" class="form-label">@lang('settings.phone')</label>
                         <input type="text" class="form-control" id="phone" aria-describedby="phoneHelp"
                             placeholder="Please enter your phone" value="{{ $settings->phone }}" name="phone">
