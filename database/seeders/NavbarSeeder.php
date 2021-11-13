@@ -18,7 +18,7 @@ class NavbarSeeder extends Seeder
             [
                 'nav_section_name_ar' => 'الرئيسية',
                 'nav_section_name_en' => 'Home',
-                'nav_section_link' => 'them',
+                'nav_section_link' => 'home',
             ],
             [
                 'nav_section_name_ar' => 'عنا',
