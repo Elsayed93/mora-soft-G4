@@ -56,6 +56,14 @@
                 </a>
             </li>
 
+{{-- products --}}
+<li class="{{ request()->segment(2) == 'products' ? 'active' : '' }}">
+   <a href="{{ route('dashboard.products.index') }}">
+   <i class="icofont-basket"></i>
+       <span class="link-title">@lang('product.products')</span>
+   </a>
+</li>
+
 
             <li class="nav-category">others</li>
 

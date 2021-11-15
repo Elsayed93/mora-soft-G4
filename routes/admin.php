@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Admin\HomeController;
 use App\Http\Controllers\Admin\NavbarController;
+use App\Http\Controllers\Admin\ProductsController;
 use App\Http\Controllers\Admin\SettingController;
 use Illuminate\Support\Facades\Route;
 use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
@@ -29,4 +30,8 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'as' => 'dashboard.'
 
     // navbar
     Route::resource('navbar', NavbarController::class);
+    
+
+    //products
+    Route::resource('products', ProductsController::class)->except(['show']);
 });
