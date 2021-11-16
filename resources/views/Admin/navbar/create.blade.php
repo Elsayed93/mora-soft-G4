@@ -44,7 +44,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row mt-5">
             <div class="col-md-8">
                 <form action="{{ route('dashboard.navbar.store') }}" method="POST">
                     @csrf

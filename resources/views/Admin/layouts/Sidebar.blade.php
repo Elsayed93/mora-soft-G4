@@ -48,11 +48,19 @@
                 </a>
             </li>
 
-             {{-- navbar --}}
-             <li class="{{ request()->segment(2) == 'navbar' ? 'active' : '' }}">
+            {{-- navbar --}}
+            <li class="{{ request()->segment(2) == 'navbar' ? 'active' : '' }}">
                 <a href="{{ route('dashboard.navbar.index') }}">
                     <i class="icofont-navigation"></i>
                     <span class="link-title">@lang('navbar.navbar')</span>
+                </a>
+            </li>
+
+            {{-- sliders --}}
+            <li class="{{ request()->segment(2) == 'sliders' ? 'active' : '' }}">
+                <a href="{{ route('dashboard.sliders.index') }}">
+                    <i class="icofont-slidshare"></i>
+                    <span class="link-title">@lang('sliders.sliders')</span>
                 </a>
             </li>
 

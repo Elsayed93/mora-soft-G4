@@ -1,11 +1,11 @@
 <?php
 
 return [
-    'navbar' => 'navbar',
+    'sliders' => 'sliders',
     // table
-    'section name in arabic' => 'section name in arabic',
-    'section name in english' => 'section name in english',
-    'section link' => 'section link',
+    'name in arabic' => 'name in arabic',
+    'name in english' => 'name in english',
+    'content' => 'content',
     'actions' => 'actions',
 
     // validation
@@ -19,10 +19,21 @@ return [
     'english name should not be greater than 100 characters long' => 'english name should not be greater than 100 characters long',
     'english name should be unique' => 'english name should be unique',
 
-    'section link required' => 'section link required',
-    // 'invalid link' => 'invalid link',
+    // 'invalid content' => 'invalid content',
 
-    'Edit Navbar Section' => 'Edit Navbar Section',
-    'Create Navbar Section' => 'Create Navbar Section',
-    'Navbar Sections' => 'Navbar Sections',
+    'Edit slider' => 'Edit slider',
+    'Create slider' => 'Create slider',
+
+    'slider english content' =>'slider english content',
+    'slider arabic content' =>'slider arabic content',
+
+    'slider image' =>'slider image',
+
+    'content_ar required' =>'content_ar required',
+    'content_en required' =>'content_en required',
+
+
+
+
+
 ];

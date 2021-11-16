@@ -3,6 +3,7 @@
 use App\Http\Controllers\Admin\HomeController;
 use App\Http\Controllers\Admin\NavbarController;
 use App\Http\Controllers\Admin\SettingController;
+use App\Http\Controllers\Admin\SliderController;
 use Illuminate\Support\Facades\Route;
 use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 
@@ -19,7 +20,11 @@ use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 
 require __DIR__ . '/auth.php';
 
-Route::group(['prefix' => LaravelLocalization::setLocale(), 'as' => 'dashboard.', 'middleware' => ['localeSessionRedirect', 'localizationRedirect', 'localeViewPath']], function () {
+Route::group([
+    'prefix' => LaravelLocalization::setLocale(),
+    'as' => 'dashboard.',
+    'middleware' => ['localeSessionRedirect', 'localizationRedirect', 'localeViewPath', 'auth']
+], function () {
 
     // home dashboard
     Route::get('/admin', [HomeController::class, 'index'])->name('home');
@@ -28,5 +33,8 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'as' => 'dashboard.'
     Route::resource('settings', SettingController::class)->only(['index', 'update']);
 
     // navbar
-    Route::resource('navbar', NavbarController::class);
+    Route::resource('navbar', NavbarController::class)->except('show');
+
+    //sliders
+    Route::resource('sliders', SliderController::class)->except('show');
 });

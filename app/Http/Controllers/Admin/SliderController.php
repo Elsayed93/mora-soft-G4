@@ -3,13 +3,12 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\BaseController;
-use App\Http\Requests\Navbar\StoreRequest;
-use App\Http\Requests\Navbar\UpdateRequest;
-use App\Models\Navbar;
+use App\Http\Requests\Slider\StoreRequest;
+use App\Http\Requests\Slider\UpdateRequest;
+use App\Models\Slider;
 
-class NavbarController extends BaseController
+class SliderController extends BaseController
 {
-
     /**
      * Display a listing of the resource.
      *
@@ -18,9 +17,9 @@ class NavbarController extends BaseController
     public function index()
     {
         $settings = $this->site_settings;
-        $navSections = Navbar::all();
+        $sliders = Slider::all();
 
-        return view('Admin.navbar.index', compact('navSections', 'settings'));
+        return view('Admin.sliders.index', compact('sliders', 'settings'));
     }
 
     /**
@@ -31,7 +30,7 @@ class NavbarController extends BaseController
     public function create()
     {
         $settings = $this->site_settings;
-        return view('Admin.navbar.create', compact('settings'));
+        return view('Admin.sliders.create', compact('settings'));
     }
 
     /**
@@ -42,10 +41,11 @@ class NavbarController extends BaseController
      */
     public function store(StoreRequest $request)
     {
-        $navSection = Navbar::create($request->all());
+        // dd($request->all());
+        $slider = Slider::create($request->all());
 
-        if ($navSection) {
-            return redirect()->route('dashboard.navbar.index')->with('success', __('site.success_store'));
+        if ($slider) {
+            return redirect()->route('dashboard.sliders.index')->with('success', __('site.success_store'));
         } else {
             return redirect()->back()->with('error', __('site.failed_store'));
         }
@@ -60,9 +60,9 @@ class NavbarController extends BaseController
     public function edit($id)
     {
         $settings = $this->site_settings;
-        $navSection = Navbar::find($id);
-        // dd($navSection);
-        return view('Admin.navbar.edit', compact('navSection', 'settings'));
+        $slider = Slider::find($id);
+        // dd($slider);
+        return view('Admin.sliders.edit', compact('slider', 'settings'));
     }
 
     /**
@@ -74,9 +74,9 @@ class NavbarController extends BaseController
      */
     public function update(UpdateRequest $request, $id)
     {
-        $navSection = Navbar::find($id)->update($request->all());
+        $slider = Slider::find($id)->update($request->all());
 
-        if ($navSection) {
+        if ($slider) {
             return redirect()->back()->with('success', __('site.success_update'));
         } else {
             return redirect()->back()->with('error', __('site.failed_update'));
@@ -91,10 +91,10 @@ class NavbarController extends BaseController
      */
     public function destroy($id)
     {
-        $navSection =   Navbar::destroy($id);
+        $slider =   Slider::destroy($id);
 
-        if ($navSection) {
-            return redirect()->route('dashboard.navbar.index')->with('success', __('site.success_delete'));
+        if ($slider) {
+            return redirect()->route('dashboard.sliders.index')->with('success', __('site.success_delete'));
         } else {
             return redirect()->back()->with('error', __('site.failed_delete'));
         }
