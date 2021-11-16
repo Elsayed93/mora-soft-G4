@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Admin\HomeController;
 use App\Http\Controllers\Admin\NavbarController;
+use App\Http\Controllers\Admin\ProductsController;
 use App\Http\Controllers\Admin\SettingController;
 use App\Http\Controllers\Admin\SliderController;
 use Illuminate\Support\Facades\Route;
@@ -37,4 +38,8 @@ Route::group([
 
     //sliders
     Route::resource('sliders', SliderController::class)->except('show');
+
+
+    //products
+    Route::resource('products', ProductsController::class)->except(['show']);
 });
