@@ -18,6 +18,7 @@
 
 @endsection
 @section('content')
+    {{-- {{dd(get_defined_vars())}} --}}
     <div class="container">
         {{-- show errors --}}
         <div class="row">
@@ -47,28 +48,28 @@
 
         <div class="row mt-5">
             <div class="col-md-8">
-                <form action="{{ route('dashboard.sliders.update', $slider->id) }}" method="POST">
+                <form action="{{ route('dashboard.sliders.update', $slider->id) }}" method="POST" enctype="multipart/form-data">
                     @csrf
                     @method('PUT')
                     {{-- slider arabic name --}}
                     <div class="mb-3">
                         <label for="sliderNameAr" class="form-label">@lang('sliders.name in arabic')</label>
                         <input type="text" class="form-control" id="sliderNameAr" aria-describedby="sliderArabicNameHelp"
-                            name="name_ar" value="{{$slider->name_ar}}">
+                            name="name_ar" value="{{ $slider->name_ar }}">
                     </div>
 
                     {{-- slider english name --}}
                     <div class="mb-3">
                         <label for="sliderNameEn" class="form-label">@lang('sliders.name in english')</label>
                         <input type="text" class="form-control" id="sliderNameEn" aria-describedby="sliderEnglishNameHelp"
-                            name="name_en" value="{{$slider->name_en}}">
+                            name="name_en" value="{{ $slider->name_en }}">
                     </div>
 
                     {{-- slider arabic content --}}
                     <div class="mb-3">
                         <label for="sliderContent" class="form-label">@lang('sliders.slider arabic content')</label>
                         <input type="text" class="form-control" id="sliderContent"
-                            aria-describedby="sliderContentNameHelp" name="content_ar" value="{{$slider->content_ar}}">
+                            aria-describedby="sliderContentNameHelp" name="content_ar" value="{{ $slider->content_ar }}">
                     </div>
 
                     {{-- slider english content --}}
@@ -79,12 +80,20 @@
                     </div>
 
                     {{-- slider image --}}
-                    <div class="mb-3">
-                        <label for="sliderImage" class="form-label">@lang('sliders.slider image')</label>
+                    <label for="sliderImage" class="form-label">@lang('sliders.slider image')</label>
+                    <div class="mb-3" style="display:flex;">
+
                         <input type="file" class="form-control" id="sliderImage" aria-describedby="sliderImageNameHelp"
-                            name="image" value="{{}}">
+                            name="image" value="">
+                        <span style="margin-left: 10px">
+                            <img src="{{ asset('images/sliders/' . $slider->image) }}" alt="" width="100">
+                        </span>
                     </div>
-                    <button type="submit" class="btn btn-primary">@lang('site.save')</button>
+
+                    <div>
+
+                        <button type="submit" class="btn btn-primary">@lang('site.save')</button>
+                    </div>
                 </form>
             </div>
         </div>

@@ -86,7 +86,22 @@ class SliderController extends BaseController
      */
     public function update(UpdateRequest $request, $id)
     {
-        $slider = Slider::find($id)->update($request->all());
+
+        if ($request->hasFile('image')) {
+
+            $imageName = time() . '.' . $request->image->extension();
+            $request->image->move(public_path('images/sliders'), $imageName);
+            $request->image = $imageName;
+        }
+
+        $slider = Slider::find($id)->update([
+            'name_ar' => $request->name_ar,
+            'name_en' => $request->name_en,
+            'content_ar' => $request->content_ar,
+            'content_en' => $request->content_en,
+            'image' => $request->image,
+        ]);
+
 
         if ($slider) {
             return redirect()->back()->with('success', __('site.success_update'));
