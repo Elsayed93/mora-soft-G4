@@ -9,6 +9,8 @@ use App\Http\Controllers\Admin\SliderController;
 use App\Http\Controllers\NewsServiesController;
 use App\Http\Controllers\AirNewsController;
 use App\Http\Controllers\homeController as ControllersHomeController;
+// use App\Http\Controllers\homeController;
+// 
 use Illuminate\Support\Facades\Route;
 use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 
@@ -41,6 +43,13 @@ Route::group([
     ], function () {
 
 
+
+Route::resource('/' , homeController::class );
+
+
+     // Start This route News
+    Route::resource('news' , NewsServiesController::class );
+    Route::resource('news_air' , AirNewsController::class );
 
         Route::get('admins', function () {
             return view('admin.pages.news.index');

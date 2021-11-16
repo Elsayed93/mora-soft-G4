@@ -37,7 +37,10 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['lo
 
 // test route to test the them
 
+<<<<<<< HEAD
 // Route::resource('/' , homeController::class );
 
+=======
+>>>>>>> 6318430 (first comment)
 
 

@@ -78,7 +78,7 @@
                                 <span  class="text-success">{{ $news->active }}</span>
                                 @elseif ($news->active == 0)
                                 <span  class="text-danger">{{ $news->active }}</span>
-                              
+
 
                             @else
                                 <span class="text-">{{ $news->active }}</span>
@@ -373,8 +373,9 @@
 
                         <select class="form-control" name="status" id="cars">
                             <option>اختر</option>
-                             <option  value="مدفوعة">مدفوعة</option>
-                                    <option value="غير مدفوعه">غير مدفوع </option>
+
+                                    <option value="مفعل">مفعل</option>
+                                    <option value="غير مفعل">غير مفعل</option>
                         </select>
                     </div>
                 <div class="col-4">

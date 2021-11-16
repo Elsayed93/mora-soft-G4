@@ -2449,23 +2449,31 @@
                         <div class="container">
                             <div class="blog-list style-2 columns is-variable is-4 is-multiline">
                                 <div class="column is-4" data-aos="fade">
+                                    @foreach ( $air as $n )
+
                                     <div class="blog-post-heading">
-                                        <p class="heading-title-top">latest news</p>
-                                        <h1 class="heading-title style-3 has-text-left"> Lorem ipsum is
-                                            <span class="has-text-primary">simply</span>
+                                        <p class="heading-title-top">{{ $n->name }}</p>
+                                        <h1 class="heading-title style-3 has-text-left"> 
+                                            <span class="has-text-primary">{{$n->agreements}}</span>
                                         </h1>
-                                        <p>Lorem ipsum dolor sit amet is, consectetur adipiscing. Nulla accumsan, metus
-                                            ultrices ele gravi, nulla nunc varius.</p>
-                                        <a href="./blog/index.html" class="button">Our blog
+
+                                        @foreach($news as $c)
+                                            
+                                        <p>{{$c->title}}</p>
+                                                                                    @endforeach
+
+                                        <a href="" class="button">{{$n->Air_transport_quantity}}
                                             <span class="icon">
                                                 <i class="ion-ios-arrow-round-forward"></i>
                                             </span>
                                         </a>
                                     </div>
+                                    @endforeach
+
                                     <!-- .blog-post -->
                                 </div>
                                 <div class="column is-4" data-aos="fade">
-                                    
+
                                                 @foreach ( $news as $news )
 
                                     <article class="blog-post">
@@ -2483,27 +2491,36 @@
                                                 <ul>
                                                     <li>
                                                         <a href="#">
-                                                            <span>{{$news->created_at}}</span>
+                                                            <span>{{$news->updated_at}}</span>
                                                         </a>
                                                     </li>
                                                 </ul>
                                             </div>
-                                            
+                                            @foreach ( $air as $n )
+
                                             <h2 class="entry-title">
                                                 <a href="./blog/single.html">
-                                                    {{$news->title}}</a>
+                                                    {{$n->agreements}}</a>
                                             </h2>
+                                            @endforeach
+
                                         </div>
                                         <div class="entry-footer">
-                                            <a href="./blog/single.html" class="button">
+                                            <a href="" class="">
+                                            {{$news->title}}</a>
+                                        </div>
+                                        <div class="entry-footer">
+                                            <a href="" class="">
                                             {{$news->description}}</a>
                                         </div>
-                                                                                                                                        
+
 
                                     </article>
-                                                                               
                                 </div>
-                                  @endforeach
+
+                                    @endforeach
+
+
                                 <div class="column is-4" data-aos="fade">
 
                                     <!-- .blog-post -->
@@ -2512,7 +2529,7 @@
                                 </div>
 
                             </div>
-                                                       
+
 
                         </div>
                     </section>
