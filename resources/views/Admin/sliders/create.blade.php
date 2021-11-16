@@ -47,7 +47,7 @@
 
         <div class="row mt-5">
             <div class="col-md-8">
-                <form action="{{ route('dashboard.sliders.store') }}" method="POST">
+                <form action="{{ route('dashboard.sliders.store') }}" method="POST" enctype="multipart/form-data">
                     @csrf
                     {{-- slider arabic name --}}
                     <div class="mb-3">

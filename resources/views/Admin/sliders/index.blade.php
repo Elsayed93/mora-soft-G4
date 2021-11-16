@@ -77,7 +77,9 @@
                             <th>{{ $slider->name_en }}</th>
                             <th>{{ $slider->content_ar }}</th>
                             <th>{{ $slider->content_en }}</th>
-                            <th>{{ $slider->image }}</th>
+                            <th>
+                                <img src="{{ asset('images/sliders/' . $slider->image) }}" alt="" width="100">
+                            </th>
                             <th style="display: inline-flex;">
                                 <a href="{{ route('dashboard.sliders.edit', $slider->id) }}" class="btn btn-info"
                                     style="margin:0 10px;">
