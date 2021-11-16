@@ -15,9 +15,6 @@ use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -33,3 +30,14 @@ Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['lo
         Route::get('/home', [HomeController::class, 'index']);
     });
 });
+
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+// test route to test the them
+
+// Route::resource('/' , homeController::class );
+
+
+

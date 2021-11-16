@@ -1,0 +1,2517 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+   <!-- Page Title -->
+   <title>Dashmin - Multipurpose Bootstrap Dashboard Template</title>
+
+   <!-- Meta Data -->
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta http-equiv="content-type" content="text/html; charset=utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="">
+   <meta name="keywords" content="">
+
+   <!-- Favicon -->
+   <link rel="shortcut icon" href="../../../assets/img/favicon.png">
+
+   <!-- Web Fonts -->
+   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&display=swap" rel="stylesheet">
+   
+   <!-- ======= BEGIN GLOBAL MANDATORY STYLES ======= -->
+   <link rel="stylesheet" href="../../../assets/bootstrap/css/bootstrap.min.css">
+   <link rel="stylesheet" href="../../../assets/fonts/icofont/icofont.min.css">
+   <link rel="stylesheet" href="../../../assets/plugins/perfect-scrollbar/perfect-scrollbar.min.css">
+   <!-- ======= END BEGIN GLOBAL MANDATORY STYLES ======= -->
+   
+   <!-- ======= BEGIN PAGE LEVEL PLUGINS STYLES ======= -->
+   <link rel="stylesheet" href="../../../assets/plugins/bootstrap-datepicker/bootstrap-datepicker.min.css">
+   <!-- ======= END BEGIN PAGE LEVEL PLUGINS STYLES ======= -->
+
+   <!-- ======= MAIN STYLES ======= -->
+   <link rel="stylesheet" href="../../../assets/css/style.css">
+   <!-- ======= END MAIN STYLES ======= -->
+
+</head>
+
+<body>
+
+   <!-- Offcanval Overlay -->
+   <div class="offcanvas-overlay"></div>
+   <!-- Offcanval Overlay -->
+
+   <!-- Wrapper -->
+   <div class="wrapper">
+      <!-- Header -->
+      <header class="header card_color-bg fixed-top d-flex align-content-center flex-wrap">
+         <!-- Logo -->
+         <div class="logo">
+            <a href="../../../index.html" class="default-logo"><img src="../../../assets/img/logo.png" alt=""></a>
+            <a href="../../../index.html" class="mobile-logo"><img src="../../../assets/img/mobile-logo.png" alt=""></a>
+         </div>
+         <!-- End Logo -->
+
+         <!-- Main Header -->
+         <div class="main-header">
+            <div class="container-fluid">
+               <div class="row justify-content-between">
+                  <div class="col-3 col-lg-1 col-xl-4">
+                     <!-- Header Left -->
+                     <div class="main-header-left h-100 d-flex align-items-center">
+                        <!-- Main Header User -->
+                        <div class="main-header-user">
+                           <a href="#" class="d-flex align-items-center" data-toggle="dropdown">
+                              <div class="menu-icon">
+                                 <span></span>
+                                 <span></span>
+                                 <span></span>
+                              </div>
+
+                              <div class="user-profile d-xl-flex align-items-center d-none">
+                                 <!-- User Avatar -->
+                                 <div class="user-avatar">
+                                    <img src="../../../assets/img/avatar/user.png" alt="">
+                                 </div>
+                                 <!-- End User Avatar -->
+
+                                 <!-- User Info -->
+                                 <div class="user-info">
+                                    <h4 class="user-name">Abrilay Khatun</h4>
+                                    <p class="user-email">abrilakh@gmail.com</p>
+                                 </div>
+                                 <!-- End User Info -->
+                              </div>
+                           </a>
+                           <div class="dropdown-menu">
+                              <a href="#">My Profile</a>
+                              <a href="#">task</a>
+                              <a href="#">Settings</a>
+                              <a href="#">Log Out</a>
+                           </div>
+                        </div>
+                        <!-- End Main Header User -->
+
+                        <!-- Main Header Menu -->
+                        <div class="main-header-pin d-block d-lg-none">
+                           <div class="header-toogle-menu">
+                              <img src="../../../assets/img/menu.png" alt="">
+                           </div>
+                        </div>
+                        <!-- End Main Header Menu -->
+                     </div>
+                     <!-- End Header Left -->
+                  </div>
+                  <div class="col-9 col-lg-11 col-xl-8">
+                     <!-- Header Right -->
+                     <div class="main-header-right d-flex justify-content-end">
+                        <ul class="nav">
+                           <li class="ml-0">
+                              <!-- Main Header Language -->
+                              <div class="main-header-language">
+                                 <a href="#" data-toggle="dropdown">
+                                    <img src="../../../assets/img/svg/globe-icon.svg" alt="">
+                                 </a>
+                                 <div class="dropdown-menu style--three">
+                                    <a href="#">
+                                       <span><img src="../../../assets/img/usa.png" alt=""></span>
+                                       USA
+                                    </a>
+                                    <a href="#">
+                                       <span><img src="../../../assets/img/china.png" alt=""></span>
+                                       China
+                                    </a>
+                                    <a href="#">
+                                       <span><img src="../../../assets/img/russia.png" alt=""></span>
+                                       Russia
+                                    </a>
+                                    <a href="#">
+                                       <span><img src="../../../assets/img/spain.png" alt=""></span>
+                                       Spain
+                                    </a>
+                                    <a href="#">
+                                       <span><img src="../../../assets/img/brazil.png" alt=""></span>
+                                       Brazil
+                                    </a>
+                                    <a href="#">
+                                       <span><img src="../../../assets/img/france.png" alt=""></span>
+                                       France
+                                    </a>
+                                    <a href="#">
+                                       <span><img src="../../../assets/img/algeria.png" alt=""></span>
+                                       Algeria
+                                    </a>
+                                 </div>
+                              </div>
+                              <!-- End Main Header Language -->
+                           </li>
+                           <li class="ml-0 d-none d-lg-flex">
+                              <!-- Main Header Print -->
+                              <div class="main-header-print">
+                                 <a href="#">
+                                    <img src="../../../assets/img/svg/print-icon.svg" alt="">
+                                 </a>
+                              </div>
+                              <!-- End Main Header Print -->
+                           </li>
+                           <li class="d-none d-lg-flex">
+                              <!-- Main Header Time -->
+                              <div class="main-header-date-time text-right">
+                                 <h3 class="time">
+                                    <span id="hours">21</span>
+                                    <span id="point">:</span>
+                                    <span id="min">06</span>
+                                 </h3>
+                                 <span class="date"><span id="date">Tue, 12 October 2019</span></span>
+                              </div>
+                              <!-- End Main Header Time -->
+                           </li>
+                           <li class="d-none d-lg-flex">
+                              <!-- Main Header Button -->
+                              <div class="main-header-btn ml-md-1">
+                                 <a href="#" class="btn">Pending Tasks</a>
+                              </div>
+                              <!-- End Main Header Button -->
+                           </li>
+                           <li class="order-2 order-sm-0">
+                              <!-- Main Header Search -->
+                              <div class="main-header-search">
+                                 <form action="#" class="search-form">
+                                    <div class="theme-input-group header-search">
+                                       <input type="text" class="theme-input-style" placeholder="Search Here">
+
+                                       <button type="submit"><img src="../../../assets/img/svg/search-icon.svg" alt=""
+                                             class="svg"></button>
+                                    </div>
+                                 </form>
+                              </div>
+                              <!-- End Main Header Search -->
+                           </li>
+                           <li>
+                              <!-- Main Header Messages -->
+                              <div class="main-header-message">
+                                 <a href="#" class="header-icon" data-toggle="dropdown">
+                                    <img src="../../../assets/img/svg/message-icon.svg" alt="" class="svg">
+                                 </a>
+                                 <div class="dropdown-menu">
+                                    <!-- Dropdown Header -->
+                                    <div class="dropdown-header d-flex align-items-center justify-content-between">
+                                       <h5>3 Unread messages</h5>
+                                       <a href="#" class="text-mute d-inline-block">Clear all</a>
+                                    </div>
+                                    <!-- End Dropdown Header -->
+
+                                    <!-- Dropdown Body -->
+                                    <div class="dropdown-body">
+                                       <!-- Item Single -->
+                                       <a href="#" class="item-single d-flex media align-items-center">
+                                          <div class="figure">
+                                             <img src="../../../assets/img/avatar/m1.png" alt="">
+                                             <span class="avatar-status bg-teal"></span>
+                                          </div>
+                                          <div class="content media-body">
+                                             <div class="d-flex align-items-center mb-2">
+                                                <h6 class="name">Sender Name</h6>
+                                                <p class="time">2 min ago</p>
+                                             </div>	
+                                             <p class="main-text">Donec dapibus mauris id odio ornare tempus. Duis sit amet accumsan justo.</p>
+                                          </div>
+                                       </a>
+                                       <!-- End Item Single -->
+
+                                       <!-- Item Single -->
+                                       <a href="#" class="item-single d-flex media align-items-center">
+                                          <div class="figure">
+                                             <img src="../../../assets/img/avatar/m2.png" alt="">
+                                             <span class="avatar-status bg-teal"></span>
+                                          </div>
+                                          <div class="content media-body">
+                                             <div class="d-flex align-items-center mb-2">
+                                                <h6 class="name">Tonya Lee</h6>
+                                                <p class="time">2 min ago</p>
+                                             </div>	
+                                             <p class="main-text">Donec dapibus mauris id odio ornare tempus. Duis sit amet accumsan justo.</p>
+                                          </div>
+                                       </a>
+                                       <!-- End Item Single -->
+
+                                       <!-- Item Single -->
+                                       <a href="#" class="item-single d-flex media align-items-center">
+                                          <div class="figure">
+                                             <img src="../../../assets/img/avatar/m3.png" alt="">
+                                             <span class="avatar-status bg-teal"></span>
+                                          </div>
+                                          <div class="content media-body">
+                                             <div class="d-flex align-items-center mb-2">
+                                                <h6 class="name">Cathy Nichols</h6>
+                                                <p class="time">2 min ago</p>
+                                             </div>	
+                                             <p class="main-text">Donec dapibus mauris id odio ornare tempus. Duis sit amet accumsan justo.</p>
+                                          </div>
+                                       </a>
+                                       <!-- End Item Single -->
+
+                                       <!-- Item Single -->
+                                       <a href="#" class="item-single d-flex media align-items-center">
+                                          <div class="figure">
+                                             <img src="../../../assets/img/avatar/m4.png" alt="">
+                                             <span class="avatar-status bg-teal"></span>
+                                          </div>
+                                          <div class="content media-body">
+                                             <div class="d-flex align-items-center mb-2">
+                                                <h6 class="name">Hubert Griffith</h6>
+                                                <p class="time">2 min ago</p>
+                                             </div>	
+                                             <p class="main-text">Donec dapibus mauris id odio ornare tempus. Duis sit amet accumsan justo.</p>
+                                          </div>
+                                       </a>
+                                       <!-- End Item Single -->
+                                    </div>
+                                    <!-- End Dropdown Body -->
+                                 </div>
+                              </div>
+                              <!-- End Main Header Messages -->
+                           </li>
+                           <li>
+                              <!-- Main Header Notification -->
+                              <div class="main-header-notification">
+                                 <a href="#" class="header-icon notification-icon" data-toggle="dropdown">
+                                    <span class="count" data-bg-img="../../../assets/img/count-bg.png">22</span>
+                                    <img src="../../../assets/img/svg/notification-icon.svg" alt="" class="svg">
+                                 </a>
+                                 <div class="dropdown-menu style--two">
+                                    <!-- Dropdown Header -->
+                                    <div class="dropdown-header d-flex align-items-center justify-content-between">
+                                       <h5>5 New notifications</h5>
+                                       <a href="#" class="text-mute d-inline-block">Clear all</a>
+                                    </div>
+                                    <!-- End Dropdown Header -->
+
+                                    <!-- Dropdown Body -->
+                                    <div class="dropdown-body">
+                                       <!-- Item Single -->
+                                       <a href="#" class="item-single d-flex align-items-center">
+                                          <div class="content">
+                                             <div class="mb-2">
+                                                <p class="time">2 min ago</p>
+                                             </div>	
+                                             <p class="main-text">Donec dapibus mauris id odio ornare tempus amet.</p>
+                                          </div>
+                                       </a>
+                                       <!-- End Item Single -->
+
+                                       <!-- Item Single -->
+                                       <a href="#" class="item-single d-flex align-items-center">
+                                          <div class="content">
+                                             <div class="mb-2">
+                                                <p class="time">2 min ago</p>
+                                             </div>	
+                                             <p class="main-text">Donec dapibus mauris id odio ornare tempus. Duis sit amet accumsan justo.</p>
+                                          </div>
+                                       </a>
+                                       <!-- End Item Single -->
+
+                                       <!-- Item Single -->
+                                       <a href="#" class="item-single d-flex align-items-center">
+                                          <div class="content">
+                                             <div class="mb-2">
+                                                <p class="time">2 min ago</p>
+                                             </div>	
+                                             <p class="main-text">Donec dapibus mauris id odio ornare tempus. Duis sit amet accumsan justo.</p>
+                                          </div>
+                                       </a>
+                                       <!-- End Item Single -->
+
+                                       <!-- Item Single -->
+                                       <a href="#" class="item-single d-flex align-items-center">
+                                          <div class="content">
+                                             <div class="mb-2">
+                                                <p class="time">2 min ago</p>
+                                             </div>	
+                                             <p class="main-text">Donec dapibus mauris id odio ornare tempus. Duis sit amet accumsan justo.</p>
+                                          </div>
+                                       </a>
+                                       <!-- End Item Single -->
+                                    </div>
+                                    <!-- End Dropdown Body -->
+                                 </div>
+                              </div>
+                              <!-- End Main Header Notification -->
+                           </li>
+                        </ul>
+                     </div>
+                     <!-- End Header Right -->
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- End Main Header -->
+      </header>
+      <!-- End Header -->
+
+      <!-- Main Wrapper -->
+      <div class="main-wrapper">
+         <!-- Sidebar -->
+         <nav class="sidebar" data-trigger="scrollbar">
+            <!-- Sidebar Header -->
+            <div class="sidebar-header d-none d-lg-block">
+               <!-- Sidebar Toggle Pin Button -->
+               <div class="sidebar-toogle-pin">
+                  <i class="icofont-tack-pin"></i>
+               </div>
+               <!-- End Sidebar Toggle Pin Button -->
+            </div>
+            <!-- End Sidebar Header -->
+
+            <!-- Sidebar Body -->
+            <div class="sidebar-body">
+               <!-- Nav -->
+               <ul class="nav">
+                  <li class="nav-category">Main</li>
+                  <li>
+                     <a href="../../../index.html">
+                        <i class="icofont-pie-chart"></i>
+                        <span class="link-title">Dashboard</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <i class="icofont-shopping-cart"></i>
+                        <span class="link-title">Ecommerce</span>
+                     </a>
+
+                     <!-- Sub Menu -->
+                     <ul class="nav sub-menu">
+                        <li><a href="../../ecommerce/ecommerce.html">Dashboard 1</a></li>
+                        <li><a href="../../ecommerce/ecommerce2.html">dashboard 2</a></li>
+                        <li><a href="../../ecommerce/orders.html">orders</a></li>
+                        <li><a href="../../ecommerce/product-catelog.html">Products Catalog</a></li>
+                        <li><a href="../../ecommerce/product-details.html">Product Details</a></li>
+                        <li><a href="../../ecommerce/cartlist.html">cart list</a></li>
+                     </ul>
+                     <!-- End Sub Menu -->
+                  </li>
+                  <li>
+                     <a href="../../../pages/social-media.html">
+                        <i class="icofont-chart-histogram"></i>
+                        <span class="link-title">Social Media Analytics</span>
+                     </a>
+                  </li>
+                  <li class="nav-category">apps</li>
+                  <li>
+                     <a href="#">
+                        <i class="icofont-mail-box"></i>
+                        <span class="link-title">Email</span>
+                     </a>
+                     <!-- Sub Menu -->
+                     <ul class="nav sub-menu">
+                        <li><a href="../email/inbox.html">Inbox</a></li>
+                        <li><a href="../email/read.html">Read</a></li>
+                        <li><a href="../email/compose.html">Compose</a></li>
+                     </ul>
+                     <!-- End Sub Menu -->
+                  </li>
+                  <li>
+                     <a href="../../apps/chat.html">
+                        <i class="icofont-wechat"></i>
+                        <span class="link-title">Chat</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <i class="icofont-listing-box"></i>
+                        <span class="link-title">To Do List</span>
+                     </a>
+
+                     <!-- Sub Menu -->
+                     <ul class="nav sub-menu">
+                        <li><a href="../todolist/todolist.html">Tasks</a></li>
+                        <li><a href="../todolist/add-new.html">add new</a></li>
+                        <li><a href="../todolist/task-details.html">details</a></li>
+                     </ul>
+                     <!-- End Sub Menu -->
+                  </li>
+                  <li>
+                     <a href="../../apps/calendar.html">
+                        <i class="icofont-calendar"></i>
+                        <span class="link-title">Calendar</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <i class="icofont-file-document"></i>
+                        <span class="link-title">invoice</span>
+                     </a>
+
+                     <!-- Sub Menu -->
+                     <ul class="nav sub-menu">
+                        <li><a href="../invoice/invoice-list.html">Invoice List</a></li>
+                        <li><a href="../invoice/invoice-details.html">details</a></li>
+                        <li><a href="../invoice/invoice-add-new.html">add new</a></li>
+                     </ul>
+                     <!-- End Sub Menu -->
+                  </li>
+                  <li>
+                     <a href="#">
+                        <i class="icofont-contact-add"></i>
+                        <span class="link-title">contact</span>
+                     </a>
+
+                     <!-- Sub Menu -->
+                     <ul class="nav sub-menu">
+                        <li><a href="../contact/contact-list.html">list view</a></li>
+                        <li><a href="../contact/contact-grid.html">grid view</a></li>
+                     </ul>
+                     <!-- End Sub Menu -->
+                  </li>
+                  <li class="active sub-menu-opened">
+                     <a href="#">
+                        <i class="icofont-calendar"></i>
+                        <span class="link-title">project manager</span>
+                     </a>
+
+                     <!-- Sub Menu -->
+                     <ul class="nav sub-menu">
+                        <li><a href="project.html">project status</a></li>
+                        <li class="active"><a href="task-list.html">task list</a></li>
+                        <li><a href="create-new.html">create new Board</a></li>
+                     </ul>
+                     <!-- End Sub Menu -->
+                  </li>
+                  <li>
+                     <a href="#">
+                        <i class="icofont-files-stack"></i>
+                        <span class="link-title">file manager</span>
+                     </a>
+
+                     <!-- Sub Menu -->
+                     <ul class="nav sub-menu">
+                        <li><a href="../file-manager/file-info.html">file info</a></li>
+                        <li><a href="../file-manager/share.html">share</a></li>
+                        <li><a href="../file-manager/upload.html">upload new file</a></li>
+                     </ul>
+                     <!-- End Sub Menu -->
+                  </li>
+                  <li class="nav-category">UI Elements</li>
+                  <li>
+                     <a href="../../ui-elements/widget.html">
+                        <i class="icofont-magic-alt"></i>
+                        <span class="link-title">widgets</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <i class="icofont-brand-icofont"></i>
+                        <span class="link-title">Icons (Aniloan)</span>
+                     </a>
+
+                     <!-- Sub Menu -->
+                     <ul class="nav sub-menu">
+                        <li><a href="../../ui-elements/icons/iconfont.html">ico font</a></li>
+                        <li><a href="../../ui-elements/icons/materializeicon.html">Materialize Icons</a></li>
+                        <li><a href="../../ui-elements/icons/et-lineicon.html">Et-Line Icons</a></li>
+                        <li><a href="../../ui-elements/icons/eleganticon.html">Elegant Icons</a></li>
+                        <li><a href="../../ui-elements/icons/pe-7strokeicon.html">Pe-7 Stroke Icons</a></li>
+                        <li><a href="../../ui-elements/icons/themifyicon.html">Themify Icons</a></li>
+                     </ul>
+                     <!-- End Sub Menu -->
+                  </li>
+                  <li>
+                     <a href="../../ui-elements/color.html">
+                        <i class="icofont-eye-dropper"></i>
+                        <span class="link-title">color</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="../../ui-elements/extra-component.html">
+                        <i class="icofont-plus"></i>
+                        <span class="link-title">extra Component</span>
+                     </a>
+                  </li>
+                  <li class="nav-category">Form & Table</li>
+                  <li>
+                     <a href="#">
+                        <i class="icofont-table"></i>
+                        <span class="link-title">Form Elements</span>
+                     </a>
+
+                     <!-- Sub Menu -->
+                     <ul class="nav sub-menu">
+                        <li><a href="../../form&table/form-elements/base-input.html">Base Input</a></li>
+                        <li><a href="../../form&table/form-elements/input-group.html">Input Groups</a></li>
+                        <li><a href="../../form&table/form-elements/checkbox.html">Checkbox</a></li>
+                        <li><a href="../../form&table/form-elements/radio.html">radio</a></li>
+                        <li><a href="../../form&table/form-elements/switch.html">Switch</a></li>
+                        <li><a href="../../form&table/form-elements/number-input.html">Number Input</a></li>
+                        <li><a href="../../form&table/form-elements/textarea.html">Text Area</a></li>
+                        <li><a href="../../form&table/form-elements/text-editor.html">Text Editor (Quill Editor)</a></li>
+                        <li><a href="../../form&table/form-elements/file-uploader.html">File Uploader</a></li>
+                        <li><a href="../../form&table/form-elements/datetime-picker.html">Date & Time Picker</a></li>
+                     </ul>
+                     <!-- End Sub Menu -->
+                  </li>
+                  <li>
+                     <a href="../../form&table/form-layout.html">
+                        <i class="icofont-layout"></i>
+                        <span class="link-title">Form Layout</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="../../form&table/form-wizard.html">
+                        <i class="icofont-ui-file"></i>
+                        <span class="link-title">Form Wizard</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="../../form&table/form-validation.html">
+                        <i class="icofont-exclamation-circle"></i>
+                        <span class="link-title">Form Validation</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="../../form&table/form-repeater.html">
+                        <i class="icofont-meeting-add"></i>
+                        <span class="link-title">Form Repeater</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="../../form&table/table.html">
+                        <i class="icofont-table"></i>
+                        <span class="link-title">Table</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="../../form&table/table-extended.html">
+                        <i class="icofont-contact-add"></i>
+                        <span class="link-title">Table Extended</span>
+                     </a>
+                  </li>
+                  <li class="nav-category">pages</li>
+                  <li>
+                     <a href="#">
+                        <i class="icofont-ui-user"></i>
+                        <span class="link-title">User Profile</span>
+                     </a>
+
+                     <!-- Sub Menu -->
+                     <ul class="nav sub-menu">
+                        <li><a href="../../pages/user-profile/news-feed.html">News Feed</a></li>
+                        <li><a href="../../pages/user-profile/about.html">about</a></li>
+                        <li><a href="../../pages/user-profile/gallery.html">gallery</a></li>                        
+                        <li><a href="../../pages/user-profile/connection.html">Connections</a></li>
+                        <li><a href="../../pages/user-profile/profile-chat.html">Chat</a></li>
+                        <li><a href="../../pages/user-profile/edit-profile.html">Edit Profile</a></li>
+                        <li><a href="../../pages/user-profile/user-dashboard.html">User Dashboard</a></li>
+                     </ul>
+                     <!-- End Sub Menu -->
+                  </li>
+                  <li>
+                     <a href="../../pages/faq.html">
+                        <i class="icofont-support-faq"></i>
+                        <span class="link-title">FAQ</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="../../pages/price.html">
+                        <i class="icofont-price"></i>
+                        <span class="link-title">Pricing</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="../../pages/timeline.html">
+                        <i class="icofont-clock-time"></i>
+                        <span class="link-title">Timeline</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="../../pages/account-setting.html">
+                        <i class="icofont-settings-alt"></i>
+                        <span class="link-title">Account Settings</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <i class="icofont-check-circled"></i>
+                        <span class="link-title">Authentication</span>
+                     </a>
+
+                     <!-- Sub Menu -->
+                     <ul class="nav sub-menu">
+                        <li><a href="../../pages/authentication/login.html">Log In</a></li>
+                        <li><a href="../../pages/authentication/register.html">Register</a></li>
+                        <li><a href="../../pages/authentication/forget-pass.html">Forget Password</a></li>
+                        <li><a href="../../pages/authentication/reset-pass.html">Reset Password</a></li>
+                     </ul>
+                     <!-- End Sub Menu -->
+                  </li>
+                  <li>
+                     <a href="#">
+                        <i class="icofont-exclamation-tringle"></i>
+                        <span class="link-title">Miscellaneous</span>
+                     </a>
+
+                     <!-- Sub Menu -->
+                     <ul class="nav sub-menu">
+                        <li><a href="../../pages/miscellaneous/comming-soon.html">Coming Soon</a></li>
+                        <li><a href="../../pages/miscellaneous/404.html">404 Error</a></li>
+                        <li><a href="../../pages/miscellaneous/500.html">500 Error</a></li>
+                        <li><a href="../../pages/miscellaneous/page-not-authorized.html">Not Authorized</a></li>
+                        <li><a href="../../pages/miscellaneous/maintenance.html">Maintenance</a></li>
+                        <li><a href="../../pages/miscellaneous/session-timeout.html">Session Timeout</a></li>
+                     </ul>
+                     <!-- End Sub Menu -->
+                  </li>
+                  <li class="nav-category">Chart & Maps</li>
+                  <li>
+                     <a href="#">
+                        <i class="icofont-chart-pie-alt"></i>
+                        <span class="link-title">charts</span>
+                     </a>
+
+                     <!-- Sub Menu -->
+                     <ul class="nav sub-menu">
+                        <li><a href="../../charts/apex.html">Apex</a></li>
+                        <li><a href="../../charts/chartjs.html">Chartjs</a></li>
+                        <li><a href="../../charts/morrischart.html">Morris Chart</a></li>
+                        <li><a href="../../charts/flotchart.html">Flot Chart</a></li>
+                        <li><a href="../../charts/chartist.html">Chartist Chart</a></li>
+                        <li><a href="../../charts/c3-chart.html">C3 Chart</a></li>
+                     </ul>
+                     <!-- End Sub Menu -->
+                  </li>
+                  <li class="nav-category">Extensions</li>
+                  <li>
+                     <a href="../../extensions/sweet-alert.html">
+                        <i class="icofont-notification"></i>
+                        <span class="link-title">Sweet Alert</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="../../extensions/toastr.html">
+                        <i class="icofont-dice"></i>
+                        <span class="link-title">Toastr</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="../../extensions/noui-slider.html">
+                        <i class="icofont-filter"></i>
+                        <span class="link-title">NoUi Slider</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="../../extensions/dragdrop.html">
+                        <i class="icofont-drag"></i>
+                        <span class="link-title">Drag & Drop</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="../../extensions/tour.html">
+                        <i class="icofont-education"></i>
+                        <span class="link-title">Tour</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="../../extensions/swiper.html">
+                        <i class="icofont-swoosh-right"></i>
+                        <span class="link-title">Swiper</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="../../extensions/treeview.html">
+                        <i class="icofont-tree-alt"></i>
+                        <span class="link-title">Treeview</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="../../extensions/block-ui.html">
+                        <i class="icofont-card"></i>
+                        <span class="link-title">Block-UI</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="../../extensions/media-player.html">
+                        <i class="icofont-multimedia"></i>
+                        <span class="link-title">Media Player</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="../../extensions/i18n.html">
+                        <i class="icofont-globe"></i>
+                        <span class="link-title">i18n</span>
+                     </a>
+                  </li>
+                  <li class="nav-category">others</li>
+                  <li>
+                     <a href="#">
+                        <i class="icofont-navigation-menu"></i>
+                        <span class="link-title">Menu Levels</span>
+                     </a>
+
+                     <!-- Sub Menu -->
+                     <ul class="nav sub-menu">
+                        <li><a href="#">Second Level 01</a>
+                           <!-- Sub Menu -->
+                           <ul class="nav sub-menu">
+                              <li><a href="#">Third Level 01</a></li>
+                              <li><a href="#">Third Level 02</a></li>
+                           </ul>
+                           <!-- End Sub Menu -->
+                        </li>
+                        <li><a href="#">Second Level 02</a>
+                           <!-- Sub Menu -->
+                           <ul class="nav sub-menu">
+                              <li><a href="#">Third Level 01</a></li>
+                              <li><a href="#">Third Level 02</a></li>
+                           </ul>
+                           <!-- End Sub Menu -->
+                        </li>
+                     </ul>
+                     <!-- End Sub Menu -->
+                  </li>
+
+                  <li>
+                     <a href="#" class="disabled">
+                        <i class="icofont-not-allowed"></i>
+                        <span class="link-title">Disable Menu</span>
+                     </a>
+                  </li>
+                  <li class="nav-category">Support</li>
+               </ul>
+               <!-- End Nav -->
+            </div>
+            <!-- End Sidebar Body -->
+         </nav>
+         <!-- End Sidebar -->
+
+         <!-- Main Content -->
+         <div class="main-content d-flex flex-column flex-md-row">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-12">
+                     <!-- Contact Header -->
+                     <div class="project-header d-flex align-items-md-center media flex-column flex-md-row card_color-bg mb-30">
+                        <div class="project-header-left media-body d-flex align-items-center w-100 ml-md-4">
+
+                           <!-- Dropdown Button -->
+                           <div class="dropdown-button ml-3">
+                              <a href="#" class="d-flex align-items-center" data-toggle="dropdown">
+                                 <div class="menu-icon">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                 </div>
+                              </a>
+                              <div class="dropdown-menu dropdown-menu-right">
+                                 <a href="#">Daily</a>
+                                 <a href="#">Sort By</a>
+                                 <a href="#">Monthly</a>
+                              </div>
+                           </div>
+                           <!-- End Dropdown Button -->
+
+                           <!-- Add New Contact Btn -->
+                           <div class="add-new-contact ml-20">
+                              <a href="project.html" class="btn-home">
+                                    <img src="../../../assets/img/svg/home.svg" alt="" class="svg">
+                              </a>
+                           </div>
+                           <!-- End Add New Contact Btn -->
+
+                           <!-- Starred -->
+                           <div class="star ml-20">
+                              <a href="#"><img src="../../../assets/img/svg/star.svg" alt="" class="svg"></a>
+                           </div>
+                           <!-- End Starred -->
+
+                           <!-- Title -->
+                           <div class="title">
+                              <h4 class="font-20">Dashmin Admin Template</h4>
+                           </div>
+                           <!-- End Title -->
+                        </div>
+
+                        <div class="project-header-right d-flex align-items-center justify-content-md-end flex-wrap mt-3 mt-md-0">
+                           <!-- Main Header Notification -->
+                           <div class="main-header-notification mb-2 mb-sm-0">
+                              <a href="#" class="header-icon notification-icon">
+                                    <span class="count" data-bg-img="../../../assets/img/count-bg.png">4</span>
+                                    <img src="../../../assets/img/svg/notification-icon.svg" alt="" class="svg">
+                              </a>
+                           </div>
+                           <!-- End Main Header Notification -->
+
+                           <!-- Member -->
+                           <div class="member style--two d-flex mb-2 mb-sm-0">
+                              <a href="#"><img src="../../../assets/img/avatar/m27.png" alt=""></a>
+                              <a href="#"><img src="../../../assets/img/avatar/m12.png" alt=""></a>
+                              <a href="#"><img src="../../../assets/img/avatar/m2.png" alt=""></a>
+                              <a href="#" class="btn-circle task-header">
+                                 <img src="../../../assets/img/svg/plus_white.svg" alt="" class="svg">
+                              </a>
+                           </div>
+                           <!-- End Member -->
+
+                           <!-- Create New Board -->
+                           <div class="create-new-board mb-2 mb-sm-0">
+                              <a href="#" class="btn">Create New Board</a>
+                           </div>
+                           <!-- End Create New Board -->
+                        </div>
+                     </div>
+                     <!-- End Contact Header -->
+                  </div>
+               </div>
+
+               
+               <div class="board-wrapper">
+                  <!-- Board -->
+                  <div class="board">
+                     <!-- Board Header -->
+                     <div class="board-header d-flex justify-content-between align-items-center mb-10">
+                        <h4 class="c2">Things To Do</h4>
+
+                        <!-- Dropdown Button -->
+                        <div class="dropdown-button">
+                           <a href="#" class="d-flex align-items-center" data-toggle="dropdown">
+                              <div class="menu-icon justify-content-center style--two ml-0">
+                                 <span></span>
+                                 <span></span>
+                                 <span></span>
+                              </div>
+                           </a>
+                           <div class="dropdown-menu">
+                              <a href="#">Daily</a>
+                              <a href="#">Sort By</a>
+                              <a href="#">Monthly</a>
+                           </div>
+                        </div>
+                        <!-- End Dropdown Button -->
+                     </div>
+                     <!-- End Board Header -->
+
+                     <!-- Boards Cards -->
+                     <div class="board-cards">
+                        <!-- Board Card -->
+                        <div class="board-card label-2">
+                              <p class="mb-2">Gone pure late gay ham sigh were not find are rent. </p>
+
+                              <div class="d-flex justify-content-between align-items-center">
+                                 <div class="left d-flex align-items-center">
+                                    <img src="../../../assets/img/svg/watch.svg" alt="" class="svg ml-1">
+                                    <a href="#" class="text_color font-12">12 Jan</a>
+                                 </div>
+                              </div>
+                        </div>
+                        <!-- End Board Card -->
+
+                        <!-- Board Card -->
+                        <div class="board-card">
+                              <img src="../../../assets/img/media/board1.jpg" class="mb-10" alt="">
+                              <p class="mb-2">Carried nothing on am warrant towards. Polite in of in oh needed itself silent course.</p>
+
+                              <div class="d-flex justify-content-between align-items-center">
+                                 <div class="left d-flex align-items-center">
+                                    <img src="../../../assets/img/svg/watch.svg" alt="" class="svg ml-1">
+                                    <a href="#" class="text_color font-12">12 Jan</a>
+                                 </div>
+                                 <div class="right d-flex align-items-center">
+                                    1
+                                    <a href="#" class="l-height1"><img src="../../../assets/img/svg/attach2.svg" alt="" class="svg ml-2 mr-1"></a>
+
+                                    <!-- Member -->
+                                    <div class="member">
+                                          <a href="#"><img src="../../../assets/img/avatar/m27.png" alt=""></a>
+                                          <a href="#"><img src="../../../assets/img/avatar/m12.png" alt=""></a>
+                                    </div>
+                                    <!-- End Member -->
+                                 </div>
+                              </div>
+                        </div>
+                        <!-- End Board Card -->
+
+                        <!-- Board Card -->
+                        <div class="board-card label-3">
+                              <p class="mb-2">Gone pure late gay ham sigh were not find are rent. </p>
+
+                              <div class="d-flex justify-content-between align-items-center">
+                                 <div class="left d-flex align-items-center">
+                                    <img src="../../../assets/img/svg/watch.svg" alt="" class="svg ml-1">
+                                    <a href="#" class="text_color font-12">12 Jan</a>
+                                 </div>
+                              </div>
+                        </div>
+                        <!-- End Board Card -->
+
+                        <!-- Board Card -->
+                        <div class="board-card label-2">
+                              <p class="mb-2">Gone pure late gay ham sigh were not find are rent. </p>
+
+                              <div class="d-flex justify-content-between align-items-center">
+                                 <div class="left d-flex align-items-center">
+                                    <img src="../../../assets/img/svg/watch.svg" alt="" class="svg ml-1">
+                                    <a href="#" class="text_color font-12">12 Jan</a>
+                                 </div>
+
+                                 <div class="right d-flex align-items-center">
+                                    1
+                                    <a href="#" class="l-height1"><img src="../../../assets/img/svg/attach2.svg" alt="" class="svg ml-2 mr-1"></a>
+
+                                    <!-- Member -->
+                                    <div class="member">
+                                          <a href="#"><img src="../../../assets/img/avatar/m27.png" alt=""></a>
+                                          <a href="#"><img src="../../../assets/img/avatar/m12.png" alt=""></a>
+                                    </div>
+                                    <!-- End Member -->
+                                 </div>
+                              </div>
+                        </div>
+                        <!-- End Board Card -->
+                     </div>
+                     <!-- End Boards Cards -->
+
+                     <!-- Board Composer -->
+                     <div class="board-composer flex-column d-flex align-items-center justify-content-center">
+                        <a href="#" class="add-another-card">
+                           <img src="../../../assets/img/svg/plus.svg" alt="" class="svg ml-1">
+                           <span class="font-14 bold c4">Add another card</span>
+                        </a>
+
+                        <div class="add-card w-100">
+                           <form action="#" method="POST">
+                              <textarea class="theme-input-style style--five" placeholder="List Title" ></textarea>
+
+                              <div class="d-flex align-items-center justify-content-between mt-2">
+                                 <div class="date d-flex align-items-center">
+                                    <img src="../../../assets/img/svg/watch.svg" alt="" class="svg ml-1">
+                                    <span class="date-text">16 May 2020</span>
+                                 </div>
+
+                                 <div class="actions">
+                                    <a href="#" class="cancel font-14 bold ml-3"> Cancel </a>
+                                    <a href="#" class="btn save"> Save </a>
+                                 </div>
+                              </div>
+                           </form>
+                        </div>
+                     </div>
+                     <!-- End Board Composer -->
+                  </div>
+                  <!-- End Board -->
+
+                  <!-- Board -->
+                  <div class="board">
+                     <!-- Board Header -->
+                     <div class="board-header d-flex justify-content-between align-items-center mb-10">
+                        <h4 class="c2">Doing</h4>
+
+                        <!-- Dropdown Button -->
+                        <div class="dropdown-button">
+                              <a href="#" class="d-flex align-items-center" data-toggle="dropdown">
+                              <div class="menu-icon justify-content-center style--two ml-0">
+                                 <span></span>
+                                 <span></span>
+                                 <span></span>
+                              </div>
+                              </a>
+                              <div class="dropdown-menu">
+                              <a href="#">Daily</a>
+                              <a href="#">Sort By</a>
+                              <a href="#">Monthly</a>
+                              </div>
+                        </div>
+                        <!-- End Dropdown Button -->
+                     </div>
+                     <!-- End Board Header -->
+
+                     <!-- Boards Cards -->
+                     <div class="board-cards">
+                        <!-- Board Card -->
+                        <div class="board-card active">
+                           <p class="mb-2">Cancel anytime with a single click in your account. No questions asked</p>
+
+                           <div class="d-flex justify-content-between align-items-center">
+                              <div class="left d-flex align-items-center">
+                                 <img src="../../../assets/img/svg/watch.svg" alt="" class="svg ml-1">
+                                 <a href="#" class="text_color font-12">Due Time: <b>2days</b></a>
+                              </div>
+                              <div class="right d-flex align-items-center">
+                                 1
+                                 <a href="#" class="l-height1"><img src="../../../assets/img/svg/attach2.svg" alt="" class="svg ml-2 mr-1"></a>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- End Board Card -->
+
+                        <!-- Board Card -->
+                        <div class="board-card label-2">
+                           <p class="mb-2">Gone pure late gay ham sigh were not find are rent. </p>
+
+                           <div class="d-flex justify-content-between align-items-center">
+                                 <div class="left d-flex align-items-center">
+                                    <img src="../../../assets/img/svg/watch.svg" alt="" class="svg ml-1">
+                                    <a href="#" class="text_color font-12">12 Jan</a>
+                                 </div>
+
+                                 <div class="right d-flex align-items-center">
+                                    1
+                                    <a href="#" class="l-height1"><img src="../../../assets/img/svg/attach2.svg" alt="" class="svg ml-2 mr-1"></a>
+
+                                    <!-- Member -->
+                                    <div class="member">
+                                       <a href="#"><img src="../../../assets/img/avatar/m27.png" alt=""></a>
+                                       <a href="#"><img src="../../../assets/img/avatar/m12.png" alt=""></a>
+                                    </div>
+                                    <!-- End Member -->
+                                 </div>
+                           </div>
+                        </div>
+                        <!-- End Board Card -->
+
+                        <!-- Board Card -->
+                        <div class="board-card label-4">
+                           <p class="mb-2">It had to resolve otherwise she contented there is Afford relied warmth out sir hearts sister use garden admire former simple.</p>
+
+                           <div class="d-flex justify-content-between align-items-center">
+                                 <div class="left d-flex align-items-center">
+                                    <img src="../../../assets/img/svg/watch.svg" alt="" class="svg ml-1">
+                                    <a href="#" class="text_color font-12">12 Jan</a>
+                                 </div>
+
+                                 <div class="right d-flex align-items-center">
+                                    1
+                                    <a href="#" class="l-height1"><img src="../../../assets/img/svg/attach2.svg" alt="" class="svg ml-2 mr-1"></a>
+
+                                    <!-- Member -->
+                                    <div class="member">
+                                       <a href="#"><img src="../../../assets/img/avatar/m27.png" alt=""></a>
+                                       <a href="#"><img src="../../../assets/img/avatar/m12.png" alt=""></a>
+                                    </div>
+                                    <!-- End Member -->
+                                 </div>
+                           </div>
+                        </div>
+                        <!-- End Board Card -->
+
+                        <!-- Board Card -->
+                        <div class="board-card">
+                              <img src="../../../assets/img/media/board2.jpg" class="mb-10" alt="">
+                              <p class="mb-2">Impression up admiration he by partiality is one day.</p>
+
+                              <div class="d-flex justify-content-between align-items-center">
+                                 <div class="left d-flex align-items-center">
+                                    <img src="../../../assets/img/svg/watch.svg" alt="" class="svg ml-1">
+                                    <a href="#" class="text_color font-12">12 Jan</a>
+                                 </div>
+                                 <div class="right d-flex align-items-center">
+                                    1
+                                    <a href="#" class="l-height1"><img src="../../../assets/img/svg/attach2.svg" alt="" class="svg ml-2 mr-1"></a>
+                                 </div>
+                              </div>
+                        </div>
+                        <!-- End Board Card -->
+
+                        <!-- Board Card -->
+                        <div class="board-card label-2">
+                              <p class="mb-2">Hope they dear who its bred</p>
+
+                              <div class="d-flex justify-content-between align-items-center">
+                                 <div class="left d-flex align-items-center">
+                                    <img src="../../../assets/img/svg/watch.svg" alt="" class="svg ml-1">
+                                    <a href="#" class="text_color font-12">12 Jan</a>
+                                 </div>
+
+                                 <div class="right d-flex align-items-center">
+                                    1
+                                    <a href="#" class="l-height1"><img src="../../../assets/img/svg/attach2.svg" alt="" class="svg ml-2 mr-1"></a>
+
+                                    <!-- Member -->
+                                    <div class="member">
+                                          <a href="#"><img src="../../../assets/img/avatar/m27.png" alt=""></a>
+                                          <a href="#"><img src="../../../assets/img/avatar/m12.png" alt=""></a>
+                                    </div>
+                                    <!-- End Member -->
+                                 </div>
+                              </div>
+                        </div>
+                        <!-- End Board Card -->
+                     </div>
+                     <!-- End Boards Cards -->
+
+                     <!-- Board Composer -->
+                     <div class="board-composer flex-column d-flex align-items-center justify-content-center">
+                        <a href="#" class="add-another-card">
+                              <img src="../../../assets/img/svg/plus.svg" alt="" class="svg ml-1">
+                              <span class="font-14 bold c4">Add another card</span>
+                        </a>
+
+                        <div class="add-card w-100">
+                           <form action="#">
+                              <textarea class="theme-input-style style--five" placeholder="List Title" ></textarea>
+
+                              <div class="d-flex align-items-center justify-content-between mt-2">
+                                 <div class="date d-flex align-items-center">
+                                    <img src="../../../assets/img/svg/watch.svg" alt="" class="svg ml-1">
+                                    <span class="date-text">16 May 2020</span>
+                                 </div>
+
+                                 <div class="actions">
+                                    <a href="#" class="cancel font-14 bold ml-3"> Cancel </a>
+                                    <a href="#" class="btn save"> Save </a>
+                                 </div>
+                              </div>
+                           </form>
+                        </div>
+                     </div>
+                     <!-- End Board Composer -->
+                  </div>
+                  <!-- End Board -->
+                  
+                  <!-- Board -->
+                  <div class="board">
+                     <!-- Board Header -->
+                     <div class="board-header d-flex justify-content-between align-items-center mb-10">
+                        <h4 class="c2">Done</h4>
+
+                        <!-- Dropdown Button -->
+                        <div class="dropdown-button">
+                              <a href="#" class="d-flex align-items-center" data-toggle="dropdown">
+                              <div class="menu-icon justify-content-center style--two ml-0">
+                                 <span></span>
+                                 <span></span>
+                                 <span></span>
+                              </div>
+                              </a>
+                              <div class="dropdown-menu">
+                              <a href="#">Daily</a>
+                              <a href="#">Sort By</a>
+                              <a href="#">Monthly</a>
+                              </div>
+                        </div>
+                        <!-- End Dropdown Button -->
+                     </div>
+                     <!-- End Board Header -->
+
+                     <!-- Boards Cards -->
+                     <div class="board-cards">
+                        <!-- Board Card -->
+                        <div class="board-card label-2">
+                              <p class="mb-2">Afford relied warmth out sir hearts sister use garden.</p>
+
+                              <div class="d-flex justify-content-between align-items-center">
+                                 <div class="left d-flex align-items-center">
+                                    <img src="../../../assets/img/svg/watch.svg" alt="" class="svg ml-1">
+                                    <a href="#" class="text_color font-12">12 May</a>
+                                 </div>
+                              </div>
+                        </div>
+                        <!-- End Board Card -->
+
+                        <!-- Board Card -->
+                        <div class="board-card label-5">
+                           <p class="mb-2">Wanted easily in my called formed suffer</p>
+
+                           <div class="d-flex justify-content-between align-items-center">
+                                 <div class="left d-flex align-items-center">
+                                    <img src="../../../assets/img/svg/watch.svg" alt="" class="svg ml-1">
+                                    <a href="#" class="text_color font-12">12 Jan</a>
+                                 </div>
+
+                                 <div class="right d-flex align-items-center">
+                                    1
+                                    <a href="#" class="l-height1"><img src="../../../assets/img/svg/attach2.svg" alt="" class="svg ml-2 mr-1"></a>
+
+                                    <!-- Member -->
+                                    <div class="member">
+                                       <a href="#"><img src="../../../assets/img/avatar/m27.png" alt=""></a>
+                                       <a href="#"><img src="../../../assets/img/avatar/m12.png" alt=""></a>
+                                    </div>
+                                    <!-- End Member -->
+                                 </div>
+                           </div>
+                        </div>
+                        <!-- End Board Card -->
+
+                        <!-- Board Card -->
+                        <div class="board-card label-3">
+                           <p class="mb-2">Humanity declared vicinity continue supplied.</p>
+
+                           <div class="d-flex justify-content-between align-items-center">
+                                 <div class="left d-flex align-items-center">
+                                    <img src="../../../assets/img/svg/watch.svg" alt="" class="svg ml-1">
+                                    <a href="#" class="text_color font-12">12 Jan</a>
+                                 </div>
+                           </div>
+                        </div>
+                        <!-- End Board Card -->
+
+                        <!-- Board Card -->
+                        <div class="board-card label-2">
+                           <p class="mb-2">Do danger in to adieus ladies houses oh eldest.</p>
+
+                           <div class="d-flex justify-content-between align-items-center">
+                                 <div class="left d-flex align-items-center">
+                                    <img src="../../../assets/img/svg/watch.svg" alt="" class="svg ml-1">
+                                    <a href="#" class="text_color font-12">12 Jan</a>
+                                 </div>
+
+                                 <div class="right d-flex align-items-center">
+                                    1
+                                    <a href="#" class="l-height1"><img src="../../../assets/img/svg/attach2.svg" alt="" class="svg ml-2 mr-1"></a>
+
+                                    <!-- Member -->
+                                    <div class="member">
+                                       <a href="#"><img src="../../../assets/img/avatar/m27.png" alt=""></a>
+                                       <a href="#"><img src="../../../assets/img/avatar/m12.png" alt=""></a>
+                                    </div>
+                                    <!-- End Member -->
+                                 </div>
+                           </div>
+                        </div>
+                        <!-- End Board Card -->
+
+                        <!-- Board Card -->
+                        <div class="board-card label-4">
+                           <p class="mb-2">It had to resolve otherwise she contented there is Afford relied warmth out sir hearts sister use garden admire former simple.</p>
+
+                           <div class="d-flex justify-content-between align-items-center">
+                                 <div class="left d-flex align-items-center">
+                                    <img src="../../../assets/img/svg/watch.svg" alt="" class="svg ml-1">
+                                    <a href="#" class="text_color font-12">12 Jan</a>
+                                 </div>
+
+                                 <div class="right d-flex align-items-center">
+                                    1
+                                    <a href="#" class="l-height1"><img src="../../../assets/img/svg/attach2.svg" alt="" class="svg ml-2 mr-1"></a>
+
+                                    <!-- Member -->
+                                    <div class="member">
+                                       <a href="#"><img src="../../../assets/img/avatar/m27.png" alt=""></a>
+                                       <a href="#"><img src="../../../assets/img/avatar/m12.png" alt=""></a>
+                                    </div>
+                                    <!-- End Member -->
+                                 </div>
+                           </div>
+                        </div>
+                        <!-- End Board Card -->
+                     </div>
+                     <!-- End Boards Cards -->
+
+                     <!-- Board Composer -->
+                     <div class="board-composer flex-column d-flex align-items-center justify-content-center">
+                        <a href="#" class="add-another-card">
+                              <img src="../../../assets/img/svg/plus.svg" alt="" class="svg ml-1">
+                              <span class="font-14 bold c4">Add another card</span>
+                        </a>
+
+                        <div class="add-card w-100">
+                           <form action="#">
+                              <textarea class="theme-input-style style--five" placeholder="List Title" ></textarea>
+
+                              <div class="d-flex align-items-center justify-content-between mt-2">
+                                 <div class="date d-flex align-items-center">
+                                    <img src="../../../assets/img/svg/watch.svg" alt="" class="svg ml-1">
+                                    <span class="date-text">16 May 2020</span>
+                                 </div>
+
+                                 <div class="actions">
+                                    <a href="#" class="cancel font-14 bold ml-3"> Cancel </a>
+                                    <a href="#" class="btn save"> Save </a>
+                                 </div>
+                              </div>
+                           </form>
+                        </div>
+                     </div>
+                     <!-- End Board Composer -->
+                  </div>
+                  <!-- End Board -->
+                  
+                  <!-- Board -->
+                  <div class="board w-100">
+                     <!-- Board Composer -->
+                     <div class="board-composer flex-column d-flex justify-content-center">
+                        <a href="#" class="add-another-card board-list style--two align-items-center">
+                           <div class="btn-circle style--three ml-2">
+                              <img src="../../../assets/img/svg/plus_white.svg" alt="" class="svg">
+                           </div>
+
+                           <h4 class="c4">Add another list</h4>
+                        </a>
+
+                        <div class="add-card add-another-list">
+                           <form action="#">
+                              <input type="text" class="theme-input-style" placeholder="List Title" >
+                           </form>
+                        </div>
+                     </div>
+                     <!-- End Board Composer -->
+                  </div>
+                  <!-- End Board -->
+               </div>
+            </div>
+         </div>
+         <!-- End Main Content -->
+      </div>
+      <!-- End Main Wrapper -->
+
+
+
+      <!-- Footer -->
+      <footer class="footer">
+         Dashmin © 2020 created by <a href="https://www.themelooks.com/"> ThemeLooks</a>
+      </footer>
+      <!-- End Footer -->
+   </div>
+   <!-- End wrapper -->
+
+
+   <!-- Contact Add New PopUp -->
+   <div id="projectTaskDetails" class="modal fade">
+      <div class="modal-dialog modal-dialog-centered">
+         <!-- Modal Content -->
+         <div class="modal-content">
+            <!-- Cover -->
+            <div class="cover-img" data-bg-img="../../../assets/img/media/project-cover.jpg">
+               <!-- Cover Change Btn -->
+               <div class="attach-file">
+                  <div class="upload-button">
+                     <i class="icofont-image"></i> Cover
+                     <input class="file-input" type="file" id="file_upload">
+                  </div>
+               </div>
+               <!-- End Cover Change Btn -->
+            </div>
+            <!-- End Cover -->
+
+            <!-- Modal Close -->
+            <div class="modal-close" data-dismiss="modal">
+               <img src="../../../assets/img/svg/close.svg" alt="" class="svg">
+            </div>
+            <!-- End Modal Close -->
+
+            <div class="p-3 p-lg-4">
+               <!-- Title -->
+               <div class="project-main-title mb-3">
+                  <h4 class="font-20 mb-1">Gone pure late gay ham sigh were not find are rent.</h4>
+                  <textarea ></textarea>
+                  <div class="task-status">
+                     in list <a href="#" class="text_color">Running Task</a>
+                  </div>
+               </div>
+               <!-- End Title -->
+
+               <div class="row">
+                  <div class="col-12 col-md-9">
+                     <!-- Project Task Details Main -->
+                     <div id="projectTaskDetailsMain">
+                        <div class="content project-description position-relative mb-3">
+                           <p class="description">Vestibulum blandit viverra convallis. Pellentesque ligula urna, fermentum ut semper in, tincidunt nec dui. Morbi mauris lacus, consequat eget justo in, semper gravida enim. Donec ultrices varius ligula. Ut non pretium augue. Etiam non rutrum metus. In varius sit amet lorem tempus sagittis. Cras sed maximus enim, vel ultricies tortor. Pellentesque consectetur tellus ornare felis porta dapibus. Etiam eget viverra ipsum, ac posuere massa. Nam vitae tempor metus. Donec rhoncus, metus ac convallis ultricies.</p>
+                           <!-- Edit Actions -->
+                           <div class="des-edit-actions w-100 radius-5">
+                              <textarea class="radius-5 border-0 w-100"></textarea>
+                              
+                              <div class="des-edit-controls d-flex align-items-center mt-2">
+                                 <a href="#" class="light-btn des-save c2-bg">Save</a>
+                                 <a href="#" class="icon-close mr-2"><i class="icofont-close-line"></i></a>
+                              </div>
+                           </div>
+                           <!-- End Edit Actions -->
+                        </div>
+
+                        <div class="d-flex flex-wrap mb-2">
+                           <!-- Member -->
+                           <div class="member style--two d-flex align-items-center ml-20 mb-20">
+                              <span class="font-14 bold ml-3">Member</span>
+                              <a href="#"><img src="../../../assets/img/avatar/m27.png" alt=""></a>
+                              <a href="#"><img src="../../../assets/img/avatar/m12.png" alt=""></a>
+                              <a href="#"><img src="../../../assets/img/avatar/m2.png" alt=""></a>
+                              <a href="#" class="btn-circle">
+                                 <img src="../../../assets/img/svg/plus_white.svg" alt="" class="svg">
+                              </a>
+                           </div>
+                           <!-- End Member -->
+
+                           <!-- Labels -->
+                           <div class="labels d-flex align-items-center ml-20 mb-20">
+                              <span class="font-14 bold ml-3">Lebels</span>
+                              <span class="label"></span>
+                              <span class="label label-2"></span>
+                              <span class="label label-3"></span>
+                              <span class="label label-4"></span>
+                              <span class="label label-5"></span>
+
+                              <span class="label add-label"><img src="../../../assets/img/svg/plus_white.svg" alt="" class="svg"></span>
+                           </div>
+                           <!-- End Labels -->
+
+                           <!-- Due Date -->
+                           <div class="due-date d-flex align-items-center ml-20 mb-20">
+                              <div class="position-relative">
+                                 <!-- Custom Checkbox -->
+                                 <label class="custom-checkbox style--three">
+                                    <input type="checkbox">
+                                    <span class="checkmark"></span>
+                                 </label>
+                                 <!-- End Custom Checkbox -->
+
+                                 <!-- Datepicker -->
+                                 <div class="date datepicker dashboard-date pl-0" id="datePickerExample">
+                                    <span class="input-group-addon"></span>
+                                    <input type="text"><i class="icofont-rounded-down"></i>
+                                 </div>
+                                 <!-- End Datepicker -->
+
+                              </div>
+                           </div>
+                           <!-- End Due Date -->
+                        </div>
+
+                        <!-- Attachment -->
+                        <div class="file-attachments pb-4">
+                           <h6 class="attachment_title mb-3">Attachments <span>(2 files, 5mb)</span></h6>
+
+                           <div class="attach-file style--three mb-4">
+                              <div class="upload-button">
+                                 Add an attachment
+                                 <input class="file-input" type="file" id="file_upload2">
+                              </div>
+                           </div>
+
+                           <div class="d-flex flex-column flex-md-row align-items-md-center">
+
+                              <div class="attachment ml-md-5 mb-3 mb-md-0">
+                                 <!-- Attachment Close -->
+                                 <span class="attachment-close d-flex align-items-center justify-content-center">
+                                    <img src="../../../assets/img/svg/table-colse.svg" class="svg" alt="">
+                                 </span>
+                                 <!-- End Attachment Close -->
+
+                                 <div class="media align-items-center">
+                                    <div class="ml-3">
+                                       <img src="../../../assets/img/media/file3.png" alt="">
+                                    </div>
+
+                                    <div class="media-body ie-flex-basis">
+                                       <p class="file-name font-14 mb-0">Attached_File.psd</p>
+                                       <p class="file-size font-13 bold c4 m-0">2.5mb</p>
+                                    </div>
+                                 </div>
+                              </div>
+
+                              <div class="attachment">
+                                 <!-- Attachment Close -->
+                                 <span class="attachment-close d-flex align-items-center justify-content-center">
+                                    <img src="../../../assets/img/svg/table-colse.svg" class="svg" alt="">
+                                 </span>
+                                 <!-- End Attachment Close -->
+
+                                 <div class="media align-items-center">
+                                    <div class="ml-2">
+                                       <img src="../../../assets/img/png-icon/file2.png" alt="">
+                                    </div>
+                                    <div class="media-body ie-flex-basis pl-1">
+                                       <p class="file-name font-14 mb-0">Attached_File.zip</p>
+                                       <p class="file-size font-13 bold c4 m-0">2.5mb</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <!-- End Attachment -->
+
+                        <!-- Checklists -->
+                        <div class="checklists">
+                           <!-- CheckList -->
+                           <div class="checklist pb-4">
+
+                              <!-- Process Bar Wrappper -->
+                              <div class="process-bar-wrapper">
+                                 <span class="process-name">project tasklist</span>
+                                 <span class="process-width">33%</span>
+                                 <div class="action-btns">
+                                    <span class="hide-completed-item light-btn d-none d-sm-inline-block">Hide Completed Items</span>
+                                    <span class="delete-btn light-btn">Delete</span>
+                                 </div>
+                                 <span class="process-bar" data-process-width="33"></span>
+                              </div>
+                              <!-- End Process Bar Wrappper -->
+
+                              <!-- Checklist Items -->
+                              <div class="checklist-items">
+                                 
+                                 <!-- Checklist Item -->
+                                 <div class="checklist-item-wrap">
+                                    <div class="checklist-item-details position-relative d-flex justify-content-between">
+                                       <!-- Custom Checkbox -->
+                                       <label class="custom-checkbox style--three">
+                                          <input type="checkbox">
+                                          <span class="checkmark"></span>
+                                       </label>
+                                       <!-- End Custom Checkbox -->
+
+                                       <span class="checklist-item"> Checklist Item</span>
+
+                                       <span class="icon-delete font-12"><i class="icofont-trash"></i></span>
+                                    </div>
+                                 </div>
+                                 <!-- End Checklist Item -->
+
+                                 <!-- Checklist Item -->
+                                 <div class="checklist-item-wrap">
+                                    <div class="checklist-item-details position-relative d-flex justify-content-between">
+                                       <!-- Custom Checkbox -->
+                                       <label class="custom-checkbox style--three">
+                                          <input type="checkbox">
+                                          <span class="checkmark"></span>
+                                       </label>
+                                       <!-- End Custom Checkbox -->
+
+                                       <span class="checklist-item">Checklist Item</span>
+
+                                       <span class="icon-delete font-12"><i class="icofont-trash"></i></span>
+                                    </div>
+                                 </div>
+                                 <!-- End Checklist Item -->
+                                 
+                              </div>
+                              <!-- End Checklist Items -->
+
+                              <!-- Checklist New Item -->
+                              <div class="checklist-new-item ml-35">
+                                 <a href="#" class="light-btn add-item-btn">Add An Item</a>
+
+                                 <!-- Checklist Add Control Wrap -->
+                                 <div class="checklist-add-control-wrap">
+                                    <textarea placeholder="Add an item" class="theme-input-style"></textarea>
+                                    
+                                    <div class="checklist-add-controls d-flex align-items-center">
+                                       <a href="#" class="light-btn add-checklist-item c2-bg">Add</a>
+                                       <a href="#" class="icon-close mr-2"><i class="icofont-close-line"></i></a>
+                                    </div>
+                                 </div>
+                                 <!-- End Checklist Add Control Wrap -->
+                              </div>
+                              <!-- Checklist New Item -->
+                           </div>
+                           <!-- End CheckList -->
+                        </div>
+                        <!-- End Checklists -->
+
+                        <!-- Comments -->
+                        <div class="comments-area">
+                           <h4 class="comments-title mb-4">Comments (03)</h4>
+      
+                           <ul class="comment-list list-unstyled">
+                              <li class="comment">
+                                 <!-- Single Comment -->
+                                 <article class="single-comment media">
+                                    <!-- Comment Author Image -->
+                                    <div class="comment-author-image ml-3">
+                                       <img alt="" class="img-40" src="../../../assets/img/avatar/m30.png">
+                                    </div>
+                                    <!-- End Comment Author Image -->
+
+                                    <!-- Comment Content -->
+                                    <div class="comment-content media-body">
+                                       <div class="d-flex align-items-center">
+                                          <h6 class="author_name ml-3">Abrilay Khatun</h6>
+                                          <span class="commented-on font-14">
+                                             <time datetime="2012-09-03T10:18:04+00:00">11:43pm</time>
+                                          </span>
+                                       </div>
+
+                                       <div class="comment-edit">
+                                          <p class="comment-text">Duis porta, ligula rhoncus euismod pretium, nisi tellus eleifend odio, luctus viverra sem dolor id sem. Maecenas a venenatis enim.</p>
+                                          
+                                          <!-- Edit Actions -->
+                                          <div class="edit-actions">
+                                             <textarea></textarea>
+                                             
+                                             <div class="edit-controls d-flex align-items-center mt-2">
+                                                <a href="#" class="light-btn comment-save c2-bg">Save</a>
+                                                <a href="#" class="icon-close mr-2"><i class="icofont-close-line"></i></a>
+                                             </div>
+                                          </div>
+                                          <!-- End Edit Actions -->
+                                       </div>
+                                          
+                                       <div class="comment-action-links">
+                                          <a class="comment-action-link comment-action-imoji" href="#"><i class="icofont-slightly-smile"></i></a>
+                                          <a class="comment-action-link comment-action-edit" href="#"> Edit</a>
+                                          <a class="comment-action-link comment-action-delete" href="#"> Delete</a>
+                                       </div>
+                                    </div>
+                                    <!-- End Comment Content -->
+                                 </article>
+                                 <!-- End Single Comment -->
+                              </li>
+      
+                              <li class="comment">
+                                 <!-- Single Comment -->
+                                 <article class="single-comment media">
+                                    <!-- Comment Author Image -->
+                                    <div class="comment-author-image ml-3">
+                                       <img alt="" class="img-40" src="../../../assets/img/avatar/m40.png">
+                                    </div>
+                                    <!-- End Comment Author Image -->
+                              
+                                    <!-- Comment Content -->
+                                    <div class="comment-content media-body">
+                                       <div class="d-flex align-items-center">
+                                          <h5 class="author_name ml-3">Abrilay Khatun</h5>
+                                          <span class="commented-on font-14">
+                                             <time datetime="2012-09-03T10:18:04+00:00">11:35pm</time>
+                                          </span>
+                                       </div>
+                              
+                                       <div class="comment-edit">
+                                          <p class="comment-text">Duis porta, ligula rhoncus euismod pretium, nisi tellus eleifend odio, luctus viverra sem dolor id sem.</p>
+                                          
+                                          <!-- Edit Actions -->
+                                          <div class="edit-actions">
+                                             <textarea></textarea>
+                                             
+                                             <div class="edit-controls d-flex align-items-center mt-2">
+                                                <a href="#" class="light-btn comment-save c2-bg">Save</a>
+                                                <a href="#" class="icon-close mr-2"><i class="icofont-close-line"></i></a>
+                                             </div>
+                                          </div>
+                                          <!-- End Edit Actions -->
+                                       </div>
+                                          
+                                          <div class="comment-action-links">
+                                             <a class="comment-action-link comment-action-imoji" href="#"><i class="icofont-slightly-smile"></i></a>
+                                             <a class="comment-action-link comment-action-edit" href="#"> Edit</a>
+                                             <a class="comment-action-link comment-action-delete" href="#"> Delete</a>
+                                          </div>
+                                    </div>
+                                    <!-- End Comment Content -->
+                                 </article>
+                                 <!-- End Single Comment -->
+                              </li>
+      
+                              <li class="comment">
+                                 <!-- Single Comment -->
+                                 <article class="single-comment media">
+                                    <!-- Comment Author Image -->
+                                    <div class="comment-author-image ml-3">
+                                       <img alt="" class="img-40" src="../../../assets/img/avatar/m3.png">
+                                    </div>
+                                    <!-- End Comment Author Image -->
+                              
+                                    <!-- Comment Content -->
+                                    <div class="comment-content media-body">
+                                       <div class="d-flex align-items-center">
+                                          <h5 class="author_name ml-3">Abrilay Khatun</h5>
+                                          <span class="commented-on font-14">
+                                                <time datetime="2012-09-03T10:18:04+00:00">11:27pm</time>
+                                          </span>
+                                       </div>
+                                       
+                                       <div class="comment-edit">
+                                          <p class="comment-text">Duis porta, ligula rhoncus euismod pretium, nisi tellus eleifend odio, luctus viverra sem dolor id sem. Maecenas a venenatis enim.</p>
+
+                                          <!-- Edit Actions -->
+                                          <div class="edit-actions">
+                                             <textarea></textarea>
+                                             
+                                             <div class="edit-controls d-flex align-items-center mt-2">
+                                                <a href="#" class="light-btn comment-save c2-bg">Save</a>
+                                                <a href="#" class="icon-close mr-2"><i class="icofont-close-line"></i></a>
+                                             </div>
+                                          </div>
+                                          <!-- End Edit Actions -->
+                                       </div>
+                              
+                                       <div class="comment-action-links">
+                                          <a class="comment-action-link comment-action-imoji" href="#"><i class="icofont-slightly-smile"></i></a>
+                                          <a class="comment-action-link comment-action-edit" href="#"> Edit</a>
+                                          <a class="comment-action-link comment-action-delete" href="#"> Delete</a>
+                                       </div>
+                                    </div>
+                                    <!-- End Comment Content -->
+                                 </article>
+                                 <!-- End Single Comment -->
+                              </li>
+                           </ul>
+      
+                        </div>
+                        <!-- End Comments -->
+
+                        <!-- Chat Footer -->
+                        <div class="comment-footer d-flex">
+                           <!-- Comment Author Image -->
+                           <div class="comment-author-image ml-3">
+                              <img alt="" class="img-40" src="../../../assets/img/avatar/m14.png">
+                           </div>
+                           <!-- End Comment Author Image -->
+
+                           <!-- Form -->
+                           <form action="#" method="POST" class="d-flex flex-grow radius-10">
+                              <!-- <input type="text" class="theme-input-style"> -->
+                              <textarea name="chat_msg" class="theme-input-style style--six" placeholder="Duis pretium gravida enim"></textarea>
+
+                              <!-- Submit Btn File -->
+                              <div class="submit mr-20">
+                                 <a href="#" class="btn-circle style--four"><img src="../../../assets/img/svg/send.svg" alt="" class="svg"></a>
+                              </div>
+                              <!-- End Submit Btn -->
+                           </form>
+                           <!-- End Form -->
+                        </div>
+                        <!-- End Chat Footer -->
+                     </div>
+                     <!-- End Project Task Details Main -->
+                  </div>
+
+                  <div class="col-12 col-md-3 mt-5 mt-md-0">
+                     <div class="mb-2 font-14 bold">Add To Card</div>
+                     <div class="change-card-btns">
+                        <a href="#" class="change-card-btn change-card-member">
+                           <span><i class="icofont-user-alt-5"></i></span>
+                           <span>Members</span>
+                        </a>
+                        <a href="#" class="change-card-btn change-card-label">
+                           <span><i class="icofont-tags"></i></span>
+                           <span>Labels</span>
+                        </a>
+                        <a href="#" class="change-card-btn change-card-checklist">
+                           <span><i class="icofont-checked"></i></span>
+                           <span>Checklist</span>
+                        </a>
+                        <a href="#" class="change-card-btn change-card-due-date">
+                           <span><i class="icofont-clock-time"></i></span>
+                           <span>Due Date</span>
+                        </a>
+                        <div class="c2 attach-file change-card-btn change-card-attachment d-flex">
+
+                           <span><i class="icofont-clip"></i></span>
+
+                           <div class="upload-button">
+                              Attachment
+                              <input class="file-input" type="file" id="file_upload3">
+                           </div>
+                               
+                        </div>
+                     </div>
+
+
+                     <div class="mb-2 font-14 bold mt-3">Actions</div>
+                     <div class="change-card-btns">
+                        <a href="#" class="change-card-btn change-card-move">
+                           <span><i class="icofont-arrow-right"></i></span>
+                           <span>Move</span>
+                        </a>
+                        <a href="#" class="change-card-btn change-card-copy">
+                           <span><i class="icofont-copy"></i></span>
+                           <span>Copy</span>
+                        </a>
+                        <a href="#" class="change-card-btn change-card-make-template">
+                           <span><i class="icofont-maximize"></i></span>
+                           <span>Make Template</span>
+                        </a>
+                        <a href="#" class="change-card-btn change-card-watch">
+                           <span><i class="icofont-eye"></i></span>
+                           <span>Watch</span>
+                        </a>
+                     </div>
+
+                     <hr class="mt-2 mb-2" />
+
+                     <div class="change-card-btns">
+                        <a href="#" class="change-card-btn change-card-archive">
+                           <span><i class="icofont-archive"></i></span>
+                           <span>Archive</span>
+                        </a>
+                        <a href="#" class="change-card-btn change-card-share">
+                           <span><i class="icofont-share"></i></span>
+                           <span>Share</span>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+
+            </div>
+            
+         </div>
+         <!-- End Modal Content -->
+      </div>
+   </div>
+   <!-- End Contact Add New PopUp -->
+
+                        
+   <!-- Project Member Modal -->
+   <div id="projectMemberModal">
+      <!-- Modal Content -->
+      <div class="modal-content">
+         <!-- Modal Header -->
+         <div class="modal-header justify-content-center pt-0">
+            <!-- Cover -->
+            <h6 class="title text_color">Members</h6>
+            <!-- End Cover -->
+
+            <!-- Modal Close -->
+            <div class="modal-close">
+               <img src="../../../assets/img/svg/close.svg" alt="" class="svg">
+            </div>
+            <!-- End Modal Close -->
+         </div>
+         <!-- End Modal Header -->
+
+         <!-- Modal Body -->
+         <div class="modal-body p-0">
+            <!-- Search Form -->
+            <form class="search-form mb-3">
+               <input type="search" class="theme-input-style" placeholder="Search Members">
+            </form>
+            <!-- End Search Form -->
+
+            <h6 class="mb-2 text_color">Board Members</h6>
+            <ul class="board-members-list list-unstyled mb-2">
+               <li class="member-item">
+                  <a class="name select-member d-flex align-items-center p-1" href="#" title="Timothy Littel">
+                     <span class="member" title="Timothy Littel">
+                        <img src="../../../assets/img/avatar/m4.png" class="img-30 ml-2" alt="">
+                     </span>
+                     <span class="full-name">Timothy Littel</span>
+
+                     <span class="icon-check checked-icon"></span>
+                  </a>
+               </li>
+
+               <li class="member-item">
+                  <a class="name select-member d-flex align-items-center p-1" href="#" title="Ripon Hossain Chopol">
+                     <span class="member" title="Ripon Hossain Chopol">
+                        <img src="../../../assets/img/avatar/m5.png" class="img-30 ml-2" alt="">
+                     </span>
+                     <span class="full-name">Ripon Hossain Chopol</span>
+
+                     <span class="icon-check checked-icon"></span>
+                  </a>
+               </li>
+            </ul>
+            <a href="#" class="light-btn d-block text-center">Show other Team Members</a>
+         </div>
+         <!-- End Modal Body -->
+         
+      </div>
+      <!-- End Modal Content -->
+   </div>
+   <!-- End roject Member Modal -->
+
+   
+   <!-- Project Lavel Modal -->
+   <div id="projectLabelModal">
+      <!-- Modal Content -->
+      <div class="modal-content main-labels">
+         <!-- Modal Header -->
+         <div class="modal-header justify-content-center pt-0">
+            <!-- Cover -->
+            <h6 class="title text_color">Labels</h6>
+            <!-- End Cover -->
+
+            <!-- Modal Close -->
+            <div class="modal-close">
+               <img src="../../../assets/img/svg/close.svg" alt="" class="svg">
+            </div>
+            <!-- End Modal Close -->
+         </div>
+         <!-- End Modal Header -->
+
+         <!-- Modal Body -->
+         <div class="modal-body p-0">
+            <!-- Search Form -->
+            <form class="search-form mb-3">
+               <input type="search" class="theme-input-style" placeholder="Search Labels">
+            </form>
+            <!-- End Search Form -->
+
+            <h6 class="mb-2 text_color">Labels</h6>
+            <ul class="board-labels-list list-unstyled mb-2">
+               <li class="label-item d-flex align-items-center mb-1">
+                  <span class="label ml-1" id="label11">
+                     <span class="icon-check checked-icon"></span>
+                  </span>
+
+                  <a class="edit-label d-flex align-items-center p-2" href="#">
+                     <i class="icofont-ui-edit"></i>
+                  </a>
+               </li>
+               <li class="label-item d-flex align-items-center mb-1">
+                  <span class="label ml-1 label-2" id="label-22">
+                     <span class="icon-check checked-icon"></span>
+                  </span>
+
+                  <a class="edit-label d-flex align-items-center p-2" href="#">
+                     <i class="icofont-ui-edit"></i>
+                  </a>
+               </li>
+               <li class="label-item d-flex align-items-center mb-1">
+                  <span class="label ml-1 label-3" id="label-33">
+                     <span class="icon-check checked-icon"></span>
+                  </span>
+
+                  <a class="edit-label d-flex align-items-center p-2" href="#">
+                     <i class="icofont-ui-edit"></i>
+                  </a>
+               </li>
+               <li class="label-item d-flex align-items-center mb-1">
+                  <span class="label ml-1 label-4" id="label-44">
+                     <span class="icon-check checked-icon"></span>
+                  </span>
+
+                  <a class="edit-label d-flex align-items-center p-2" href="#">
+                     <i class="icofont-ui-edit"></i>
+                  </a>
+               </li>
+               <li class="label-item d-flex align-items-center mb-1">
+                  <span class="label ml-1 label-5" id="label-55">
+                     <span class="icon-check checked-icon"></span>
+                  </span>
+
+                  <a class="edit-label d-flex align-items-center p-2" href="#">
+                     <i class="icofont-ui-edit"></i>
+                  </a>
+               </li>
+            </ul>
+            <a href="#" class="light-btn create-new-label d-block text-center mt-3">Create a new label</a>
+         </div>
+         <!-- End Modal Body -->
+         
+      </div>
+      <!-- End Modal Content -->
+
+      
+      <!-- Modal Content -->
+      <div class="modal-content add-labels">
+         <!-- Modal Header -->
+         <div class="modal-header justify-content-center pt-0">
+            <!-- Back Btn -->
+            <div class="back-btn">
+               <i class="icofont-simple-left"></i>
+            </div>
+            <!-- End End Btn -->
+
+            <!-- Cover -->
+            <h6 class="title text_color">Create Label</h6>
+            <!-- End Cover -->
+
+            <!-- Modal Close -->
+            <div class="modal-close">
+               <img src="../../../assets/img/svg/close.svg" alt="" class="svg">
+            </div>
+            <!-- End Modal Close -->
+         </div>
+         <!-- End Modal Header -->
+
+         <!-- Modal Body -->
+         <div class="modal-body p-0">
+            <!-- Search Form -->
+            <form action="#" class="mb-2">
+               <div class="">
+                  <label for="createLabelName" class="bold font-14 mb-1">Name</label>
+                  <input type="text" id="createLabelName" class="theme-input-style">
+               </div>
+
+               <h6 class="mb-2 text_color mt-3">Select a color</h6>
+
+               <ul class="board-labels-select-color list-unstyled ml-n2">
+                  <li class="label-item mb-2 ml-2">
+                     <span class="label" id="label">
+                        <span class="icon-check checked-icon"></span>
+                     </span>
+                  </li>
+                  <li class="label-item mb-2 ml-2">
+                     <span class="label label-2" id="label-2">
+                        <span class="icon-check checked-icon"></span>
+                     </span>
+                  </li>
+                  <li class="label-item mb-2 ml-2">
+                     <span class="label label-3" id="label-3">
+                        <span class="icon-check checked-icon"></span>
+                     </span>
+                  </li>
+                  <li class="label-item mb-2 ml-2">
+                     <span class="label label-4" id="label-4">
+                        <span class="icon-check checked-icon"></span>
+                     </span>
+                  </li>
+                  <li class="label-item mb-2 ml-2">
+                     <span class="label label-5" id="label-5">
+                        <span class="icon-check checked-icon"></span>
+                     </span>
+                  </li>
+                  <li class="label-item mb-2 ml-2">
+                     <span class="label label-6" id="label-6">
+                        <span class="icon-check checked-icon"></span>
+                     </span>
+                  </li>
+                  <li class="label-item mb-2 ml-2">
+                     <span class="label label-7" id="label-7">
+                        <span class="icon-check checked-icon"></span>
+                     </span>
+                  </li>
+                  <li class="label-item mb-2 ml-2">
+                     <span class="label label-8" id="label-8">
+                        <span class="icon-check checked-icon"></span>
+                     </span>
+                  </li>
+                  <li class="label-item mb-2 ml-2">
+                     <span class="label label-9" id="label-9">
+                        <span class="icon-check checked-icon"></span>
+                     </span>
+                  </li>
+                  <li class="label-item mb-2 ml-2">
+                     <span class="label label-10" id="label-10">
+                        <span class="icon-check checked-icon"></span>
+                     </span>
+                  </li>
+               </ul>
+               <div class="edit-labels-no-color">
+                  <div class="label-item d-flex">
+                     <span class="label label-11" id="label-11">
+                        <span class="icon-check checked-icon"></span>
+                     </span>
+
+                     <div class="content">
+                        <p class="u-bottom mb-1">No color.</p>
+                        <p class="u-bottom quiet">This won't show up on the front of cards.</p>
+                     </div>
+                  </div>
+               </div>
+
+               <a href="#" class="light-btn create-label-btn c2-bg mt-3">Create</a>
+            </form>
+            <!-- End Search Form -->
+         </div>
+         <!-- End Modal Body -->
+         
+      </div>
+      <!-- End Modal Content -->
+   </div>
+   <!-- End Project Lavel Modal -->
+
+                        
+   <!-- Project Checklist Modal -->
+   <div id="projectChecklistModal">
+      <!-- Modal Content -->
+      <div class="modal-content">
+         <!-- Modal Header -->
+         <div class="modal-header justify-content-center pt-0">
+            <!-- Cover -->
+            <h6 class="title text_color">Add Checklist</h6>
+            <!-- End Cover -->
+
+            <!-- Modal Close -->
+            <div class="modal-close">
+               <img src="../../../assets/img/svg/close.svg" alt="" class="svg">
+            </div>
+            <!-- End Modal Close -->
+         </div>
+         <!-- End Modal Header -->
+
+         <!-- Modal Body -->
+         <div class="modal-body p-0">
+            <!-- Search Form -->
+            <form class="search-form mb-3">
+               <input type="text" class="theme-input-style" value="Checklist">
+            </form>
+            <!-- End Search Form -->
+
+            <h6 class="mb-2 text_color">Copy Items From…</h6>
+
+            <select name="copy-items" class="checklist-copy-source">
+               <option value="none" selected>(none)</option>
+               <optgroup label="Deployed on Production and Feature running live and fine.">
+                  <option value="live">live</option>
+               </optgroup>
+               <optgroup label="Features / Tasks under Developm">
+                  <option value="checklist">Checklist</option>
+               </optgroup>
+               <optgroup label="Features / Tasks under Development">
+                  <option value="checklist">Checklist</option>
+                  <option value="project tasklist">project tasklist</option>
+               </optgroup>
+               <optgroup label="Features / Tasks under Development">
+                  <option value="project tasklist">project tasklist</option>
+               </optgroup><optgroup label="Features / Tasks under Development">
+                  <option value="checklist">Checklist</option>
+                  <option value="project tasklist">project tasklist</option>
+               </optgroup>
+               <optgroup label="Testing for Development Stage.">
+                  <option value="checklist">Checklist</option>
+               </optgroup>
+            </select>
+            
+            <a href="#" class="light-btn c2-bg add-checklist-btn mt-3">Add</a>
+         </div>
+         <!-- End Modal Body -->
+         
+      </div>
+      <!-- End Modal Content -->
+   </div>
+   <!-- End Project Checklist Modal -->
+
+                        
+   <!-- Project Move Modal -->
+   <div id="projectMoveModal">
+      <!-- Modal Content -->
+      <div class="modal-content">
+         <!-- Modal Header -->
+         <div class="modal-header justify-content-center pt-0">
+            <!-- title -->
+            <h6 class="title text_color">Move Card</h6>
+            <!-- End title -->
+
+            <!-- Modal Close -->
+            <div class="modal-close">
+               <img src="../../../assets/img/svg/close.svg" alt="" class="svg">
+            </div>
+            <!-- End Modal Close -->
+         </div>
+         <!-- End Modal Header -->
+
+         <!-- Modal Body -->
+         <div class="modal-body p-0">
+
+            <!-- select destination title -->
+            <h6 class="title text_color mb-10 mt-3">SELECT DESTINATION</h6>
+            <!-- End select destination title -->
+
+            <div class="project-board-select-wrap mb-2 font-14">
+               <span class="board">Board</span>
+
+               <select class="board-select">
+                  <optgroup label="Arora">
+                     <option value="test2">test 2</option>
+                     <option value="testtest">Test Test</option>
+                     <option selected="selected" value="web development">Web Development (current)</option>
+                  </optgroup>
+               </select>
+            </div>
+
+            <div class="select-grid font-14">
+               <div class="project-board-select-wrap">
+                  <span class="board">List</span>
+   
+                  <select class="board-select">
+                     <option value="test">test</option>
+                     <option value="test">test</option>
+                     <option selected="selected" value="web development">New Features</option>
+                  </select>
+               </div>
+               
+               <div class="project-board-select-wrap">
+                  <span class="board">Position</span>
+   
+                  <select class="board-select">
+                     <option value="test2">3</option>
+                     <option value="testtest">1</option>
+                     <option selected="selected" value="web development">2</option>
+                  </select>
+               </div>
+            </div>
+            
+            <a href="#" class="light-btn c2-bg move-btn mt-3">Move</a>
+         </div>
+         <!-- End Modal Body -->
+         
+      </div>
+      <!-- End Modal Content -->
+   </div>
+   <!-- End Project Move Modal -->
+
+
+   <!-- Project Copy Modal -->
+   <div id="projectCopyModal">
+      <!-- Modal Content -->
+      <div class="modal-content">
+         <!-- Modal Header -->
+         <div class="modal-header justify-content-center pt-0">
+            <!-- title -->
+            <h6 class="title text_color">Copy &nbsp;Card</h6>
+            <!-- End title -->
+
+            <!-- Modal Close -->
+            <div class="modal-close">
+               <img src="../../../assets/img/svg/close.svg" alt="" class="svg">
+            </div>
+            <!-- End Modal Close -->
+         </div>
+         <!-- End Modal Header -->
+
+         <!-- Modal Body -->
+         <div class="modal-body p-0">
+
+            <form action="#">
+
+               <!-- Title -->
+               <h6 class="title text_color mb-2">Title</h6>
+               <!-- End Title -->
+               <textarea class="theme-input-style">Features / Tasks under Developm</textarea>
+
+               <!-- Title -->
+               <h6 class="title text_color mt-10 mb-2">Keep...</h6>
+               <!-- End Title -->
+
+
+               <div class="checklist-items">
+                  <!-- Checklist Item -->
+                  <div class="checklist-item position-relative mb-2">
+                     <!-- Custom Checkbox -->
+                     <label class="custom-checkbox style--three">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                     </label>
+                     <!-- End Custom Checkbox -->
+
+                     <span class="item"> Checklists (1)</span>
+                  </div>
+                  <!-- End Checklist Item -->
+
+                  <!-- Checklist Item -->
+                  <div class="checklist-item position-relative mb-2">
+                     <!-- Custom Checkbox -->
+                     <label class="custom-checkbox style--three">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                     </label>
+                     <!-- End Custom Checkbox -->
+
+                     <span class="item"> Labels (4)</span>
+                  </div>
+                  <!-- End Checklist Item -->
+
+                  <!-- Checklist Item -->
+                  <div class="checklist-item position-relative mb-2">
+                     <!-- Custom Checkbox -->
+                     <label class="custom-checkbox style--three">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                     </label>
+                     <!-- End Custom Checkbox -->
+
+                     <span class="item"> Members (1)</span>
+                  </div>
+                  <!-- End Checklist Item -->
+                  
+                  <!-- Checklist Item -->
+                  <div class="checklist-item position-relative mb-2">
+                     <!-- Custom Checkbox -->
+                     <label class="custom-checkbox style--three">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                     </label>
+                     <!-- End Custom Checkbox -->
+
+                     <span class="item"> Attachments (3)</span>
+                  </div>
+                  <!-- End Checklist Item -->
+                  
+                  <!-- Checklist Item -->
+                  <div class="checklist-item position-relative mb-2">
+                     <!-- Custom Checkbox -->
+                     <label class="custom-checkbox style--three">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                     </label>
+                     <!-- End Custom Checkbox -->
+
+                     <span class="item"> Coments (1)</span>
+                  </div>
+                  <!-- End Checklist Item -->
+               </div>
+
+               <!-- select destination title -->
+               <h6 class="title text_color mb-2 mt-3">copy to...</h6>
+               <!-- End select destination title -->
+
+               <div class="project-board-select-wrap mb-2 font-14">
+                  <span class="board">Board</span>
+
+                  <select class="board-select">
+                     <optgroup label="Arora">
+                        <option value="test2">test 2</option>
+                        <option value="testtest">Test Test</option>
+                        <option selected="selected" value="web development">Web Development (current)</option>
+                     </optgroup>
+                  </select>
+               </div>
+
+               <div class="select-grid font-14">
+                  <div class="project-board-select-wrap">
+                     <span class="board">List</span>
+      
+                     <select class="board-select">
+                        <option value="test">test</option>
+                        <option value="test">test</option>
+                        <option selected="selected" value="web development">New Features</option>
+                     </select>
+                  </div>
+                  
+                  <div class="project-board-select-wrap">
+                     <span class="board">Position</span>
+      
+                     <select class="board-select">
+                        <option value="test2">3</option>
+                        <option value="testtest">1</option>
+                        <option selected="selected" value="web development">2</option>
+                     </select>
+                  </div>
+               </div>
+               
+               <a href="#" class="light-btn c2-bg copy-btn mt-3">Create Card</a>
+            </form>
+         </div>
+         <!-- End Modal Body -->
+         
+      </div>
+      <!-- End Modal Content -->
+   </div>
+   <!-- End Project Copy Modal -->
+
+   <!-- Project Share Modal -->
+   <div id="projectShareModal">
+      <!-- Modal Content -->
+      <div class="modal-content">
+         <!-- Modal Header -->
+         <div class="modal-header border-0 p-0">
+            <!-- Attachments -->
+            <div class="attachment">
+               <div class="media align-items-center">
+                  <div class="ml-2">
+                     <img src="../../../assets/img/png-icon/file3.png" class="radius-10" alt="">
+                  </div>
+                  <div class="media-body ie-flex-basis pl-1">
+                     <h4 class="file-name mb-1">Photoshop_psd_File.psd</h4>
+                     <p class="file-size font-14 bold c4 l-height1 m-0">26.4mb</p>
+                  </div>
+               </div>
+            </div>
+            <!-- End Attachments -->
+
+            <!-- Modal Close -->
+            <div class="modal-close">
+               <img src="../../../assets/img/svg/close.svg" alt="" class="svg">
+            </div>
+            <!-- End Modal Close -->
+         </div>
+         <!-- End Modal Header -->
+
+         <!-- Modal Body -->
+         <div class="modal-body p-0 mt-3">
+            <!-- Form Group -->
+            <div class="form-group mb-4">
+               <h6 class="mb-10">Shared with</h6>
+               <div class="input-wrap d-flex align-items-center flex-wrap w-100">
+                  <span>Sandra Jones <img src="../../../assets/img/svg/table-colse.svg" alt="" class="svg"></span>
+                  <div><input class="theme-input-style style--two" type="email" placeholder="User name or email"></div>
+
+                  <!-- Dropdown Button -->
+                  <div class="dropdown-button">
+                     <a href="#" class="d-flex align-items-center" id="share-dropdown" data-toggle="dropdown">
+                        <div class="menu-icon ml-2">
+                           <span></span>
+                           <span></span>
+                           <span></span>
+                        </div>
+                     </a>
+                     <div class="dropdown-menu checkbox checkbox2">
+                        <div class="item-list">
+                           <!-- Custom Checkbox -->
+                           <label class="custom-checkbox">
+                              <input type="checkbox" checked>
+                              <span class="checkmark"></span>
+                           </label>
+                           <!-- End  Custom Checkbox -->
+                           View
+                        </div>
+                        <div class="item-list">
+                           <!-- Custom Checkbox -->
+                           <label class="custom-checkbox">
+                              <input type="checkbox">
+                              <span class="checkmark"></span>
+                           </label>
+                           <!-- End  Custom Checkbox -->
+                           Comment
+                        </div>
+                        <div class="item-list">
+                           <!-- Custom Checkbox -->
+                           <label class="custom-checkbox">
+                              <input type="checkbox">
+                              <span class="checkmark"></span>
+                           </label>
+                           <!-- End  Custom Checkbox -->
+                           Edit
+                        </div>
+                     </div>
+                  </div>
+                  <!-- End Dropdown Button -->
+               </div>
+            </div>
+            <!-- End Form Group -->
+
+            <!-- Get Shareable Link -->
+            <div class="form-group get-shareable-link mb-4">
+               <h6 class="mb-10">Shareable Link</h6>
+               <div class="input-wrap theme-input-group w-100">
+                  <input class="theme-input-style" id="get-link" type="text" value="https://drive.google.com/file/d/1J1TRNaPJSCG5VGHPHMldQTx5KWC/vie" readonly>
+
+                  <!-- Copy Button -->
+                  <a href="#" id="copy-link-btn">
+                     <img src="../../../assets/img/svg/copy.svg" alt="" class="svg">
+                  </a>
+                  <!-- End Copy Button -->
+               </div>
+            </div>
+            <!-- End Get Shareable Link -->
+
+            <!-- Form Group -->
+            <div class="form-group comment">
+               <h6 class="mb-10 mr-5 pr-2">Comment</h6>
+
+               <div class="d-flex">
+                  <!-- Avatar -->
+                  <div class="ml-3">
+                     <a href="#"><img src="../../../assets/img/avatar/m14.png" class="img-40" alt=""></a>
+                  </div>
+                  <!-- End Avatar -->
+
+                  <!-- Form -->
+                  <form action="#" method="POST" class="flex-grow radius-10 l-height1">
+                     <textarea class="theme-input-style style--three" placeholder="Your Comment"></textarea>
+                  </form>
+                  <!-- End Form -->
+               </div>
+            </div>
+            <!-- End Form Group -->
+            
+            <!-- Share Actions -->
+            <div class="share-actions d-flex justify-content-between align-items-center pt-1">
+               <a href="#" class="link-btn bold c2"><span>Add</span> Comment <i class="icofont-arrow-right"></i></a>
+               <a href="#" class="btn">Share Now</a>
+            </div>
+            <!-- End Share Actions -->
+         </div>
+         <!-- End Modal Body -->
+         
+      </div>
+      <!-- End Modal Content -->
+   </div>
+   <!-- End Project Share Modal -->
+   
+
+   <!-- ======= BEGIN GLOBAL MANDATORY SCRIPTS ======= -->
+   <script src="../../../assets/js/jquery.min.js"></script>
+   <script src="../../../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+   <script src="../../../assets/plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+   <script src="../../../assets/js/script.js"></script>
+   <!-- ======= BEGIN GLOBAL MANDATORY SCRIPTS ======= -->
+
+   <!-- ======= BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS ======= -->
+   <script src="../../../assets/plugins/jquery-ui/jquery-ui.min.js"></script>
+   <script src="../../../assets/js/custom.project.management.js"></script>
+   <script src="../../../assets/plugins/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
+   <script src="../../../assets/plugins/bootstrap-datepicker/custom-datepicker.js"></script>
+   <!-- ======= End BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS ======= -->
+</body>
+
+</html>

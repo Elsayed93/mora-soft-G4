@@ -1,5 +1,6 @@
 <!-- Footer -->
-<footer class="footer">
-    Dashmin © 2020 created by <a href="https://www.themelooks.com/"> ThemeLooks</a>
+<footer class="footer">{{trans('main.footer')}}</a>
 </footer>
 <!-- End Footer -->
+
+

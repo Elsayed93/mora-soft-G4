@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20">
-  <g id="chat-icon" transform="translate(1 1)">
-    <path id="Union_3" data-name="Union 3" d="M.537,17.32A4.071,4.071,0,0,0,2.7,14.6,8.773,8.773,0,0,1,.639,8.947,9.066,9.066,0,0,1,9.82,0,9.066,9.066,0,0,1,19,8.947a9.066,9.066,0,0,1-9.18,8.947,9.331,9.331,0,0,1-4.305-1.043A9.624,9.624,0,0,1,1.1,18C.029,18-.447,17.721.537,17.32Z" fill="#e9e7ff" stroke="#8280fd" stroke-linejoin="round" stroke-width="2"/>
-    <circle id="Ellipse_9" data-name="Ellipse 9" cx="1.5" cy="1.5" r="1.5" transform="translate(4.011 7.449)" fill="#8280fd"/>
-    <circle id="Ellipse_12" data-name="Ellipse 12" cx="1.5" cy="1.5" r="1.5" transform="translate(8.282 7.449)" fill="#8280fd"/>
-    <circle id="Ellipse_11" data-name="Ellipse 11" cx="1.5" cy="1.5" r="1.5" transform="translate(12.553 7.449)" fill="#8280fd"/>
-  </g>
-</svg>

@@ -56,6 +56,7 @@
                 </a>
             </li>
 
+
             {{-- sliders --}}
             <li class="{{ request()->segment(2) == 'sliders' ? 'active' : '' }}">
                 <a href="{{ route('dashboard.sliders.index') }}">
@@ -63,6 +64,7 @@
                     <span class="link-title">@lang('sliders.sliders')</span>
                 </a>
             </li>
+
 
             {{-- products --}}
             <li class="{{ request()->segment(2) == 'products' ? 'active' : '' }}">
@@ -83,9 +85,28 @@
             </li> --}}
 
             {{-- <li class="nav-category">Support</li> --}}
+
+
+
+
+
+
+            <!-- Start News -->
+            <li>
+                <a href="#">
+                    <i class="et-book-open"></i>
+                    <span class="link-title">{{ trans('main.news') }}</span>
+                </a>
+                <!-- Sub Menu -->
+                <ul class="nav sub-menu">
+                    <li><a href="{{ route('dashboard.news.index') }}">{{ trans('news.news') }}</a></li>
+                    <li><a href="{{ route('dashboard.news_air.index') }}">{{ trans('news.news_1') }}</a></li>
+                    <!-- End News -->
+
+
+
+                </ul>
+            </li>
         </ul>
-        <!-- End Nav -->
     </div>
-    <!-- End Sidebar Body -->
 </nav>
-<!-- End Sidebar -->

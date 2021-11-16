@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="15" height="10" viewBox="0 0 15 10">
-  <g id="left-arrow" transform="translate(15) rotate(90)">
-    <path id="left-arrow-2" data-name="left-arrow" d="M9.727,7.054l.508.534a.6.6,0,0,1,0,.816L5.787,13.08a.529.529,0,0,1-.776,0L.559,8.4a.6.6,0,0,1,0-.816l.508-.534a.532.532,0,0,1,.785.01l2.629,2.9V-1.173a.563.563,0,0,1,.55-.577h.733a.563.563,0,0,1,.55.577V9.963l2.629-2.9a.528.528,0,0,1,.785-.01Z" transform="translate(-0.397 1.75)" fill="#c4c4c4"/>
-  </g>
-</svg>
