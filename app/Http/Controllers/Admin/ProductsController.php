@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\BaseController;
+use App\Http\Requests\Products\StoreProduct;
 use Intervention\Image\Facades\Image;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Validator;
@@ -45,20 +46,8 @@ class ProductsController extends BaseController
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(StoreProduct   $request)
     {
-        $validator = Validator::make($request->all(), [
-            'title_en' => 'required|max:50',
-            'title_ar' => 'required|max:50',
-            'discription_ar' => 'required|max:50',
-            'discript_en' => 'required|max:50',
-            'price_ar' => 'required|max:50',
-            'price_en' => 'required|max:50',
-            'image' => 'required',
-        ]);
-     if($validator->fails()) {
-        return redirect()->back()->withErrors($validator)->withInput();
-        }
         $file=$request->image;
         if($request->image){   
               $filename = $request->title_en.'-'.time().'.'.$file->getClientOriginalExtension();
@@ -110,22 +99,10 @@ class ProductsController extends BaseController
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(StoreProduct   $request, $id)
     {
         $product=Product::where('id',$id)->first();
      
-        $validator = Validator::make($request->all(), [
-            'title_en' => 'required|max:50',
-            'title_ar' => 'required|max:50',
-            'discription_ar' => 'required|max:50',
-            'discript_en' => 'required|max:50',
-            'price_ar' => 'required|max:50',
-            'price_en' => 'required|max:50',
-        ]);
-        if($validator->fails()) {
-   
-           return redirect()->back()->withErrors($validator)->withInput();
-           }
            if($product){
             $filename=$product->image;
            $file=$request->image;
