@@ -21,7 +21,7 @@ class news_servies extends Model
 
     public function getPhotoAttribute()
     {
-        return $this->attributes['image'] != null ? 
+        return $this->attributes['image'] != null ?
         asset('storage/news/' . $this->attributes['image']) : null;
     }
 

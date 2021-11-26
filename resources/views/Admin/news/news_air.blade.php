@@ -33,12 +33,19 @@
             <h4 class="font-20 ">{{trans('news.newes')}}</h4>
         </div>
 
+ <div class="card-header pb-0">
 
-<button type="button"   class="button x-small btn btn-success" data-toggle="modal"
-                                           data-target="#exampleModal">
-    {{ trans('news.add_news') }}
-</button>
+    <a data-toggle="modal" data-target="#exampleModal"  class="modal-effect btn  btn-success" ><i
+                                class="fas fa-plus"></i>&nbsp;{{ trans('news.add_news') }}</a>
 
+                        <button style="background:red" class="modal-effect btn  btn-secondary"
+                         data-target="#delete_all" data-toggle="modal" id="btn_delete_all" disabled>
+                        {{trans('news.btn_delete_all')}}</button>
+
+                            
+    
+
+</div>
 
 
         <div class="table-responsive">
@@ -48,11 +55,17 @@
 
                 <thead>
                  <tr>
+                   <th>
+                        <input id="check-all" type="checkbox"
+                        name="select_all" id="checkboxes" id="example-select-all">
+                        <label for="check-all"></label>
+                    </th>
+
                         <th>{{trans('news.row')}}</th>
                         <th>{{trans('news.name')}}</th>
 
-                        <th>{{trans('news.agree')}}</th>
-                        <th>{{trans('news.Airtrans')}}</th>
+                        <th>{{trans('news.agree_11')}}</th>
+                        <th>{{trans('news.Air_11')}}</th>
                         <th>{{trans('news.active')}}</th>
                         <th>{{trans('news.create_at')}}</th>
                         <th>{{trans('news.option')}}</th>
@@ -67,6 +80,11 @@
             @foreach ($news as $news)
                 <tr>
                     <?php $i++; ?>
+                     <td>
+                        <input id="check-full" value="{{ $news->id }}"  type="checkbox"
+                        id="whatever_1"  class="checkboxes" name="whatever_1">
+                        <label for="whatever_1"></label>
+                    </td>
                         <td>{{ $i }}</td>
                         <td>{{ $news->name }}</td>
                         <td>{{ $news->agreements }}</td>
@@ -75,13 +93,13 @@
 
                         <td>
                             @if ($news->value_active == 1)
-                                <span  class="text-success">{{ $news->active }}</span>
-                                @elseif ($news->active == 0)
-                                <span  class="text-danger">{{ $news->active }}</span>
+                                <span  class="text-success">{{ trans('news.open') }}</span>
+                                @elseif ($news->active == 2)
+                                <span  class="text-danger">{{ trans('news.no_open') }}</span>
 
 
                             @else
-                                <span class="text-">{{ $news->active }}</span>
+                                <span class="text-"></span>
                             @endif
 
                         </td>
@@ -93,15 +111,15 @@
                         <td>
                             <button type="button" class="btn btn-info btn-sm" data-toggle="modal"
                                 data-target="#edit{{ $news->id }}"
-                                title="{{ trans('news.Edit') }}">
-                                <i class="fa fa-edit"></i>{{ trans('news.Edit') }}</button>
+                                title="{{ trans('news.edit') }}">
+                                <i class="fa fa-edit"></i>{{ trans('news.edit') }}</button>
 
                             <button type="button" style="background: red"
                             class="btn btn-danger btn-sm" data-toggle="modal"
                                 data-target="#delete{{ $news->id }}"
-                                title="{{ trans('news.Delete') }}"><i
+                                title="{{ trans('news.delete') }}"><i
                                     class="fa fa-trash">
-                                </i>{{ trans('news.Delete') }}</button>
+                                </i>{{ trans('news.delete_1') }}</button>
                         </td>
 
                     </tr>
@@ -132,7 +150,7 @@
                                         <input id="id" type="hidden" name="id" class="form-control"
                                                 value="{{ $news -> id }}">
                                             <label for="Name"
-                                                class="mr-sm-2">{{ trans('newss.stage_name_ar') }}
+                                                class="mr-sm-2">{{ trans('news.name_ar') }}
                                                 :</label>
                                             <input id="Name" type="text" name="name"
                                                 class="form-control"
@@ -146,7 +164,7 @@
                                      <div class="row">
                                         <div class="col">
                                             <label for="Name"
-                                                class="mr-sm-2">{{ trans('newss.stage_name_en') }}
+                                                class="mr-sm-2">{{ trans('news.name_en') }}
                                                 :</label>
                                             <input id="Name" type="text" name="name_en"
                                                 class="form-control"
@@ -160,7 +178,7 @@
                                  <div class="row">
                                         <div class="col">
                                             <label for="Name"
-                                                class="mr-sm-2">{{ trans('newss.stage_name_ar') }}
+                                                class="mr-sm-2">{{ trans('news.agree') }}
                                                 :</label>
                                             <input id="Name" type="text" name="agree"
                                                 class="form-control"
@@ -173,7 +191,7 @@
 
                                                   <div class="col">
                                             <label for="Name"
-                                                class="mr-sm-2">{{ trans('newss.stage_name_en') }}
+                                                class="mr-sm-2">{{ trans('news.agree_en') }}
                                                 :</label>
                                             <input id="Name" type="text" name="agree_en"
                                                 class="form-control"
@@ -184,7 +202,7 @@
                                                 </div>
                                             <div class="col">
                                             <label for="Name"
-                                                class="mr-sm-2">{{ trans('newss.stage_name_ar') }}
+                                                class="mr-sm-2">{{ trans('news.Air') }}
                                                 :</label>
                                             <input id="Name" type="text" name="air"
                                                 class="form-control"
@@ -195,7 +213,7 @@
                                                 </div>
                                                   <div class="col">
                                             <label for="Name"
-                                                class="mr-sm-2">{{ trans('newss.stage_name_en') }}
+                                                class="mr-sm-2">{{ trans('news.Air_en') }}
                                                 :</label>
                                             <input id="Name" type="text" name="air_en"
                                                 class="form-control"
@@ -208,14 +226,14 @@
                                                </div>
                                     <div class="form-group">
                                         <label
-                                            for="exampleFormControlTextarea1">{{ trans('My_Classes_trans.Name_Grade') }}
+                                            for="exampleFormControlTextarea1">
                                             :</label>
-                                        <select name="status" class="form-control SlectBox"
-                                 onclick="console.log($(this).val())"
-                                    onchange="console.log('change is firing')">
-                                    <option selected="true" disabled="disabled">-- حدد حالة الدفع --</option>
-                                    <option value="مدفوعة">مدفوعة</option>
-                                    <option value="غير مدفوعه">غير مدفوع </option>
+                                        <select name="status" class="form-control SlectBox">
+
+                                    <option selected="true" disabled="disabled">@lang('news.staus_news') </option>
+
+                                    <option value="1">{{ trans('news.open') }}</option>
+                                    <option value="2">{{ trans('news.no_open') }}</option>
 
                                 </select>
 
@@ -223,7 +241,7 @@
 
                                                      <div class="col">
                                             <label for="Name"
-                                                class="mr-sm-2">{{ trans('newss.stage_name_ar') }}
+                                                class="mr-sm-2">{{ trans('news.date') }}
                                                 :</label>
                                             <input id="Name" type="text" name="news_date"
                                                 class="form-control"
@@ -238,9 +256,9 @@
 
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary"
-                                            data-dismiss="modal">{{ trans('newss.No') }}</button>
+                                            data-dismiss="modal">{{ trans('news.No') }}</button>
                                         <button type="submit"
-                                            class="btn btn-success">{{ trans('newss.Yes') }}</button>
+                                            class="btn btn-success">{{ trans('news.Yes') }}</button>
                                     </div>
                                 </form>
 
@@ -313,7 +331,7 @@
 
                 <div class="col-7">
                     <label for="Name"
-                        class="mr-sm-2">{{ trans('news.name') }}
+                        class="mr-sm-2">{{ trans('news.name_ar') }}
                         :</label>
                     <input class="form-control" type="text" name="name">
 
@@ -327,13 +345,7 @@
 
                 </div>
 
-                 <div class="col-7">
-                    <label for="Name"
-                        class="mr-sm-2">{{ trans('news.agree_en') }}
-                        :</label>
-                    <input class="form-control" type="text" name="agree_en">
 
-                </div>
 
 
                 <div class="col-9">
@@ -345,11 +357,19 @@
 
                 </div>
 
+                <div class="col-7">
+                    <label for="Name"
+                        class="mr-sm-2">{{ trans('news.agree_en') }}
+                        :</label>
+                    <input class="form-control" type="text" name="agree_en">
+
+                </div>
+
 
 
                  <div class="col-9">
                     <label for="Name"
-                        class="mr-sm-2">{{ trans('news.air') }}
+                        class="mr-sm-2">{{ trans('news.Air') }}
                         :</label>
                         <textarea class="form-control"
                         id="w3review" name="air" rows="4" cols="50"></textarea>
@@ -358,7 +378,7 @@
 
                  <div class="col-9">
                     <label for="Name"
-                        class="mr-sm-2">{{ trans('news.air_en') }}
+                        class="mr-sm-2">{{ trans('news.Air_en') }}
                         :</label>
                         <textarea class="form-control"
                         id="w3review" name="air_en" rows="4" cols="50"></textarea>
@@ -374,8 +394,8 @@
                         <select class="form-control" name="status" id="cars">
                             <option>اختر</option>
 
-                                    <option value="مفعل">مفعل</option>
-                                    <option value="غير مفعل">غير مفعل</option>
+                            <option  value="1">{{ trans('news.open') }}</option>
+                            <option  value="2">{{ trans('news.no_open') }}</option>
                         </select>
                     </div>
                 <div class="col-4">
@@ -409,6 +429,44 @@
 
         </div>
     </div>
+</div>
+
+
+
+<div class="modal fade" id="delete_all" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 style="font-family: 'Cairo', sans-serif;" class="modal-title" id="exampleModalLabel">
+                    {{ trans('news.delete_0') }}
+                </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <form action="{{ route('dashboard.delete_all') }}" method="POST">
+                {{ csrf_field() }}
+                <div class="modal-body">
+                    {{ trans('news.delete') }}
+                    <input class="text" type="hidden" id="delete_all_id" name="delete_all_id" value=''>
+                </div>
+
+                <div class="modal-footer">
+                    <button  type="button" class="btn btn-secondary"
+                            data-dismiss="modal">{{ trans('news.No') }}</button>
+                    <button style="background:red" type="submit" class="btn btn-danger">{{ trans('news.Yes') }}</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+</div>
+
 </div>
 
 <div class="col-12">

@@ -16,8 +16,8 @@ return [
     "option" => 'options',
     "create_at" => 'date',
     "row" => 'row',
-    "Edit" => 'Edit',
-    "Delete" => 'Delete',
+    "edit" => 'Edit',
+    "delete_1" => 'Delete',
     "add_news"=> 'Add News',
     "title_2" => 'Add new',
     "Yes" => 'Yes',
@@ -30,24 +30,40 @@ return [
     "desc_en" => 'الوصف',
     "open" => 'active',
     "no_open" => 'No active',
-    "date" => 'وقت الاضافه',
+    "date" => 'Date Updated',
+    "date1" => 'وقت الاضافه',
+    "date1" => 'Date Updated',
+
+
     "status" => 'Status',
     'delete_0' => 'Delete News',
     'delete' => 'Sure You Delete This News',
     'name' => 'name',
-    'agree' => 'Agreement',
+    'agree_en' => 'Agreement',
+    'agree' => 'الاتفاقيه',
+    "btn_delete_all" => 'Delete All',
+    
+    'agree_11' => 'Agreement',
+
+    'Air_11'=> 'Air Transport quantity',
+
+
     'Airtrans'=> 'Air Transport quantity',
-    'name_en' => 'name_en',
-    "agree_en" => "agreements",
-    "air" => 'Air_transport_quantity',
-    "air_en" => 'Air_transport_quantity',
-    "edit_news"=> 'Eidt_news',
-    'stage_name_ar'=> 'الاسم',
-    'stage_name_en'=> 'name',
-    'stage_name_ar'=> 'الاتفاقيه',
-    'stage_name_en'=> 'Agreements',
-    'stage_name_ar'=> 'كميه النقل الجوي',
-    'stage_name_en'=> 'Air_transport_quantity',
+    'name_ar'=> 'الاسم',
+    'name_en'=> 'name',
+    "Air" => 'Air_transport_quantity',
+    "edit_news"=> 'Edit News',
+    'Air_en'=> 'Air_transport_quantity',
+    'Air'=> 'كميه النقل الجوي',
+
+    'upload' => 'Upload Image',
+    'staus_news' => 'Select the status ',
+    'Delete' => 'Delete  Successfully',
+    'Save' => 'Save  Successfully',
+    'Edit' => 'Edit  Successfully',
+
+
+
 
 
 

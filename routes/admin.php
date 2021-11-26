@@ -1,16 +1,23 @@
 <?php
-// use App\Http\Controllers\homeController;
 
 use App\Http\Controllers\Admin\HomeController;
 use App\Http\Controllers\Admin\NavbarController;
 use App\Http\Controllers\Admin\ProductsController;
 use App\Http\Controllers\Admin\SettingController;
 use App\Http\Controllers\Admin\SliderController;
-use App\Http\Controllers\NewsServiesController;
-use App\Http\Controllers\AirNewsController;
+use App\Http\Controllers\Admin\NewsServiesController;
+use App\Http\Controllers\Admin\ShippingDatesController;
+use App\Http\Controllers\Admin\SectionsController;
+use App\Http\Controllers\Admin\UserTradeController;
+
+
+
+
+use App\Http\Controllers\Admin\AirNewsController;
+use App\Http\Controllers\Admin\TradeController;
 use App\Http\Controllers\homeController as ControllersHomeController;
 // use App\Http\Controllers\homeController;
-// 
+//
 use Illuminate\Support\Facades\Route;
 use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 
@@ -44,15 +51,14 @@ Route::group([
 
 
 
-Route::resource('/' , homeController::class );
+// Route::resource('/' , homeController::class );
 
 
      // Start This route News
-    Route::resource('news' , NewsServiesController::class );
-    Route::resource('news_air' , AirNewsController::class );
+
 
         Route::get('admins', function () {
-            return view('admin.pages.news.index');
+            return view('admin.news.news');
         });
 
         // Start This route News
@@ -60,10 +66,40 @@ Route::resource('/' , homeController::class );
 
         Route::resource('news', NewsServiesController::class);
         Route::resource('news_air', AirNewsController::class);
-
-
-
+        Route::post('delete_alls', [NewsServiesController::class, 'delete_all'])->name('delete_alls');
+        Route::post('delete_all', [AirNewsController::class, 'delete_all'])->name('delete_all');
         // End This route News
+
+        // strat This route shipping
+
+        Route::resource('shipping', ShippingDatesController::class);
+        Route::post('shipping_d_all', [ShippingDatesController::class, 'delete_all'])->name('shipping_d_all');
+        // end This route shipping
+
+        // strat This route sections
+
+        Route::resource('sections', SectionsController::class);
+        // end This route sections
+
+        // strat This route user
+
+        Route::resource('user_trade', UserTradeController::class);
+
+
+        // End This route user
+
+          // strat This route trade
+
+        Route::resource('trade', TradeController::class);
+        Route::post('trade_d_all', [TradeController::class, 'delete_all'])->name('trade_d_all');
+
+        // End This route trade
+
+
+
+
+
+
 
     });
 

@@ -51,7 +51,7 @@
 
         {{-- table --}}
         <div class="row mt-3">
-            <table class="table-dark">
+            <table  class="table-dark">
                 <thead>
                     <tr>
                         <th scope="col">#</th>
@@ -71,7 +71,7 @@
                             <th>{{ $product->title_en }}</th>
                             <th><img src="{{asset('assets/products/'.$product->image)}}" width="90px" height="90px"></th>
                        <th>{{$product->user->name}}</th>
-                           
+
                             <th style="display: inline-flex;">
                                 <a href="{{ route('dashboard.products.edit', $product->id) }}" class="btn btn-info"
                                     style="margin:4px 10px;">

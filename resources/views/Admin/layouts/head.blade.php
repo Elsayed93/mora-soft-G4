@@ -17,12 +17,16 @@
 
    <link rel="stylesheet" href="{{ asset('admin/fonts/icofont/icofont.min.css') }}">
       <link rel="stylesheet" href="{{asset('admin/fonts/et-lineicon/et-lineicons.css')}}">
+         <link rel="stylesheet" href="{{asset('admin/fonts/elegant_icons/elegant-icons.css')}}">
+
 
        <link rel="stylesheet" href="{{asset('admin/plugins/perfect-scrollbar/perfect-scrollbar.min.css')}}">
              <link rel="stylesheet" href="{{asset('admin/plugins/toastr/toastr.min.css')}}">
 
    
    <link rel="stylesheet" href="{{asset('admin/plugins/datepicker/datepicker.min.css')}}">
+
+
 
 
 

@@ -12,10 +12,11 @@
         "laravel/framework": "^8.65",
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5",
+        "maatwebsite/excel": "^3.1",
         "mcamara/laravel-localization": "^1.6",
+        "spatie/laravel-translatable": "^4.6",
         "yajra/laravel-datatables": "^1.5",
         "yajra/laravel-datatables-oracle": "~9.0",
-        "spatie/laravel-translatable": "^4.6",
         "yoeunes/toastr": "^1.2"
     },
     "require-dev": {

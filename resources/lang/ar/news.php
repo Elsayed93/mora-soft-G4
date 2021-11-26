@@ -16,8 +16,8 @@ return [
     "option" => 'العمليات',
     "create_at" => 'تاريخ الانشاء',
     "row" => 'الترتيب',
-    'Edit' => 'تعديل',
-    "Delete" => 'حذف',
+    'edit' => 'تعديل',
+    "delete_1" => 'حذف',
     "add_news" =>  'اضافة خبر جديد',
     "title_2" => 'اضافه جديده',
     'Yes' => 'نعم',
@@ -36,15 +36,35 @@ return [
     'delete' => 'هل تريد الحذف',
     'name' => 'الاسم',
     'agree' => 'الاتفاقيه',
-    'Airtrans'=> 'كمية النقل الجوي',
-    "air" => 'كمية النقل الجوي',
+    "date1" => 'Date Updated',
+
+    "date1" => 'وقت الاضافه',
+
+
+
     "edit_news"=> 'تعديل الاخبار',
-    'stage_name_ar'=> 'الاسم',
-    'stage_name_en'=> 'name',
-    'stage_name_ar'=> 'الاتفاقيه',
+    'name_ar'=> 'الاسم',
+    'name_en'=> 'name',
     'stage_name_en'=> 'Agreements',
-    'stage_name_ar'=> 'كميه النقل الجوي',
-    'stage_name_en'=> 'Air_transport_quantity',
+    'Air'=> 'كميه النقل الجوي',
+
+    'agree_11' => 'الاتفاقيه',
+
+    'Air_11'=> 'كميه النقل الجوي',
+    "btn_delete_all" => 'حذف كلي',
+
+
+    'Air_en'=> 'Air_transport_quantity',
+
+
+
+    'upload' => 'رفع صوره',
+    'staus_news' => 'حدد الحاله ',
+    'Delete' => 'تم الحذف  بنجاح',
+    'Save' => 'تم الاضافه  بنجاح',
+    'Edit' => 'تم التعديل  بنجاح',
+
+
 
 
 

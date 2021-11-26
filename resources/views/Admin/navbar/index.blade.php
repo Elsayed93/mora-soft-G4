@@ -54,7 +54,7 @@
 
         {{-- table --}}
         <div class="row mt-3">
-            <table class="table-dark">
+            <table id="datatable" class="table-dark">
                 <thead>
                     <tr>
                         <th scope="col">#</th>

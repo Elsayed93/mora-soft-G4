@@ -75,7 +75,7 @@
             </li>
 
 
-            <li class="nav-category">others</li>
+
 
             {{-- <li>
                 <a href="#" class="disabled">
@@ -95,18 +95,58 @@
             <li>
                 <a href="#">
                     <i class="et-book-open"></i>
-                    <span class="link-title">{{ trans('main.news') }}</span>
+                    <span  class="link-title">{{ trans('main.news') }}</span>
                 </a>
                 <!-- Sub Menu -->
                 <ul class="nav sub-menu">
-                    <li><a href="{{ route('dashboard.news.index') }}">{{ trans('news.news') }}</a></li>
+                    <li><a class=""
+                     href="{{ route('dashboard.news.index') }}">
+                    {{ trans('news.news') }}</a></li>
                     <li><a href="{{ route('dashboard.news_air.index') }}">{{ trans('news.news_1') }}</a></li>
                     <!-- End News -->
 
-
-
+            <!-- Start Shipping -->
                 </ul>
+
+                 <li>
+                <a href="#">
+                    <i class="et-basket"></i>
+                    <span class="link-title">{{ trans('main.shipping') }}</span>
+                </a>
+                <!-- Sub Menu -->
+                <ul class="nav sub-menu">
+                    <li><a href="{{ route('dashboard.shipping.index') }}">{{ trans('sh.li') }}</a></li>
+            <!-- End Shipping -->
             </li>
-        </ul>
+        </ul
+
+        <!-- strat vendor -->
+        <li>
+            <a href="#">
+                <i class="et-tools-2"></i>
+                <span class="link-title">{{ trans('ve.li') }}</span>
+            </a>
+            <!-- Sub Menu -->
+            <ul class="nav sub-menu">
+                <li><a href="{{ route('dashboard.sections.index') }}">{{ trans('ve.le') }}</a></li>
+        </li>
+    </ul
+        <!-- End vendor -->
+
+        <!-- strat user & trade -->
+      <li>
+            <a href="#">
+                <i class="et-profile-male"></i>
+                <span class="link-title">{{ trans('tr.li1') }}</span>
+            </a>
+            <!-- Sub Menu -->
+            <ul class="nav sub-menu">
+                <li><a href="{{ route('dashboard.user_trade.index') }}">{{ trans('tr.le1') }}</a></li>
+                <li><a href="{{ route('dashboard.trade.index') }}">{{ trans('tr.le') }}</a></li>
+
+        </li>
+    </ul
+        <!-- End user & trade -->
+
     </div>
 </nav>

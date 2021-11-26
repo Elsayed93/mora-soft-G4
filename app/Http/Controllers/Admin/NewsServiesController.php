@@ -1,10 +1,15 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Admin;
+
+use App\Http\Controllers\BaseController;
+
 
 use App\Models\Air_news;
 use App\Models\news_servies;
+use Illuminate\Support\Facades\File;
 use Illuminate\Http\Request;
+use Yajra\DataTables\Html\Editor\Fields\Image;
 
 class NewsServiesController extends BaseController
 {
@@ -17,8 +22,8 @@ class NewsServiesController extends BaseController
     {
         $settings = $this->site_settings;
         $news = news_servies::all();
-        
-        return view('Admin.pages.news.news' , compact('news','settings'));
+
+        return view('Admin.news.news' , compact('news','settings'));
     }
 
     /**
@@ -43,21 +48,25 @@ class NewsServiesController extends BaseController
     {
 
 
+
+        //    return $request;
+
+
+
+
+
+
         $news = new news_servies();
 
         $fileUpload = request()->file('image');
+
+
         if ($fileUpload) {
             $news['image'] =
                 $fileName = time() . rand(0, 999999999) . '.' . $fileUpload->getClientOriginalExtension();
-            $fileUpload->storeAs('public/' . 'news', $fileName);
-        }
+                $request->image->move(public_path('news/'. $request->id), $fileName);
+            }
 
-        //  $news -> image = $request ->photo;
-
-        //  $file_extention = $request -> photo ->getClientOriginalExtension();
-        //  $file_name = time().'.'.$file_extention;
-        //  $path = 'images/news';
-        //  $request -> photo -> move($path ,$file_name);
 
         $news->title = [
             'ar' => $request->title,
@@ -73,15 +82,17 @@ class NewsServiesController extends BaseController
 
         $news->active = $request->status;
 
-        $news->value_active = 1;
+        $news->value_active = $request->status;
         $news->created_at = $request->news_date;
-
-
 
         $news->save();
 
-        return redirect()->route('news.index');
-        toastr()->success(trans('Grades.messege_grades_add'));
+
+
+        toastr()->success(trans('news.Save'));
+
+
+        return redirect()->route('dashboard.news.index');
 
     }
 
@@ -116,48 +127,37 @@ class NewsServiesController extends BaseController
      */
     public function update(Request $request)
     {
-        //
-
-$news = news_servies::findOrFail($request->id);
 
 
+        $news = news_servies::findOrFail($request->id);
 
- if ($request->status === 'مفعل') {
+        if ($news) {
+            $filename=$news->image;
+            $fileUpload = request()->file('image');
 
-     $news->update([
-        $news->value_active = 1,
-        $news -> active = $request->status,
-         $news ->  created_at = $request->news_date,
-     ]);
+            if ($request->image) {
+                //remove old image
+                if ($news->image) {
+                    if (File::exists('news/' . $news->image)) {
+                        unlink('news/' . $news->image);
+                    }
 
-     news_servies::create([
-
-        $news->value_active=1,
-        $news -> active = $request->status,
-        $news ->  created_at = $request->news_date,
-
-
-     ]);
- }
-
- else {
-     $news->update([
-          $news->value_active=2,
-         $news -> active = $request->status,
-         $news ->  created_at = $request->news_date,
-     ]);
-     news_servies::create([
-        $news->value_active=2,
-        $news -> active = $request->status,
-        $news ->  created_at = $request->news_date,
-     ]);
- }
- $fileUpload = request()->file('image');
         if ($fileUpload) {
             $news['image'] =
                 $fileName = time() . rand(0, 999999999) . '.' . $fileUpload->getClientOriginalExtension();
-            $fileUpload->storeAs('public/' . 'news', $fileName);
+                $request->image->move(public_path('news/'), $fileName);
+
+                $news->update([
+                    'image'=> $fileName
+                    ]);
+
+            }
+
+                }
+            }
         }
+
+
 
 
         $news->title = [
@@ -166,30 +166,45 @@ $news = news_servies::findOrFail($request->id);
             'en' => $request->title_en
         ];
 
-        $news->description = [
-            'ar' => $request->desc,
+            $news->description = [
+                'ar' => $request->desc,
 
-            'en' => $request->desc_en
-        ];
-
-        $news->active = $request->status;
-
-        $news->value_active = 1;
-        $news->created_at = $request->news_date;
+                'en' => $request->desc_en
+            ];
 
 
 
 
- $news->save();
+            if ($request->status == 2) {
+                $news->update([
+                'value_active' => 2,
+                'active' => 2,
+
+                'created_at' => $request->news_date,
 
 
-return redirect()->route('news.index');
-toastr()->success(trans('Grades.messege_grades_add'));
+            ]);
+
+
+            } elseif ($request->status == 1) {
+                $news->update([
+                'value_active' => 1,
+                'active' => 1,
+
+                'created_at' => $request->news_date,
+
+            ]);
+
+            }
 
 
 
-}
-    /**
+            toastr()->success(trans('news.Edit'));
+
+            return redirect()->route('dashboard.news.index');
+
+
+        }    /**
      * Remove the specified resource from storage.
      *
      * @param  \App\Models\news_servies  $news_servies
@@ -202,8 +217,21 @@ toastr()->success(trans('Grades.messege_grades_add'));
 
 
 
-        toastr()->error(trans('Grades.messege_grades_delete'));
-        return back();
+        toastr()->error(trans('news.Delete'));
+        return redirect()->route('dashboard.news.index');
+
+    }
+
+
+    public function delete_all(Request $request)
+    {
+        // return $request;
+
+        $delete_all_id = explode(",", $request->delete_all_id);
+
+        news_servies::whereIn('id', $delete_all_id)->Delete();
+        toastr()->error(trans('news.Delete'));
+        return redirect()->route('dashboard.news.index');
 
     }
 }

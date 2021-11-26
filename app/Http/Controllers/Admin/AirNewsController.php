@@ -1,6 +1,8 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Admin;
+
+
 
 use App\Models\Air_news;
 use Illuminate\Http\Request;
@@ -19,7 +21,7 @@ class AirNewsController extends BaseController
         $settings = $this->site_settings;
         $news = Air_news::all();
 
-        return view('Admin.pages.news.news_air' , compact('news','settings'));
+        return view('Admin.news.news_air' , compact('news','settings'));
     }
 
     /**
@@ -59,18 +61,17 @@ class AirNewsController extends BaseController
         'en' => $request->air_en];
 
 
-           $news->active = $request->status;
+        $news->active = $request->status;
 
-           $news->value_active = 1;
-
+        $news->value_active = $request->status;
 
             $news->created_at = $request->news_date;
 
 
             $news->save();
 
-                  toastr()->success(trans('Grades.messege_grades_add'));
-                return redirect()->route('news_air.index');
+                  toastr()->success(trans('news.Save'));
+                  return redirect()->route('dashboard.news_air.index');
 
 
              }
@@ -109,41 +110,10 @@ class AirNewsController extends BaseController
     public function update(Request $request)
     {
         //
- 
+
 $news = Air_news::findOrFail($request->id);
 
 
-
- if ($request->status === 'مدفوعة') {
-
-     $news->update([
-        $news->value_active = 1,
-        $news -> active = $request->status,
-         $news ->  created_at = $request->news_date,
-     ]);
-
-     Air_news::create([
-
-        $news->value_active=1,
-        $news -> active = $request->status,
-        $news ->  created_at = $request->news_date,
-
-      
-     ]);
- }
-
- else {
-     $news->update([
-          $news->value_active=2,
-         $news -> active = $request->status,
-         $news ->  created_at = $request->news_date,
-     ]);
-     Air_news::create([
-        $news->value_active=2,
-        $news -> active = $request->status,
-        $news ->  created_at = $request->news_date,
-     ]);
- }
 
  $news->name = ['ar' => $request->name,
 
@@ -158,11 +128,40 @@ $news = Air_news::findOrFail($request->id);
 
  'en' => $request->air_en];
 
- $news->save();
 
- 
- toastr()->success(trans('Grades.messege_grades_add'));
-return redirect()->route('news_air.index');
+
+
+
+
+ if ($request->status == 2) {
+    $news->update([
+    'value_active' => 2,
+    'active' => 2,
+
+    'created_at' => $request->news_date,
+
+]);
+
+
+} elseif ($request->status == 1) {
+    $news->update([
+    'value_active' => 1,
+    'active' => 1,
+
+    'created_at' => $request->news_date,
+]);
+
+
+}
+
+
+$news->save();
+
+
+
+
+ toastr()->success(trans('news.Edit'));
+return redirect()->route('dashboard.news_air.index');
 
 
 }
@@ -176,7 +175,20 @@ return redirect()->route('news_air.index');
     public function destroy(Request $request)
     {
         $news = Air_news::findOrFail($request->id)->delete();
-        toastr()->error(trans('Grades.messege_grades_delete'));
-        return redirect()->route('news_air.index');
+        toastr()->error(trans('news.Delete'));
+        return redirect()->route('dashboard.news_air.index');
         }
+
+        public function delete_all(Request $request)
+    {
+
+        $delete_all_id = explode(",", $request->delete_all_id);
+
+        Air_news::whereIn('id', $delete_all_id)->Delete();
+        toastr()->error(trans('news.Delete'));
+        return redirect()->route('dashboard.news_air.index');
+            }
+
 }
+
+

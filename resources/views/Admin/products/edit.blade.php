@@ -46,8 +46,9 @@
 
         <div class="row">
             <div class="col-md-8">
-                <form action="{{ route('dashboard.products.update',$product->id) }}" method="POST"  enctype="multipart/form-data">
-              
+                <form action="{{ route('dashboard.products.update',$product->id) }}" method="POST"
+                     enctype="multipart/form-data">
+
                 @csrf
                     @method('PUT')
                     {{-- section arabic name --}}
@@ -69,14 +70,14 @@
                         <label for="sectionNameEn" class="form-label">@lang('product.section discription in english')</label>
                        <textarea class="form-control" id="sectionNameEn"
                             aria-describedby="sectionEnglishNameHelp" name="discript_en">{{ old('discript_en')? old('discript_en'):$product->discript_en }}</textarea>
-                     
+
                     </div>
                     {{-- section arabic discription --}}
                     <div class="mb-3">
                         <label for="sectionNameEn" class="form-label">@lang('product.section discription in arabic')</label>
                        <textarea class="form-control" id="sectionNameEn"
                             aria-describedby="sectionEnglishNameHelp" name="discription_ar">{{ old('discription_ar')? old('discription_ar'):$product->discription_ar }}</textarea>
-                     
+
                     </div>
 
                     {{-- section link --}}

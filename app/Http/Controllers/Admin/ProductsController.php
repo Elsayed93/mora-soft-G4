@@ -23,7 +23,7 @@ class ProductsController extends BaseController
         $products = Product::all();
 
         return view('Admin.products.index', compact('products', 'settings'));
-  
+
         //
     }
 
@@ -49,7 +49,7 @@ class ProductsController extends BaseController
     public function store(StoreProduct   $request)
     {
         $file=$request->image;
-        if($request->image){   
+        if($request->image){
               $filename = $request->title_en.'-'.time().'.'.$file->getClientOriginalExtension();
             $path = public_path('assets/products/' . $filename);
             Image::make($file->getRealPath())->save($path, 100);
@@ -64,16 +64,20 @@ class ProductsController extends BaseController
                 'image'=>$filename,
             ]);
             if ($product) {
+                toastr()->success(trans('dashboard.products.index'));
+
                 return redirect()->route('dashboard.products.index')->with('success', __('site.success_store'));
+
             }
 
     } else {
+
         return redirect()->back()->with('error', __('site.failed_store'));
     }
 
 }
 
-   
+
 
     /**
      * Show the form for editing the specified resource.
@@ -84,10 +88,10 @@ class ProductsController extends BaseController
     public function edit($id)
     {
         $settings = $this->site_settings;
-       
+
         $product=Product::where('id',$id)->first();
-  
-        
+
+
       return view('Admin.products.edit', compact('product', 'settings'));
 
     }
@@ -102,7 +106,7 @@ class ProductsController extends BaseController
     public function update(StoreProduct   $request, $id)
     {
         $product=Product::where('id',$id)->first();
-     
+
            if($product){
             $filename=$product->image;
            $file=$request->image;
@@ -122,16 +126,16 @@ class ProductsController extends BaseController
 
 
 $product->update([
-    'title_en'=>$request->post('title_en'), 
+    'title_en'=>$request->post('title_en'),
     'title_ar'=>$request->post('title_ar'),
     'discription_ar'=>$request->post('discription_ar'),
     'discript_en'=>$request->post('discript_en'),
     'price_ar'=>$request->post('price_ar'),
     'price_en'=>$request->post('price_en'),
     'image'=> $filename,
-]);     
+]);
 return redirect()->route('dashboard.products.index')->with('success', __('site.success_store'));
-          
+
 
 
 
@@ -147,13 +151,13 @@ return redirect()->route('dashboard.products.index')->with('success', __('site.s
     {
         $product=Product::where('id',$id)->first();
         if($product->image){
-      
+
             if (File::exists('assets/products/' . $product->product)) {
-    
+
                 unlink('assets/products/' . $product->image);
-       
+
             }
-            $product->delete();    
+            $product->delete();
              return redirect()->route('dashboard.products.index')->
              with('success', __('site.success_store'));
         }

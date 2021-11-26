@@ -7,18 +7,19 @@ use App\Models\news_servies;
 
 
 use Illuminate\Http\Request;
+use App\Http\Controllers\BaseController;
 
-class homeController extends Controller
+
+class homeController extends BaseController
 {
 
     //
 
     public function index()
     {
-        $air = Air_news::all();
-        $news = news_servies::all();
+       
 
-        return view('home' , compact('air','news'));
+        return view('home' , compact('air' , 'news' , 'settings'));
 
     }
 }
